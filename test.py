@@ -1,11 +1,13 @@
-from Map.Navigate import Navigate
-from Map.GetPos import GetPos
+import asyncio
 import time
+from Map.Navigate import Navigate
+from Map.Position import Position
+from Chat.HandleChat import HandleChat
+
+async def main():
+    time.sleep(5)
+    navigate_task = asyncio.create_task(Navigate()(1, 1, "ArtClassroom-1"))
+    await asyncio.gather(navigate_task)
 
 if __name__ == "__main__":
-    GetPos(0).get_pos()
-    time.sleep(1)
-    Navigate("NPCObstacle", (14, -2), (-20,-15)).navigate()
-
-
-# cd /usr/local/bin && 
+    asyncio.run(main())
