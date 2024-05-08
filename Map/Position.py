@@ -16,7 +16,7 @@ class Position:
         self.collection.update_one({'uid': uid}, {'$set': {'pos': pos}}, upsert=True)
         
     async def get_pos(self, uid = None):
-        if self.uid is not None:
+        if uid is not None:
             pos_list = self.collection.find_one({'uid': uid})
             if pos_list:
                 return pos_list['pos'] 

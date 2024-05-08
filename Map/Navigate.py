@@ -82,7 +82,8 @@ class Navigate:
                 raise ValueError(f"Invalid end name: {self.end}")
             
         if isinstance(self.start, int):
-            self.start = self.pos.get_pos(self.start)
+            self.start = await self.pos.get_pos(self.start)
+            print(f"\n\n\n\n\n\nStart position: {self.start}")
                         
         print(f"Moving from {self.start} to {self.end}")
         self.path = await self.bfs()

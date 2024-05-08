@@ -14,6 +14,7 @@ class NPCManager:
             self.npcs[uid].set_handle_chat(handle_chat)
 
     async def distribute_chat(self, from_uid, to_uid, content):
+        # print("NPCManager: Distribute chat\n\n\n\n\n")
         if to_uid in self.npcs:
             npc = self.npcs[to_uid]
             asyncio.create_task(npc.receive_chat(from_uid, to_uid, content))

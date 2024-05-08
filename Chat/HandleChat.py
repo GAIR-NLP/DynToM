@@ -45,7 +45,9 @@ class HandleChat:
         
     async def send_chat_to_npc(self, from_uid, to_uid, content): # Python -> Python
         command = json.dumps({"command": "RegisterChat", "from_uid": from_uid, "to_uid": to_uid, "content": content})
+        print("test test")
         asyncio.create_task(self.client.send_commands([command]))
+        print("test test test")
         self.save_chat(from_uid, to_uid, content)
         asyncio.create_task(self.distribute_chat(from_uid, to_uid, content))
     
@@ -54,7 +56,9 @@ class HandleChat:
         from_uid = message.get("from_uid")
         to_uid = message.get("to_uid")
         content = message.get("content")
+        # print("receive_message_from_unity 1")
         self.save_chat(from_uid, to_uid, content)
+        # print("receive_message_from_unity 2")
         asyncio.create_task(self.distribute_chat(from_uid, to_uid, content))
         
     def save_chat(self, from_uid, to_uid, content): 
@@ -86,4 +90,5 @@ class HandleChat:
         return list(self.collection.find(query))
        
     async def distribute_chat(self, from_uid, to_uid, content):
+        # print("HandleChat: Distribute chat\n\n\n\n\n")
         await self.npc_manager.distribute_chat(from_uid, to_uid, content)
