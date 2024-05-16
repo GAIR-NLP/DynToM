@@ -50,7 +50,7 @@
    sudo service mongod restart
    ```
 
-4. **Start WebSocket Server**
+4. **Deploy FastAPI SocketIO Server**
 
    First, set the environment variable `IP_ADDRESS` using the same method in 2, for example:
 
@@ -58,18 +58,19 @@
    export IP_ADDRESS=127.0.0.1
    ```
 
-   Then, launch the WebSocket server
+   Then, launch the SocketIO server (take uvicorn for example):
 
-   ```shell
-   python WebSocket/Server.py
+   ```python
+   uvicorn Server:app --host <IP_ADDRESS> --port 8000
    ```
 
    It will run on port 8000 of the `IP_ADDRESS`.
 
-5. **Run main.py**
+5. **Build the Vue App**
 
-   ```python
-   python main.py
+   ```bash
+   cd Vue
+   sudo npm run build # If successful, you will get a folder named "dist"
    ```
 
 6. **Configure Nginx**
@@ -85,12 +86,12 @@
    listen       8080;
    server_name  localhost;
    location / {
-   	root   /path/to/your/WebGL; # Eg. ~/Desktop/evolvable-agent-in-social-scene/Unity;
-   	index  index.html;
+   	root   /path/to/the/dist; # Eg. ~/Desktop/evolvable-agent-in-social-scene/Vue/dist;
+   	try_files $uri $uri/ /index.html;
    }
    ```
 
-7. **Deploy Unity WebGL App Using Nginx**
+7. **Deploy Vue App Using Nginx**
    Start the Nginx server to deploy the Unity WebGL application. 
 
    ```shell
@@ -101,7 +102,7 @@
    sudo nginx -s reload
    ```
 
-8. **Access the application**
+8. **Access the App**
    Open`localhost:8080` in a web browser.
 
 
@@ -126,13 +127,15 @@ sudo chown mongodb:mongodb /tmp/mongodb-27017.sock
 sudo service mongod restart
 sudo systemctl status mongod
 
+cd Vue
+sudo npm run build
+cd ..
+
 screen
-python3.11 WebSocket/Server.py
+uvicorn Server:app --host 10.22.31.26  --port 8000
 Ctrl+A
 D
 
-screen
-python3.11 main.py
 sudo nginx -s reload
 ```
 
