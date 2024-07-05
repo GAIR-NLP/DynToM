@@ -1,0 +1,106 @@
+{
+    "ground_truth": [
+        "B",
+        "C",
+        "B",
+        "B",
+        "C",
+        "B",
+        "B",
+        "B",
+        "C",
+        "D",
+        "C",
+        "A",
+        "A"
+    ],
+    "Llama-3-8B-Instruct": {
+        "answer": [
+            "A",
+            "C",
+            "B",
+            "B",
+            "C",
+            "B",
+            "B",
+            "B",
+            "C",
+            "C",
+            "A",
+            "A",
+            "A"
+        ],
+        "accuracy": 0.769
+    },
+    "Llama-3-70B-Instruct": {
+        "answer": [
+            "B",
+            "C",
+            "B",
+            "B",
+            "C",
+            "B",
+            "B",
+            "B",
+            "C",
+            "D",
+            "C",
+            "D",
+            "A"
+        ],
+        "accuracy": 0.923
+    },
+    "Mistral-7B-Instruct-v0.3": {
+        "answer": [
+            "B",
+            "B",
+            "A",
+            "B",
+            "C",
+            "B",
+            "B",
+            "B",
+            "C",
+            "C",
+            "C",
+            "C",
+            "A"
+        ],
+        "accuracy": 0.692
+    },
+    "Qwen2-7B-Instruct": {
+        "answer": [
+            "B",
+            "C",
+            "B",
+            "B",
+            "C",
+            "B",
+            "B",
+            "B",
+            "C",
+            "C",
+            "C",
+            "A"
+        ],
+        "accuracy": 0.846
+    },
+    "Qwen2-72B-Instruct": {
+        "answer": [
+            "B",
+            "C",
+            "B",
+            "B",
+            "C",
+            "B",
+            "B",
+            "B",
+            "C",
+            "D",
+            "C",
+            "A",
+            "A"
+        ],
+        "accuracy": 1
+    }
+}
