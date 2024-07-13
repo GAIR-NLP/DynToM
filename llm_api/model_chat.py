@@ -6,19 +6,22 @@ from abc import abstractmethod
 import os
 import transformers
 import torch
+from openai import OpenAI
 from llm_api.config import gpu_id
 from llm_api.prompt import load_system_prompt
 from llm_api.config import model_save_folder
-
+import unicodedata
 
 os.environ["CUDA_VISIBLE_DEVICES"] = gpu_id
+openai_api_key ="sk-25KhYqJYbiU8HwHa1fF497E65b8c4506B671E2D24bCe4aC9"
+openai_base_url = "https://lonlie.plus7.plus/v1"
 
 
 class Chat:
     """base class for chat model"""
 
     def __init__(self, model_name, chat_save_path, model_save_path):
-        self.model = model_name
+        self.model_name = model_name
         self.chat_save_path = chat_save_path
         self.chat_history = []
         self.model_save_path = model_save_path
@@ -33,7 +36,7 @@ class Chat:
 
     def clear_chat(self):
         """clear chat history"""
-        self.chat_history = []
+        self.init_prompt_and_chat()
 
     def print_chat(self):
         """print chat history"""
@@ -123,6 +126,7 @@ class Llama38BInstruct(Chat):
         """
         pass
 
+
 class Llama370BInstruct(Chat):
     """Llama 3 70B chat model"""
 
@@ -188,10 +192,12 @@ class Mistra7BInstructV03(Chat):
             model_save_path=full_model_path,
             chat_save_path=None,
         )
-    
+
     def init_model(self):
         """init model"""
-        self.model = transformers.pipeline("text-generation", model=self.model_save_path)
+        self.model = transformers.pipeline(
+            "text-generation", model=self.model_save_path
+        )
 
     def chat(self, text):
         """chat with model
@@ -202,8 +208,8 @@ class Mistra7BInstructV03(Chat):
         Raises:
             NotImplementedError: _description_
         """
-        message = {"role": "user", "content": self.sysytem_prompt+"\n"+text}
-        self.chat_history=[message]
+        message = {"role": "user", "content": self.sysytem_prompt + "\n" + text}
+        self.chat_history = [message]
 
         outputs = self.model(
             self.chat_history,
@@ -219,6 +225,7 @@ class Mistra7BInstructV03(Chat):
             text (_type_): user input content
         """
         pass
+
 
 class Mistra87BInstructV01(Chat):
     """mistralai/Mixtral-8x7B-Instruct-v0.1"""
@@ -230,10 +237,12 @@ class Mistra87BInstructV01(Chat):
             model_save_path=full_model_path,
             chat_save_path=None,
         )
-    
+
     def init_model(self):
         """init model"""
-        self.model = transformers.pipeline("text-generation", model=self.model_save_path)
+        self.model = transformers.pipeline(
+            "text-generation", model=self.model_save_path
+        )
 
     def chat(self, text):
         """chat with model
@@ -244,8 +253,8 @@ class Mistra87BInstructV01(Chat):
         Raises:
             NotImplementedError: _description_
         """
-        message = {"role": "user", "content": self.sysytem_prompt+"\n"+text}
-        self.chat_history=[message]
+        message = {"role": "user", "content": self.sysytem_prompt + "\n" + text}
+        self.chat_history = [message]
 
         outputs = self.model(
             self.chat_history,
@@ -261,6 +270,7 @@ class Mistra87BInstructV01(Chat):
             text (_type_): user input content
         """
         pass
+
 
 class QWen27BInstruct(Chat):
     """Qwen/Qwen2-7B-Instruct"""
@@ -291,15 +301,11 @@ class QWen27BInstruct(Chat):
         Raises:
             NotImplementedError: _description_
         """
-        
+
         message = {"role": "user", "content": text}
         self.chat_history.append(message)
 
-        outputs = self.model(
-            self.chat_history,
-            max_new_tokens=8192,
-            temperature=0.01
-        )
+        outputs = self.model(self.chat_history, max_new_tokens=8192, temperature=0.01)
         return outputs
 
     def save_chat(self, text):
@@ -309,6 +315,7 @@ class QWen27BInstruct(Chat):
             text (_type_): user input content
         """
         pass
+
 
 class QWen272BInstruct(Chat):
     """Qwen/Qwen2-72B-Instruct"""
@@ -339,15 +346,11 @@ class QWen272BInstruct(Chat):
         Raises:
             NotImplementedError: _description_
         """
-        
+
         message = {"role": "user", "content": text}
         self.chat_history.append(message)
 
-        outputs = self.model(
-            self.chat_history,
-            max_new_tokens=8192,
-            temperature=0.01
-        )
+        outputs = self.model(self.chat_history, max_new_tokens=8192, temperature=0.01)
         return outputs
 
     def save_chat(self, text):
@@ -383,7 +386,7 @@ class DeepSeekV2LiteChat(Chat):
         Raises:
             NotImplementedError: _description_
         """
-        
+
         message = {"role": "user", "content": text}
         self.chat_history.append(message)
 
@@ -399,4 +402,99 @@ class DeepSeekV2LiteChat(Chat):
         pass
 
 
+class GPT4(Chat):
+    """GPT-4"""
 
+    def __init__(self):
+        full_model_path = None
+        super().__init__(
+            model_name="gpt-4-turbo-2024-04-09",
+            model_save_path=full_model_path,
+            chat_save_path=None,
+        )
+
+    def init_model(self):
+        """init model"""
+        self.model = OpenAI(api_key=openai_api_key, base_url=openai_base_url)
+
+    def chat(self, text):
+        """chat with model
+
+        Args:
+            text (_type_): user input content
+
+        Raises:
+            NotImplementedError: _description_
+        """
+
+        message = {"role": "user", "content": text}
+        self.chat_history.append(message)
+
+        completion = self.model.chat.completions.create(
+            messages=self.chat_history,
+            model=self.model_name,
+        )
+
+        message = completion.choices[0].message
+        content = unicodedata.normalize("NFKC", message.content)
+
+        return content
+
+    def save_chat(self, text):
+        """save chat history into file
+
+        Args:
+            text (_type_): user input content
+        """
+        pass
+
+
+class GPT3Point5(Chat):
+    """GPT-3.5"""
+
+    def __init__(self):
+        full_model_path = None
+        super().__init__(
+            model_name="gpt-3.5-turbo-0125",
+            model_save_path=full_model_path,
+            chat_save_path=None,
+        )
+
+    def init_model(self):
+        """init model"""
+        self.model = OpenAI(api_key=openai_api_key, base_url=openai_base_url)
+
+    def chat(self, text):
+        """chat with model
+
+        Args:
+            text (_type_): user input content
+
+        Raises:
+            NotImplementedError: _description_
+        """
+
+        message = {"role": "user", "content": text}
+        self.chat_history.append(message)
+
+        completion = self.model.chat.completions.create(
+            messages=self.chat_history,
+            model=self.model_name,
+        )
+
+        message = completion.choices[0].message
+        content = unicodedata.normalize("NFKC", message.content)
+
+        return content
+
+    def save_chat(self, text):
+        """save chat history into file
+
+        Args:
+            text (_type_): user input content
+        """
+        pass
+
+if __name__=="__main__":
+    model=GPT4()
+    print(model.chat("what is the meaning of life?"))
