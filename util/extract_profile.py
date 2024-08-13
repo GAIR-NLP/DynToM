@@ -2,7 +2,7 @@ import json
 import csv
 import random
 
-root_path = "/home/xiaoyang/projects/ToMValley"
+root_path = "/home/xiaoyang/ToMValley"
 race_list = [
     "American Indian",
     "Alaska Native",
