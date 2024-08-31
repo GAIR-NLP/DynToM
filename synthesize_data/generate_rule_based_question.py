@@ -185,6 +185,7 @@ def extract_mental_states_time(script_id):
         intention_reasons[f"{scenario_number}_{scenario_number+1}"] = script["sketch"][
             "analysis of mental states across scenarios"
         ]["Intention"]["Reasons"].split(";")[scenario_number - 1]
+        print(script["sketch"]["analysis of mental states across scenarios"]["Action"]["Reasons"])
         action_reasons[f"{scenario_number}_{scenario_number+1}"] = script["sketch"][
             "analysis of mental states across scenarios"
         ]["Action"]["Reasons"].split(";")[scenario_number - 1]
@@ -671,7 +672,7 @@ def save_questions_to_json(questions, script_id):
 
 
 if __name__ == "__main__":
-    scrips = range(51, 52)
+    scrips = range(186, 187)
     for script_id in scrips:
         generate(script_id)
         process_questions(script_id)

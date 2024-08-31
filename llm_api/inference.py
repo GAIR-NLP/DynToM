@@ -3,7 +3,8 @@ import json
 from tqdm import tqdm
 
 from llm_api.model_chat import *
-from statistic import calculate_accuracy
+from analysis.statistic import calculate_accuracy
+from util import logger
 from util.logger import inference_logger
 
 
@@ -45,6 +46,15 @@ def run_inference(
     Args:
         model_name (_type_): _description_
     """
+    path = f"synthesize_data/script/data/trial{script_id}/{information_type}_answer_{model_name}.json"
+    if os.path.exists(path):
+        inference_logger.info(
+            "Answer for model %s on script %s for information level %s already exists",
+            model_name,
+            script_id,
+            information_type,
+        )
+        return
     chat_model: Chat = model_name_2_class[model_name]()
     for script_id in [script_id]:
         chat_model.init_prompt_and_chat(
@@ -105,7 +115,7 @@ def main(model_names, scripts, levels):
 
 
 if __name__ == "__main__":
-    scrip_ids = range(55,57)
+    scrip_ids = range(57,250)
     
     models = ["gpt-4-turbo-2024-04-09", "gpt-4o-2024-05-13"]
     #models = [ "gpt-4o-2024-05-13"]

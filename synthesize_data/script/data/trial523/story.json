@@ -1,0 +1,154 @@
+{
+    "social setting": "bank",
+    "social setting type": "Work and Office",
+    "main character": "Stephanie Grandberry",
+    "scenario numbers": 5,
+    "characters information": "**Main Character**: Stephanie Grandberry, woman, is a Sales Representative whose race is African American. Stephanie Grandberry obtained a high school, and has a enfj personality..**Supporting Characters**:- **1**: Stephanie Trinh, woman, is a Nurse whose race is Native Hawaiian and Other Pacific Islander. Stephanie Trinh obtained a high school, and has a estp personality.",
+    "sketch": {
+        "relationships among characters": {
+            "main character with supporting character 1": "Stephanie Grandberry and Stephanie Trinh are former college roommates who have maintained a close friendship. They occasionally meet at the bank where they handle their personal finances together due to their trust and shared financial advisor."
+        },
+        "mental states analysis in every scenario": {
+            "scenario 1": {
+                "belief": "Stephanie Grandberry believes that banks are the safest place to keep her savings.",
+                "emotion": "She feels secure and confident entering the bank.",
+                "intention": "She intends to deposit a significant amount of money she recently inherited.",
+                "action": "She approaches the teller to make the deposit.",
+                "influence": {
+                    "belief->emotion": "Her belief in the bank's security makes her feel confident.",
+                    "belief&emotion->intention": "Feeling secure and confident, she decides to deposit her inheritance in the bank.",
+                    "intention->action": "Her intention to deposit the money leads her to approach the teller."
+                }
+            },
+            "scenario 2": {
+                "belief": "Stephanie Grandberry starts to doubt the bank's efficiency as she notices long queues and understaffed counters.",
+                "emotion": "She feels frustrated and anxious about the time it's taking.",
+                "intention": "She intends to complain to the manager about the service.",
+                "action": "She speaks to the manager to express her concerns.",
+                "influence": {
+                    "belief->emotion": "Her new belief about the bank's inefficiency causes frustration and anxiety.",
+                    "belief&emotion->intention": "Driven by her frustration and anxiety, she decides to complain to the manager.",
+                    "intention->action": "Her intention to complain leads her to approach the manager."
+                }
+            },
+            "scenario 3": {
+                "belief": "After speaking with the manager, she believes that the issues are temporary and will be resolved soon.",
+                "emotion": "She feels relieved but still slightly skeptical.",
+                "intention": "She intends to give the bank another chance but starts considering other banking options.",
+                "action": "She decides to wait and see the changes while researching other banks.",
+                "influence": {
+                    "belief->emotion": "Her belief in the manager's assurances relieves her, but skepticism remains.",
+                    "belief&emotion->intention": "Feeling relieved yet skeptical, she decides to wait but also consider other options.",
+                    "intention->action": "Her intention to observe changes prompts her to wait and do research."
+                }
+            },
+            "scenario 4": {
+                "belief": "She believes that her friend Stephanie Trinh might have better banking experiences elsewhere.",
+                "emotion": "She feels curious and hopeful about getting advice.",
+                "intention": "She intends to ask Stephanie Trinh about her banking experiences.",
+                "action": "She calls Stephanie Trinh to discuss her banking experiences.",
+                "influence": {
+                    "belief->emotion": "Her belief that her friend might help makes her feel curious and hopeful.",
+                    "belief&emotion->intention": "Driven by curiosity and hope, she decides to seek advice from her friend.",
+                    "intention->action": "Her intention to seek advice leads her to call Stephanie Trinh."
+                }
+            },
+            "scenario 5": {
+                "belief": "Based on the conversation with Stephanie Trinh, she believes that switching banks could be beneficial.",
+                "emotion": "She feels empowered and decisive.",
+                "intention": "She intends to open an account in a new bank recommended by Stephanie Trinh.",
+                "action": "She visits the new bank to open an account.",
+                "influence": {
+                    "belief->emotion": "Her new belief in a better option makes her feel empowered.",
+                    "belief&emotion->intention": "Feeling empowered, she decides to take decisive action.",
+                    "intention->action": "Her intention to switch banks leads her to visit the new bank."
+                }
+            }
+        },
+        "analysis of mental states across scenarios": {
+            "Belief": {
+                "Changed": "True",
+                "1": "Banks are safe->",
+                "2": "Doubts bank's efficiency->",
+                "3": "Temporary issues will be resolved->",
+                "4": "Friend might have better experiences->",
+                "5": "Switching banks could be beneficial",
+                "Reasons": "1->2: Observes long queues and understaffing; 2->3: Manager's assurances; 3->4: Seeking personal advice; 4->5: Positive feedback from friend"
+            },
+            "Emotion": {
+                "Changed": "True",
+                "1": "Secure and confident->",
+                "2": "Frustrated and anxious->",
+                "3": "Relieved but skeptical->",
+                "4": "Curious and hopeful->",
+                "5": "Empowered and decisive",
+                "Reasons": "1->2: Experiences inefficiency; 2->3: Manager's assurances; 3->4: Desire for better service; 4->5: Positive feedback from friend"
+            },
+            "Intention": {
+                "Changed": "True",
+                "1": "Deposit money->",
+                "2": "Complain to manager->",
+                "3": "Give another chance but consider options->",
+                "4": "Seek advice from friend->",
+                "5": "Open new bank account",
+                "Reasons": "1->2: Frustration with service; 2->3: Decision to wait for improvements; 3->4: Need for better banking experience; 4->5: Decision influenced by friend's positive experience"
+            },
+            "Action": {
+                "Changed": "True",
+                "1": "Approaches teller->",
+                "2": "Speaks to manager->",
+                "3": "Waits and researches->",
+                "4": "Calls friend->",
+                "5": "Visits new bank",
+                "Reasons": "1->2: Decision to address issues; 2->3: Chooses to observe changes; 3->4: Seeks advice; 4->5: Acts on advice received"
+            }
+        }
+    },
+    "story": {
+        "scenario 1": {
+            "background": "Stephanie Grandberry enters the bank feeling secure and confident about depositing a significant amount of money she recently inherited. She believes that banks are the safest place to keep her savings.",
+            "dialogue": [
+                {
+                    "Stephanie Grandberry": "Absolutely, I've always trusted banks to keep my money secure. It gives me peace of mind.",
+                    "Bank Teller": "Of course, Ms. Grandberry. It's quite a substantial amount. You must be feeling pretty good about having it in a safe place."
+                }
+            ]
+        },
+        "scenario 2": {
+            "background": "During her visit to the bank, Stephanie notices long queues and several understaffed counters, which starts to make her doubt the bank's efficiency. She feels frustrated and anxious about the time it's taking.",
+            "dialogue": [
+                {
+                    "Stephanie Grandberry": "I understand, but it's quite frustrating. I hope this isn't a regular occurrence?",
+                    "Bank Manager": "We're currently short on staff due to unforeseen circumstances. I apologize for the inconvenience."
+                }
+            ]
+        },
+        "scenario 3": {
+            "background": "After speaking with the manager, Stephanie feels relieved but slightly skeptical when assured that the issues are temporary and will be resolved soon. She decides to give the bank another chance but starts considering other banking options.",
+            "dialogue": [
+                {
+                    "Stephanie Grandberry": "Thank you, I'll be watching closely.",
+                    "Bank Manager": "We're doing our best to resolve these issues quickly. We value your business and hope you'll see improvements soon."
+                }
+            ]
+        },
+        "scenario 4": {
+            "background": "Curious about other banking experiences, Stephanie calls her friend Stephanie Trinh to discuss her recent frustrations and hopes to get advice on whether switching banks might be a better option.",
+            "dialogue": [
+                {
+                    "Stephanie Grandberry": "Just some inefficiencies and long waiting times. I'm thinking of switching too.",
+                    "Stephanie Trinh": "Oh, it\u2019s been great! Much more efficient and the customer service is fantastic. Why, what\u2019s been happening with your bank?"
+                }
+            ]
+        },
+        "scenario 5": {
+            "background": "Empowered by the positive feedback from Stephanie Trinh about her banking experience, Stephanie Grandberry feels decisive and visits a new bank to open an account, believing that this change will be beneficial.",
+            "dialogue": [
+                {
+                    "Stephanie Grandberry": "Thank you, I'm looking forward to a fresh start with your bank.",
+                    "New Bank Representative": "That's wonderful to hear! We're thrilled to have you and will make sure you find our services satisfactory."
+                }
+            ]
+        }
+    }
+}

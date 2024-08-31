@@ -18,10 +18,10 @@ from util.logger import inference_logger
 
 
 os.environ["CUDA_VISIBLE_DEVICES"] = gpu_id
-openai_api_key = "sk-25KhYqJYbiU8HwHa1fF497E65b8c4506B671E2D24bCe4aC9"
+openai_api_key = "sk-ADDDrNcyH9zVWKzE375d0cC03fFa4139A2AeCbA2E070Aa1a"
 openai_base_url = "https://lonlie.plus7.plus/v1"
-doubao_base_url = "https://ark.cn-beijing.volces.com/api/v3"
-doubao_api_key = "19235e27-489a-45fb-a4fa-a7c4169f0abf"
+# doubao_base_url = "https://ark.cn-beijing.volces.com/api/v3"
+# doubao_api_key = "19235e27-489a-45fb-a4fa-a7c4169f0abf"
 
 
 def convert_to_json(content, model_name):

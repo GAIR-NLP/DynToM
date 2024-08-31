@@ -150,7 +150,7 @@ def construct_sketch(
     _main_character: str,
     _characters_profiles: str,
     _scenario_number: int,
-    _version: str = "trail3",
+    _version: str = "trail4",
 ):
     """construct the sketch based on the template
 
@@ -164,11 +164,17 @@ def construct_sketch(
         _type_: _description_
     """
     template = read_sketch_template()[_version]
-    return template.format(
-        characters_information=_characters_profiles,
-        scenario_number=_scenario_number,
-        main_character=_main_character,
-        JSON_format=SKETCH_JSON_FORMAT,
+    social_setting_type, social_setting = extract_profile.extract_social_setting()
+    return (
+        social_setting_type,
+        social_setting,
+        template.format(
+            characters_information=_characters_profiles,
+            scenario_number=_scenario_number,
+            main_character=_main_character,
+            JSON_format=SKETCH_JSON_FORMAT,
+            social_setting=social_setting,
+        ),
     )
 
 
@@ -359,6 +365,26 @@ class GPT4:
 #         return content
 
 
+def check_script_correct(script: dict):
+    """check the script is correct or not
+
+    if there is missing scenario in the analysis of mental states across scenarios, return False
+    if the reasons in the analysis of mental states across scenarios is missing, return False
+
+    Args:
+        script (_type_): _description_
+
+    Returns:
+        _type_: _description_
+    """
+    for mental_state in ["Belief", "Emotion", "Intention", "Action"]:
+        if len(script["analysis of mental states across scenarios"][mental_state]) != 7:
+            return False
+        if ";" not in script["analysis of mental states across scenarios"][mental_state]["Reasons"]:
+            return False
+    return True
+
+
 def generate_script_story(
     _scenario_number: int, _model: GPT4, _number_of_characters: int, script_number: int
 ):
@@ -377,10 +403,15 @@ def generate_script_story(
     )
     logger.info("script: %s, generate character profiles finished", script_number)
 
-    story_sketch_prompt = construct_sketch(
+    social_setting_type, social_setting, story_sketch_prompt = construct_sketch(
         main_character_name, characters_profiles, _scenario_number
     )
+    
     story_sketch = _model.chat(story_sketch_prompt, script_number)
+    # make sure the script is correct
+    if not check_script_correct(story_sketch):
+        logger.error("script: %s, generate story sketch failed", script_number)
+        return False
     logger.info("script: %s, generate story sketch finished", script_number)
 
     complete_story_prompt = construct_story(
@@ -394,20 +425,22 @@ def generate_script_story(
     make_folder(script_number=script_number)
 
     script = {
+        "social setting": social_setting,
+        "social setting type": social_setting_type,
         "main character": main_character_name,
         "scenario numbers": _scenario_number,
         "characters information": characters_profiles,
         "sketch": story_sketch,
         "story": complete_story,
     }
-    
-    meta={
+
+    meta = {
         "generate_model": _model.model_name,
     }
     write_script_file(meta, file_name=f"trial{script_number}/meta.json")
-    
+
     write_script_file(script, file_name=f"trial{script_number}/story.json")
-    return main_character_name, script_number
+    return True
 
 
 # def generate_question(
@@ -476,13 +509,21 @@ def pipeline(
     """
 
     for script_number, number_of_character, scenario_number in tqdm(
-        zip(_script_numbers, _number_of_characters, _scenario_numbers),total=len(_script_numbers)
+        zip(_script_numbers, _number_of_characters, _scenario_numbers),
+        total=len(_script_numbers),
     ):
         logger.info("-----script: %s, Experiment started-----", script_number)
 
-        generate_script_story(
+        result=generate_script_story(
             scenario_number, _model, number_of_character, script_number
         )
+        # make sure the script is correct
+        # if the script is not correct, regenerate the script
+        while not result:
+            result = generate_script_story(
+                scenario_number, _model, number_of_character, script_number
+            )
+        
         generate(script_number)
         process_questions(script_number)
 
@@ -490,10 +531,10 @@ def pipeline(
 
 
 if __name__ == "__main__":
-    #model = GPT4(model_name="gpt-4o-2024-05-13")
+    # model = GPT4(model_name="gpt-4o-2024-05-13")
     model = GPT4(model_name="gpt-4-turbo-2024-04-09")
-    script_numbers = range(55, 57)
+    script_numbers = range(250, 550)
     number_of_characters = [2] * len(script_numbers)
     scenario_numbers = [5] * len(script_numbers)
-    
+
     pipeline(model, script_numbers, number_of_characters, scenario_numbers)

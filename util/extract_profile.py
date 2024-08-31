@@ -153,7 +153,7 @@ def read_social_setting() -> list[str]:
 
     setting_type = randm_element(social_setting_types)
 
-    return randm_element(d["classfication"][setting_type])
+    return setting_type, randm_element(d["classfication"][setting_type])
 
 
 def read_race() -> str:
@@ -211,9 +211,18 @@ def extract_basic_profile():
     education = read_education()
     personality = read_personality()
 
-    # social_setting = read_social_setting(social_setting_type)
-
+    # social_setting_type,social_setting = read_social_setting()
     return (surname, given_name, gender, occupation, race, education, personality)
+
+
+def extract_social_setting():
+    """extract social setting
+
+    Returns:
+        _type_: _description_
+    """
+    social_setting_type, social_setting = read_social_setting()
+    return social_setting_type, social_setting
 
 
 if __name__ == "__main__":
