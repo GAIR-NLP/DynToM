@@ -551,9 +551,6 @@ def overall_analysis(script_ids, model, information_level):
             else:
                 question_all[key]["count"] += question_all_[key]["count"]
                 question_all[key]["correct"] += question_all_[key]["correct"]
-                question_all[key]["accuracy"] = (
-                    question_all[key]["correct"] / question_all[key]["count"]
-                )
 
         for key in time_:
             if key not in time:
@@ -561,7 +558,6 @@ def overall_analysis(script_ids, model, information_level):
             else:
                 time[key]["count"] += time_[key]["count"]
                 time[key]["correct"] += time_[key]["correct"]
-                time[key]["accuracy"] = time[key]["correct"] / time[key]["count"]
 
         for key in mental_type_:
             if key not in mental_type:
@@ -569,29 +565,39 @@ def overall_analysis(script_ids, model, information_level):
             else:
                 mental_type[key]["count"] += mental_type_[key]["count"]
                 mental_type[key]["correct"] += mental_type_[key]["correct"]
-                mental_type[key]["accuracy"] = (
-                    mental_type[key]["correct"] / mental_type[key]["count"]
-                )
-
+                
         for key in reason_or_not_:
             if key not in reason_or_not:
                 reason_or_not[key] = reason_or_not_[key]
             else:
                 reason_or_not[key]["count"] += reason_or_not_[key]["count"]
                 reason_or_not[key]["correct"] += reason_or_not_[key]["correct"]
-                reason_or_not[key]["accuracy"] = (
-                    reason_or_not[key]["correct"] / reason_or_not[key]["count"]
-                )
-
+                
         for key in influence_:
             if key not in influence:
                 influence[key] = influence_[key]
             else:
                 influence[key]["count"] += influence_[key]["count"]
                 influence[key]["correct"] += influence_[key]["correct"]
-                influence[key]["accuracy"] = (
-                    influence[key]["correct"] / influence[key]["count"]
+
+    
+    
+    for key,value in question_all.items():
+        question_all[key]["accuracy"] = value["correct"] / value["count"]
+    
+    for key,value in time.items():
+        time[key]["accuracy"] = value["correct"] / value["count"]
+    
+    for key,value in mental_type.items():
+        mental_type[key]["accuracy"] = (
+                    mental_type[key]["correct"] / mental_type[key]["count"]
                 )
+    
+    for key,value in reason_or_not.items():
+        reason_or_not[key]["accuracy"] = reason_or_not[key]["correct"] / reason_or_not[key]["count"]
+        
+    for key,value in influence.items():
+            influence[key]["accuracy"] = influence[key]["correct"] / influence[key]["count"]
 
     results = {
         "question_all": question_all,
@@ -607,11 +613,14 @@ def overall_analysis(script_ids, model, information_level):
 
 
 if __name__ == "__main__":
-    scripts = range(50, 57)
+    scripts = range(50, 1050)
+    models = ["Qwen2-72B-Instruct"]
 
-    # for script_id in scripts:
-    #     model = "gpt-4-turbo-2024-04-09"
-    #     question_analysis(script_id, model, "level1")
+    for script_id in scripts:
+        for model in models:
+            print(script_id, model)
+            question_analysis(script_id, model, "level1")
 
-    model = "gpt-4-turbo-2024-04-09"
-    overall_analysis(scripts, model, "level1")
+    for model in models:
+        # print(model)
+        overall_analysis(scripts, model, "level1")

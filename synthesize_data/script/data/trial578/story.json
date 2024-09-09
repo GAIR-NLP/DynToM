@@ -1,0 +1,154 @@
+{
+    "social setting": "bank",
+    "social setting type": "Work and Office",
+    "main character": "Joan Huang",
+    "scenario numbers": 5,
+    "characters information": "**Main Character**: Joan Huang, woman, is a Occupational Therapist whose race is Native Hawaiian and Other Pacific Islander. Joan Huang obtained a master's degree, and has a entj personality..**Supporting Characters**:- **1**: Dennis Cosay, man, is a Firefighter whose race is American Indian. Dennis Cosay obtained a bachelor's degree, and has a estj personality.",
+    "sketch": {
+        "relationships among characters": {
+            "main character with supporting character 1": "Joan Huang and Dennis Cosay are colleagues and close friends who often collaborate on community safety programs. Their professional relationship is complemented by a mutual respect for each other's skills and backgrounds."
+        },
+        "mental states analysis in every scenario": {
+            "scenario 1": {
+                "belief": "Joan believes the bank is a secure place due to its reputation and security measures.",
+                "emotion": "She feels confident and calm entering the bank.",
+                "intention": "Joan intends to deposit a large sum of money she received as a grant for her community project.",
+                "action": "Joan enters the bank and approaches the teller to make her deposit.",
+                "influence": {
+                    "belief->emotion": "Her belief in the bank's security makes her feel calm.",
+                    "belief&emotion->intention": "Feeling secure and confident, she decides to proceed with depositing the money.",
+                    "intention->action": "Her intention to deposit the money leads her to approach the teller."
+                }
+            },
+            "scenario 2": {
+                "belief": "Joan starts to doubt the bank's security as she notices a suspicious individual.",
+                "emotion": "She feels anxious and concerned.",
+                "intention": "Joan intends to alert Dennis discreetly about her suspicion without causing panic.",
+                "action": "Joan sends a subtle signal to Dennis, who is also in the bank.",
+                "influence": {
+                    "belief->emotion": "Her new belief about potential danger changes her emotion to anxiety.",
+                    "belief&emotion->intention": "Due to her anxiety and belief there might be a threat, she decides to alert Dennis.",
+                    "intention->action": "Her intention to communicate discreetly leads her to signal Dennis."
+                }
+            },
+            "scenario 3": {
+                "belief": "After talking to Dennis, Joan believes that the suspicious individual is likely a threat.",
+                "emotion": "Her anxiety increases to fear.",
+                "intention": "Joan intends to inform the bank manager and ensure safety measures are ready.",
+                "action": "Joan and Dennis approach the bank manager to discuss their concerns.",
+                "influence": {
+                    "belief->emotion": "Her confirmed belief about the threat escalates her emotion to fear.",
+                    "belief&emotion->intention": "Driven by fear and a confirmed belief, she decides to take proactive steps for safety.",
+                    "intention->action": "Her intention to enhance safety leads her to approach the manager."
+                }
+            },
+            "scenario 4": {
+                "belief": "Joan believes that the police should be called to handle the situation.",
+                "emotion": "She feels a mix of fear and responsibility.",
+                "intention": "Joan intends to call the police and keep everyone calm.",
+                "action": "Joan makes the call to the police while trying to maintain a calm demeanor.",
+                "influence": {
+                    "belief->emotion": "Her belief in involving the police influences her feeling of responsibility.",
+                    "belief&emotion->intention": "Feeling responsible and fearful, she decides to call the police.",
+                    "intention->action": "Her intention to involve law enforcement leads her to make the call."
+                }
+            },
+            "scenario 5": {
+                "belief": "Joan believes the situation is under control once the police arrive.",
+                "emotion": "She feels relieved but still slightly tense.",
+                "intention": "Joan intends to finish her banking transactions and discuss follow-up safety measures with the bank.",
+                "action": "Joan completes her transactions and schedules a meeting with the bank's security team.",
+                "influence": {
+                    "belief->emotion": "Her belief that the situation is controlled makes her feel relieved.",
+                    "belief&emotion->intention": "Feeling relieved yet responsible, she decides to finish her tasks and plan for future safety.",
+                    "intention->action": "Her intention to secure future safety leads her to schedule a meeting."
+                }
+            }
+        },
+        "analysis of mental states across scenarios": {
+            "Belief": {
+                "Changed": "True",
+                "1": "Secure bank",
+                "2": "Doubts security",
+                "3": "Confirms threat",
+                "4": "Needs police",
+                "5": "Situation controlled",
+                "Reasons": "1->2: Notices suspicious individual; 2->3: Discussion with Dennis; 3->4: Escalation of situation; 4->5: Arrival of police"
+            },
+            "Emotion": {
+                "Changed": "True",
+                "1": "Confident and calm",
+                "2": "Anxious",
+                "3": "Fearful",
+                "4": "Fear and responsibility",
+                "5": "Relieved but tense",
+                "Reasons": "1->2: Change in belief about security; 2->3: Confirmation of threat; 3->4: Decision to involve police; 4->5: Police handling situation"
+            },
+            "Intention": {
+                "Changed": "True",
+                "1": "Deposit money",
+                "2": "Alert Dennis",
+                "3": "Inform manager",
+                "4": "Call police",
+                "5": "Complete transaction and plan safety",
+                "Reasons": "1->2: Spots suspicious individual; 2->3: Confirms suspicion; 3->4: Need for external help; 4->5: Control regained"
+            },
+            "Action": {
+                "Changed": "True",
+                "1": "Approaches teller",
+                "2": "Signals Dennis",
+                "3": "Approaches manager",
+                "4": "Calls police",
+                "5": "Completes transactions and plans meeting",
+                "Reasons": "1->2: Change in emotion and belief; 2->3: Increased fear; 3->4: Decision to escalate response; 4->5: Police intervention"
+            }
+        }
+    },
+    "story": {
+        "scenario 1": {
+            "background": "Joan Huang, feeling confident due to her belief in the bank's security, enters the bank to deposit a large sum for her community project.",
+            "dialogue": [
+                {
+                    "Joan": "Good morning! I'd like to deposit this amount into our community project account, please.",
+                    "Teller": "Of course, Ms. Huang. It's always great to see funds going into such valuable projects."
+                }
+            ]
+        },
+        "scenario 2": {
+            "background": "While in the bank, Joan notices a suspicious individual and starts to doubt the security of the bank, feeling anxious.",
+            "dialogue": [
+                {
+                    "Joan": "Dennis, do you see that person over there? Something doesn't feel right.",
+                    "Dennis": "I see him. Let's keep it low-key and observe for a moment. Do you want to alert the manager or should I?"
+                }
+            ]
+        },
+        "scenario 3": {
+            "background": "After discussing with Dennis, Joan's belief that the suspicious individual is a threat is confirmed, increasing her anxiety to fear.",
+            "dialogue": [
+                {
+                    "Joan": "Dennis, I'm convinced that person is up to no good. We need to talk to the manager now.",
+                    "Dennis": "Agreed. Let's handle this carefully and ensure everyone's safety."
+                }
+            ]
+        },
+        "scenario 4": {
+            "background": "Joan decides that the situation is serious enough to involve the police, feeling a mix of fear and responsibility.",
+            "dialogue": [
+                {
+                    "Joan": "I'm calling the police. We need professional help to manage this situation.",
+                    "Dennis": "Good call. I'll keep an eye on things here while you make the call."
+                }
+            ]
+        },
+        "scenario 5": {
+            "background": "Once the police arrive and take control, Joan feels relieved but remains slightly tense. She proceeds to finish her banking transactions and plans for future safety measures.",
+            "dialogue": [
+                {
+                    "Joan": "Thank you for handling this so swiftly. I'll finish up here and then let's discuss how we can prevent such incidents in the future.",
+                    "Bank Manager": "Absolutely, Ms. Huang. We'll review our security measures and ensure this doesn't happen again."
+                }
+            ]
+        }
+    }
+}

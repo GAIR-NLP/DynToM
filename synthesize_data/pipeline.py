@@ -382,6 +382,8 @@ def check_script_correct(script: dict):
             return False
         if ";" not in script["analysis of mental states across scenarios"][mental_state]["Reasons"]:
             return False
+        if len(script["analysis of mental states across scenarios"][mental_state]["Reasons"].split(";")) != 4:
+            return False
     return True
 
 
@@ -533,7 +535,7 @@ def pipeline(
 if __name__ == "__main__":
     # model = GPT4(model_name="gpt-4o-2024-05-13")
     model = GPT4(model_name="gpt-4-turbo-2024-04-09")
-    script_numbers = range(250, 550)
+    script_numbers = range(1043,1050)
     number_of_characters = [2] * len(script_numbers)
     scenario_numbers = [5] * len(script_numbers)
 

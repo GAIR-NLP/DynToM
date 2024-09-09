@@ -143,9 +143,13 @@ def overal_analysis(script_ids, model, information_level):
     error_map = {}
     error_count = 0
     for script_id in script_ids:
+        # print(script_id)
         path = f"synthesize_data/script/data/trial{script_id}/{information_level}_answer_{model}.json"
         answers = json.load(open(path, encoding="UTF-8"))
         accuracy_list.append(answers["accuracy"])
+        
+        # print(model)
+        # print(script_id)
         count_list.append(answers["question_count"])
 
         errors = answers["error_analysis"]
@@ -178,17 +182,23 @@ def overal_analysis(script_ids, model, information_level):
 
 
 if __name__ == "__main__":
-    scrip_ids = range(106, 107)
-    level = "level1"
-    models = ["gpt-4-turbo-2024-04-09", "gpt-4o-2024-05-13"]
-    for script_id in scrip_ids:
-        for model in models:
-            calculate_accuracy(script_id, model, level)
-
-    # scrip_ids = range(50, 57)
+    # scrip_ids = range(50, 1050)
     # level = "level1"
-    # model = "gpt-4-turbo-2024-04-09"
+    # models = ["gpt-4-turbo-2024-04-09", "gpt-4o-2024-05-13"]
+    # for script_id in scrip_ids:
+    #     for model in models:
+    #         calculate_accuracy(script_id, model, level)
+
+    scrip_ids = range(50, 1050)
+    level = "level1"
+    model = "Qwen2-72B-Instruct"
+    overal_analysis(scrip_ids, model, level)
+    
+    # model = "gpt-4o-2024-05-13"
     # overal_analysis(scrip_ids, model, level)
+    
+    
+    
 
     # scrip_ids = range(38, 49)
     # for script_id in scrip_ids:

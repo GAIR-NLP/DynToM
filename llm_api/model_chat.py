@@ -3,31 +3,183 @@ class to load model for chat
 """
 
 from abc import abstractmethod
+from lib2to3.pytree import convert
 import os
 import json
 import unicodedata
 import transformers
 import torch
+from transformers import AutoTokenizer, AutoModelForCausalLM, GenerationConfig
 
+# from vllm import LLM, SamplingParams
+from vllm import LLM, SamplingParams
 from openai import OpenAI
 
-from llm_api.config import gpu_id
+# from llm_api.config import gpu_id
 from llm_api.prompt import load_system_prompt
 from llm_api.config import model_save_folder
-from util.logger import inference_logger
+from util.logger import inference_logger, inference2_logger, inference3_logger
 
 
-os.environ["CUDA_VISIBLE_DEVICES"] = gpu_id
-openai_api_key = "sk-ADDDrNcyH9zVWKzE375d0cC03fFa4139A2AeCbA2E070Aa1a"
-openai_base_url = "https://lonlie.plus7.plus/v1"
+# os.environ["CUDA_VISIBLE_DEVICES"] = gpu_id
+openai_api_key = "sk-XRPxIi5PRSE7CVkg23BbDbF87f204b30A9A62f02DdF946E3"
+openai_base_url = "https://api3.apifans.com/v1"
 # doubao_base_url = "https://ark.cn-beijing.volces.com/api/v3"
 # doubao_api_key = "19235e27-489a-45fb-a4fa-a7c4169f0abf"
+
+
+class ConvertToJSON:
+    """convert content to right json format"""
+
+    def __init__(self, content, model_name, logger):
+        self.content = content
+        self.model_name = model_name
+        self.logger = logger
+
+    def gpt(self):
+        """remove ```json from content
+
+        Returns:
+            _type_: _description_
+        """
+        if "```json" in self.content:
+            self.logger.info("model: %s, content has ```json", self.model_name)
+            self.content = self.content[self.content.find("```json") + 7 :]
+            self.logger.info("model: %s, content after remove ```json", self.model_name)
+
+        if "```" in self.content:
+            self.logger.info("model: %s, content has ```", self.model_name)
+            self.content = self.content[: self.content.find("```")]
+            self.logger.info("model: %s, content after remove ```", self.model_name)
+
+        return self.convert_to_json()
+
+    def convert_qwen(self):
+        """remove useless content"""
+        self.content = self.content[self.content.find("{") :]
+        self.content = self.content[: self.content.find("}") + 1]
+
+        return self.convert_to_json()
+
+    def convert_llama(self):
+        """remove useless content
+
+        Returns:
+            _type_: _description_
+        """
+        self.content = self.content[self.content.find("{") :]
+        self.content = self.content[: self.content.find("}") + 1]
+
+        return self.convert_to_json()
+
+    def convert_deepseek(self):
+        """remove useless content
+
+        Returns:
+            _type_: _description_
+        """
+        self.content = self.content[self.content.find("{") :]
+        self.content = self.content[: self.content.find("}") + 1]
+
+        if self.content == "":
+            self.logger.error("model: %s, content is empty", self.model_name)
+            self.content = "{}"
+            # print(self.content)
+
+        return self.convert_to_json()
+
+    def convert_mistra(self):
+        """remove useless content
+
+        Returns:
+            _type_: _description_
+        """
+
+        self.content = self.content[self.content.find("{") :]
+        self.content = self.content[: self.content.find("}") + 1]
+        
+        self.content=self.content.replace("\\","")
+        
+        content_dic = self.convert_to_json()
+        keys = list(content_dic.keys())
+        for key in keys:
+            value = content_dic[key]
+            # "b. Frustrated and betrayed -> Satisfied and happy -> Concerned and anxious -> Relieved and empathetic",
+            if isinstance(value, str):
+                content_dic[key] = value[0]
+
+            # {"type_d_whether_1": "d. Yes, from Gary is making progress to Gary can manage on his own"},
+            if isinstance(value, dict):
+                if len(value) != 1:
+                    content_dic.pop(key)
+                # self.logger.info("model: %s, value is dict:", self.model_name)
+                elif key != list(value.keys())[0]:
+                    content_dic.pop(key)
+                else:
+                    self.logger.info(
+                        "model: %s, key: %s, value: %s",
+                        self.model_name,
+                        key,
+                        str(value),
+                    )
+                    content_dic[key] = value[list(value.keys())[0]][0]
+
+        return content_dic
+
+    def convert(self, model_name):
+        """factory method, convert content to json format according to model name
+
+        Args:
+            model_name (_type_): _description_
+
+        Returns:
+            _type_: _description_
+        """
+        if "llama" in model_name.lower():
+            return self.convert_llama()
+        
+        if "mixtral" in model_name.lower():
+            return self.convert_mistra()
+
+        if "mistral" in model_name.lower():
+            return self.convert_mistra()
+    
+    def convert_to_json(self):
+        """turn str to dict object
+
+        Args:
+            logger (_type_): _description_
+
+        Returns:
+            _type_: _description_
+        """
+        try:
+            content = json.loads(self.content)
+            self.logger.info(
+                "model: %s, answers number: %s", self.model_name, len(content)
+            )
+        except json.JSONDecodeError:
+            self.logger.error("model: %s, json decode error", self.model_name)
+            self.logger.info("the wrong content:\n %s", str(self.content))
+            # print(self.content)
+
+        return content
 
 
 def convert_to_json(content, model_name):
     """convert content to json format"""
     content = content.strip("```json")
     content = content.strip("```")
+
+    if "```json" in content:
+        inference_logger.info("model: %s, content has ```json", model_name)
+        content = content[content.find("```json") + 7 :]
+        inference_logger.info("model: %s, content after remove ```json", model_name)
+
+    if "```" in content:
+        inference_logger.info("model: %s, content has ```", model_name)
+        content = content[: content.find("```")]
+        inference_logger.info("model: %s, content after remove ```", model_name)
 
     # turn str to dict object
     try:
@@ -43,12 +195,15 @@ def convert_to_json(content, model_name):
 class Chat:
     """base class for chat model"""
 
-    def __init__(self, model_name, model_save_path):
+    def __init__(self, model_name, model_save_path, gpus=1,logger=inference2_logger):
         self.model_name = model_name
         self.chat_history = []
         self.model_save_path = model_save_path
+        
+        self.gpus=gpus
+        self.logger=logger
 
-        self.require_prompt = """answer the question, and response in JSON format:{[question_id]:[a, b, c or d], [question_id]:a, b, c or d, ...}. for example: {"1":"a","2":"b","3":"c"}"""
+        self.require_prompt = """answer the 71 question, and response in JSON format:{[question_id]:[a, b, c or d], [question_id]:a, b, c or d, ...}. for example: {"type_d_how_1":"a","type_d_how_2":"b","type_d_how_3":"c"}"""
 
         self.init_model()
 
@@ -64,14 +219,17 @@ class Chat:
         )
         self.chat_history = [{"role": "system", "content": self.sysytem_prompt}]
 
-    @abstractmethod
+    
     def init_model(self):
         """
         init model: use model_name to load model
         """
-        raise NotImplementedError
+        self.model = LLM(
+            model=self.model_save_path,
+            tensor_parallel_size=self.gpus,
+        )
+        self.sampling_params = SamplingParams(temperature=0.01, max_tokens=8192)
 
-    @abstractmethod
     def chat(self):
         """chat with model
 
@@ -81,28 +239,47 @@ class Chat:
         Raises:
             NotImplementedError: _description_
         """
-        raise NotImplementedError
+        message = {"role": "user", "content": self.require_prompt}
+        self.chat_history.append(message)
+
+        outputs: list = self.model.chat(
+            self.chat_history, sampling_params=self.sampling_params, use_tqdm=False
+        )
+        output = outputs[0].outputs[0].text
+
+        self.logger.info("model: %s, finished", self.model_name)
+        # print(outputs[0]["generated_text"])
+        # print(outputs[0]["generated_text"][-1])
+        convert = ConvertToJSON(output, self.model_name, self.logger)
+        return convert.convert(self.model_name)
 
 
 class Llama38BInstruct(Chat):
-    """Llama 3 8B chat model"""
+    """Llama 3.1 8B instruct chat model"""
 
     def __init__(self):
-        full_model_path = f"{model_save_folder}/Meta-Llama-3-8B-Instruct"
+        # full_model_path = f"{model_save_folder}/Meta-Llama-3.1-8B-Instruct"
         super().__init__(
-            model_name="Meta-Llama-3-8B-Instruct", model_save_path=full_model_path
+            model_name="Meta-Llama-3.1-8B-Instruct",
+            model_save_path="/data/xiaoyang/models/meta-llama/Meta-Llama-3.1-8B-Instruct",
         )
 
     def init_model(self):
         """init model"""
-        self.model = transformers.pipeline(
-            "text-generation",
-            model=self.model_save_path,
-            model_kwargs={"torch_dtype": torch.bfloat16},
-            device_map="auto",
-        )
+        # self.model = transformers.pipeline(
+        #     "text-generation",
+        #     model=self.model_save_path,
+        #     model_kwargs={"torch_dtype": torch.bfloat16},
+        #     device_map="auto",
+        # )
 
-    def chat(self, text):
+        self.model = LLM(
+            model="/data/xiaoyang/models/meta-llama/Meta-Llama-3.1-8B-Instruct",
+            tensor_parallel_size=4,
+        )
+        self.sampling_params = SamplingParams(temperature=0.01, max_tokens=8192)
+
+    def chat(self):
         """chat with model
 
         Args:
@@ -111,67 +288,46 @@ class Llama38BInstruct(Chat):
         Raises:
             NotImplementedError: _description_
         """
-        message = {"role": "user", "content": text}
+        message = {"role": "user", "content": self.require_prompt}
         self.chat_history.append(message)
-        terminators = [
-            self.model.tokenizer.eos_token_id,
-            self.model.tokenizer.convert_tokens_to_ids("<|eot_id|>"),
-        ]
+        # terminators = [
+        #     self.model.tokenizer.eos_token_id,
+        #     self.model.tokenizer.convert_tokens_to_ids("<|eot_id|>"),
+        # ]
 
-        outputs = self.model(
-            self.chat_history,
-            max_new_tokens=8192,
-            eos_token_id=terminators,
-            do_sample=True,
-            temperature=0.01,
-            top_p=0.9,
+        # outputs = self.model(
+        #     self.chat_history,
+        #     max_new_tokens=16000,
+        #     eos_token_id=terminators,
+        #     do_sample=True,
+        #     temperature=0.01,
+        #     top_p=0.9,
+        # )
+
+        outputs: list = self.model.chat(
+            self.chat_history, sampling_params=self.sampling_params, use_tqdm=False
         )
-        return outputs
+        output = outputs[0].outputs[0].text
+
+        inference3_logger.info("model: %s, finished", self.model_name)
+        # print(outputs[0]["generated_text"])
+        # print(outputs[0]["generated_text"][-1])
+        convert = ConvertToJSON(output, self.model_name, inference3_logger)
+        return convert.convert_llama()
 
 
 class Llama370BInstruct(Chat):
-    """Llama 3 70B chat model"""
+    """Llama 3.1 70B chat model"""
 
     def __init__(self):
-        full_model_path = f"{model_save_folder}/Meta-Llama-3-70B-Instruct"
+        full_model_path = "/data/xiaoyang/models/meta-llama/Meta-Llama-3.1-70B-Instruct"
         super().__init__(
-            model_name="Meta-Llama-3-70B-Instruct", model_save_path=full_model_path
+            model_name="Meta-Llama-3.1-70B-Instruct", model_save_path=full_model_path,
+            gpus=4,
+            logger=inference2_logger
         )
 
-    def init_model(self):
-        """init model"""
-        self.model = transformers.pipeline(
-            "text-generation",
-            model=self.model_save_path,
-            model_kwargs={"torch_dtype": torch.bfloat16},
-            device_map="auto",
-        )
-
-    def chat(self, text):
-        """chat with model
-
-        Args:
-            text (_type_): user input content
-
-        Raises:
-            NotImplementedError: _description_
-        """
-        message = {"role": "user", "content": text}
-        self.chat_history.append(message)
-        terminators = [
-            self.model.tokenizer.eos_token_id,
-            self.model.tokenizer.convert_tokens_to_ids("<|eot_id|>"),
-        ]
-
-        outputs = self.model(
-            self.chat_history,
-            max_new_tokens=8192,
-            eos_token_id=terminators,
-            do_sample=True,
-            temperature=0.01,
-            top_p=0.9,
-        )
-        return outputs
+    
 
 
 class Mistra7BInstructV03(Chat):
@@ -185,11 +341,10 @@ class Mistra7BInstructV03(Chat):
 
     def init_model(self):
         """init model"""
-        self.model = transformers.pipeline(
-            "text-generation", model=self.model_save_path
-        )
+        self.model = LLM(model=self.model_save_path, tensor_parallel_size=1)
+        self.sampling_params = SamplingParams(temperature=0.01, max_tokens=8192)
 
-    def chat(self, text):
+    def chat(self):
         """chat with model
 
         Args:
@@ -198,50 +353,47 @@ class Mistra7BInstructV03(Chat):
         Raises:
             NotImplementedError: _description_
         """
-        message = {"role": "user", "content": self.sysytem_prompt + "\n" + text}
-        self.chat_history = [message]
+        # message = {"role": "user", "content": self.require_prompt}
+        self.chat_history[0]["role"] = "user"
+        self.chat_history[0]["content"] += "\n" + self.require_prompt
+        # terminators = [
+        #     self.model.tokenizer.eos_token_id,
+        #     self.model.tokenizer.convert_tokens_to_ids("<|eot_id|>"),
+        # ]
 
-        outputs = self.model(
-            self.chat_history,
-            temperature=0.0,
-            max_new_tokens=8192,
+        # outputs = self.model(
+        #     self.chat_history,
+        #     max_new_tokens=16000,
+        #     eos_token_id=terminators,
+        #     do_sample=True,
+        #     temperature=0.01,
+        #     top_p=0.9,
+        # )
+
+        outputs: list = self.model.chat(
+            self.chat_history, sampling_params=self.sampling_params, use_tqdm=False
         )
-        return outputs
+        output = outputs[0].outputs[0].text
+
+        inference2_logger.info("model: %s, finished", self.model_name)
+        # print(outputs[0]["generated_text"])
+        # print(outputs[0]["generated_text"][-1])
+        convert = ConvertToJSON(output, self.model_name, inference2_logger)
+        return convert.convert_mistra()
 
 
 class Mistra87BInstructV01(Chat):
     """mistralai/Mixtral-8x7B-Instruct-v0.1"""
 
     def __init__(self):
-        full_model_path = f"{model_save_folder}/Mixtral-8x7B-Instruct-v0.1"
+        full_model_path = "/data/xiaoyang/models/mistralai/Mixtral-8x7B-Instruct-v0.1"
         super().__init__(
-            model_name="Mixtral-8x7B-Instruct-v0.1", model_save_path=full_model_path
+            model_name="Mixtral-8x7B-Instruct-v0.1", model_save_path=full_model_path,
+            gpus=4,
+            logger=inference2_logger
         )
 
-    def init_model(self):
-        """init model"""
-        self.model = transformers.pipeline(
-            "text-generation", model=self.model_save_path
-        )
-
-    def chat(self, text):
-        """chat with model
-
-        Args:
-            text (_type_): user input content
-
-        Raises:
-            NotImplementedError: _description_
-        """
-        message = {"role": "user", "content": self.sysytem_prompt + "\n" + text}
-        self.chat_history = [message]
-
-        outputs = self.model(
-            self.chat_history,
-            temperature=0.0,
-            max_new_tokens=8192,
-        )
-        return outputs
+    
 
 
 class QWen27BInstruct(Chat):
@@ -252,6 +404,7 @@ class QWen27BInstruct(Chat):
         super().__init__(
             model_name="Qwen2-7B-Instruct", model_save_path=full_model_path
         )
+        self.require_prompt = """answer the 71 question, and response in JSON format:{[question_id]:[a, b, c or d], [question_id]:a, b, c or d, ...}. for example: {"type_d_how_1":"a","type_d_how_2":"b","type_d_how_3":"c"}"""
 
     def init_model(self):
         """init model"""
@@ -262,7 +415,7 @@ class QWen27BInstruct(Chat):
             device_map="auto",
         )
 
-    def chat(self, text):
+    def chat(self):
         """chat with model
 
         Args:
@@ -272,32 +425,39 @@ class QWen27BInstruct(Chat):
             NotImplementedError: _description_
         """
 
-        message = {"role": "user", "content": text}
+        message = {"role": "user", "content": self.require_prompt}
         self.chat_history.append(message)
 
         outputs = self.model(self.chat_history, max_new_tokens=8192, temperature=0.01)
-        return outputs
+        # print(outputs[0]["generated_text"])
+        # print(outputs[0]["generated_text"][-1])
+        convert = ConvertToJSON(
+            outputs[0]["generated_text"][-1]["content"],
+            self.model_name,
+            inference2_logger,
+        )
+        return convert.convert_qwen()
 
 
 class QWen272BInstruct(Chat):
     """Qwen/Qwen2-72B-Instruct"""
 
     def __init__(self):
-        full_model_path = f"{model_save_folder}/models--Qwen--Qwen2-72B-Instruct/snapshots/1af63c698f59c4235668ec9c1395468cb7cd7e79"
+        full_model_path = "/data/xiaoyang/models/Qwen/Qwen2-72B-Instruct"
         super().__init__(
             model_name="Qwen2-72B-Instruct", model_save_path=full_model_path
         )
+        self.require_prompt = """answer the 71 question, and response in JSON format:{[question_id]:[a, b, c or d], [question_id]:a, b, c or d, ...}. for example: {"type_d_how_1":"a","type_d_how_2":"b","type_d_how_3":"c"}"""
 
     def init_model(self):
         """init model"""
-        self.model = transformers.pipeline(
-            "text-generation",
+        self.model = LLM(
             model=self.model_save_path,
-            torch_dtype="auto",
-            device_map="auto",
+            tensor_parallel_size=8,
         )
+        self.sampling_params = SamplingParams(temperature=0.01, max_tokens=8192)
 
-    def chat(self, text):
+    def chat(self):
         """chat with model
 
         Args:
@@ -307,11 +467,20 @@ class QWen272BInstruct(Chat):
             NotImplementedError: _description_
         """
 
-        message = {"role": "user", "content": text}
+        message = {"role": "user", "content": self.require_prompt}
         self.chat_history.append(message)
 
-        outputs = self.model(self.chat_history, max_new_tokens=8192, temperature=0.01)
-        return outputs
+        outputs: list = self.model.chat(
+            self.chat_history, sampling_params=self.sampling_params, use_tqdm=False
+        )
+        output = outputs[0].outputs[0].text
+
+        inference3_logger.info("model: %s, finished", self.model_name)
+        # print(outputs[0]["generated_text"])
+        # print(outputs[0]["generated_text"][-1])
+        convert = ConvertToJSON(output, self.model_name, inference2_logger)
+        return convert.convert_qwen()
+
 
 
 class DeepSeekV2LiteChat(Chat):
@@ -325,9 +494,18 @@ class DeepSeekV2LiteChat(Chat):
 
     def init_model(self):
         """init model"""
-        pass
+        # model_name = "deepseek-ai/DeepSeek-V2-Lite-Chat"
+        # self.tokenizer = AutoTokenizer.from_pretrained(self.model_save_path, trust_remote_code=True)
+        # self.model = AutoModelForCausalLM.from_pretrained(self.model_save_path, trust_remote_code=True, torch_dtype=torch.bfloat16).cuda()
+        # self.model.generation_config = GenerationConfig.from_pretrained(self.model_save_path)
+        # self.model.generation_config.pad_token_id = self.model.generation_config.eos_token_id
 
-    def chat(self, text):
+        self.model = LLM(
+            model=self.model_save_path, tensor_parallel_size=4, trust_remote_code=True
+        )
+        self.sampling_params = SamplingParams(temperature=0.01, max_tokens=8192)
+
+    def chat(self):
         """chat with model
 
         Args:
@@ -337,10 +515,19 @@ class DeepSeekV2LiteChat(Chat):
             NotImplementedError: _description_
         """
 
-        message = {"role": "user", "content": text}
+        message = {"role": "user", "content": self.require_prompt}
         self.chat_history.append(message)
 
-        pass
+        outputs: list = self.model.chat(
+            self.chat_history, sampling_params=self.sampling_params, use_tqdm=False
+        )
+        output = outputs[0].outputs[0].text
+
+        inference3_logger.info("model: %s, finished", self.model_name)
+        # print(outputs[0]["generated_text"])
+        # print(outputs[0]["generated_text"][-1])
+        convert = ConvertToJSON(output, self.model_name, inference3_logger)
+        return convert.convert_deepseek()
 
 
 class GPT4Turbo(Chat):
@@ -385,14 +572,6 @@ class GPT4Turbo(Chat):
         content = unicodedata.normalize("NFKC", message.content)
 
         return convert_to_json(content, self.model_name)
-
-    def save_chat(self, text):
-        """save chat history into file
-
-        Args:
-            text (_type_): user input content
-        """
-        pass
 
 
 class GPT4O(GPT4Turbo):

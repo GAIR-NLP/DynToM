@@ -1,0 +1,178 @@
+{
+    "social setting": "university",
+    "social setting type": "Education",
+    "main character": "Matthew Tam",
+    "scenario numbers": 5,
+    "characters information": "**Main Character**: Matthew Tam, man, is a Architect whose race is Native Hawaiian and Other Pacific Islander. Matthew Tam obtained a high school, and has a esfj personality..**Supporting Characters**:- **1**: Linda Littlewhiteman, woman, is a Cashier whose race is American Indian. Linda Littlewhiteman obtained a doctorate degree, and has a isfj personality.",
+    "sketch": {
+        "relationships among characters": {
+            "main character with supporting character 1": "Matthew Tam and Linda Littlewhiteman are colleagues at a university where Matthew is an architect involved in campus development, and Linda, despite her high qualifications, works part-time as a cashier at the university bookstore. They share a professional but friendly relationship, often discussing university affairs and personal aspirations."
+        },
+        "mental states analysis in every scenario": {
+            "scenario 1": {
+                "belief": "Matthew believes Linda is underemployed and deserves a better position at the university.",
+                "emotion": "Matthew feels sympathetic and concerned about Linda's job situation.",
+                "intention": "Matthew intends to suggest Linda for a new project that could utilize her skills better.",
+                "action": "Matthew discusses Linda's qualifications and situation with the university's HR department.",
+                "influence": {
+                    "belief->emotion": "His belief in Linda's underemployment fuels his sympathy for her.",
+                    "belief&emotion->intention": "Feeling sympathetic and recognizing her potential, he intends to help her.",
+                    "intention->action": "His intention to assist Linda leads him to speak with HR."
+                }
+            },
+            "scenario 2": {
+                "belief": "Matthew believes the HR department is considering Linda for a project.",
+                "emotion": "Matthew feels hopeful but anxious about the outcome.",
+                "intention": "He plans to follow up with HR and prepare Linda for a potential interview.",
+                "action": "Matthew meets with Linda to discuss the possible opportunity and what it entails.",
+                "influence": {
+                    "belief->emotion": "His belief that HR is considering Linda makes him hopeful yet anxious.",
+                    "belief&emotion->intention": "Driven by hope and anxiety, he decides to take proactive steps.",
+                    "intention->action": "His plan to support Linda leads to a preparatory meeting with her."
+                }
+            },
+            "scenario 3": {
+                "belief": "Matthew believes there might be internal resistance to hiring Linda due to her current low position.",
+                "emotion": "Matthew feels frustrated and a bit discouraged.",
+                "intention": "He intends to gather support from other faculty to bolster Linda's application.",
+                "action": "Matthew starts informal discussions with influential faculty members about Linda's competence.",
+                "influence": {
+                    "belief->emotion": "His belief in potential resistance causes frustration.",
+                    "belief&emotion->intention": "Frustration and discouragement motivate him to seek more support.",
+                    "intention->action": "His intention to gather support translates into starting discussions."
+                }
+            },
+            "scenario 4": {
+                "belief": "Matthew believes that the faculty support has positively influenced the HR decision.",
+                "emotion": "He feels relieved and optimistic.",
+                "intention": "Matthew plans to encourage Linda to formally apply for the position.",
+                "action": "He advises Linda to apply and offers to help with her application.",
+                "influence": {
+                    "belief->emotion": "Belief in positive influence boosts his optimism.",
+                    "belief&emotion->intention": "Relief and optimism lead him to encourage Linda actively.",
+                    "intention->action": "His encouragement results in practical help with the application."
+                }
+            },
+            "scenario 5": {
+                "belief": "Matthew believes that Linda's chances are high after the application.",
+                "emotion": "He feels proud and excited for Linda.",
+                "intention": "He plans to celebrate the milestone and continue supporting her.",
+                "action": "Matthew organizes a small celebration with close colleagues.",
+                "influence": {
+                    "belief->emotion": "His belief in Linda's high chances makes him feel proud and excited.",
+                    "belief&emotion->intention": "Pride and excitement prompt plans for celebration.",
+                    "intention->action": "His intention to celebrate leads to organizing an event."
+                }
+            }
+        },
+        "analysis of mental states across scenarios": {
+            "Belief": {
+                "Changed": "True",
+                "1": "Linda is underemployed",
+                "2": "HR is considering Linda",
+                "3": "Resistance to hiring Linda",
+                "4": "Faculty support influences HR",
+                "5": "Linda's chances are high",
+                "Reasons": "1->2: Action in scenario 1; 2->3: New information about internal dynamics; 3->4: Outcome of actions in scenario 3; 4->5: Linda's application progress"
+            },
+            "Emotion": {
+                "Changed": "True",
+                "1": "Sympathetic, concerned",
+                "2": "Hopeful, anxious",
+                "3": "Frustrated, discouraged",
+                "4": "Relieved, optimistic",
+                "5": "Proud, excited",
+                "Reasons": "1->2: Change in belief about HR's consideration; 2->3: Belief about internal resistance; 3->4: Belief about positive faculty influence; 4->5: Belief about high chances after application"
+            },
+            "Intention": {
+                "Changed": "True",
+                "1": "Suggest Linda for a project",
+                "2": "Follow up with HR, prepare Linda",
+                "3": "Gather faculty support",
+                "4": "Encourage Linda to apply",
+                "5": "Celebrate and support",
+                "Reasons": "1->2: Emotional transition from concern to hope; 2->3: Increased frustration from scenario 2; 3->4: Relief from scenario 3; 4->5: Excitement from scenario 4"
+            },
+            "Action": {
+                "Changed": "True",
+                "1": "Talks to HR about Linda",
+                "2": "Prepares Linda for opportunity",
+                "3": "Discusses with faculty",
+                "4": "Helps with application",
+                "5": "Organizes celebration",
+                "Reasons": "1->2: Intention to support Linda; 2->3: Intention to overcome resistance; 3->4: Intention to secure position; 4->5: Intention to celebrate success"
+            }
+        }
+    },
+    "story": {
+        "scenario 1": {
+            "background": "Matthew Tam, an architect at the university, has observed Linda Littlewhiteman working as a cashier at the university bookstore. Knowing her qualifications, he believes she is underemployed and deserves a better position.",
+            "dialogue": [
+                {
+                    "Matthew": "Linda, I've noticed how well you handle your responsibilities here, and I can't help but think your skills are being underutilized.",
+                    "Linda": "Thank you, Matthew. I appreciate that. It's been challenging to find a position that matches my qualifications."
+                },
+                {
+                    "Matthew": "I believe there's a new project coming up that could really use your expertise. Have you considered applying for more specialized roles here at the university?",
+                    "Linda": "I've thought about it, but I wasn't sure if there were openings that suited my background."
+                },
+                {
+                    "Matthew": "I'll talk to HR about your situation. I think it's high time your talents are put to better use.",
+                    "Linda": "That would be wonderful. Thank you for believing in me, Matthew."
+                }
+            ]
+        },
+        "scenario 2": {
+            "background": "After discussing with HR, Matthew believes that they are considering Linda for a project. He feels hopeful but anxious about the outcome and decides to prepare Linda for a potential interview.",
+            "dialogue": [
+                {
+                    "Matthew": "Linda, I spoke with HR, and there's a good chance they might consider you for the project. How do you feel about that?",
+                    "Linda": "Really? That's great news! I'm a bit nervous, though."
+                },
+                {
+                    "Matthew": "It's perfectly normal to feel that way. Let's sit down and go over what the project entails and how you can prepare for the interview.",
+                    "Linda": "I'd appreciate that. Your support means a lot to me."
+                }
+            ]
+        },
+        "scenario 3": {
+            "background": "Matthew has learned that there might be internal resistance to hiring Linda due to her current low position. He feels frustrated and decides to gather support from other faculty to bolster her application.",
+            "dialogue": [
+                {
+                    "Matthew": "I've heard some concerns from a few departments about your current position affecting your application. It's quite frustrating.",
+                    "Linda": "That's disheartening to hear. What do you think we should do?"
+                },
+                {
+                    "Matthew": "I'm planning to talk to some influential faculty members. We need to show them your true potential and how much you can contribute.",
+                    "Linda": "Thank you, Matthew. I really appreciate you taking a stand for me."
+                }
+            ]
+        },
+        "scenario 4": {
+            "background": "After gathering faculty support, Matthew believes that their positive influence has significantly impacted HR's decision. He feels relieved and optimistic, and advises Linda to formally apply for the position.",
+            "dialogue": [
+                {
+                    "Matthew": "The support from the faculty has been overwhelming, Linda. I think it's made a big difference with HR.",
+                    "Linda": "That's incredible! What should be my next step?"
+                },
+                {
+                    "Matthew": "It's time to put in your formal application. I'll help you with it to ensure everything is perfect.",
+                    "Linda": "I can't thank you enough, Matthew. Let's get started."
+                }
+            ]
+        },
+        "scenario 5": {
+            "background": "Following Linda's application, Matthew believes her chances of getting the project are high. He feels proud and excited for her and organizes a small celebration with close colleagues.",
+            "dialogue": [
+                {
+                    "Matthew": "Linda, your application was outstanding. I'm confident you'll get the project. Let's celebrate this milestone!",
+                    "Linda": "I'm overwhelmed, Matthew. Thank you for everything. This celebration means a lot."
+                },
+                {
+                    "Matthew": "It's just a small token of appreciation for all your hard work. Here's to new beginnings and great success!",
+                    "Linda": "Cheers to that, and to having such a supportive colleague!"
+                }
+            ]
+        }
+    }
+}

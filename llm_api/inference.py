@@ -9,16 +9,16 @@ from util.logger import inference_logger
 
 
 model_name_2_class = {
-    "Meta-Llama-3-8B-Instruct": Llama38BInstruct,
-    "Meta-Llama-3-70B-Instruct": Llama370BInstruct,
-    "Mistral-7B-Instruct-v0.3": Mistra7BInstructV03,
-    # "Mixtral-8x7B-Instruct-v0.1":Mistra87BInstructV01,
-    "Qwen2-7B-Instruct": QWen27BInstruct,
-    "Qwen2-72B-Instruct": QWen272BInstruct,
-    "DeepSeek-V2-Lite-Chat": DeepSeekV2LiteChat,
-    "gpt-4-turbo-2024-04-09": GPT4Turbo,
-    "gpt-3.5-turbo-0125": GPT3Point5,
-    "gpt-4o-2024-05-13":GPT4O
+    "Meta-Llama-3.1-8B-Instruct": Llama38BInstruct, # done
+    "Meta-Llama-3.1-70B-Instruct": Llama370BInstruct,
+    "Mistral-7B-Instruct-v0.3": Mistra7BInstructV03, #done
+    "Mixtral-8x7B-Instruct-v0.1":Mistra87BInstructV01,
+    "Qwen2-7B-Instruct": QWen27BInstruct, #done
+    "Qwen2-72B-Instruct": QWen272BInstruct, #done
+    "DeepSeek-V2-Lite-Chat": DeepSeekV2LiteChat, # done
+    "gpt-4-turbo-2024-04-09": GPT4Turbo, # done
+    "gpt-3.5-turbo-0125": GPT3Point5, # done
+    "gpt-4o-2024-05-13":GPT4O # done
 }
 
 
@@ -115,7 +115,7 @@ def main(model_names, scripts, levels):
 
 
 if __name__ == "__main__":
-    scrip_ids = range(57,250)
+    scrip_ids = range(559,560)
     
     models = ["gpt-4-turbo-2024-04-09", "gpt-4o-2024-05-13"]
     #models = [ "gpt-4o-2024-05-13"]
