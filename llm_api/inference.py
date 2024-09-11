@@ -12,13 +12,16 @@ model_name_2_class = {
     "Meta-Llama-3.1-8B-Instruct": Llama38BInstruct, # done
     "Meta-Llama-3.1-70B-Instruct": Llama370BInstruct,
     "Mistral-7B-Instruct-v0.3": Mistra7BInstructV03, #done
-    "Mixtral-8x7B-Instruct-v0.1":Mistra87BInstructV01,
+    "Mixtral-8x7B-Instruct-v0.1":Mistra87BInstructV01, #done
     "Qwen2-7B-Instruct": QWen27BInstruct, #done
     "Qwen2-72B-Instruct": QWen272BInstruct, #done
     "DeepSeek-V2-Lite-Chat": DeepSeekV2LiteChat, # done
     "gpt-4-turbo-2024-04-09": GPT4Turbo, # done
-    "gpt-3.5-turbo-0125": GPT3Point5, # done
-    "gpt-4o-2024-05-13":GPT4O # done
+    # "gpt-3.5-turbo-0125": GPT3Point5, # done
+    "gpt-4o-2024-05-13":GPT4O, # done
+    "Yi-1.5-34B-Chat-16K":Yi34B,
+    "Yi-1.5-9B-Chat-16K":Yi9B,
+    "glm-4-9b-chat":GLM, # done
 }
 
 

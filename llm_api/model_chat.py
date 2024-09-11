@@ -70,6 +70,11 @@ class ConvertToJSON:
         self.content = self.content[self.content.find("{") :]
         self.content = self.content[: self.content.find("}") + 1]
 
+        if self.content == "":
+            self.logger.error("model: %s, content is empty", self.model_name)
+            self.content = "{}"
+            # print(self.content
+
         return self.convert_to_json()
 
     def convert_deepseek(self):
@@ -97,9 +102,14 @@ class ConvertToJSON:
 
         self.content = self.content[self.content.find("{") :]
         self.content = self.content[: self.content.find("}") + 1]
-        
-        self.content=self.content.replace("\\","")
-        
+
+        self.content = self.content.replace("\\", "")
+
+        if self.content == "":
+            self.logger.error("model: %s, content is empty", self.model_name)
+            self.content = "{}"
+            # print(self.content)
+
         content_dic = self.convert_to_json()
         keys = list(content_dic.keys())
         for key in keys:
@@ -126,6 +136,38 @@ class ConvertToJSON:
 
         return content_dic
 
+    def convert_yi(self):
+        """remove useless content
+
+        Returns:
+            _type_: _description_
+        """
+        self.content = self.content[self.content.find("{") :]
+        self.content = self.content[: self.content.find("}") + 1]
+
+        if self.content == "":
+            self.logger.error("model: %s, content is empty", self.model_name)
+            self.content = "{}"
+            # print(self.content
+
+        return self.convert_to_json()
+    
+    def convert_glm(self):
+        """remove useless content
+
+        Returns:
+            _type_: _description_
+        """
+        self.content = self.content[self.content.find("{") :]
+        self.content = self.content[: self.content.find("}") + 1]
+
+        if self.content == "":
+            self.logger.error("model: %s, content is empty", self.model_name)
+            self.content = "{}"
+            # print(self.content
+
+        return self.convert_to_json()
+    
     def convert(self, model_name):
         """factory method, convert content to json format according to model name
 
@@ -137,13 +179,19 @@ class ConvertToJSON:
         """
         if "llama" in model_name.lower():
             return self.convert_llama()
-        
+
         if "mixtral" in model_name.lower():
             return self.convert_mistra()
 
         if "mistral" in model_name.lower():
             return self.convert_mistra()
-    
+
+        if "yi" in model_name.lower():
+            return self.convert_yi()
+        
+        if "glm" in model_name.lower():
+            return self.convert_glm()
+
     def convert_to_json(self):
         """turn str to dict object
 
@@ -195,13 +243,13 @@ def convert_to_json(content, model_name):
 class Chat:
     """base class for chat model"""
 
-    def __init__(self, model_name, model_save_path, gpus=1,logger=inference2_logger):
+    def __init__(self, model_name, model_save_path, gpus=1, logger=inference2_logger):
         self.model_name = model_name
         self.chat_history = []
         self.model_save_path = model_save_path
-        
-        self.gpus=gpus
-        self.logger=logger
+
+        self.gpus = gpus
+        self.logger = logger
 
         self.require_prompt = """answer the 71 question, and response in JSON format:{[question_id]:[a, b, c or d], [question_id]:a, b, c or d, ...}. for example: {"type_d_how_1":"a","type_d_how_2":"b","type_d_how_3":"c"}"""
 
@@ -219,7 +267,6 @@ class Chat:
         )
         self.chat_history = [{"role": "system", "content": self.sysytem_prompt}]
 
-    
     def init_model(self):
         """
         init model: use model_name to load model
@@ -227,6 +274,7 @@ class Chat:
         self.model = LLM(
             model=self.model_save_path,
             tensor_parallel_size=self.gpus,
+            trust_remote_code=True
         )
         self.sampling_params = SamplingParams(temperature=0.01, max_tokens=8192)
 
@@ -322,12 +370,11 @@ class Llama370BInstruct(Chat):
     def __init__(self):
         full_model_path = "/data/xiaoyang/models/meta-llama/Meta-Llama-3.1-70B-Instruct"
         super().__init__(
-            model_name="Meta-Llama-3.1-70B-Instruct", model_save_path=full_model_path,
-            gpus=4,
-            logger=inference2_logger
+            model_name="Meta-Llama-3.1-70B-Instruct",
+            model_save_path=full_model_path,
+            gpus=8,
+            logger=inference2_logger,
         )
-
-    
 
 
 class Mistra7BInstructV03(Chat):
@@ -388,12 +435,11 @@ class Mistra87BInstructV01(Chat):
     def __init__(self):
         full_model_path = "/data/xiaoyang/models/mistralai/Mixtral-8x7B-Instruct-v0.1"
         super().__init__(
-            model_name="Mixtral-8x7B-Instruct-v0.1", model_save_path=full_model_path,
+            model_name="Mixtral-8x7B-Instruct-v0.1",
+            model_save_path=full_model_path,
             gpus=4,
-            logger=inference2_logger
+            logger=inference2_logger,
         )
-
-    
 
 
 class QWen27BInstruct(Chat):
@@ -480,7 +526,6 @@ class QWen272BInstruct(Chat):
         # print(outputs[0]["generated_text"][-1])
         convert = ConvertToJSON(output, self.model_name, inference2_logger)
         return convert.convert_qwen()
-
 
 
 class DeepSeekV2LiteChat(Chat):
@@ -624,6 +669,41 @@ class GPT3Point5(Chat):
 
         return convert_to_json(content, self.model_name)
 
+class Yi34B(Chat):
+    """Yi-1.5-34B-32K"""
+
+    def __init__(self):
+        full_model_path = "/data/xiaoyang/models/01-ai/Yi-1.5-34B-Chat-16K"
+        super().__init__(
+            model_name="Yi-1.5-34B-Chat-16K",
+            model_save_path=full_model_path,
+            gpus=4,
+            logger=inference2_logger,
+        )
+
+class Yi9B(Chat):
+    """Yi-1.5-9B-32K"""
+
+    def __init__(self):
+        full_model_path = "/data/xiaoyang/models/01-ai/Yi-1.5-9B-Chat-16K"
+        super().__init__(
+            model_name="Yi-1.5-9B-Chat-16K",
+            model_save_path=full_model_path,
+            gpus=4,
+            logger=inference2_logger,
+        )
+
+class GLM(Chat):
+    """glm-4-9b-chat"""
+
+    def __init__(self):
+        full_model_path = "/data/xiaoyang/models/THUDM/glm-4-9b-chat"
+        super().__init__(
+            model_name="glm-4-9b-chat",
+            model_save_path=full_model_path,
+            gpus=4,
+            logger=inference2_logger,
+        )
 
 if __name__ == "__main__":
     pass

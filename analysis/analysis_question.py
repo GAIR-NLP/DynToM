@@ -614,7 +614,7 @@ def overall_analysis(script_ids, model, information_level):
 
 if __name__ == "__main__":
     scripts = range(50, 1050)
-    models = ["Qwen2-72B-Instruct"]
+    models = ["Mixtral-8x7B-Instruct-v0.1"]
 
     for script_id in scripts:
         for model in models:

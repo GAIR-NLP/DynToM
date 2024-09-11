@@ -191,7 +191,7 @@ if __name__ == "__main__":
 
     scrip_ids = range(50, 1050)
     level = "level1"
-    model = "Qwen2-72B-Instruct"
+    model = "Mixtral-8x7B-Instruct-v0.1"
     overal_analysis(scrip_ids, model, level)
     
     # model = "gpt-4o-2024-05-13"
