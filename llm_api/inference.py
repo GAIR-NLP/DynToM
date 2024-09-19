@@ -7,6 +7,8 @@ from analysis.statistic import calculate_accuracy
 from util import logger
 from util.logger import inference_logger
 
+from util.random_id_cot import cot_list
+
 
 model_name_2_class = {
     "Meta-Llama-3.1-8B-Instruct": Llama38BInstruct, # done
@@ -29,7 +31,7 @@ def store_answer(
     answers: dict,
     script_id: int,
     model_name: str,
-    information_type="level1",
+    information_type,
 ):
     """store the answers to the database for the given script_id"""
 
@@ -42,7 +44,7 @@ def store_answer(
 def run_inference(
     model_name,
     script_id: int,
-    information_type="level1",
+    information_type,
 ):
     """run inference to get answers for the questions
 
@@ -118,13 +120,14 @@ def main(model_names, scripts, levels):
 
 
 if __name__ == "__main__":
-    scrip_ids = range(1160,1170)
+    #scrip_ids = range(50,70)
+    scrip_ids=cot_list
     
     models = ["gpt-4-turbo-2024-04-09", "gpt-4o-2024-05-13"]
     #models = [ "gpt-4o-2024-05-13"]
     
     # levels = ["level1", "level2"]
     # levels = ["level2"]
-    levels = ["level1"]
+    levels = ["level1CoT"]
     
     main(models, scrip_ids, levels)

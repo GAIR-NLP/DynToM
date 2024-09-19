@@ -28,7 +28,7 @@ def store_answer(
     answers: dict,
     script_id: int,
     model_name: str,
-    information_type="level1",
+    information_type,
 ):
     """store the answers to the database for the given script_id"""
 
@@ -41,7 +41,7 @@ def store_answer(
 def run_inference(
     model: Chat,
     script_id: int,
-    information_type="level1",
+    information_type,
 ):
     """run inference to get answers for the questions
 

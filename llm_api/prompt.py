@@ -18,7 +18,7 @@ def load_system_prompt(
     questions = json.load(open(path, encoding="UTF-8"))
 
     story = script["story"]
-    if information_type == "level1":
+    if information_type == "level1" or information_type == "level1CoT":
         # only dialogue
         for key, value in story.items():
             value.pop("background", None)
@@ -44,9 +44,14 @@ def load_system_prompt(
     )
    # print(f"num_tokens input: {num_tokens}")
 
-    system_prompt = (
-        f"""Answer all the {len(questions_new)} questions based on the story"""
-    )
+    if information_type == "level1":
+        system_prompt = (
+            f"""Answer all the {len(questions_new)} questions based on the story"""
+        )
+    elif information_type == "level1CoT":
+        system_prompt = (
+            f"""Answer all the {len(questions_new)} questions based on the story, Please first think step by step, conduct analysis on the answers to the questions, and finally output the most likely answers."""
+        )
 
     characters_information = script["characters information"]
     full_prompt = f"{system_prompt}\n{characters_information}\n{story}\n{questions_new}\n{system_prompt}"
