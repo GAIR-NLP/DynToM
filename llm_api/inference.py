@@ -19,8 +19,8 @@ model_name_2_class = {
     "gpt-4-turbo-2024-04-09": GPT4Turbo, # done
     # "gpt-3.5-turbo-0125": GPT3Point5, # done
     "gpt-4o-2024-05-13":GPT4O, # done
-    "Yi-1.5-34B-Chat-16K":Yi34B,
-    "Yi-1.5-9B-Chat-16K":Yi9B,
+    # "Yi-1.5-34B-Chat-16K":Yi34B,
+    # "Yi-1.5-9B-Chat-16K":Yi9B,
     "glm-4-9b-chat":GLM, # done
 }
 
@@ -118,7 +118,7 @@ def main(model_names, scripts, levels):
 
 
 if __name__ == "__main__":
-    scrip_ids = range(559,560)
+    scrip_ids = range(1160,1170)
     
     models = ["gpt-4-turbo-2024-04-09", "gpt-4o-2024-05-13"]
     #models = [ "gpt-4o-2024-05-13"]

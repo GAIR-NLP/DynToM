@@ -6,7 +6,7 @@ from llm_api.model_chat import *
 from analysis.statistic import calculate_accuracy
 from util.logger import inference2_logger
 
-os.environ["CUDA_VISIBLE_DEVICES"]="0,1,2,3,4,5,6,7"
+os.environ["CUDA_VISIBLE_DEVICES"]="4,1,2,3"
 
 
 model_name_2_class = {
@@ -119,9 +119,11 @@ def main(model: Chat, scripts, levels):
 
 
 if __name__ == "__main__":
-    scrip_ids = range(50, 1050)
+    scrip_ids = range(1150, 1170)
 
-    models = ["Meta-Llama-3.1-70B-Instruct"]
+    models = [
+        # "Meta-Llama-3.1-8B-Instruct",
+        "Meta-Llama-3.1-70B-Instruct"]
     # models = [ "gpt-4o-2024-05-13"]
 
     # levels = ["level1", "level2"]

@@ -191,6 +191,7 @@ def construct_story(
     _main_character: str,
     _characters_profiles: str,
     _story_sketch: str,
+    _scenario_number: int,
     _version: str = "trail2",
 ):
     """construct the story based on the template
@@ -210,6 +211,7 @@ def construct_story(
         characters_information=_characters_profiles,
         story_sketch=_story_sketch,
         json_format=STORY_JSON_FORMAT,
+        scenario_number=_scenario_number,
     )
 
 
@@ -365,7 +367,7 @@ class GPT4:
 #         return content
 
 
-def check_script_correct(script: dict):
+def check_script_correct(script: dict,_scenario_number:int):
     """check the script is correct or not
 
     if there is missing scenario in the analysis of mental states across scenarios, return False
@@ -378,11 +380,11 @@ def check_script_correct(script: dict):
         _type_: _description_
     """
     for mental_state in ["Belief", "Emotion", "Intention", "Action"]:
-        if len(script["analysis of mental states across scenarios"][mental_state]) != 7:
+        if len(script["analysis of mental states across scenarios"][mental_state]) != 2+_scenario_number:
             return False
         if ";" not in script["analysis of mental states across scenarios"][mental_state]["Reasons"]:
             return False
-        if len(script["analysis of mental states across scenarios"][mental_state]["Reasons"].split(";")) != 4:
+        if len(script["analysis of mental states across scenarios"][mental_state]["Reasons"].split(";")) != _scenario_number-1:
             return False
     return True
 
@@ -411,7 +413,7 @@ def generate_script_story(
     
     story_sketch = _model.chat(story_sketch_prompt, script_number)
     # make sure the script is correct
-    if not check_script_correct(story_sketch):
+    if not check_script_correct(story_sketch,_scenario_number):
         logger.error("script: %s, generate story sketch failed", script_number)
         return False
     logger.info("script: %s, generate story sketch finished", script_number)
@@ -420,6 +422,7 @@ def generate_script_story(
         main_character_name,
         characters_profiles,
         story_sketch,
+        _scenario_number=_scenario_number
     )
     complete_story = _model.chat(complete_story_prompt, script_number)
     logger.info("script: %s, generate complete story finished", script_number)
@@ -533,10 +536,10 @@ def pipeline(
 
 
 if __name__ == "__main__":
-    # model = GPT4(model_name="gpt-4o-2024-05-13")
-    model = GPT4(model_name="gpt-4-turbo-2024-04-09")
-    script_numbers = range(1043,1050)
+    model = GPT4(model_name="gpt-4o-2024-05-13")
+    #model = GPT4(model_name="gpt-4-turbo-2024-04-09")
+    script_numbers = range(1165,1170)
     number_of_characters = [2] * len(script_numbers)
-    scenario_numbers = [5] * len(script_numbers)
+    scenario_numbers = [4] * len(script_numbers)
 
     pipeline(model, script_numbers, number_of_characters, scenario_numbers)

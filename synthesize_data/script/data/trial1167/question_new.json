@@ -1,0 +1,3299 @@
+{
+    "type_d_how_1": {
+        "question": "How does the belief of Maria Standingrock change across the 4 scenarios?",
+        "true answer": "g",
+        "options": [
+            "a. Maria believes that Mark is meticulous and not deliberately causing trouble. -> Maria feels slightly relieved but still cautious. -> Maria believes that better communication has improved their relationship. -> Maria believes that Mark now respects her work style.",
+            "b. Maria believes that Mark is meticulous and not deliberately causing trouble. -> Maria believes that better communication has improved their relationship. -> Maria believes that Mark now respects her work style. -> Maria believes that Mark is deliberately making her work difficult.",
+            "c. Maria believes that Mark is meticulous and not deliberately causing trouble. -> Maria believes that Mark is deliberately making her work difficult. -> Maria believes that better communication has improved their relationship. -> Maria believes that Mark now respects her work style.",
+            "d. Maria believes that Mark is meticulous and not deliberately causing trouble. -> Maria believes that Mark is deliberately making her work difficult. -> Maria discusses future project plans. -> Maria believes that Mark now respects her work style.",
+            "e. Maria believes that Mark now respects her work style. -> Maria believes that better communication has improved their relationship. -> Maria believes that Mark is deliberately making her work difficult. -> Maria believes that Mark is meticulous and not deliberately causing trouble.",
+            "f. Maria intends to confront Mark. -> Maria believes that Mark is deliberately making her work difficult. -> Maria believes that better communication has improved their relationship. -> Maria believes that Mark now respects her work style.",
+            "g. Maria believes that Mark is deliberately making her work difficult. -> Maria believes that Mark is meticulous and not deliberately causing trouble. -> Maria believes that better communication has improved their relationship. -> Maria believes that Mark now respects her work style.",
+            "h. Maria believes that Mark is meticulous and not deliberately causing trouble. -> Maria believes that Mark is deliberately making her work difficult. -> Maria believes that Mark now respects her work style."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Maria believes that Mark is deliberately making her work difficult. -> Maria believes that Mark is meticulous and not deliberately causing trouble. -> Maria believes that better communication has improved their relationship. -> Maria believes that Mark now respects her work style.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Maria believes that Mark is meticulous and not deliberately causing trouble. -> Maria believes that better communication has improved their relationship. -> Maria believes that Mark now respects her work style. -> Maria believes that Mark is deliberately making her work difficult.",
+                "explain": "shuffle the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Maria believes that Mark is meticulous and not deliberately causing trouble. -> Maria believes that Mark is deliberately making her work difficult. -> Maria believes that better communication has improved their relationship. -> Maria believes that Mark now respects her work style.",
+                "explain": "change the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Maria believes that Mark now respects her work style. -> Maria believes that better communication has improved their relationship. -> Maria believes that Mark is deliberately making her work difficult. -> Maria believes that Mark is meticulous and not deliberately causing trouble.",
+                "explain": "reverse the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Maria believes that Mark is meticulous and not deliberately causing trouble. -> Maria believes that Mark is deliberately making her work difficult. -> Maria believes that Mark now respects her work style.",
+                "explain": "remove one belief in one time stage",
+                "reason": "test ability to recognize the completeness of the mental states",
+                "short": "type_d_how_recognize_time_stage_completeness"
+            },
+            {
+                "option": "Maria believes that Mark is meticulous and not deliberately causing trouble. -> Maria feels slightly relieved but still cautious. -> Maria believes that better communication has improved their relationship. -> Maria believes that Mark now respects her work style.",
+                "reason": "test ability to recognize the relationship between belief and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Maria intends to confront Mark. -> Maria believes that Mark is deliberately making her work difficult. -> Maria believes that better communication has improved their relationship. -> Maria believes that Mark now respects her work style.",
+                "reason": "test ability to recognize the relationship between belief and intention",
+                "explain": "intention change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Maria believes that Mark is meticulous and not deliberately causing trouble. -> Maria believes that Mark is deliberately making her work difficult. -> Maria discusses future project plans. -> Maria believes that Mark now respects her work style.",
+                "reason": "test ability to recognize the relationship between belief and action",
+                "explain": "action change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_how_2": {
+        "question": "How does the emotion of Maria Standingrock change across the 4 scenarios?",
+        "true answer": "a",
+        "options": [
+            "a. Maria feels frustrated and annoyed. -> Maria feels slightly relieved but still cautious. -> Maria feels optimistic and hopeful. -> Maria feels validated and content.",
+            "b. Maria feels slightly relieved but still cautious. -> Maria feels frustrated and annoyed. -> Maria feels optimistic and hopeful. -> Maria feels validated and content.",
+            "c. Maria approaches Mark in the showroom. -> Maria feels frustrated and annoyed. -> Maria feels optimistic and hopeful. -> Maria feels validated and content.",
+            "d. Maria feels slightly relieved but still cautious. -> Maria feels frustrated and annoyed. -> Maria believes that better communication has improved their relationship. -> Maria feels validated and content.",
+            "e. Maria feels slightly relieved but still cautious. -> Maria feels frustrated and annoyed. -> Maria feels optimistic and hopeful.",
+            "f. Maria feels slightly relieved but still cautious. -> Maria feels frustrated and annoyed. -> Maria intends to collaborate more closely. -> Maria feels validated and content.",
+            "g. Maria feels validated and content. -> Maria feels optimistic and hopeful. -> Maria feels frustrated and annoyed. -> Maria feels slightly relieved but still cautious.",
+            "h. Maria feels frustrated and annoyed. -> Maria feels validated and content. -> Maria feels slightly relieved but still cautious. -> Maria feels optimistic and hopeful."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Maria feels frustrated and annoyed. -> Maria feels slightly relieved but still cautious. -> Maria feels optimistic and hopeful. -> Maria feels validated and content.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Maria feels frustrated and annoyed. -> Maria feels validated and content. -> Maria feels slightly relieved but still cautious. -> Maria feels optimistic and hopeful.",
+                "explain": "shuffle the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Maria feels slightly relieved but still cautious. -> Maria feels frustrated and annoyed. -> Maria feels optimistic and hopeful. -> Maria feels validated and content.",
+                "explain": "change the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Maria feels validated and content. -> Maria feels optimistic and hopeful. -> Maria feels frustrated and annoyed. -> Maria feels slightly relieved but still cautious.",
+                "explain": "reverse the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Maria feels slightly relieved but still cautious. -> Maria feels frustrated and annoyed. -> Maria feels optimistic and hopeful.",
+                "explain": "remove one belief in one time stage",
+                "reason": "test ability to recognize the completeness of the mental states",
+                "short": "type_d_how_recognize_time_stage_completeness"
+            },
+            {
+                "option": "Maria feels slightly relieved but still cautious. -> Maria feels frustrated and annoyed. -> Maria believes that better communication has improved their relationship. -> Maria feels validated and content.",
+                "reason": "test ability to recognize the relationship between emotion and belief",
+                "explain": "belief change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Maria feels slightly relieved but still cautious. -> Maria feels frustrated and annoyed. -> Maria intends to collaborate more closely. -> Maria feels validated and content.",
+                "reason": "test ability to recognize the relationship between emotion and intention",
+                "explain": "intention change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Maria approaches Mark in the showroom. -> Maria feels frustrated and annoyed. -> Maria feels optimistic and hopeful. -> Maria feels validated and content.",
+                "reason": "test ability to recognize the relationship between emotion and action",
+                "explain": "action change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_how_3": {
+        "question": "How does the intention of Maria Standingrock change across the 4 scenarios?",
+        "true answer": "e",
+        "options": [
+            "a. Maria intends to confront Mark. -> Maria intends to collaborate more closely. -> Maria intends to improve communication. -> Maria intends to maintain the positive relationship.",
+            "b. Maria intends to maintain the positive relationship. -> Maria intends to collaborate more closely. -> Maria intends to confront Mark. -> Maria intends to improve communication.",
+            "c. Maria intends to confront Mark. -> Maria intends to improve communication. -> Maria intends to maintain the positive relationship.",
+            "d. Maria intends to confront Mark. -> Maria intends to collaborate more closely. -> Maria discusses future project plans. -> Maria intends to maintain the positive relationship.",
+            "e. Maria intends to confront Mark. -> Maria intends to improve communication. -> Maria intends to collaborate more closely. -> Maria intends to maintain the positive relationship.",
+            "f. Maria intends to confront Mark. -> Maria believes that Mark is deliberately making her work difficult. -> Maria intends to improve communication. -> Maria intends to maintain the positive relationship.",
+            "g. Maria feels slightly relieved but still cautious. -> Maria intends to collaborate more closely. -> Maria intends to improve communication. -> Maria intends to maintain the positive relationship.",
+            "h. Maria intends to maintain the positive relationship. -> Maria intends to improve communication. -> Maria intends to collaborate more closely. -> Maria intends to confront Mark."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Maria intends to confront Mark. -> Maria intends to improve communication. -> Maria intends to collaborate more closely. -> Maria intends to maintain the positive relationship.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Maria intends to maintain the positive relationship. -> Maria intends to collaborate more closely. -> Maria intends to confront Mark. -> Maria intends to improve communication.",
+                "explain": "shuffle the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Maria intends to confront Mark. -> Maria intends to collaborate more closely. -> Maria intends to improve communication. -> Maria intends to maintain the positive relationship.",
+                "explain": "change the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Maria intends to maintain the positive relationship. -> Maria intends to improve communication. -> Maria intends to collaborate more closely. -> Maria intends to confront Mark.",
+                "explain": "reverse the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Maria intends to confront Mark. -> Maria intends to improve communication. -> Maria intends to maintain the positive relationship.",
+                "explain": "remove one belief in one time stage",
+                "reason": "test ability to recognize the completeness of the mental states",
+                "short": "type_d_how_recognize_time_stage_completeness"
+            },
+            {
+                "option": "Maria intends to confront Mark. -> Maria believes that Mark is deliberately making her work difficult. -> Maria intends to improve communication. -> Maria intends to maintain the positive relationship.",
+                "reason": "test ability to recognize the relationship between intention and belief",
+                "explain": "belief change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Maria feels slightly relieved but still cautious. -> Maria intends to collaborate more closely. -> Maria intends to improve communication. -> Maria intends to maintain the positive relationship.",
+                "reason": "test ability to recognize the relationship between intention and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Maria intends to confront Mark. -> Maria intends to collaborate more closely. -> Maria discusses future project plans. -> Maria intends to maintain the positive relationship.",
+                "reason": "test ability to recognize the relationship between intention and action",
+                "explain": "action change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_how_4": {
+        "question": "How does the action of Maria Standingrock change across the 4 scenarios?",
+        "true answer": "a",
+        "options": [
+            "a. Maria approaches Mark in the showroom. -> Maria suggests regular update meetings. -> Maria discusses future project plans. -> Maria thanks Mark and suggests a team lunch.",
+            "b. Maria approaches Mark in the showroom. -> Maria thanks Mark and suggests a team lunch. -> Maria discusses future project plans. -> Maria suggests regular update meetings.",
+            "c. Maria approaches Mark in the showroom. -> Maria believes that Mark is deliberately making her work difficult. -> Maria discusses future project plans. -> Maria suggests regular update meetings.",
+            "d. Maria suggests regular update meetings. -> Maria discusses future project plans. -> Maria thanks Mark and suggests a team lunch. -> Maria approaches Mark in the showroom.",
+            "e. Maria approaches Mark in the showroom. -> Maria thanks Mark and suggests a team lunch. -> Maria discusses future project plans.",
+            "f. Maria approaches Mark in the showroom. -> Maria thanks Mark and suggests a team lunch. -> Maria intends to improve communication. -> Maria suggests regular update meetings.",
+            "g. Maria discusses future project plans. -> Maria suggests regular update meetings. -> Maria approaches Mark in the showroom. -> Maria thanks Mark and suggests a team lunch.",
+            "h. Maria approaches Mark in the showroom. -> Maria thanks Mark and suggests a team lunch. -> Maria feels optimistic and hopeful. -> Maria suggests regular update meetings."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Maria approaches Mark in the showroom. -> Maria suggests regular update meetings. -> Maria discusses future project plans. -> Maria thanks Mark and suggests a team lunch.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Maria discusses future project plans. -> Maria suggests regular update meetings. -> Maria approaches Mark in the showroom. -> Maria thanks Mark and suggests a team lunch.",
+                "explain": "shuffle the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Maria approaches Mark in the showroom. -> Maria thanks Mark and suggests a team lunch. -> Maria discusses future project plans. -> Maria suggests regular update meetings.",
+                "explain": "change the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Maria suggests regular update meetings. -> Maria discusses future project plans. -> Maria thanks Mark and suggests a team lunch. -> Maria approaches Mark in the showroom.",
+                "explain": "reverse the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Maria approaches Mark in the showroom. -> Maria thanks Mark and suggests a team lunch. -> Maria discusses future project plans.",
+                "explain": "remove one belief in one time stage",
+                "reason": "test ability to recognize the completeness of the mental states",
+                "short": "type_d_how_recognize_time_stage_completeness"
+            },
+            {
+                "option": "Maria approaches Mark in the showroom. -> Maria believes that Mark is deliberately making her work difficult. -> Maria discusses future project plans. -> Maria suggests regular update meetings.",
+                "reason": "test ability to recognize the relationship between action and belief",
+                "explain": "belief change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Maria approaches Mark in the showroom. -> Maria thanks Mark and suggests a team lunch. -> Maria feels optimistic and hopeful. -> Maria suggests regular update meetings.",
+                "reason": "test ability to recognize the relationship between action and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Maria approaches Mark in the showroom. -> Maria thanks Mark and suggests a team lunch. -> Maria intends to improve communication. -> Maria suggests regular update meetings.",
+                "reason": "test ability to recognize the relationship between action and intention",
+                "explain": "intention change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_1": {
+        "question": "Why does the belief of Maria Standingrock change from scenario 1 to scenario 2?",
+        "true answer": "k",
+        "options": [
+            "a. Improvement in communication engenders optimism",
+            "b. Collaboration success makes her feel validated.",
+            "c. Successful collaboration on projects.",
+            "d. Confrontation prompts proactive communication suggestion",
+            "e. Improved interaction leads to collaborative intentions",
+            "f. Positive working relationship leads to desire to maintain it.",
+            "g. Regular update meetings showing improved communication",
+            "h. Success in projects prompts further positive actions.",
+            "i. Outcome of confrontation leads to desire for better communication",
+            "j. Successful communication leads to planning",
+            "k. Confrontation and explanation from Mark",
+            "l. Mark's explanation makes her cautious but less frustrated"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Confrontation and explanation from Mark",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Regular update meetings showing improved communication",
+                "reason": "test ability to recognize the reason of belief change in different time stage",
+                "explain": "belief change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Successful collaboration on projects.",
+                "reason": "test ability to recognize the reason of belief change in different time stage",
+                "explain": "belief change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Mark's explanation makes her cautious but less frustrated",
+                "reason": "test ability to recognize the reason between belief and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Improvement in communication engenders optimism",
+                "reason": "test ability to recognize the reason between belief and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Collaboration success makes her feel validated.",
+                "reason": "test ability to recognize the reason between belief and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Outcome of confrontation leads to desire for better communication",
+                "reason": "test ability to recognize the reason between belief and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Improved interaction leads to collaborative intentions",
+                "reason": "test ability to recognize the reason between belief and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Positive working relationship leads to desire to maintain it.",
+                "reason": "test ability to recognize the reason between belief and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Confrontation prompts proactive communication suggestion",
+                "reason": "test ability to recognize the reason between belief and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Successful communication leads to planning",
+                "reason": "test ability to recognize the reason between belief and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Success in projects prompts further positive actions.",
+                "reason": "test ability to recognize the reason between belief and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_2": {
+        "question": "Why does the belief of Maria Standingrock change from scenario 2 to scenario 3?",
+        "true answer": "l",
+        "options": [
+            "a. Successful collaboration on projects.",
+            "b. Improvement in communication engenders optimism",
+            "c. Outcome of confrontation leads to desire for better communication",
+            "d. Confrontation prompts proactive communication suggestion",
+            "e. Improved interaction leads to collaborative intentions",
+            "f. Collaboration success makes her feel validated.",
+            "g. Confrontation and explanation from Mark",
+            "h. Success in projects prompts further positive actions.",
+            "i. Mark's explanation makes her cautious but less frustrated",
+            "j. Positive working relationship leads to desire to maintain it.",
+            "k. Successful communication leads to planning",
+            "l. Regular update meetings showing improved communication"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Regular update meetings showing improved communication",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Confrontation and explanation from Mark",
+                "reason": "test ability to recognize the reason of belief change in different time stage",
+                "explain": "belief change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Successful collaboration on projects.",
+                "reason": "test ability to recognize the reason of belief change in different time stage",
+                "explain": "belief change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Mark's explanation makes her cautious but less frustrated",
+                "reason": "test ability to recognize the reason between belief and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Improvement in communication engenders optimism",
+                "reason": "test ability to recognize the reason between belief and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Collaboration success makes her feel validated.",
+                "reason": "test ability to recognize the reason between belief and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Outcome of confrontation leads to desire for better communication",
+                "reason": "test ability to recognize the reason between belief and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Improved interaction leads to collaborative intentions",
+                "reason": "test ability to recognize the reason between belief and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Positive working relationship leads to desire to maintain it.",
+                "reason": "test ability to recognize the reason between belief and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Confrontation prompts proactive communication suggestion",
+                "reason": "test ability to recognize the reason between belief and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Successful communication leads to planning",
+                "reason": "test ability to recognize the reason between belief and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Success in projects prompts further positive actions.",
+                "reason": "test ability to recognize the reason between belief and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_3": {
+        "question": "Why does the belief of Maria Standingrock change from scenario 3 to scenario 4?",
+        "true answer": "g",
+        "options": [
+            "a. Success in projects prompts further positive actions.",
+            "b. Collaboration success makes her feel validated.",
+            "c. Mark's explanation makes her cautious but less frustrated",
+            "d. Confrontation and explanation from Mark",
+            "e. Confrontation prompts proactive communication suggestion",
+            "f. Positive working relationship leads to desire to maintain it.",
+            "g. Successful collaboration on projects.",
+            "h. Improvement in communication engenders optimism",
+            "i. Regular update meetings showing improved communication",
+            "j. Outcome of confrontation leads to desire for better communication",
+            "k. Improved interaction leads to collaborative intentions",
+            "l. Successful communication leads to planning"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Successful collaboration on projects.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Confrontation and explanation from Mark",
+                "reason": "test ability to recognize the reason of belief change in different time stage",
+                "explain": "belief change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Regular update meetings showing improved communication",
+                "reason": "test ability to recognize the reason of belief change in different time stage",
+                "explain": "belief change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Mark's explanation makes her cautious but less frustrated",
+                "reason": "test ability to recognize the reason between belief and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Improvement in communication engenders optimism",
+                "reason": "test ability to recognize the reason between belief and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Collaboration success makes her feel validated.",
+                "reason": "test ability to recognize the reason between belief and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Outcome of confrontation leads to desire for better communication",
+                "reason": "test ability to recognize the reason between belief and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Improved interaction leads to collaborative intentions",
+                "reason": "test ability to recognize the reason between belief and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Positive working relationship leads to desire to maintain it.",
+                "reason": "test ability to recognize the reason between belief and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Confrontation prompts proactive communication suggestion",
+                "reason": "test ability to recognize the reason between belief and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Successful communication leads to planning",
+                "reason": "test ability to recognize the reason between belief and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Success in projects prompts further positive actions.",
+                "reason": "test ability to recognize the reason between belief and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_4": {
+        "question": "Why does the emotion of Maria Standingrock change from scenario 1 to scenario 2?",
+        "true answer": "e",
+        "options": [
+            "a. Confrontation prompts proactive communication suggestion",
+            "b. Successful collaboration on projects.",
+            "c. Successful communication leads to planning",
+            "d. Outcome of confrontation leads to desire for better communication",
+            "e. Mark's explanation makes her cautious but less frustrated",
+            "f. Success in projects prompts further positive actions.",
+            "g. Confrontation and explanation from Mark",
+            "h. Regular update meetings showing improved communication",
+            "i. Collaboration success makes her feel validated.",
+            "j. Positive working relationship leads to desire to maintain it.",
+            "k. Improvement in communication engenders optimism",
+            "l. Improved interaction leads to collaborative intentions"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Mark's explanation makes her cautious but less frustrated",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Improvement in communication engenders optimism",
+                "reason": "test ability to recognize the reason of emotion change in different time stage",
+                "explain": "emotion change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Collaboration success makes her feel validated.",
+                "reason": "test ability to recognize the reason of emotion change in different time stage",
+                "explain": "emotion change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Confrontation and explanation from Mark",
+                "reason": "test ability to recognize the reason between emotion and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Regular update meetings showing improved communication",
+                "reason": "test ability to recognize the reason between emotion and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Successful collaboration on projects.",
+                "reason": "test ability to recognize the reason between emotion and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Outcome of confrontation leads to desire for better communication",
+                "reason": "test ability to recognize the reason between emotion and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Improved interaction leads to collaborative intentions",
+                "reason": "test ability to recognize the reason between emotion and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Positive working relationship leads to desire to maintain it.",
+                "reason": "test ability to recognize the reason between emotion and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Confrontation prompts proactive communication suggestion",
+                "reason": "test ability to recognize the reason between emotion and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Successful communication leads to planning",
+                "reason": "test ability to recognize the reason between emotion and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Success in projects prompts further positive actions.",
+                "reason": "test ability to recognize the reason between emotion and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_5": {
+        "question": "Why does the emotion of Maria Standingrock change from scenario 2 to scenario 3?",
+        "true answer": "c",
+        "options": [
+            "a. Collaboration success makes her feel validated.",
+            "b. Successful collaboration on projects.",
+            "c. Improvement in communication engenders optimism",
+            "d. Positive working relationship leads to desire to maintain it.",
+            "e. Confrontation prompts proactive communication suggestion",
+            "f. Improved interaction leads to collaborative intentions",
+            "g. Mark's explanation makes her cautious but less frustrated",
+            "h. Regular update meetings showing improved communication",
+            "i. Outcome of confrontation leads to desire for better communication",
+            "j. Successful communication leads to planning",
+            "k. Success in projects prompts further positive actions.",
+            "l. Confrontation and explanation from Mark"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Improvement in communication engenders optimism",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Mark's explanation makes her cautious but less frustrated",
+                "reason": "test ability to recognize the reason of emotion change in different time stage",
+                "explain": "emotion change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Collaboration success makes her feel validated.",
+                "reason": "test ability to recognize the reason of emotion change in different time stage",
+                "explain": "emotion change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Confrontation and explanation from Mark",
+                "reason": "test ability to recognize the reason between emotion and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Regular update meetings showing improved communication",
+                "reason": "test ability to recognize the reason between emotion and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Successful collaboration on projects.",
+                "reason": "test ability to recognize the reason between emotion and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Outcome of confrontation leads to desire for better communication",
+                "reason": "test ability to recognize the reason between emotion and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Improved interaction leads to collaborative intentions",
+                "reason": "test ability to recognize the reason between emotion and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Positive working relationship leads to desire to maintain it.",
+                "reason": "test ability to recognize the reason between emotion and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Confrontation prompts proactive communication suggestion",
+                "reason": "test ability to recognize the reason between emotion and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Successful communication leads to planning",
+                "reason": "test ability to recognize the reason between emotion and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Success in projects prompts further positive actions.",
+                "reason": "test ability to recognize the reason between emotion and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_6": {
+        "question": "Why does the emotion of Maria Standingrock change from scenario 3 to scenario 4?",
+        "true answer": "h",
+        "options": [
+            "a. Confrontation prompts proactive communication suggestion",
+            "b. Regular update meetings showing improved communication",
+            "c. Mark's explanation makes her cautious but less frustrated",
+            "d. Improved interaction leads to collaborative intentions",
+            "e. Successful collaboration on projects.",
+            "f. Positive working relationship leads to desire to maintain it.",
+            "g. Successful communication leads to planning",
+            "h. Collaboration success makes her feel validated.",
+            "i. Improvement in communication engenders optimism",
+            "j. Success in projects prompts further positive actions.",
+            "k. Confrontation and explanation from Mark",
+            "l. Outcome of confrontation leads to desire for better communication"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Collaboration success makes her feel validated.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Mark's explanation makes her cautious but less frustrated",
+                "reason": "test ability to recognize the reason of emotion change in different time stage",
+                "explain": "emotion change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Improvement in communication engenders optimism",
+                "reason": "test ability to recognize the reason of emotion change in different time stage",
+                "explain": "emotion change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Confrontation and explanation from Mark",
+                "reason": "test ability to recognize the reason between emotion and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Regular update meetings showing improved communication",
+                "reason": "test ability to recognize the reason between emotion and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Successful collaboration on projects.",
+                "reason": "test ability to recognize the reason between emotion and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Outcome of confrontation leads to desire for better communication",
+                "reason": "test ability to recognize the reason between emotion and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Improved interaction leads to collaborative intentions",
+                "reason": "test ability to recognize the reason between emotion and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Positive working relationship leads to desire to maintain it.",
+                "reason": "test ability to recognize the reason between emotion and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Confrontation prompts proactive communication suggestion",
+                "reason": "test ability to recognize the reason between emotion and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Successful communication leads to planning",
+                "reason": "test ability to recognize the reason between emotion and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Success in projects prompts further positive actions.",
+                "reason": "test ability to recognize the reason between emotion and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_7": {
+        "question": "Why does the intention of Maria Standingrock change from scenario 1 to scenario 2?",
+        "true answer": "b",
+        "options": [
+            "a. Success in projects prompts further positive actions.",
+            "b. Outcome of confrontation leads to desire for better communication",
+            "c. Regular update meetings showing improved communication",
+            "d. Mark's explanation makes her cautious but less frustrated",
+            "e. Confrontation and explanation from Mark",
+            "f. Successful collaboration on projects.",
+            "g. Confrontation prompts proactive communication suggestion",
+            "h. Collaboration success makes her feel validated.",
+            "i. Improved interaction leads to collaborative intentions",
+            "j. Successful communication leads to planning",
+            "k. Positive working relationship leads to desire to maintain it.",
+            "l. Improvement in communication engenders optimism"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Outcome of confrontation leads to desire for better communication",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Improved interaction leads to collaborative intentions",
+                "reason": "test ability to recognize the reason of intention change in different time stage",
+                "explain": "intention change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Positive working relationship leads to desire to maintain it.",
+                "reason": "test ability to recognize the reason of intention change in different time stage",
+                "explain": "intention change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Confrontation and explanation from Mark",
+                "reason": "test ability to recognize the reason between intention and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Regular update meetings showing improved communication",
+                "reason": "test ability to recognize the reason between intention and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Successful collaboration on projects.",
+                "reason": "test ability to recognize the reason between intention and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Mark's explanation makes her cautious but less frustrated",
+                "reason": "test ability to recognize the reason between intention and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Improvement in communication engenders optimism",
+                "reason": "test ability to recognize the reason between intention and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Collaboration success makes her feel validated.",
+                "reason": "test ability to recognize the reason between intention and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Confrontation prompts proactive communication suggestion",
+                "reason": "test ability to recognize the reason between intention and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Successful communication leads to planning",
+                "reason": "test ability to recognize the reason between intention and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Success in projects prompts further positive actions.",
+                "reason": "test ability to recognize the reason between intention and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_8": {
+        "question": "Why does the intention of Maria Standingrock change from scenario 2 to scenario 3?",
+        "true answer": "e",
+        "options": [
+            "a. Improvement in communication engenders optimism",
+            "b. Successful collaboration on projects.",
+            "c. Collaboration success makes her feel validated.",
+            "d. Mark's explanation makes her cautious but less frustrated",
+            "e. Improved interaction leads to collaborative intentions",
+            "f. Success in projects prompts further positive actions.",
+            "g. Confrontation prompts proactive communication suggestion",
+            "h. Successful communication leads to planning",
+            "i. Outcome of confrontation leads to desire for better communication",
+            "j. Regular update meetings showing improved communication",
+            "k. Confrontation and explanation from Mark",
+            "l. Positive working relationship leads to desire to maintain it."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Improved interaction leads to collaborative intentions",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Outcome of confrontation leads to desire for better communication",
+                "reason": "test ability to recognize the reason of intention change in different time stage",
+                "explain": "intention change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Positive working relationship leads to desire to maintain it.",
+                "reason": "test ability to recognize the reason of intention change in different time stage",
+                "explain": "intention change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Confrontation and explanation from Mark",
+                "reason": "test ability to recognize the reason between intention and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Regular update meetings showing improved communication",
+                "reason": "test ability to recognize the reason between intention and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Successful collaboration on projects.",
+                "reason": "test ability to recognize the reason between intention and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Mark's explanation makes her cautious but less frustrated",
+                "reason": "test ability to recognize the reason between intention and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Improvement in communication engenders optimism",
+                "reason": "test ability to recognize the reason between intention and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Collaboration success makes her feel validated.",
+                "reason": "test ability to recognize the reason between intention and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Confrontation prompts proactive communication suggestion",
+                "reason": "test ability to recognize the reason between intention and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Successful communication leads to planning",
+                "reason": "test ability to recognize the reason between intention and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Success in projects prompts further positive actions.",
+                "reason": "test ability to recognize the reason between intention and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_9": {
+        "question": "Why does the intention of Maria Standingrock change from scenario 3 to scenario 4?",
+        "true answer": "c",
+        "options": [
+            "a. Improved interaction leads to collaborative intentions",
+            "b. Confrontation and explanation from Mark",
+            "c. Positive working relationship leads to desire to maintain it.",
+            "d. Outcome of confrontation leads to desire for better communication",
+            "e. Successful collaboration on projects.",
+            "f. Confrontation prompts proactive communication suggestion",
+            "g. Successful communication leads to planning",
+            "h. Success in projects prompts further positive actions.",
+            "i. Mark's explanation makes her cautious but less frustrated",
+            "j. Collaboration success makes her feel validated.",
+            "k. Improvement in communication engenders optimism",
+            "l. Regular update meetings showing improved communication"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Positive working relationship leads to desire to maintain it.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Outcome of confrontation leads to desire for better communication",
+                "reason": "test ability to recognize the reason of intention change in different time stage",
+                "explain": "intention change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Improved interaction leads to collaborative intentions",
+                "reason": "test ability to recognize the reason of intention change in different time stage",
+                "explain": "intention change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Confrontation and explanation from Mark",
+                "reason": "test ability to recognize the reason between intention and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Regular update meetings showing improved communication",
+                "reason": "test ability to recognize the reason between intention and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Successful collaboration on projects.",
+                "reason": "test ability to recognize the reason between intention and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Mark's explanation makes her cautious but less frustrated",
+                "reason": "test ability to recognize the reason between intention and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Improvement in communication engenders optimism",
+                "reason": "test ability to recognize the reason between intention and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Collaboration success makes her feel validated.",
+                "reason": "test ability to recognize the reason between intention and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Confrontation prompts proactive communication suggestion",
+                "reason": "test ability to recognize the reason between intention and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Successful communication leads to planning",
+                "reason": "test ability to recognize the reason between intention and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Success in projects prompts further positive actions.",
+                "reason": "test ability to recognize the reason between intention and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_10": {
+        "question": "Why does the action of Maria Standingrock change from scenario 1 to scenario 2?",
+        "true answer": "d",
+        "options": [
+            "a. Regular update meetings showing improved communication",
+            "b. Positive working relationship leads to desire to maintain it.",
+            "c. Successful collaboration on projects.",
+            "d. Confrontation prompts proactive communication suggestion",
+            "e. Outcome of confrontation leads to desire for better communication",
+            "f. Mark's explanation makes her cautious but less frustrated",
+            "g. Collaboration success makes her feel validated.",
+            "h. Improvement in communication engenders optimism",
+            "i. Confrontation and explanation from Mark",
+            "j. Improved interaction leads to collaborative intentions",
+            "k. Successful communication leads to planning",
+            "l. Success in projects prompts further positive actions."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Confrontation prompts proactive communication suggestion",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Successful communication leads to planning",
+                "reason": "test ability to recognize the reason of action change in different time stage",
+                "explain": "action change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Success in projects prompts further positive actions.",
+                "reason": "test ability to recognize the reason of action change in different time stage",
+                "explain": "action change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Confrontation and explanation from Mark",
+                "reason": "test ability to recognize the reason between action and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Regular update meetings showing improved communication",
+                "reason": "test ability to recognize the reason between action and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Successful collaboration on projects.",
+                "reason": "test ability to recognize the reason between action and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Mark's explanation makes her cautious but less frustrated",
+                "reason": "test ability to recognize the reason between action and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Improvement in communication engenders optimism",
+                "reason": "test ability to recognize the reason between action and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Collaboration success makes her feel validated.",
+                "reason": "test ability to recognize the reason between action and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Outcome of confrontation leads to desire for better communication",
+                "reason": "test ability to recognize the reason between action and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Improved interaction leads to collaborative intentions",
+                "reason": "test ability to recognize the reason between action and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Positive working relationship leads to desire to maintain it.",
+                "reason": "test ability to recognize the reason between action and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_11": {
+        "question": "Why does the action of Maria Standingrock change from scenario 2 to scenario 3?",
+        "true answer": "a",
+        "options": [
+            "a. Successful communication leads to planning",
+            "b. Success in projects prompts further positive actions.",
+            "c. Confrontation and explanation from Mark",
+            "d. Outcome of confrontation leads to desire for better communication",
+            "e. Collaboration success makes her feel validated.",
+            "f. Successful collaboration on projects.",
+            "g. Positive working relationship leads to desire to maintain it.",
+            "h. Confrontation prompts proactive communication suggestion",
+            "i. Mark's explanation makes her cautious but less frustrated",
+            "j. Improvement in communication engenders optimism",
+            "k. Improved interaction leads to collaborative intentions",
+            "l. Regular update meetings showing improved communication"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Successful communication leads to planning",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Confrontation prompts proactive communication suggestion",
+                "reason": "test ability to recognize the reason of action change in different time stage",
+                "explain": "action change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Success in projects prompts further positive actions.",
+                "reason": "test ability to recognize the reason of action change in different time stage",
+                "explain": "action change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Confrontation and explanation from Mark",
+                "reason": "test ability to recognize the reason between action and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Regular update meetings showing improved communication",
+                "reason": "test ability to recognize the reason between action and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Successful collaboration on projects.",
+                "reason": "test ability to recognize the reason between action and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Mark's explanation makes her cautious but less frustrated",
+                "reason": "test ability to recognize the reason between action and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Improvement in communication engenders optimism",
+                "reason": "test ability to recognize the reason between action and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Collaboration success makes her feel validated.",
+                "reason": "test ability to recognize the reason between action and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Outcome of confrontation leads to desire for better communication",
+                "reason": "test ability to recognize the reason between action and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Improved interaction leads to collaborative intentions",
+                "reason": "test ability to recognize the reason between action and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Positive working relationship leads to desire to maintain it.",
+                "reason": "test ability to recognize the reason between action and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_12": {
+        "question": "Why does the action of Maria Standingrock change from scenario 3 to scenario 4?",
+        "true answer": "i",
+        "options": [
+            "a. Positive working relationship leads to desire to maintain it.",
+            "b. Mark's explanation makes her cautious but less frustrated",
+            "c. Successful collaboration on projects.",
+            "d. Outcome of confrontation leads to desire for better communication",
+            "e. Confrontation prompts proactive communication suggestion",
+            "f. Improved interaction leads to collaborative intentions",
+            "g. Successful communication leads to planning",
+            "h. Regular update meetings showing improved communication",
+            "i. Success in projects prompts further positive actions.",
+            "j. Confrontation and explanation from Mark",
+            "k. Collaboration success makes her feel validated.",
+            "l. Improvement in communication engenders optimism"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Success in projects prompts further positive actions.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Confrontation prompts proactive communication suggestion",
+                "reason": "test ability to recognize the reason of action change in different time stage",
+                "explain": "action change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Successful communication leads to planning",
+                "reason": "test ability to recognize the reason of action change in different time stage",
+                "explain": "action change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Confrontation and explanation from Mark",
+                "reason": "test ability to recognize the reason between action and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Regular update meetings showing improved communication",
+                "reason": "test ability to recognize the reason between action and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Successful collaboration on projects.",
+                "reason": "test ability to recognize the reason between action and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Mark's explanation makes her cautious but less frustrated",
+                "reason": "test ability to recognize the reason between action and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Improvement in communication engenders optimism",
+                "reason": "test ability to recognize the reason between action and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Collaboration success makes her feel validated.",
+                "reason": "test ability to recognize the reason between action and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Outcome of confrontation leads to desire for better communication",
+                "reason": "test ability to recognize the reason between action and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Improved interaction leads to collaborative intentions",
+                "reason": "test ability to recognize the reason between action and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Positive working relationship leads to desire to maintain it.",
+                "reason": "test ability to recognize the reason between action and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_whether_1": {
+        "question": "Whether the belief of Maria Standingrock change from scenario 1 to scenario 2? if yes, from what to what?",
+        "true answer": "b",
+        "options": [
+            "a. No",
+            "b. Yes, from Maria believes that Mark is deliberately making her work difficult. to Maria believes that Mark is meticulous and not deliberately causing trouble.",
+            "c. Yes, from Maria believes that better communication has improved their relationship. to Maria believes that Mark now respects her work style.",
+            "d. Yes, from Maria believes that Mark is meticulous and not deliberately causing trouble. to Maria believes that better communication has improved their relationship."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Maria believes that Mark is deliberately making her work difficult. to Maria believes that Mark is meticulous and not deliberately causing trouble.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the belief change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Maria believes that Mark is meticulous and not deliberately causing trouble. to Maria believes that better communication has improved their relationship.",
+                "reason": "test ability to recognize how the belief change in the correct time stage",
+                "explain": "how the belief change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Maria believes that better communication has improved their relationship. to Maria believes that Mark now respects her work style.",
+                "reason": "test ability to recognize how the belief change in the correct time stage",
+                "explain": "how the belief change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_2": {
+        "question": "Whether the belief of Maria Standingrock change from scenario 2 to scenario 3? if yes, from what to what?",
+        "true answer": "c",
+        "options": [
+            "a. Yes, from Maria believes that better communication has improved their relationship. to Maria believes that Mark now respects her work style.",
+            "b. Yes, from Maria believes that Mark is deliberately making her work difficult. to Maria believes that Mark is meticulous and not deliberately causing trouble.",
+            "c. Yes, from Maria believes that Mark is meticulous and not deliberately causing trouble. to Maria believes that better communication has improved their relationship.",
+            "d. No"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Maria believes that Mark is meticulous and not deliberately causing trouble. to Maria believes that better communication has improved their relationship.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the belief change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Maria believes that Mark is deliberately making her work difficult. to Maria believes that Mark is meticulous and not deliberately causing trouble.",
+                "reason": "test ability to recognize how the belief change in the correct time stage",
+                "explain": "how the belief change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Maria believes that better communication has improved their relationship. to Maria believes that Mark now respects her work style.",
+                "reason": "test ability to recognize how the belief change in the correct time stage",
+                "explain": "how the belief change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_3": {
+        "question": "Whether the belief of Maria Standingrock change from scenario 3 to scenario 4? if yes, from what to what?",
+        "true answer": "a",
+        "options": [
+            "a. Yes, from Maria believes that better communication has improved their relationship. to Maria believes that Mark now respects her work style.",
+            "b. Yes, from Maria believes that Mark is meticulous and not deliberately causing trouble. to Maria believes that better communication has improved their relationship.",
+            "c. Yes, from Maria believes that Mark is deliberately making her work difficult. to Maria believes that Mark is meticulous and not deliberately causing trouble.",
+            "d. No"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Maria believes that better communication has improved their relationship. to Maria believes that Mark now respects her work style.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the belief change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Maria believes that Mark is deliberately making her work difficult. to Maria believes that Mark is meticulous and not deliberately causing trouble.",
+                "reason": "test ability to recognize how the belief change in the correct time stage",
+                "explain": "how the belief change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Maria believes that Mark is meticulous and not deliberately causing trouble. to Maria believes that better communication has improved their relationship.",
+                "reason": "test ability to recognize how the belief change in the correct time stage",
+                "explain": "how the belief change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_4": {
+        "question": "Whether the emotion of Maria Standingrock change from scenario 1 to scenario 2? if yes, from what to what?",
+        "true answer": "b",
+        "options": [
+            "a. Yes, from Maria feels optimistic and hopeful. to Maria feels validated and content.",
+            "b. Yes, from Maria feels frustrated and annoyed. to Maria feels slightly relieved but still cautious.",
+            "c. No",
+            "d. Yes, from Maria feels slightly relieved but still cautious. to Maria feels optimistic and hopeful."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Maria feels frustrated and annoyed. to Maria feels slightly relieved but still cautious.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the emotion change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Maria feels slightly relieved but still cautious. to Maria feels optimistic and hopeful.",
+                "reason": "test ability to recognize how the emotion change in the correct time stage",
+                "explain": "how the emotion change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Maria feels optimistic and hopeful. to Maria feels validated and content.",
+                "reason": "test ability to recognize how the emotion change in the correct time stage",
+                "explain": "how the emotion change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_5": {
+        "question": "Whether the emotion of Maria Standingrock change from scenario 2 to scenario 3? if yes, from what to what?",
+        "true answer": "b",
+        "options": [
+            "a. Yes, from Maria feels frustrated and annoyed. to Maria feels slightly relieved but still cautious.",
+            "b. Yes, from Maria feels slightly relieved but still cautious. to Maria feels optimistic and hopeful.",
+            "c. No",
+            "d. Yes, from Maria feels optimistic and hopeful. to Maria feels validated and content."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Maria feels slightly relieved but still cautious. to Maria feels optimistic and hopeful.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the emotion change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Maria feels frustrated and annoyed. to Maria feels slightly relieved but still cautious.",
+                "reason": "test ability to recognize how the emotion change in the correct time stage",
+                "explain": "how the emotion change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Maria feels optimistic and hopeful. to Maria feels validated and content.",
+                "reason": "test ability to recognize how the emotion change in the correct time stage",
+                "explain": "how the emotion change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_6": {
+        "question": "Whether the emotion of Maria Standingrock change from scenario 3 to scenario 4? if yes, from what to what?",
+        "true answer": "d",
+        "options": [
+            "a. Yes, from Maria feels slightly relieved but still cautious. to Maria feels optimistic and hopeful.",
+            "b. No",
+            "c. Yes, from Maria feels frustrated and annoyed. to Maria feels slightly relieved but still cautious.",
+            "d. Yes, from Maria feels optimistic and hopeful. to Maria feels validated and content."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Maria feels optimistic and hopeful. to Maria feels validated and content.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the emotion change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Maria feels frustrated and annoyed. to Maria feels slightly relieved but still cautious.",
+                "reason": "test ability to recognize how the emotion change in the correct time stage",
+                "explain": "how the emotion change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Maria feels slightly relieved but still cautious. to Maria feels optimistic and hopeful.",
+                "reason": "test ability to recognize how the emotion change in the correct time stage",
+                "explain": "how the emotion change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_7": {
+        "question": "Whether the intention of Maria Standingrock change from scenario 1 to scenario 2? if yes, from what to what?",
+        "true answer": "a",
+        "options": [
+            "a. Yes, from Maria intends to confront Mark. to Maria intends to improve communication.",
+            "b. Yes, from Maria intends to collaborate more closely. to Maria intends to maintain the positive relationship.",
+            "c. Yes, from Maria intends to improve communication. to Maria intends to collaborate more closely.",
+            "d. No"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Maria intends to confront Mark. to Maria intends to improve communication.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the intention change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Maria intends to improve communication. to Maria intends to collaborate more closely.",
+                "reason": "test ability to recognize how the intention change in the correct time stage",
+                "explain": "how the intention change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Maria intends to collaborate more closely. to Maria intends to maintain the positive relationship.",
+                "reason": "test ability to recognize how the intention change in the correct time stage",
+                "explain": "how the intention change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_8": {
+        "question": "Whether the intention of Maria Standingrock change from scenario 2 to scenario 3? if yes, from what to what?",
+        "true answer": "a",
+        "options": [
+            "a. Yes, from Maria intends to improve communication. to Maria intends to collaborate more closely.",
+            "b. Yes, from Maria intends to confront Mark. to Maria intends to improve communication.",
+            "c. No",
+            "d. Yes, from Maria intends to collaborate more closely. to Maria intends to maintain the positive relationship."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Maria intends to improve communication. to Maria intends to collaborate more closely.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the intention change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Maria intends to confront Mark. to Maria intends to improve communication.",
+                "reason": "test ability to recognize how the intention change in the correct time stage",
+                "explain": "how the intention change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Maria intends to collaborate more closely. to Maria intends to maintain the positive relationship.",
+                "reason": "test ability to recognize how the intention change in the correct time stage",
+                "explain": "how the intention change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_9": {
+        "question": "Whether the intention of Maria Standingrock change from scenario 3 to scenario 4? if yes, from what to what?",
+        "true answer": "b",
+        "options": [
+            "a. Yes, from Maria intends to improve communication. to Maria intends to collaborate more closely.",
+            "b. Yes, from Maria intends to collaborate more closely. to Maria intends to maintain the positive relationship.",
+            "c. No",
+            "d. Yes, from Maria intends to confront Mark. to Maria intends to improve communication."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Maria intends to collaborate more closely. to Maria intends to maintain the positive relationship.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the intention change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Maria intends to confront Mark. to Maria intends to improve communication.",
+                "reason": "test ability to recognize how the intention change in the correct time stage",
+                "explain": "how the intention change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Maria intends to improve communication. to Maria intends to collaborate more closely.",
+                "reason": "test ability to recognize how the intention change in the correct time stage",
+                "explain": "how the intention change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_10": {
+        "question": "Whether the action of Maria Standingrock change from scenario 1 to scenario 2? if yes, from what to what?",
+        "true answer": "d",
+        "options": [
+            "a. No",
+            "b. Yes, from Maria discusses future project plans. to Maria thanks Mark and suggests a team lunch.",
+            "c. Yes, from Maria suggests regular update meetings. to Maria discusses future project plans.",
+            "d. Yes, from Maria approaches Mark in the showroom. to Maria suggests regular update meetings."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Maria approaches Mark in the showroom. to Maria suggests regular update meetings.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the action change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Maria suggests regular update meetings. to Maria discusses future project plans.",
+                "reason": "test ability to recognize how the action change in the correct time stage",
+                "explain": "how the action change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Maria discusses future project plans. to Maria thanks Mark and suggests a team lunch.",
+                "reason": "test ability to recognize how the action change in the correct time stage",
+                "explain": "how the action change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_11": {
+        "question": "Whether the action of Maria Standingrock change from scenario 2 to scenario 3? if yes, from what to what?",
+        "true answer": "a",
+        "options": [
+            "a. Yes, from Maria suggests regular update meetings. to Maria discusses future project plans.",
+            "b. Yes, from Maria discusses future project plans. to Maria thanks Mark and suggests a team lunch.",
+            "c. Yes, from Maria approaches Mark in the showroom. to Maria suggests regular update meetings.",
+            "d. No"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Maria suggests regular update meetings. to Maria discusses future project plans.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the action change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Maria approaches Mark in the showroom. to Maria suggests regular update meetings.",
+                "reason": "test ability to recognize how the action change in the correct time stage",
+                "explain": "how the action change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Maria discusses future project plans. to Maria thanks Mark and suggests a team lunch.",
+                "reason": "test ability to recognize how the action change in the correct time stage",
+                "explain": "how the action change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_12": {
+        "question": "Whether the action of Maria Standingrock change from scenario 3 to scenario 4? if yes, from what to what?",
+        "true answer": "c",
+        "options": [
+            "a. Yes, from Maria approaches Mark in the showroom. to Maria suggests regular update meetings.",
+            "b. No",
+            "c. Yes, from Maria discusses future project plans. to Maria thanks Mark and suggests a team lunch.",
+            "d. Yes, from Maria suggests regular update meetings. to Maria discusses future project plans."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Maria discusses future project plans. to Maria thanks Mark and suggests a team lunch.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the action change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Maria approaches Mark in the showroom. to Maria suggests regular update meetings.",
+                "reason": "test ability to recognize how the action change in the correct time stage",
+                "explain": "how the action change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Maria suggests regular update meetings. to Maria discusses future project plans.",
+                "reason": "test ability to recognize how the action change in the correct time stage",
+                "explain": "how the action change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_c_how_1": {
+        "question": "In scenario 1, how does the belief of Maria Standingrock influence the emotion of Maria Standingrock?",
+        "true answer": "a",
+        "options": [
+            "a. Maria's belief that Mark is acting deliberately makes her feel frustrated and annoyed.",
+            "b. Maria's revised belief lessens her frustration, making her feel relieved but cautious.",
+            "c. Maria's intention to confront Mark leads her to approach him in the showroom.",
+            "d. Maria's belief in improved relations makes her feel optimistic.",
+            "e. Because she believes Mark is causing trouble and feels annoyed, Maria decides to confront him."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "Maria's belief that Mark is acting deliberately makes her feel frustrated and annoyed.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Because she believes Mark is causing trouble and feels annoyed, Maria decides to confront him.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Maria's intention to confront Mark leads her to approach him in the showroom.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Maria's revised belief lessens her frustration, making her feel relieved but cautious.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in other time stage",
+                "explain": "how the belief influence emotion in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Maria's belief in improved relations makes her feel optimistic.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in other time stage",
+                "explain": "how the belief influence emotion in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_2": {
+        "question": "In scenario 2, how does the belief of Maria Standingrock influence the emotion of Maria Standingrock?",
+        "true answer": "d",
+        "options": [
+            "a. Maria's intention results in her suggesting regular update meetings.",
+            "b. Her new belief and cautious relief lead Maria to think about improving communication.",
+            "c. Maria's belief in improved relations makes her feel optimistic.",
+            "d. Maria's revised belief lessens her frustration, making her feel relieved but cautious.",
+            "e. Maria's belief that Mark is acting deliberately makes her feel frustrated and annoyed."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "Maria's revised belief lessens her frustration, making her feel relieved but cautious.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Her new belief and cautious relief lead Maria to think about improving communication.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Maria's intention results in her suggesting regular update meetings.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Maria's belief that Mark is acting deliberately makes her feel frustrated and annoyed.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in other time stage",
+                "explain": "how the belief influence emotion in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Maria's belief in improved relations makes her feel optimistic.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in other time stage",
+                "explain": "how the belief influence emotion in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_3": {
+        "question": "In scenario 3, how does the belief of Maria Standingrock influence the emotion of Maria Standingrock?",
+        "true answer": "d",
+        "options": [
+            "a. Maria's intention leads her to plan future projects with Mark.",
+            "b. Her optimistic belief and feelings push her to think about closer collaboration.",
+            "c. Maria's revised belief lessens her frustration, making her feel relieved but cautious.",
+            "d. Maria's belief in improved relations makes her feel optimistic.",
+            "e. Maria's belief that Mark is acting deliberately makes her feel frustrated and annoyed."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "Maria's belief in improved relations makes her feel optimistic.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Her optimistic belief and feelings push her to think about closer collaboration.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Maria's intention leads her to plan future projects with Mark.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Maria's belief that Mark is acting deliberately makes her feel frustrated and annoyed.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in other time stage",
+                "explain": "how the belief influence emotion in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Maria's revised belief lessens her frustration, making her feel relieved but cautious.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in other time stage",
+                "explain": "how the belief influence emotion in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_4": {
+        "question": "In scenario 4, how does the belief of Maria Standingrock influence the emotion of Maria Standingrock?",
+        "true answer": "b",
+        "options": [
+            "a. Maria's belief that Mark is acting deliberately makes her feel frustrated and annoyed.",
+            "b. Maria's belief in mutual respect makes her feel validated.",
+            "c. Maria's belief in improved relations makes her feel optimistic.",
+            "d. Maria's revised belief lessens her frustration, making her feel relieved but cautious.",
+            "e. Feeling validated, Maria intends to maintain the positive relationship.",
+            "f. Her intention results in her expressing gratitude and suggesting a team lunch."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "Maria's belief in mutual respect makes her feel validated.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Feeling validated, Maria intends to maintain the positive relationship.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Her intention results in her expressing gratitude and suggesting a team lunch.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Maria's belief that Mark is acting deliberately makes her feel frustrated and annoyed.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in other time stage",
+                "explain": "how the belief influence emotion in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Maria's revised belief lessens her frustration, making her feel relieved but cautious.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in other time stage",
+                "explain": "how the belief influence emotion in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Maria's belief in improved relations makes her feel optimistic.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in other time stage",
+                "explain": "how the belief influence emotion in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_5": {
+        "question": "In scenario 1, how does the belief&emotion of Maria Standingrock influence the intention of Maria Standingrock?",
+        "true answer": "d",
+        "options": [
+            "a. Her optimistic belief and feelings push her to think about closer collaboration.",
+            "b. Maria's belief that Mark is acting deliberately makes her feel frustrated and annoyed.",
+            "c. Her new belief and cautious relief lead Maria to think about improving communication.",
+            "d. Because she believes Mark is causing trouble and feels annoyed, Maria decides to confront him.",
+            "e. Maria's intention to confront Mark leads her to approach him in the showroom."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "Because she believes Mark is causing trouble and feels annoyed, Maria decides to confront him.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Maria's belief that Mark is acting deliberately makes her feel frustrated and annoyed.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Maria's intention to confront Mark leads her to approach him in the showroom.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Her new belief and cautious relief lead Maria to think about improving communication.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in other time stage",
+                "explain": "how the belief&emotion influence intention in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Her optimistic belief and feelings push her to think about closer collaboration.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in other time stage",
+                "explain": "how the belief&emotion influence intention in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_6": {
+        "question": "In scenario 2, how does the belief&emotion of Maria Standingrock influence the intention of Maria Standingrock?",
+        "true answer": "c",
+        "options": [
+            "a. Her optimistic belief and feelings push her to think about closer collaboration.",
+            "b. Because she believes Mark is causing trouble and feels annoyed, Maria decides to confront him.",
+            "c. Her new belief and cautious relief lead Maria to think about improving communication.",
+            "d. Maria's revised belief lessens her frustration, making her feel relieved but cautious.",
+            "e. Maria's intention results in her suggesting regular update meetings."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "Her new belief and cautious relief lead Maria to think about improving communication.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Maria's revised belief lessens her frustration, making her feel relieved but cautious.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Maria's intention results in her suggesting regular update meetings.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Because she believes Mark is causing trouble and feels annoyed, Maria decides to confront him.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in other time stage",
+                "explain": "how the belief&emotion influence intention in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Her optimistic belief and feelings push her to think about closer collaboration.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in other time stage",
+                "explain": "how the belief&emotion influence intention in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_7": {
+        "question": "In scenario 3, how does the belief&emotion of Maria Standingrock influence the intention of Maria Standingrock?",
+        "true answer": "e",
+        "options": [
+            "a. Maria's intention leads her to plan future projects with Mark.",
+            "b. Her new belief and cautious relief lead Maria to think about improving communication.",
+            "c. Maria's belief in improved relations makes her feel optimistic.",
+            "d. Because she believes Mark is causing trouble and feels annoyed, Maria decides to confront him.",
+            "e. Her optimistic belief and feelings push her to think about closer collaboration."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "Her optimistic belief and feelings push her to think about closer collaboration.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Maria's belief in improved relations makes her feel optimistic.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Maria's intention leads her to plan future projects with Mark.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Because she believes Mark is causing trouble and feels annoyed, Maria decides to confront him.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in other time stage",
+                "explain": "how the belief&emotion influence intention in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Her new belief and cautious relief lead Maria to think about improving communication.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in other time stage",
+                "explain": "how the belief&emotion influence intention in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_8": {
+        "question": "In scenario 4, how does the belief&emotion of Maria Standingrock influence the intention of Maria Standingrock?",
+        "true answer": "d",
+        "options": [
+            "a. Her optimistic belief and feelings push her to think about closer collaboration.",
+            "b. Her new belief and cautious relief lead Maria to think about improving communication.",
+            "c. Because she believes Mark is causing trouble and feels annoyed, Maria decides to confront him.",
+            "d. Feeling validated, Maria intends to maintain the positive relationship.",
+            "e. Maria's belief in mutual respect makes her feel validated.",
+            "f. Her intention results in her expressing gratitude and suggesting a team lunch."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "Feeling validated, Maria intends to maintain the positive relationship.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Maria's belief in mutual respect makes her feel validated.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Her intention results in her expressing gratitude and suggesting a team lunch.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Because she believes Mark is causing trouble and feels annoyed, Maria decides to confront him.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in other time stage",
+                "explain": "how the belief&emotion influence intention in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Her new belief and cautious relief lead Maria to think about improving communication.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in other time stage",
+                "explain": "how the belief&emotion influence intention in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Her optimistic belief and feelings push her to think about closer collaboration.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in other time stage",
+                "explain": "how the belief&emotion influence intention in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_9": {
+        "question": "In scenario 1, how does the intention of Maria Standingrock influence the action of Maria Standingrock?",
+        "true answer": "d",
+        "options": [
+            "a. Maria's intention leads her to plan future projects with Mark.",
+            "b. Maria's intention results in her suggesting regular update meetings.",
+            "c. Because she believes Mark is causing trouble and feels annoyed, Maria decides to confront him.",
+            "d. Maria's intention to confront Mark leads her to approach him in the showroom.",
+            "e. Maria's belief that Mark is acting deliberately makes her feel frustrated and annoyed."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "Maria's intention to confront Mark leads her to approach him in the showroom.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Maria's belief that Mark is acting deliberately makes her feel frustrated and annoyed.",
+                "reason": "test ability to correctly recognize how the intention influence action in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Because she believes Mark is causing trouble and feels annoyed, Maria decides to confront him.",
+                "reason": "test ability to correctly recognize how the intention influence action in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Maria's intention results in her suggesting regular update meetings.",
+                "reason": "test ability to correctly recognize how the intention influence action in other time stage",
+                "explain": "how the intention influence action in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Maria's intention leads her to plan future projects with Mark.",
+                "reason": "test ability to correctly recognize how the intention influence action in other time stage",
+                "explain": "how the intention influence action in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_10": {
+        "question": "In scenario 2, how does the intention of Maria Standingrock influence the action of Maria Standingrock?",
+        "true answer": "d",
+        "options": [
+            "a. Maria's revised belief lessens her frustration, making her feel relieved but cautious.",
+            "b. Maria's intention to confront Mark leads her to approach him in the showroom.",
+            "c. Maria's intention leads her to plan future projects with Mark.",
+            "d. Maria's intention results in her suggesting regular update meetings.",
+            "e. Her new belief and cautious relief lead Maria to think about improving communication."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "Maria's intention results in her suggesting regular update meetings.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Maria's revised belief lessens her frustration, making her feel relieved but cautious.",
+                "reason": "test ability to correctly recognize how the intention influence action in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Her new belief and cautious relief lead Maria to think about improving communication.",
+                "reason": "test ability to correctly recognize how the intention influence action in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Maria's intention to confront Mark leads her to approach him in the showroom.",
+                "reason": "test ability to correctly recognize how the intention influence action in other time stage",
+                "explain": "how the intention influence action in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Maria's intention leads her to plan future projects with Mark.",
+                "reason": "test ability to correctly recognize how the intention influence action in other time stage",
+                "explain": "how the intention influence action in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_11": {
+        "question": "In scenario 3, how does the intention of Maria Standingrock influence the action of Maria Standingrock?",
+        "true answer": "a",
+        "options": [
+            "a. Maria's intention leads her to plan future projects with Mark.",
+            "b. Maria's belief in improved relations makes her feel optimistic.",
+            "c. Maria's intention results in her suggesting regular update meetings.",
+            "d. Maria's intention to confront Mark leads her to approach him in the showroom.",
+            "e. Her optimistic belief and feelings push her to think about closer collaboration."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "Maria's intention leads her to plan future projects with Mark.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Maria's belief in improved relations makes her feel optimistic.",
+                "reason": "test ability to correctly recognize how the intention influence action in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Her optimistic belief and feelings push her to think about closer collaboration.",
+                "reason": "test ability to correctly recognize how the intention influence action in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Maria's intention to confront Mark leads her to approach him in the showroom.",
+                "reason": "test ability to correctly recognize how the intention influence action in other time stage",
+                "explain": "how the intention influence action in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Maria's intention results in her suggesting regular update meetings.",
+                "reason": "test ability to correctly recognize how the intention influence action in other time stage",
+                "explain": "how the intention influence action in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_12": {
+        "question": "In scenario 4, how does the intention of Maria Standingrock influence the action of Maria Standingrock?",
+        "true answer": "a",
+        "options": [
+            "a. Her intention results in her expressing gratitude and suggesting a team lunch.",
+            "b. Maria's belief in mutual respect makes her feel validated.",
+            "c. Maria's intention results in her suggesting regular update meetings.",
+            "d. Maria's intention to confront Mark leads her to approach him in the showroom.",
+            "e. Feeling validated, Maria intends to maintain the positive relationship.",
+            "f. Maria's intention leads her to plan future projects with Mark."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "Her intention results in her expressing gratitude and suggesting a team lunch.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Maria's belief in mutual respect makes her feel validated.",
+                "reason": "test ability to correctly recognize how the intention influence action in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Feeling validated, Maria intends to maintain the positive relationship.",
+                "reason": "test ability to correctly recognize how the intention influence action in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Maria's intention to confront Mark leads her to approach him in the showroom.",
+                "reason": "test ability to correctly recognize how the intention influence action in other time stage",
+                "explain": "how the intention influence action in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Maria's intention results in her suggesting regular update meetings.",
+                "reason": "test ability to correctly recognize how the intention influence action in other time stage",
+                "explain": "how the intention influence action in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Maria's intention leads her to plan future projects with Mark.",
+                "reason": "test ability to correctly recognize how the intention influence action in other time stage",
+                "explain": "how the intention influence action in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_a_what_1": {
+        "question": "What is the belief of Maria Standingrock in scenario 1?",
+        "true answer": "d",
+        "options": [
+            "a. Maria believes that better communication has improved their relationship.",
+            "b. Maria believes that Mark is meticulous and not deliberately causing trouble.",
+            "c. Maria intends to confront Mark.",
+            "d. Maria believes that Mark is deliberately making her work difficult.",
+            "e. Maria approaches Mark in the showroom.",
+            "f. Maria believes that Mark now respects her work style.",
+            "g. Maria feels frustrated and annoyed."
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Maria believes that Mark is deliberately making her work difficult.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Maria believes that Mark is meticulous and not deliberately causing trouble.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Maria believes that better communication has improved their relationship.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Maria believes that Mark now respects her work style.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Maria feels frustrated and annoyed.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Maria intends to confront Mark.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Maria approaches Mark in the showroom.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_2": {
+        "question": "What is the belief of Maria Standingrock in scenario 2?",
+        "true answer": "f",
+        "options": [
+            "a. Maria believes that Mark is deliberately making her work difficult.",
+            "b. Maria intends to improve communication.",
+            "c. Maria believes that Mark now respects her work style.",
+            "d. Maria feels slightly relieved but still cautious.",
+            "e. Maria believes that better communication has improved their relationship.",
+            "f. Maria believes that Mark is meticulous and not deliberately causing trouble.",
+            "g. Maria suggests regular update meetings."
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Maria believes that Mark is meticulous and not deliberately causing trouble.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Maria believes that Mark is deliberately making her work difficult.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Maria believes that better communication has improved their relationship.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Maria believes that Mark now respects her work style.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Maria feels slightly relieved but still cautious.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Maria intends to improve communication.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Maria suggests regular update meetings.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_3": {
+        "question": "What is the belief of Maria Standingrock in scenario 3?",
+        "true answer": "e",
+        "options": [
+            "a. Maria feels optimistic and hopeful.",
+            "b. Maria believes that Mark now respects her work style.",
+            "c. Maria intends to collaborate more closely.",
+            "d. Maria discusses future project plans.",
+            "e. Maria believes that better communication has improved their relationship.",
+            "f. Maria believes that Mark is deliberately making her work difficult.",
+            "g. Maria believes that Mark is meticulous and not deliberately causing trouble."
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Maria believes that better communication has improved their relationship.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Maria believes that Mark is deliberately making her work difficult.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Maria believes that Mark is meticulous and not deliberately causing trouble.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Maria believes that Mark now respects her work style.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Maria feels optimistic and hopeful.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Maria intends to collaborate more closely.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Maria discusses future project plans.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_4": {
+        "question": "What is the belief of Maria Standingrock in scenario 4?",
+        "true answer": "f",
+        "options": [
+            "a. Maria believes that Mark is meticulous and not deliberately causing trouble.",
+            "b. Maria believes that Mark is deliberately making her work difficult.",
+            "c. Maria intends to maintain the positive relationship.",
+            "d. Maria believes that better communication has improved their relationship.",
+            "e. Maria feels validated and content.",
+            "f. Maria believes that Mark now respects her work style.",
+            "g. Maria thanks Mark and suggests a team lunch."
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Maria believes that Mark now respects her work style.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Maria believes that Mark is deliberately making her work difficult.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Maria believes that Mark is meticulous and not deliberately causing trouble.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Maria believes that better communication has improved their relationship.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Maria feels validated and content.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Maria intends to maintain the positive relationship.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Maria thanks Mark and suggests a team lunch.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_5": {
+        "question": "What is the emotion of Maria Standingrock in scenario 1?",
+        "true answer": "d",
+        "options": [
+            "a. Maria feels validated and content.",
+            "b. Maria intends to confront Mark.",
+            "c. Maria believes that Mark is deliberately making her work difficult.",
+            "d. Maria feels frustrated and annoyed.",
+            "e. Maria approaches Mark in the showroom.",
+            "f. Maria feels optimistic and hopeful.",
+            "g. Maria feels slightly relieved but still cautious."
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Maria feels frustrated and annoyed.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Maria feels slightly relieved but still cautious.",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Maria feels optimistic and hopeful.",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Maria feels validated and content.",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Maria believes that Mark is deliberately making her work difficult.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Maria intends to confront Mark.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Maria approaches Mark in the showroom.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_6": {
+        "question": "What is the emotion of Maria Standingrock in scenario 2?",
+        "true answer": "f",
+        "options": [
+            "a. Maria feels validated and content.",
+            "b. Maria intends to improve communication.",
+            "c. Maria feels frustrated and annoyed.",
+            "d. Maria feels optimistic and hopeful.",
+            "e. Maria believes that Mark is meticulous and not deliberately causing trouble.",
+            "f. Maria feels slightly relieved but still cautious.",
+            "g. Maria suggests regular update meetings."
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Maria feels slightly relieved but still cautious.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Maria feels frustrated and annoyed.",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Maria feels optimistic and hopeful.",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Maria feels validated and content.",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Maria believes that Mark is meticulous and not deliberately causing trouble.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Maria intends to improve communication.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Maria suggests regular update meetings.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_7": {
+        "question": "What is the emotion of Maria Standingrock in scenario 3?",
+        "true answer": "f",
+        "options": [
+            "a. Maria intends to collaborate more closely.",
+            "b. Maria feels validated and content.",
+            "c. Maria discusses future project plans.",
+            "d. Maria feels frustrated and annoyed.",
+            "e. Maria feels slightly relieved but still cautious.",
+            "f. Maria feels optimistic and hopeful.",
+            "g. Maria believes that better communication has improved their relationship."
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Maria feels optimistic and hopeful.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Maria feels frustrated and annoyed.",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Maria feels slightly relieved but still cautious.",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Maria feels validated and content.",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Maria believes that better communication has improved their relationship.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Maria intends to collaborate more closely.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Maria discusses future project plans.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_8": {
+        "question": "What is the emotion of Maria Standingrock in scenario 4?",
+        "true answer": "f",
+        "options": [
+            "a. Maria intends to maintain the positive relationship.",
+            "b. Maria believes that Mark now respects her work style.",
+            "c. Maria feels frustrated and annoyed.",
+            "d. Maria feels slightly relieved but still cautious.",
+            "e. Maria thanks Mark and suggests a team lunch.",
+            "f. Maria feels validated and content.",
+            "g. Maria feels optimistic and hopeful."
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Maria feels validated and content.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Maria feels frustrated and annoyed.",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Maria feels slightly relieved but still cautious.",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Maria feels optimistic and hopeful.",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Maria believes that Mark now respects her work style.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Maria intends to maintain the positive relationship.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Maria thanks Mark and suggests a team lunch.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_9": {
+        "question": "What is the intention of Maria Standingrock in scenario 1?",
+        "true answer": "c",
+        "options": [
+            "a. Maria intends to collaborate more closely.",
+            "b. Maria intends to improve communication.",
+            "c. Maria intends to confront Mark.",
+            "d. Maria believes that Mark is deliberately making her work difficult.",
+            "e. Maria intends to maintain the positive relationship.",
+            "f. Maria feels frustrated and annoyed.",
+            "g. Maria approaches Mark in the showroom."
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Maria intends to confront Mark.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Maria intends to improve communication.",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Maria intends to collaborate more closely.",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Maria intends to maintain the positive relationship.",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Maria believes that Mark is deliberately making her work difficult.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Maria feels frustrated and annoyed.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Maria approaches Mark in the showroom.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_10": {
+        "question": "What is the intention of Maria Standingrock in scenario 2?",
+        "true answer": "b",
+        "options": [
+            "a. Maria feels slightly relieved but still cautious.",
+            "b. Maria intends to improve communication.",
+            "c. Maria suggests regular update meetings.",
+            "d. Maria intends to confront Mark.",
+            "e. Maria intends to maintain the positive relationship.",
+            "f. Maria believes that Mark is meticulous and not deliberately causing trouble.",
+            "g. Maria intends to collaborate more closely."
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Maria intends to improve communication.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Maria intends to confront Mark.",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Maria intends to collaborate more closely.",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Maria intends to maintain the positive relationship.",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Maria believes that Mark is meticulous and not deliberately causing trouble.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Maria feels slightly relieved but still cautious.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Maria suggests regular update meetings.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_11": {
+        "question": "What is the intention of Maria Standingrock in scenario 3?",
+        "true answer": "f",
+        "options": [
+            "a. Maria intends to maintain the positive relationship.",
+            "b. Maria feels optimistic and hopeful.",
+            "c. Maria intends to confront Mark.",
+            "d. Maria intends to improve communication.",
+            "e. Maria discusses future project plans.",
+            "f. Maria intends to collaborate more closely.",
+            "g. Maria believes that better communication has improved their relationship."
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Maria intends to collaborate more closely.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Maria intends to confront Mark.",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Maria intends to improve communication.",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Maria intends to maintain the positive relationship.",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Maria believes that better communication has improved their relationship.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Maria feels optimistic and hopeful.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Maria discusses future project plans.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_12": {
+        "question": "What is the intention of Maria Standingrock in scenario 4?",
+        "true answer": "b",
+        "options": [
+            "a. Maria believes that Mark now respects her work style.",
+            "b. Maria intends to maintain the positive relationship.",
+            "c. Maria intends to collaborate more closely.",
+            "d. Maria intends to improve communication.",
+            "e. Maria intends to confront Mark.",
+            "f. Maria thanks Mark and suggests a team lunch.",
+            "g. Maria feels validated and content."
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Maria intends to maintain the positive relationship.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Maria intends to confront Mark.",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Maria intends to improve communication.",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Maria intends to collaborate more closely.",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Maria believes that Mark now respects her work style.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Maria feels validated and content.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Maria thanks Mark and suggests a team lunch.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_13": {
+        "question": "What is the action of Maria Standingrock in scenario 1?",
+        "true answer": "c",
+        "options": [
+            "a. Maria thanks Mark and suggests a team lunch.",
+            "b. Maria discusses future project plans.",
+            "c. Maria approaches Mark in the showroom.",
+            "d. Maria feels frustrated and annoyed.",
+            "e. Maria suggests regular update meetings.",
+            "f. Maria intends to confront Mark.",
+            "g. Maria believes that Mark is deliberately making her work difficult."
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Maria approaches Mark in the showroom.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Maria suggests regular update meetings.",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Maria discusses future project plans.",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Maria thanks Mark and suggests a team lunch.",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Maria believes that Mark is deliberately making her work difficult.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Maria feels frustrated and annoyed.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Maria intends to confront Mark.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_14": {
+        "question": "What is the action of Maria Standingrock in scenario 2?",
+        "true answer": "d",
+        "options": [
+            "a. Maria thanks Mark and suggests a team lunch.",
+            "b. Maria believes that Mark is meticulous and not deliberately causing trouble.",
+            "c. Maria intends to improve communication.",
+            "d. Maria suggests regular update meetings.",
+            "e. Maria feels slightly relieved but still cautious.",
+            "f. Maria approaches Mark in the showroom.",
+            "g. Maria discusses future project plans."
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Maria suggests regular update meetings.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Maria approaches Mark in the showroom.",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Maria discusses future project plans.",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Maria thanks Mark and suggests a team lunch.",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Maria believes that Mark is meticulous and not deliberately causing trouble.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Maria feels slightly relieved but still cautious.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Maria intends to improve communication.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_15": {
+        "question": "What is the action of Maria Standingrock in scenario 3?",
+        "true answer": "e",
+        "options": [
+            "a. Maria approaches Mark in the showroom.",
+            "b. Maria thanks Mark and suggests a team lunch.",
+            "c. Maria intends to collaborate more closely.",
+            "d. Maria suggests regular update meetings.",
+            "e. Maria discusses future project plans.",
+            "f. Maria believes that better communication has improved their relationship.",
+            "g. Maria feels optimistic and hopeful."
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Maria discusses future project plans.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Maria approaches Mark in the showroom.",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Maria suggests regular update meetings.",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Maria thanks Mark and suggests a team lunch.",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Maria believes that better communication has improved their relationship.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Maria feels optimistic and hopeful.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Maria intends to collaborate more closely.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_16": {
+        "question": "What is the action of Maria Standingrock in scenario 4?",
+        "true answer": "a",
+        "options": [
+            "a. Maria thanks Mark and suggests a team lunch.",
+            "b. Maria discusses future project plans.",
+            "c. Maria feels validated and content.",
+            "d. Maria suggests regular update meetings.",
+            "e. Maria approaches Mark in the showroom.",
+            "f. Maria intends to maintain the positive relationship.",
+            "g. Maria believes that Mark now respects her work style."
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Maria thanks Mark and suggests a team lunch.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Maria approaches Mark in the showroom.",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Maria suggests regular update meetings.",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Maria discusses future project plans.",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Maria believes that Mark now respects her work style.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Maria feels validated and content.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Maria intends to maintain the positive relationship.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    }
+}

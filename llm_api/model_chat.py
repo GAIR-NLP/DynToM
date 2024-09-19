@@ -58,6 +58,17 @@ class ConvertToJSON:
         """remove useless content"""
         self.content = self.content[self.content.find("{") :]
         self.content = self.content[: self.content.find("}") + 1]
+        
+        if self.content == "":
+            self.logger.error("model: %s, content is empty", self.model_name)
+            self.content = "{}"
+            # print(self.content
+        
+        if "{" in self.content:
+            self.content = self.content[:self.content.find("{",1)+2]
+            if self.content[-1]!="\"":
+                self.content=self.content+"\""
+            self.content=self.content+"}"
 
         return self.convert_to_json()
 
@@ -191,6 +202,12 @@ class ConvertToJSON:
         
         if "glm" in model_name.lower():
             return self.convert_glm()
+        
+        if "qwen" in model_name.lower():
+            return self.convert_qwen()
+        
+        if "deepseek" in model_name.lower():
+            return self.convert_deepseek()
 
     def convert_to_json(self):
         """turn str to dict object
@@ -261,11 +278,13 @@ class Chat:
         information_type="level1",
     ):
         """set system prompt for model"""
-        self.sysytem_prompt = load_system_prompt(
+        self.sysytem_prompt, questions = load_system_prompt(
             script_number,
             information_type=information_type,
         )
         self.chat_history = [{"role": "system", "content": self.sysytem_prompt}]
+        
+        self.require_prompt = """answer the """+ str(questions)+""" question, and response in JSON format:{[question_id]:[a, b, c or d], [question_id]:a, b, c or d, ...}. for example: {"type_d_how_1":"a","type_d_how_2":"b","type_d_how_3":"c"}"""
 
     def init_model(self):
         """
@@ -274,7 +293,8 @@ class Chat:
         self.model = LLM(
             model=self.model_save_path,
             tensor_parallel_size=self.gpus,
-            trust_remote_code=True
+            trust_remote_code=True,
+            gpu_memory_utilization=0.9,
         )
         self.sampling_params = SamplingParams(temperature=0.01, max_tokens=8192)
 
@@ -310,60 +330,13 @@ class Llama38BInstruct(Chat):
         super().__init__(
             model_name="Meta-Llama-3.1-8B-Instruct",
             model_save_path="/data/xiaoyang/models/meta-llama/Meta-Llama-3.1-8B-Instruct",
+             gpus=4,
+            logger=inference2_logger,
         )
 
-    def init_model(self):
-        """init model"""
-        # self.model = transformers.pipeline(
-        #     "text-generation",
-        #     model=self.model_save_path,
-        #     model_kwargs={"torch_dtype": torch.bfloat16},
-        #     device_map="auto",
-        # )
+    
 
-        self.model = LLM(
-            model="/data/xiaoyang/models/meta-llama/Meta-Llama-3.1-8B-Instruct",
-            tensor_parallel_size=4,
-        )
-        self.sampling_params = SamplingParams(temperature=0.01, max_tokens=8192)
-
-    def chat(self):
-        """chat with model
-
-        Args:
-            text (_type_): user input content
-
-        Raises:
-            NotImplementedError: _description_
-        """
-        message = {"role": "user", "content": self.require_prompt}
-        self.chat_history.append(message)
-        # terminators = [
-        #     self.model.tokenizer.eos_token_id,
-        #     self.model.tokenizer.convert_tokens_to_ids("<|eot_id|>"),
-        # ]
-
-        # outputs = self.model(
-        #     self.chat_history,
-        #     max_new_tokens=16000,
-        #     eos_token_id=terminators,
-        #     do_sample=True,
-        #     temperature=0.01,
-        #     top_p=0.9,
-        # )
-
-        outputs: list = self.model.chat(
-            self.chat_history, sampling_params=self.sampling_params, use_tqdm=False
-        )
-        output = outputs[0].outputs[0].text
-
-        inference3_logger.info("model: %s, finished", self.model_name)
-        # print(outputs[0]["generated_text"])
-        # print(outputs[0]["generated_text"][-1])
-        convert = ConvertToJSON(output, self.model_name, inference3_logger)
-        return convert.convert_llama()
-
-
+    
 class Llama370BInstruct(Chat):
     """Llama 3.1 70B chat model"""
 
@@ -372,7 +345,7 @@ class Llama370BInstruct(Chat):
         super().__init__(
             model_name="Meta-Llama-3.1-70B-Instruct",
             model_save_path=full_model_path,
-            gpus=8,
+            gpus=4,
             logger=inference2_logger,
         )
 
@@ -383,51 +356,10 @@ class Mistra7BInstructV03(Chat):
     def __init__(self):
         full_model_path = f"{model_save_folder}/Mistral-7B-Instruct-v0.3"
         super().__init__(
-            model_name="Mistral-7B-Instruct-v0.3", model_save_path=full_model_path
+            model_name="Mistral-7B-Instruct-v0.3", model_save_path=full_model_path,
+            gpus=4,
+            logger=inference2_logger,
         )
-
-    def init_model(self):
-        """init model"""
-        self.model = LLM(model=self.model_save_path, tensor_parallel_size=1)
-        self.sampling_params = SamplingParams(temperature=0.01, max_tokens=8192)
-
-    def chat(self):
-        """chat with model
-
-        Args:
-            text (_type_): user input content
-
-        Raises:
-            NotImplementedError: _description_
-        """
-        # message = {"role": "user", "content": self.require_prompt}
-        self.chat_history[0]["role"] = "user"
-        self.chat_history[0]["content"] += "\n" + self.require_prompt
-        # terminators = [
-        #     self.model.tokenizer.eos_token_id,
-        #     self.model.tokenizer.convert_tokens_to_ids("<|eot_id|>"),
-        # ]
-
-        # outputs = self.model(
-        #     self.chat_history,
-        #     max_new_tokens=16000,
-        #     eos_token_id=terminators,
-        #     do_sample=True,
-        #     temperature=0.01,
-        #     top_p=0.9,
-        # )
-
-        outputs: list = self.model.chat(
-            self.chat_history, sampling_params=self.sampling_params, use_tqdm=False
-        )
-        output = outputs[0].outputs[0].text
-
-        inference2_logger.info("model: %s, finished", self.model_name)
-        # print(outputs[0]["generated_text"])
-        # print(outputs[0]["generated_text"][-1])
-        convert = ConvertToJSON(output, self.model_name, inference2_logger)
-        return convert.convert_mistra()
-
 
 class Mistra87BInstructV01(Chat):
     """mistralai/Mixtral-8x7B-Instruct-v0.1"""
@@ -448,42 +380,11 @@ class QWen27BInstruct(Chat):
     def __init__(self):
         full_model_path = f"{model_save_folder}/models--Qwen--Qwen2-7B-Instruct/snapshots/41c66b0be1c3081f13defc6bdf946c2ef240d6a6"
         super().__init__(
-            model_name="Qwen2-7B-Instruct", model_save_path=full_model_path
+            model_name="Qwen2-7B-Instruct", model_save_path=full_model_path,
+             gpus=4,
+            logger=inference2_logger,
         )
-        self.require_prompt = """answer the 71 question, and response in JSON format:{[question_id]:[a, b, c or d], [question_id]:a, b, c or d, ...}. for example: {"type_d_how_1":"a","type_d_how_2":"b","type_d_how_3":"c"}"""
-
-    def init_model(self):
-        """init model"""
-        self.model = transformers.pipeline(
-            "text-generation",
-            model=self.model_save_path,
-            torch_dtype="auto",
-            device_map="auto",
-        )
-
-    def chat(self):
-        """chat with model
-
-        Args:
-            text (_type_): user input content
-
-        Raises:
-            NotImplementedError: _description_
-        """
-
-        message = {"role": "user", "content": self.require_prompt}
-        self.chat_history.append(message)
-
-        outputs = self.model(self.chat_history, max_new_tokens=8192, temperature=0.01)
-        # print(outputs[0]["generated_text"])
-        # print(outputs[0]["generated_text"][-1])
-        convert = ConvertToJSON(
-            outputs[0]["generated_text"][-1]["content"],
-            self.model_name,
-            inference2_logger,
-        )
-        return convert.convert_qwen()
-
+        
 
 class QWen272BInstruct(Chat):
     """Qwen/Qwen2-72B-Instruct"""
@@ -491,41 +392,11 @@ class QWen272BInstruct(Chat):
     def __init__(self):
         full_model_path = "/data/xiaoyang/models/Qwen/Qwen2-72B-Instruct"
         super().__init__(
-            model_name="Qwen2-72B-Instruct", model_save_path=full_model_path
+            model_name="Qwen2-72B-Instruct", model_save_path=full_model_path,
+            gpus=4,
+            logger=inference2_logger,
         )
-        self.require_prompt = """answer the 71 question, and response in JSON format:{[question_id]:[a, b, c or d], [question_id]:a, b, c or d, ...}. for example: {"type_d_how_1":"a","type_d_how_2":"b","type_d_how_3":"c"}"""
-
-    def init_model(self):
-        """init model"""
-        self.model = LLM(
-            model=self.model_save_path,
-            tensor_parallel_size=8,
-        )
-        self.sampling_params = SamplingParams(temperature=0.01, max_tokens=8192)
-
-    def chat(self):
-        """chat with model
-
-        Args:
-            text (_type_): user input content
-
-        Raises:
-            NotImplementedError: _description_
-        """
-
-        message = {"role": "user", "content": self.require_prompt}
-        self.chat_history.append(message)
-
-        outputs: list = self.model.chat(
-            self.chat_history, sampling_params=self.sampling_params, use_tqdm=False
-        )
-        output = outputs[0].outputs[0].text
-
-        inference3_logger.info("model: %s, finished", self.model_name)
-        # print(outputs[0]["generated_text"])
-        # print(outputs[0]["generated_text"][-1])
-        convert = ConvertToJSON(output, self.model_name, inference2_logger)
-        return convert.convert_qwen()
+        
 
 
 class DeepSeekV2LiteChat(Chat):
@@ -534,46 +405,12 @@ class DeepSeekV2LiteChat(Chat):
     def __init__(self):
         full_model_path = f"{model_save_folder}/models--deepseek-ai--DeepSeek-V2-Lite-Chat/snapshots/85864749cd611b4353ce1decdb286193298f64c7"
         super().__init__(
-            model_name="DeepSeek-V2-Lite-Chat", model_save_path=full_model_path
+            model_name="DeepSeek-V2-Lite-Chat", model_save_path=full_model_path,
+            gpus=4,
+            logger=inference2_logger,
         )
 
-    def init_model(self):
-        """init model"""
-        # model_name = "deepseek-ai/DeepSeek-V2-Lite-Chat"
-        # self.tokenizer = AutoTokenizer.from_pretrained(self.model_save_path, trust_remote_code=True)
-        # self.model = AutoModelForCausalLM.from_pretrained(self.model_save_path, trust_remote_code=True, torch_dtype=torch.bfloat16).cuda()
-        # self.model.generation_config = GenerationConfig.from_pretrained(self.model_save_path)
-        # self.model.generation_config.pad_token_id = self.model.generation_config.eos_token_id
-
-        self.model = LLM(
-            model=self.model_save_path, tensor_parallel_size=4, trust_remote_code=True
-        )
-        self.sampling_params = SamplingParams(temperature=0.01, max_tokens=8192)
-
-    def chat(self):
-        """chat with model
-
-        Args:
-            text (_type_): user input content
-
-        Raises:
-            NotImplementedError: _description_
-        """
-
-        message = {"role": "user", "content": self.require_prompt}
-        self.chat_history.append(message)
-
-        outputs: list = self.model.chat(
-            self.chat_history, sampling_params=self.sampling_params, use_tqdm=False
-        )
-        output = outputs[0].outputs[0].text
-
-        inference3_logger.info("model: %s, finished", self.model_name)
-        # print(outputs[0]["generated_text"])
-        # print(outputs[0]["generated_text"][-1])
-        convert = ConvertToJSON(output, self.model_name, inference3_logger)
-        return convert.convert_deepseek()
-
+    
 
 class GPT4Turbo(Chat):
     """GPT-4"""
@@ -583,7 +420,7 @@ class GPT4Turbo(Chat):
             model_name=model_name,
             model_save_path=model_save_path,
         )
-
+    
     def init_model(self):
         """init model"""
         self.model = OpenAI(api_key=openai_api_key, base_url=openai_base_url)
@@ -607,23 +444,59 @@ class GPT4Turbo(Chat):
             temperature=0.0,
         )
 
+        message = completion.choices[0].message
+        content = unicodedata.normalize("NFKC", message.content)
+
         inference_logger.info(
             "model: %s, finished reason: %s",
             self.model_name,
             completion.choices[0].finish_reason,
         )
 
-        message = completion.choices[0].message
-        content = unicodedata.normalize("NFKC", message.content)
-
         return convert_to_json(content, self.model_name)
 
 
+
+    
 class GPT4O(GPT4Turbo):
     """GPT-4-Omega"""
 
     def __init__(self, model_name="gpt-4o-2024-05-13", model_save_path=None):
         super().__init__(model_name=model_name, model_save_path=model_save_path)
+    
+    def init_model(self):
+        """init model"""
+        self.model = OpenAI(api_key=openai_api_key, base_url=openai_base_url)
+
+    def chat(self):
+        """chat with model
+
+        Args:
+            text (_type_): user input content
+
+        Raises:
+            NotImplementedError: _description_
+        """
+
+        message = {"role": "user", "content": self.require_prompt}
+        self.chat_history.append(message)
+
+        completion = self.model.chat.completions.create(
+            messages=self.chat_history,
+            model=self.model_name,
+            temperature=0.0,
+        )
+
+        message = completion.choices[0].message
+        content = unicodedata.normalize("NFKC", message.content)
+
+        inference_logger.info(
+            "model: %s, finished reason: %s",
+            self.model_name,
+            completion.choices[0].finish_reason,
+        )
+
+        return convert_to_json(content, self.model_name)
 
 
 class GPT3Point5(Chat):

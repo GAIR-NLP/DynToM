@@ -672,7 +672,7 @@ def save_questions_to_json(questions, script_id):
 
 
 if __name__ == "__main__":
-    scrips = range(186, 187)
+    scrips = range(1050, 1150)
     for script_id in scrips:
         generate(script_id)
         process_questions(script_id)

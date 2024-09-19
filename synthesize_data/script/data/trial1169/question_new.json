@@ -1,0 +1,3299 @@
+{
+    "type_d_how_1": {
+        "question": "How does the belief of Janet Prioleau change across the 4 scenarios?",
+        "true answer": "f",
+        "options": [
+            "a. Janet believes Jonathan\u2019s previous failures in other areas may contribute to his fear of failing in fitness. -> Janet believes Jonathan is resistant to change due to past failures. -> Janet now believes Jonathan is more open to trying new things, including fitness. -> Janet believes Jonathan can benefit from a healthier lifestyle and improved fitness.",
+            "b. Janet now believes Jonathan is more open to trying new things, including fitness. -> Janet believes Jonathan is resistant to change due to past failures. -> Janet believes Jonathan\u2019s previous failures in other areas may contribute to his fear of failing in fitness. -> Janet believes Jonathan can benefit from a healthier lifestyle and improved fitness.",
+            "c. Convince Jonathan to start a fitness program -> Janet believes Jonathan\u2019s previous failures in other areas may contribute to his fear of failing in fitness. -> Janet believes Jonathan is resistant to change due to past failures. -> Janet now believes Jonathan is more open to trying new things, including fitness.",
+            "d. Janet believes Jonathan can benefit from a healthier lifestyle and improved fitness. -> Janet believes Jonathan\u2019s previous failures in other areas may contribute to his fear of failing in fitness. -> Janet believes Jonathan is resistant to change due to past failures. -> Janet now believes Jonathan is more open to trying new things, including fitness.",
+            "e. Janet believes Jonathan can benefit from a healthier lifestyle and improved fitness. -> Janet believes Jonathan\u2019s previous failures in other areas may contribute to his fear of failing in fitness. -> Empathetic and compassionate -> Janet now believes Jonathan is more open to trying new things, including fitness.",
+            "f. Janet believes Jonathan can benefit from a healthier lifestyle and improved fitness. -> Janet believes Jonathan is resistant to change due to past failures. -> Janet believes Jonathan\u2019s previous failures in other areas may contribute to his fear of failing in fitness. -> Janet now believes Jonathan is more open to trying new things, including fitness.",
+            "g. Janet believes Jonathan\u2019s previous failures in other areas may contribute to his fear of failing in fitness. -> Janet believes Jonathan is resistant to change due to past failures. -> Janet now believes Jonathan is more open to trying new things, including fitness.",
+            "h. Janet believes Jonathan can benefit from a healthier lifestyle and improved fitness. -> Janet believes Jonathan\u2019s previous failures in other areas may contribute to his fear of failing in fitness. -> Janet believes Jonathan is resistant to change due to past failures. -> Outlines a step-by-step fitness plan tailored to Jonathan's needs."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Janet believes Jonathan can benefit from a healthier lifestyle and improved fitness. -> Janet believes Jonathan is resistant to change due to past failures. -> Janet believes Jonathan\u2019s previous failures in other areas may contribute to his fear of failing in fitness. -> Janet now believes Jonathan is more open to trying new things, including fitness.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Janet believes Jonathan\u2019s previous failures in other areas may contribute to his fear of failing in fitness. -> Janet believes Jonathan is resistant to change due to past failures. -> Janet now believes Jonathan is more open to trying new things, including fitness. -> Janet believes Jonathan can benefit from a healthier lifestyle and improved fitness.",
+                "explain": "shuffle the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Janet believes Jonathan can benefit from a healthier lifestyle and improved fitness. -> Janet believes Jonathan\u2019s previous failures in other areas may contribute to his fear of failing in fitness. -> Janet believes Jonathan is resistant to change due to past failures. -> Janet now believes Jonathan is more open to trying new things, including fitness.",
+                "explain": "change the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Janet now believes Jonathan is more open to trying new things, including fitness. -> Janet believes Jonathan is resistant to change due to past failures. -> Janet believes Jonathan\u2019s previous failures in other areas may contribute to his fear of failing in fitness. -> Janet believes Jonathan can benefit from a healthier lifestyle and improved fitness.",
+                "explain": "reverse the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Janet believes Jonathan\u2019s previous failures in other areas may contribute to his fear of failing in fitness. -> Janet believes Jonathan is resistant to change due to past failures. -> Janet now believes Jonathan is more open to trying new things, including fitness.",
+                "explain": "remove one belief in one time stage",
+                "reason": "test ability to recognize the completeness of the mental states",
+                "short": "type_d_how_recognize_time_stage_completeness"
+            },
+            {
+                "option": "Janet believes Jonathan can benefit from a healthier lifestyle and improved fitness. -> Janet believes Jonathan\u2019s previous failures in other areas may contribute to his fear of failing in fitness. -> Empathetic and compassionate -> Janet now believes Jonathan is more open to trying new things, including fitness.",
+                "reason": "test ability to recognize the relationship between belief and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Convince Jonathan to start a fitness program -> Janet believes Jonathan\u2019s previous failures in other areas may contribute to his fear of failing in fitness. -> Janet believes Jonathan is resistant to change due to past failures. -> Janet now believes Jonathan is more open to trying new things, including fitness.",
+                "reason": "test ability to recognize the relationship between belief and intention",
+                "explain": "intention change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Janet believes Jonathan can benefit from a healthier lifestyle and improved fitness. -> Janet believes Jonathan\u2019s previous failures in other areas may contribute to his fear of failing in fitness. -> Janet believes Jonathan is resistant to change due to past failures. -> Outlines a step-by-step fitness plan tailored to Jonathan's needs.",
+                "reason": "test ability to recognize the relationship between belief and action",
+                "explain": "action change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_how_2": {
+        "question": "How does the emotion of Janet Prioleau change across the 4 scenarios?",
+        "true answer": "a",
+        "options": [
+            "a. Hopeful and optimistic -> Frustrated and concerned -> Empathetic and compassionate -> Encouraged and motivated",
+            "b. Frustrated and concerned -> Hopeful and optimistic -> Empathetic and compassionate -> Encouraged and motivated",
+            "c. Encouraged and motivated -> Empathetic and compassionate -> Hopeful and optimistic -> Frustrated and concerned",
+            "d. Empathetic and compassionate -> Frustrated and concerned -> Hopeful and optimistic -> Encouraged and motivated",
+            "e. Frustrated and concerned -> Empathetic and compassionate -> Encouraged and motivated",
+            "f. Frustrated and concerned -> Hopeful and optimistic -> Janet believes Jonathan is resistant to change due to past failures. -> Encouraged and motivated",
+            "g. Frustrated and concerned -> Hopeful and optimistic -> Reassure Jonathan and boost his confidence -> Encouraged and motivated",
+            "h. Frustrated and concerned -> Hopeful and optimistic -> Empathetic and compassionate -> Outlines a step-by-step fitness plan tailored to Jonathan's needs."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Hopeful and optimistic -> Frustrated and concerned -> Empathetic and compassionate -> Encouraged and motivated",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Empathetic and compassionate -> Frustrated and concerned -> Hopeful and optimistic -> Encouraged and motivated",
+                "explain": "shuffle the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Frustrated and concerned -> Hopeful and optimistic -> Empathetic and compassionate -> Encouraged and motivated",
+                "explain": "change the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Encouraged and motivated -> Empathetic and compassionate -> Hopeful and optimistic -> Frustrated and concerned",
+                "explain": "reverse the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Frustrated and concerned -> Empathetic and compassionate -> Encouraged and motivated",
+                "explain": "remove one belief in one time stage",
+                "reason": "test ability to recognize the completeness of the mental states",
+                "short": "type_d_how_recognize_time_stage_completeness"
+            },
+            {
+                "option": "Frustrated and concerned -> Hopeful and optimistic -> Janet believes Jonathan is resistant to change due to past failures. -> Encouraged and motivated",
+                "reason": "test ability to recognize the relationship between emotion and belief",
+                "explain": "belief change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Frustrated and concerned -> Hopeful and optimistic -> Reassure Jonathan and boost his confidence -> Encouraged and motivated",
+                "reason": "test ability to recognize the relationship between emotion and intention",
+                "explain": "intention change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Frustrated and concerned -> Hopeful and optimistic -> Empathetic and compassionate -> Outlines a step-by-step fitness plan tailored to Jonathan's needs.",
+                "reason": "test ability to recognize the relationship between emotion and action",
+                "explain": "action change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_how_3": {
+        "question": "How does the intention of Janet Prioleau change across the 4 scenarios?",
+        "true answer": "f",
+        "options": [
+            "a. Janet believes Jonathan can benefit from a healthier lifestyle and improved fitness. -> Create a personalized fitness plan for Jonathan -> Reassure Jonathan and boost his confidence -> Address Jonathan's concerns directly",
+            "b. Convince Jonathan to start a fitness program -> Create a personalized fitness plan for Jonathan -> Shares personal stories of past struggles and overcoming them. -> Address Jonathan's concerns directly",
+            "c. Convince Jonathan to start a fitness program -> Create a personalized fitness plan for Jonathan -> Reassure Jonathan and boost his confidence -> Address Jonathan's concerns directly",
+            "d. Create a personalized fitness plan for Jonathan -> Reassure Jonathan and boost his confidence -> Address Jonathan's concerns directly",
+            "e. Address Jonathan's concerns directly -> Reassure Jonathan and boost his confidence -> Create a personalized fitness plan for Jonathan -> Convince Jonathan to start a fitness program",
+            "f. Convince Jonathan to start a fitness program -> Address Jonathan's concerns directly -> Reassure Jonathan and boost his confidence -> Create a personalized fitness plan for Jonathan",
+            "g. Convince Jonathan to start a fitness program -> Create a personalized fitness plan for Jonathan -> Reassure Jonathan and boost his confidence -> Encouraged and motivated",
+            "h. Convince Jonathan to start a fitness program -> Create a personalized fitness plan for Jonathan -> Address Jonathan's concerns directly -> Reassure Jonathan and boost his confidence"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Convince Jonathan to start a fitness program -> Address Jonathan's concerns directly -> Reassure Jonathan and boost his confidence -> Create a personalized fitness plan for Jonathan",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Convince Jonathan to start a fitness program -> Create a personalized fitness plan for Jonathan -> Address Jonathan's concerns directly -> Reassure Jonathan and boost his confidence",
+                "explain": "shuffle the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Convince Jonathan to start a fitness program -> Create a personalized fitness plan for Jonathan -> Reassure Jonathan and boost his confidence -> Address Jonathan's concerns directly",
+                "explain": "change the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Address Jonathan's concerns directly -> Reassure Jonathan and boost his confidence -> Create a personalized fitness plan for Jonathan -> Convince Jonathan to start a fitness program",
+                "explain": "reverse the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Create a personalized fitness plan for Jonathan -> Reassure Jonathan and boost his confidence -> Address Jonathan's concerns directly",
+                "explain": "remove one belief in one time stage",
+                "reason": "test ability to recognize the completeness of the mental states",
+                "short": "type_d_how_recognize_time_stage_completeness"
+            },
+            {
+                "option": "Janet believes Jonathan can benefit from a healthier lifestyle and improved fitness. -> Create a personalized fitness plan for Jonathan -> Reassure Jonathan and boost his confidence -> Address Jonathan's concerns directly",
+                "reason": "test ability to recognize the relationship between intention and belief",
+                "explain": "belief change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Convince Jonathan to start a fitness program -> Create a personalized fitness plan for Jonathan -> Reassure Jonathan and boost his confidence -> Encouraged and motivated",
+                "reason": "test ability to recognize the relationship between intention and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Convince Jonathan to start a fitness program -> Create a personalized fitness plan for Jonathan -> Shares personal stories of past struggles and overcoming them. -> Address Jonathan's concerns directly",
+                "reason": "test ability to recognize the relationship between intention and action",
+                "explain": "action change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_how_4": {
+        "question": "How does the action of Janet Prioleau change across the 4 scenarios?",
+        "true answer": "g",
+        "options": [
+            "a. Asks Jonathan to share why he feels he cannot commit to a fitness routine. -> Enthusiastically describes the potential benefits of a fitness regimen to Jonathan. -> Shares personal stories of past struggles and overcoming them. -> Janet now believes Jonathan is more open to trying new things, including fitness.",
+            "b. Frustrated and concerned -> Enthusiastically describes the potential benefits of a fitness regimen to Jonathan. -> Shares personal stories of past struggles and overcoming them. -> Outlines a step-by-step fitness plan tailored to Jonathan's needs.",
+            "c. Asks Jonathan to share why he feels he cannot commit to a fitness routine. -> Enthusiastically describes the potential benefits of a fitness regimen to Jonathan. -> Shares personal stories of past struggles and overcoming them. -> Outlines a step-by-step fitness plan tailored to Jonathan's needs.",
+            "d. Outlines a step-by-step fitness plan tailored to Jonathan's needs. -> Shares personal stories of past struggles and overcoming them. -> Enthusiastically describes the potential benefits of a fitness regimen to Jonathan. -> Asks Jonathan to share why he feels he cannot commit to a fitness routine.",
+            "e. Asks Jonathan to share why he feels he cannot commit to a fitness routine. -> Enthusiastically describes the potential benefits of a fitness regimen to Jonathan. -> Reassure Jonathan and boost his confidence -> Outlines a step-by-step fitness plan tailored to Jonathan's needs.",
+            "f. Asks Jonathan to share why he feels he cannot commit to a fitness routine. -> Shares personal stories of past struggles and overcoming them. -> Outlines a step-by-step fitness plan tailored to Jonathan's needs.",
+            "g. Enthusiastically describes the potential benefits of a fitness regimen to Jonathan. -> Asks Jonathan to share why he feels he cannot commit to a fitness routine. -> Shares personal stories of past struggles and overcoming them. -> Outlines a step-by-step fitness plan tailored to Jonathan's needs.",
+            "h. Outlines a step-by-step fitness plan tailored to Jonathan's needs. -> Shares personal stories of past struggles and overcoming them. -> Enthusiastically describes the potential benefits of a fitness regimen to Jonathan. -> Asks Jonathan to share why he feels he cannot commit to a fitness routine."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Enthusiastically describes the potential benefits of a fitness regimen to Jonathan. -> Asks Jonathan to share why he feels he cannot commit to a fitness routine. -> Shares personal stories of past struggles and overcoming them. -> Outlines a step-by-step fitness plan tailored to Jonathan's needs.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Outlines a step-by-step fitness plan tailored to Jonathan's needs. -> Shares personal stories of past struggles and overcoming them. -> Enthusiastically describes the potential benefits of a fitness regimen to Jonathan. -> Asks Jonathan to share why he feels he cannot commit to a fitness routine.",
+                "explain": "shuffle the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Asks Jonathan to share why he feels he cannot commit to a fitness routine. -> Enthusiastically describes the potential benefits of a fitness regimen to Jonathan. -> Shares personal stories of past struggles and overcoming them. -> Outlines a step-by-step fitness plan tailored to Jonathan's needs.",
+                "explain": "change the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Outlines a step-by-step fitness plan tailored to Jonathan's needs. -> Shares personal stories of past struggles and overcoming them. -> Enthusiastically describes the potential benefits of a fitness regimen to Jonathan. -> Asks Jonathan to share why he feels he cannot commit to a fitness routine.",
+                "explain": "reverse the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Asks Jonathan to share why he feels he cannot commit to a fitness routine. -> Shares personal stories of past struggles and overcoming them. -> Outlines a step-by-step fitness plan tailored to Jonathan's needs.",
+                "explain": "remove one belief in one time stage",
+                "reason": "test ability to recognize the completeness of the mental states",
+                "short": "type_d_how_recognize_time_stage_completeness"
+            },
+            {
+                "option": "Asks Jonathan to share why he feels he cannot commit to a fitness routine. -> Enthusiastically describes the potential benefits of a fitness regimen to Jonathan. -> Shares personal stories of past struggles and overcoming them. -> Janet now believes Jonathan is more open to trying new things, including fitness.",
+                "reason": "test ability to recognize the relationship between action and belief",
+                "explain": "belief change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Frustrated and concerned -> Enthusiastically describes the potential benefits of a fitness regimen to Jonathan. -> Shares personal stories of past struggles and overcoming them. -> Outlines a step-by-step fitness plan tailored to Jonathan's needs.",
+                "reason": "test ability to recognize the relationship between action and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Asks Jonathan to share why he feels he cannot commit to a fitness routine. -> Enthusiastically describes the potential benefits of a fitness regimen to Jonathan. -> Reassure Jonathan and boost his confidence -> Outlines a step-by-step fitness plan tailored to Jonathan's needs.",
+                "reason": "test ability to recognize the relationship between action and intention",
+                "explain": "intention change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_1": {
+        "question": "Why does the belief of Janet Prioleau change from scenario 1 to scenario 2?",
+        "true answer": "g",
+        "options": [
+            "a. Jonathan\u2019s newfound openness motivates Janet to plan a fitness routine.",
+            "b. Janet's proactive approach changes to a more investigative one",
+            "c. Jonathan shows signs of openness, altering Janet's belief.",
+            "d. Janet's frustration drives her to confront Jonathan's concerns",
+            "e. Jonathan's openness encourages Janet.",
+            "f. Jonathan's resistance frustrates Janet",
+            "g. Janet observes Jonathan's resistance, changes her belief",
+            "h. Janet shifts to a more supportive and empathetic action",
+            "i. Janet's supportive nature becomes collaborative in planning.",
+            "j. Her empathy leads her to reassure him",
+            "k. Janet reflects on the deeper causes of Jonathan's fear",
+            "l. Janet's insight into Jonathan's struggles makes her empathetic"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Janet observes Jonathan's resistance, changes her belief",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Janet reflects on the deeper causes of Jonathan's fear",
+                "reason": "test ability to recognize the reason of belief change in different time stage",
+                "explain": "belief change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Jonathan shows signs of openness, altering Janet's belief.",
+                "reason": "test ability to recognize the reason of belief change in different time stage",
+                "explain": "belief change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Jonathan's resistance frustrates Janet",
+                "reason": "test ability to recognize the reason between belief and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Janet's insight into Jonathan's struggles makes her empathetic",
+                "reason": "test ability to recognize the reason between belief and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Jonathan's openness encourages Janet.",
+                "reason": "test ability to recognize the reason between belief and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Janet's frustration drives her to confront Jonathan's concerns",
+                "reason": "test ability to recognize the reason between belief and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Her empathy leads her to reassure him",
+                "reason": "test ability to recognize the reason between belief and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Jonathan\u2019s newfound openness motivates Janet to plan a fitness routine.",
+                "reason": "test ability to recognize the reason between belief and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Janet's proactive approach changes to a more investigative one",
+                "reason": "test ability to recognize the reason between belief and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Janet shifts to a more supportive and empathetic action",
+                "reason": "test ability to recognize the reason between belief and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Janet's supportive nature becomes collaborative in planning.",
+                "reason": "test ability to recognize the reason between belief and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_2": {
+        "question": "Why does the belief of Janet Prioleau change from scenario 2 to scenario 3?",
+        "true answer": "g",
+        "options": [
+            "a. Jonathan's resistance frustrates Janet",
+            "b. Jonathan\u2019s newfound openness motivates Janet to plan a fitness routine.",
+            "c. Jonathan's openness encourages Janet.",
+            "d. Janet shifts to a more supportive and empathetic action",
+            "e. Her empathy leads her to reassure him",
+            "f. Janet's supportive nature becomes collaborative in planning.",
+            "g. Janet reflects on the deeper causes of Jonathan's fear",
+            "h. Janet's frustration drives her to confront Jonathan's concerns",
+            "i. Janet's insight into Jonathan's struggles makes her empathetic",
+            "j. Janet observes Jonathan's resistance, changes her belief",
+            "k. Jonathan shows signs of openness, altering Janet's belief.",
+            "l. Janet's proactive approach changes to a more investigative one"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Janet reflects on the deeper causes of Jonathan's fear",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Janet observes Jonathan's resistance, changes her belief",
+                "reason": "test ability to recognize the reason of belief change in different time stage",
+                "explain": "belief change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Jonathan shows signs of openness, altering Janet's belief.",
+                "reason": "test ability to recognize the reason of belief change in different time stage",
+                "explain": "belief change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Jonathan's resistance frustrates Janet",
+                "reason": "test ability to recognize the reason between belief and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Janet's insight into Jonathan's struggles makes her empathetic",
+                "reason": "test ability to recognize the reason between belief and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Jonathan's openness encourages Janet.",
+                "reason": "test ability to recognize the reason between belief and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Janet's frustration drives her to confront Jonathan's concerns",
+                "reason": "test ability to recognize the reason between belief and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Her empathy leads her to reassure him",
+                "reason": "test ability to recognize the reason between belief and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Jonathan\u2019s newfound openness motivates Janet to plan a fitness routine.",
+                "reason": "test ability to recognize the reason between belief and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Janet's proactive approach changes to a more investigative one",
+                "reason": "test ability to recognize the reason between belief and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Janet shifts to a more supportive and empathetic action",
+                "reason": "test ability to recognize the reason between belief and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Janet's supportive nature becomes collaborative in planning.",
+                "reason": "test ability to recognize the reason between belief and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_3": {
+        "question": "Why does the belief of Janet Prioleau change from scenario 3 to scenario 4?",
+        "true answer": "l",
+        "options": [
+            "a. Jonathan\u2019s newfound openness motivates Janet to plan a fitness routine.",
+            "b. Jonathan's resistance frustrates Janet",
+            "c. Janet observes Jonathan's resistance, changes her belief",
+            "d. Janet reflects on the deeper causes of Jonathan's fear",
+            "e. Janet shifts to a more supportive and empathetic action",
+            "f. Janet's supportive nature becomes collaborative in planning.",
+            "g. Jonathan's openness encourages Janet.",
+            "h. Janet's proactive approach changes to a more investigative one",
+            "i. Her empathy leads her to reassure him",
+            "j. Janet's frustration drives her to confront Jonathan's concerns",
+            "k. Janet's insight into Jonathan's struggles makes her empathetic",
+            "l. Jonathan shows signs of openness, altering Janet's belief."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Jonathan shows signs of openness, altering Janet's belief.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Janet observes Jonathan's resistance, changes her belief",
+                "reason": "test ability to recognize the reason of belief change in different time stage",
+                "explain": "belief change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Janet reflects on the deeper causes of Jonathan's fear",
+                "reason": "test ability to recognize the reason of belief change in different time stage",
+                "explain": "belief change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Jonathan's resistance frustrates Janet",
+                "reason": "test ability to recognize the reason between belief and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Janet's insight into Jonathan's struggles makes her empathetic",
+                "reason": "test ability to recognize the reason between belief and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Jonathan's openness encourages Janet.",
+                "reason": "test ability to recognize the reason between belief and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Janet's frustration drives her to confront Jonathan's concerns",
+                "reason": "test ability to recognize the reason between belief and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Her empathy leads her to reassure him",
+                "reason": "test ability to recognize the reason between belief and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Jonathan\u2019s newfound openness motivates Janet to plan a fitness routine.",
+                "reason": "test ability to recognize the reason between belief and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Janet's proactive approach changes to a more investigative one",
+                "reason": "test ability to recognize the reason between belief and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Janet shifts to a more supportive and empathetic action",
+                "reason": "test ability to recognize the reason between belief and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Janet's supportive nature becomes collaborative in planning.",
+                "reason": "test ability to recognize the reason between belief and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_4": {
+        "question": "Why does the emotion of Janet Prioleau change from scenario 1 to scenario 2?",
+        "true answer": "l",
+        "options": [
+            "a. Janet's frustration drives her to confront Jonathan's concerns",
+            "b. Janet's proactive approach changes to a more investigative one",
+            "c. Janet observes Jonathan's resistance, changes her belief",
+            "d. Jonathan's openness encourages Janet.",
+            "e. Jonathan shows signs of openness, altering Janet's belief.",
+            "f. Janet shifts to a more supportive and empathetic action",
+            "g. Her empathy leads her to reassure him",
+            "h. Jonathan\u2019s newfound openness motivates Janet to plan a fitness routine.",
+            "i. Janet's insight into Jonathan's struggles makes her empathetic",
+            "j. Janet reflects on the deeper causes of Jonathan's fear",
+            "k. Janet's supportive nature becomes collaborative in planning.",
+            "l. Jonathan's resistance frustrates Janet"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Jonathan's resistance frustrates Janet",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Janet's insight into Jonathan's struggles makes her empathetic",
+                "reason": "test ability to recognize the reason of emotion change in different time stage",
+                "explain": "emotion change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Jonathan's openness encourages Janet.",
+                "reason": "test ability to recognize the reason of emotion change in different time stage",
+                "explain": "emotion change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Janet observes Jonathan's resistance, changes her belief",
+                "reason": "test ability to recognize the reason between emotion and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Janet reflects on the deeper causes of Jonathan's fear",
+                "reason": "test ability to recognize the reason between emotion and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Jonathan shows signs of openness, altering Janet's belief.",
+                "reason": "test ability to recognize the reason between emotion and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Janet's frustration drives her to confront Jonathan's concerns",
+                "reason": "test ability to recognize the reason between emotion and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Her empathy leads her to reassure him",
+                "reason": "test ability to recognize the reason between emotion and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Jonathan\u2019s newfound openness motivates Janet to plan a fitness routine.",
+                "reason": "test ability to recognize the reason between emotion and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Janet's proactive approach changes to a more investigative one",
+                "reason": "test ability to recognize the reason between emotion and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Janet shifts to a more supportive and empathetic action",
+                "reason": "test ability to recognize the reason between emotion and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Janet's supportive nature becomes collaborative in planning.",
+                "reason": "test ability to recognize the reason between emotion and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_5": {
+        "question": "Why does the emotion of Janet Prioleau change from scenario 2 to scenario 3?",
+        "true answer": "c",
+        "options": [
+            "a. Janet's frustration drives her to confront Jonathan's concerns",
+            "b. Janet's proactive approach changes to a more investigative one",
+            "c. Janet's insight into Jonathan's struggles makes her empathetic",
+            "d. Janet's supportive nature becomes collaborative in planning.",
+            "e. Janet observes Jonathan's resistance, changes her belief",
+            "f. Jonathan's openness encourages Janet.",
+            "g. Jonathan shows signs of openness, altering Janet's belief.",
+            "h. Her empathy leads her to reassure him",
+            "i. Janet reflects on the deeper causes of Jonathan's fear",
+            "j. Jonathan\u2019s newfound openness motivates Janet to plan a fitness routine.",
+            "k. Jonathan's resistance frustrates Janet",
+            "l. Janet shifts to a more supportive and empathetic action"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Janet's insight into Jonathan's struggles makes her empathetic",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Jonathan's resistance frustrates Janet",
+                "reason": "test ability to recognize the reason of emotion change in different time stage",
+                "explain": "emotion change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Jonathan's openness encourages Janet.",
+                "reason": "test ability to recognize the reason of emotion change in different time stage",
+                "explain": "emotion change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Janet observes Jonathan's resistance, changes her belief",
+                "reason": "test ability to recognize the reason between emotion and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Janet reflects on the deeper causes of Jonathan's fear",
+                "reason": "test ability to recognize the reason between emotion and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Jonathan shows signs of openness, altering Janet's belief.",
+                "reason": "test ability to recognize the reason between emotion and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Janet's frustration drives her to confront Jonathan's concerns",
+                "reason": "test ability to recognize the reason between emotion and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Her empathy leads her to reassure him",
+                "reason": "test ability to recognize the reason between emotion and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Jonathan\u2019s newfound openness motivates Janet to plan a fitness routine.",
+                "reason": "test ability to recognize the reason between emotion and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Janet's proactive approach changes to a more investigative one",
+                "reason": "test ability to recognize the reason between emotion and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Janet shifts to a more supportive and empathetic action",
+                "reason": "test ability to recognize the reason between emotion and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Janet's supportive nature becomes collaborative in planning.",
+                "reason": "test ability to recognize the reason between emotion and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_6": {
+        "question": "Why does the emotion of Janet Prioleau change from scenario 3 to scenario 4?",
+        "true answer": "a",
+        "options": [
+            "a. Jonathan's openness encourages Janet.",
+            "b. Jonathan shows signs of openness, altering Janet's belief.",
+            "c. Janet's frustration drives her to confront Jonathan's concerns",
+            "d. Jonathan's resistance frustrates Janet",
+            "e. Her empathy leads her to reassure him",
+            "f. Jonathan\u2019s newfound openness motivates Janet to plan a fitness routine.",
+            "g. Janet shifts to a more supportive and empathetic action",
+            "h. Janet's supportive nature becomes collaborative in planning.",
+            "i. Janet reflects on the deeper causes of Jonathan's fear",
+            "j. Janet's insight into Jonathan's struggles makes her empathetic",
+            "k. Janet observes Jonathan's resistance, changes her belief",
+            "l. Janet's proactive approach changes to a more investigative one"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Jonathan's openness encourages Janet.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Jonathan's resistance frustrates Janet",
+                "reason": "test ability to recognize the reason of emotion change in different time stage",
+                "explain": "emotion change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Janet's insight into Jonathan's struggles makes her empathetic",
+                "reason": "test ability to recognize the reason of emotion change in different time stage",
+                "explain": "emotion change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Janet observes Jonathan's resistance, changes her belief",
+                "reason": "test ability to recognize the reason between emotion and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Janet reflects on the deeper causes of Jonathan's fear",
+                "reason": "test ability to recognize the reason between emotion and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Jonathan shows signs of openness, altering Janet's belief.",
+                "reason": "test ability to recognize the reason between emotion and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Janet's frustration drives her to confront Jonathan's concerns",
+                "reason": "test ability to recognize the reason between emotion and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Her empathy leads her to reassure him",
+                "reason": "test ability to recognize the reason between emotion and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Jonathan\u2019s newfound openness motivates Janet to plan a fitness routine.",
+                "reason": "test ability to recognize the reason between emotion and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Janet's proactive approach changes to a more investigative one",
+                "reason": "test ability to recognize the reason between emotion and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Janet shifts to a more supportive and empathetic action",
+                "reason": "test ability to recognize the reason between emotion and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Janet's supportive nature becomes collaborative in planning.",
+                "reason": "test ability to recognize the reason between emotion and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_7": {
+        "question": "Why does the intention of Janet Prioleau change from scenario 1 to scenario 2?",
+        "true answer": "e",
+        "options": [
+            "a. Janet's supportive nature becomes collaborative in planning.",
+            "b. Janet's insight into Jonathan's struggles makes her empathetic",
+            "c. Her empathy leads her to reassure him",
+            "d. Jonathan's openness encourages Janet.",
+            "e. Janet's frustration drives her to confront Jonathan's concerns",
+            "f. Jonathan shows signs of openness, altering Janet's belief.",
+            "g. Janet's proactive approach changes to a more investigative one",
+            "h. Janet observes Jonathan's resistance, changes her belief",
+            "i. Janet shifts to a more supportive and empathetic action",
+            "j. Jonathan's resistance frustrates Janet",
+            "k. Jonathan\u2019s newfound openness motivates Janet to plan a fitness routine.",
+            "l. Janet reflects on the deeper causes of Jonathan's fear"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Janet's frustration drives her to confront Jonathan's concerns",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Her empathy leads her to reassure him",
+                "reason": "test ability to recognize the reason of intention change in different time stage",
+                "explain": "intention change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Jonathan\u2019s newfound openness motivates Janet to plan a fitness routine.",
+                "reason": "test ability to recognize the reason of intention change in different time stage",
+                "explain": "intention change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Janet observes Jonathan's resistance, changes her belief",
+                "reason": "test ability to recognize the reason between intention and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Janet reflects on the deeper causes of Jonathan's fear",
+                "reason": "test ability to recognize the reason between intention and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Jonathan shows signs of openness, altering Janet's belief.",
+                "reason": "test ability to recognize the reason between intention and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Jonathan's resistance frustrates Janet",
+                "reason": "test ability to recognize the reason between intention and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Janet's insight into Jonathan's struggles makes her empathetic",
+                "reason": "test ability to recognize the reason between intention and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Jonathan's openness encourages Janet.",
+                "reason": "test ability to recognize the reason between intention and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Janet's proactive approach changes to a more investigative one",
+                "reason": "test ability to recognize the reason between intention and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Janet shifts to a more supportive and empathetic action",
+                "reason": "test ability to recognize the reason between intention and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Janet's supportive nature becomes collaborative in planning.",
+                "reason": "test ability to recognize the reason between intention and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_8": {
+        "question": "Why does the intention of Janet Prioleau change from scenario 2 to scenario 3?",
+        "true answer": "g",
+        "options": [
+            "a. Janet reflects on the deeper causes of Jonathan's fear",
+            "b. Jonathan shows signs of openness, altering Janet's belief.",
+            "c. Janet shifts to a more supportive and empathetic action",
+            "d. Janet's frustration drives her to confront Jonathan's concerns",
+            "e. Jonathan's resistance frustrates Janet",
+            "f. Janet's proactive approach changes to a more investigative one",
+            "g. Her empathy leads her to reassure him",
+            "h. Jonathan's openness encourages Janet.",
+            "i. Janet observes Jonathan's resistance, changes her belief",
+            "j. Janet's insight into Jonathan's struggles makes her empathetic",
+            "k. Janet's supportive nature becomes collaborative in planning.",
+            "l. Jonathan\u2019s newfound openness motivates Janet to plan a fitness routine."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Her empathy leads her to reassure him",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Janet's frustration drives her to confront Jonathan's concerns",
+                "reason": "test ability to recognize the reason of intention change in different time stage",
+                "explain": "intention change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Jonathan\u2019s newfound openness motivates Janet to plan a fitness routine.",
+                "reason": "test ability to recognize the reason of intention change in different time stage",
+                "explain": "intention change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Janet observes Jonathan's resistance, changes her belief",
+                "reason": "test ability to recognize the reason between intention and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Janet reflects on the deeper causes of Jonathan's fear",
+                "reason": "test ability to recognize the reason between intention and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Jonathan shows signs of openness, altering Janet's belief.",
+                "reason": "test ability to recognize the reason between intention and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Jonathan's resistance frustrates Janet",
+                "reason": "test ability to recognize the reason between intention and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Janet's insight into Jonathan's struggles makes her empathetic",
+                "reason": "test ability to recognize the reason between intention and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Jonathan's openness encourages Janet.",
+                "reason": "test ability to recognize the reason between intention and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Janet's proactive approach changes to a more investigative one",
+                "reason": "test ability to recognize the reason between intention and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Janet shifts to a more supportive and empathetic action",
+                "reason": "test ability to recognize the reason between intention and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Janet's supportive nature becomes collaborative in planning.",
+                "reason": "test ability to recognize the reason between intention and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_9": {
+        "question": "Why does the intention of Janet Prioleau change from scenario 3 to scenario 4?",
+        "true answer": "e",
+        "options": [
+            "a. Jonathan's resistance frustrates Janet",
+            "b. Janet's proactive approach changes to a more investigative one",
+            "c. Janet observes Jonathan's resistance, changes her belief",
+            "d. Her empathy leads her to reassure him",
+            "e. Jonathan\u2019s newfound openness motivates Janet to plan a fitness routine.",
+            "f. Janet shifts to a more supportive and empathetic action",
+            "g. Janet's frustration drives her to confront Jonathan's concerns",
+            "h. Jonathan shows signs of openness, altering Janet's belief.",
+            "i. Jonathan's openness encourages Janet.",
+            "j. Janet's insight into Jonathan's struggles makes her empathetic",
+            "k. Janet's supportive nature becomes collaborative in planning.",
+            "l. Janet reflects on the deeper causes of Jonathan's fear"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Jonathan\u2019s newfound openness motivates Janet to plan a fitness routine.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Janet's frustration drives her to confront Jonathan's concerns",
+                "reason": "test ability to recognize the reason of intention change in different time stage",
+                "explain": "intention change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Her empathy leads her to reassure him",
+                "reason": "test ability to recognize the reason of intention change in different time stage",
+                "explain": "intention change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Janet observes Jonathan's resistance, changes her belief",
+                "reason": "test ability to recognize the reason between intention and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Janet reflects on the deeper causes of Jonathan's fear",
+                "reason": "test ability to recognize the reason between intention and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Jonathan shows signs of openness, altering Janet's belief.",
+                "reason": "test ability to recognize the reason between intention and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Jonathan's resistance frustrates Janet",
+                "reason": "test ability to recognize the reason between intention and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Janet's insight into Jonathan's struggles makes her empathetic",
+                "reason": "test ability to recognize the reason between intention and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Jonathan's openness encourages Janet.",
+                "reason": "test ability to recognize the reason between intention and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Janet's proactive approach changes to a more investigative one",
+                "reason": "test ability to recognize the reason between intention and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Janet shifts to a more supportive and empathetic action",
+                "reason": "test ability to recognize the reason between intention and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Janet's supportive nature becomes collaborative in planning.",
+                "reason": "test ability to recognize the reason between intention and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_10": {
+        "question": "Why does the action of Janet Prioleau change from scenario 1 to scenario 2?",
+        "true answer": "d",
+        "options": [
+            "a. Janet's insight into Jonathan's struggles makes her empathetic",
+            "b. Janet reflects on the deeper causes of Jonathan's fear",
+            "c. Jonathan's openness encourages Janet.",
+            "d. Janet's proactive approach changes to a more investigative one",
+            "e. Her empathy leads her to reassure him",
+            "f. Janet's frustration drives her to confront Jonathan's concerns",
+            "g. Janet observes Jonathan's resistance, changes her belief",
+            "h. Janet's supportive nature becomes collaborative in planning.",
+            "i. Jonathan\u2019s newfound openness motivates Janet to plan a fitness routine.",
+            "j. Jonathan's resistance frustrates Janet",
+            "k. Jonathan shows signs of openness, altering Janet's belief.",
+            "l. Janet shifts to a more supportive and empathetic action"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Janet's proactive approach changes to a more investigative one",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Janet shifts to a more supportive and empathetic action",
+                "reason": "test ability to recognize the reason of action change in different time stage",
+                "explain": "action change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Janet's supportive nature becomes collaborative in planning.",
+                "reason": "test ability to recognize the reason of action change in different time stage",
+                "explain": "action change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Janet observes Jonathan's resistance, changes her belief",
+                "reason": "test ability to recognize the reason between action and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Janet reflects on the deeper causes of Jonathan's fear",
+                "reason": "test ability to recognize the reason between action and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Jonathan shows signs of openness, altering Janet's belief.",
+                "reason": "test ability to recognize the reason between action and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Jonathan's resistance frustrates Janet",
+                "reason": "test ability to recognize the reason between action and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Janet's insight into Jonathan's struggles makes her empathetic",
+                "reason": "test ability to recognize the reason between action and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Jonathan's openness encourages Janet.",
+                "reason": "test ability to recognize the reason between action and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Janet's frustration drives her to confront Jonathan's concerns",
+                "reason": "test ability to recognize the reason between action and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Her empathy leads her to reassure him",
+                "reason": "test ability to recognize the reason between action and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Jonathan\u2019s newfound openness motivates Janet to plan a fitness routine.",
+                "reason": "test ability to recognize the reason between action and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_11": {
+        "question": "Why does the action of Janet Prioleau change from scenario 2 to scenario 3?",
+        "true answer": "d",
+        "options": [
+            "a. Her empathy leads her to reassure him",
+            "b. Janet observes Jonathan's resistance, changes her belief",
+            "c. Jonathan\u2019s newfound openness motivates Janet to plan a fitness routine.",
+            "d. Janet shifts to a more supportive and empathetic action",
+            "e. Jonathan's resistance frustrates Janet",
+            "f. Jonathan shows signs of openness, altering Janet's belief.",
+            "g. Janet's proactive approach changes to a more investigative one",
+            "h. Janet reflects on the deeper causes of Jonathan's fear",
+            "i. Janet's frustration drives her to confront Jonathan's concerns",
+            "j. Jonathan's openness encourages Janet.",
+            "k. Janet's insight into Jonathan's struggles makes her empathetic",
+            "l. Janet's supportive nature becomes collaborative in planning."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Janet shifts to a more supportive and empathetic action",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Janet's proactive approach changes to a more investigative one",
+                "reason": "test ability to recognize the reason of action change in different time stage",
+                "explain": "action change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Janet's supportive nature becomes collaborative in planning.",
+                "reason": "test ability to recognize the reason of action change in different time stage",
+                "explain": "action change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Janet observes Jonathan's resistance, changes her belief",
+                "reason": "test ability to recognize the reason between action and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Janet reflects on the deeper causes of Jonathan's fear",
+                "reason": "test ability to recognize the reason between action and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Jonathan shows signs of openness, altering Janet's belief.",
+                "reason": "test ability to recognize the reason between action and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Jonathan's resistance frustrates Janet",
+                "reason": "test ability to recognize the reason between action and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Janet's insight into Jonathan's struggles makes her empathetic",
+                "reason": "test ability to recognize the reason between action and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Jonathan's openness encourages Janet.",
+                "reason": "test ability to recognize the reason between action and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Janet's frustration drives her to confront Jonathan's concerns",
+                "reason": "test ability to recognize the reason between action and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Her empathy leads her to reassure him",
+                "reason": "test ability to recognize the reason between action and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Jonathan\u2019s newfound openness motivates Janet to plan a fitness routine.",
+                "reason": "test ability to recognize the reason between action and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_12": {
+        "question": "Why does the action of Janet Prioleau change from scenario 3 to scenario 4?",
+        "true answer": "j",
+        "options": [
+            "a. Jonathan's openness encourages Janet.",
+            "b. Janet's proactive approach changes to a more investigative one",
+            "c. Janet shifts to a more supportive and empathetic action",
+            "d. Jonathan shows signs of openness, altering Janet's belief.",
+            "e. Jonathan's resistance frustrates Janet",
+            "f. Her empathy leads her to reassure him",
+            "g. Janet's insight into Jonathan's struggles makes her empathetic",
+            "h. Janet observes Jonathan's resistance, changes her belief",
+            "i. Janet's frustration drives her to confront Jonathan's concerns",
+            "j. Janet's supportive nature becomes collaborative in planning.",
+            "k. Janet reflects on the deeper causes of Jonathan's fear",
+            "l. Jonathan\u2019s newfound openness motivates Janet to plan a fitness routine."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Janet's supportive nature becomes collaborative in planning.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Janet's proactive approach changes to a more investigative one",
+                "reason": "test ability to recognize the reason of action change in different time stage",
+                "explain": "action change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Janet shifts to a more supportive and empathetic action",
+                "reason": "test ability to recognize the reason of action change in different time stage",
+                "explain": "action change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Janet observes Jonathan's resistance, changes her belief",
+                "reason": "test ability to recognize the reason between action and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Janet reflects on the deeper causes of Jonathan's fear",
+                "reason": "test ability to recognize the reason between action and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Jonathan shows signs of openness, altering Janet's belief.",
+                "reason": "test ability to recognize the reason between action and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Jonathan's resistance frustrates Janet",
+                "reason": "test ability to recognize the reason between action and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Janet's insight into Jonathan's struggles makes her empathetic",
+                "reason": "test ability to recognize the reason between action and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Jonathan's openness encourages Janet.",
+                "reason": "test ability to recognize the reason between action and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Janet's frustration drives her to confront Jonathan's concerns",
+                "reason": "test ability to recognize the reason between action and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Her empathy leads her to reassure him",
+                "reason": "test ability to recognize the reason between action and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Jonathan\u2019s newfound openness motivates Janet to plan a fitness routine.",
+                "reason": "test ability to recognize the reason between action and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_whether_1": {
+        "question": "Whether the belief of Janet Prioleau change from scenario 1 to scenario 2? if yes, from what to what?",
+        "true answer": "b",
+        "options": [
+            "a. Yes, from Janet believes Jonathan is resistant to change due to past failures. to Janet believes Jonathan\u2019s previous failures in other areas may contribute to his fear of failing in fitness.",
+            "b. Yes, from Janet believes Jonathan can benefit from a healthier lifestyle and improved fitness. to Janet believes Jonathan is resistant to change due to past failures.",
+            "c. No",
+            "d. Yes, from Janet believes Jonathan\u2019s previous failures in other areas may contribute to his fear of failing in fitness. to Janet now believes Jonathan is more open to trying new things, including fitness."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Janet believes Jonathan can benefit from a healthier lifestyle and improved fitness. to Janet believes Jonathan is resistant to change due to past failures.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the belief change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Janet believes Jonathan is resistant to change due to past failures. to Janet believes Jonathan\u2019s previous failures in other areas may contribute to his fear of failing in fitness.",
+                "reason": "test ability to recognize how the belief change in the correct time stage",
+                "explain": "how the belief change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Janet believes Jonathan\u2019s previous failures in other areas may contribute to his fear of failing in fitness. to Janet now believes Jonathan is more open to trying new things, including fitness.",
+                "reason": "test ability to recognize how the belief change in the correct time stage",
+                "explain": "how the belief change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_2": {
+        "question": "Whether the belief of Janet Prioleau change from scenario 2 to scenario 3? if yes, from what to what?",
+        "true answer": "d",
+        "options": [
+            "a. No",
+            "b. Yes, from Janet believes Jonathan can benefit from a healthier lifestyle and improved fitness. to Janet believes Jonathan is resistant to change due to past failures.",
+            "c. Yes, from Janet believes Jonathan\u2019s previous failures in other areas may contribute to his fear of failing in fitness. to Janet now believes Jonathan is more open to trying new things, including fitness.",
+            "d. Yes, from Janet believes Jonathan is resistant to change due to past failures. to Janet believes Jonathan\u2019s previous failures in other areas may contribute to his fear of failing in fitness."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Janet believes Jonathan is resistant to change due to past failures. to Janet believes Jonathan\u2019s previous failures in other areas may contribute to his fear of failing in fitness.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the belief change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Janet believes Jonathan can benefit from a healthier lifestyle and improved fitness. to Janet believes Jonathan is resistant to change due to past failures.",
+                "reason": "test ability to recognize how the belief change in the correct time stage",
+                "explain": "how the belief change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Janet believes Jonathan\u2019s previous failures in other areas may contribute to his fear of failing in fitness. to Janet now believes Jonathan is more open to trying new things, including fitness.",
+                "reason": "test ability to recognize how the belief change in the correct time stage",
+                "explain": "how the belief change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_3": {
+        "question": "Whether the belief of Janet Prioleau change from scenario 3 to scenario 4? if yes, from what to what?",
+        "true answer": "d",
+        "options": [
+            "a. Yes, from Janet believes Jonathan can benefit from a healthier lifestyle and improved fitness. to Janet believes Jonathan is resistant to change due to past failures.",
+            "b. Yes, from Janet believes Jonathan is resistant to change due to past failures. to Janet believes Jonathan\u2019s previous failures in other areas may contribute to his fear of failing in fitness.",
+            "c. No",
+            "d. Yes, from Janet believes Jonathan\u2019s previous failures in other areas may contribute to his fear of failing in fitness. to Janet now believes Jonathan is more open to trying new things, including fitness."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Janet believes Jonathan\u2019s previous failures in other areas may contribute to his fear of failing in fitness. to Janet now believes Jonathan is more open to trying new things, including fitness.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the belief change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Janet believes Jonathan can benefit from a healthier lifestyle and improved fitness. to Janet believes Jonathan is resistant to change due to past failures.",
+                "reason": "test ability to recognize how the belief change in the correct time stage",
+                "explain": "how the belief change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Janet believes Jonathan is resistant to change due to past failures. to Janet believes Jonathan\u2019s previous failures in other areas may contribute to his fear of failing in fitness.",
+                "reason": "test ability to recognize how the belief change in the correct time stage",
+                "explain": "how the belief change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_4": {
+        "question": "Whether the emotion of Janet Prioleau change from scenario 1 to scenario 2? if yes, from what to what?",
+        "true answer": "a",
+        "options": [
+            "a. Yes, from Hopeful and optimistic to Frustrated and concerned",
+            "b. Yes, from Frustrated and concerned to Empathetic and compassionate",
+            "c. No",
+            "d. Yes, from Empathetic and compassionate to Encouraged and motivated"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Hopeful and optimistic to Frustrated and concerned",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the emotion change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Frustrated and concerned to Empathetic and compassionate",
+                "reason": "test ability to recognize how the emotion change in the correct time stage",
+                "explain": "how the emotion change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Empathetic and compassionate to Encouraged and motivated",
+                "reason": "test ability to recognize how the emotion change in the correct time stage",
+                "explain": "how the emotion change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_5": {
+        "question": "Whether the emotion of Janet Prioleau change from scenario 2 to scenario 3? if yes, from what to what?",
+        "true answer": "d",
+        "options": [
+            "a. Yes, from Empathetic and compassionate to Encouraged and motivated",
+            "b. Yes, from Hopeful and optimistic to Frustrated and concerned",
+            "c. No",
+            "d. Yes, from Frustrated and concerned to Empathetic and compassionate"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Frustrated and concerned to Empathetic and compassionate",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the emotion change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Hopeful and optimistic to Frustrated and concerned",
+                "reason": "test ability to recognize how the emotion change in the correct time stage",
+                "explain": "how the emotion change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Empathetic and compassionate to Encouraged and motivated",
+                "reason": "test ability to recognize how the emotion change in the correct time stage",
+                "explain": "how the emotion change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_6": {
+        "question": "Whether the emotion of Janet Prioleau change from scenario 3 to scenario 4? if yes, from what to what?",
+        "true answer": "c",
+        "options": [
+            "a. Yes, from Frustrated and concerned to Empathetic and compassionate",
+            "b. Yes, from Hopeful and optimistic to Frustrated and concerned",
+            "c. Yes, from Empathetic and compassionate to Encouraged and motivated",
+            "d. No"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Empathetic and compassionate to Encouraged and motivated",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the emotion change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Hopeful and optimistic to Frustrated and concerned",
+                "reason": "test ability to recognize how the emotion change in the correct time stage",
+                "explain": "how the emotion change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Frustrated and concerned to Empathetic and compassionate",
+                "reason": "test ability to recognize how the emotion change in the correct time stage",
+                "explain": "how the emotion change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_7": {
+        "question": "Whether the intention of Janet Prioleau change from scenario 1 to scenario 2? if yes, from what to what?",
+        "true answer": "d",
+        "options": [
+            "a. Yes, from Reassure Jonathan and boost his confidence to Create a personalized fitness plan for Jonathan",
+            "b. No",
+            "c. Yes, from Address Jonathan's concerns directly to Reassure Jonathan and boost his confidence",
+            "d. Yes, from Convince Jonathan to start a fitness program to Address Jonathan's concerns directly"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Convince Jonathan to start a fitness program to Address Jonathan's concerns directly",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the intention change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Address Jonathan's concerns directly to Reassure Jonathan and boost his confidence",
+                "reason": "test ability to recognize how the intention change in the correct time stage",
+                "explain": "how the intention change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Reassure Jonathan and boost his confidence to Create a personalized fitness plan for Jonathan",
+                "reason": "test ability to recognize how the intention change in the correct time stage",
+                "explain": "how the intention change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_8": {
+        "question": "Whether the intention of Janet Prioleau change from scenario 2 to scenario 3? if yes, from what to what?",
+        "true answer": "b",
+        "options": [
+            "a. Yes, from Convince Jonathan to start a fitness program to Address Jonathan's concerns directly",
+            "b. Yes, from Address Jonathan's concerns directly to Reassure Jonathan and boost his confidence",
+            "c. No",
+            "d. Yes, from Reassure Jonathan and boost his confidence to Create a personalized fitness plan for Jonathan"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Address Jonathan's concerns directly to Reassure Jonathan and boost his confidence",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the intention change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Convince Jonathan to start a fitness program to Address Jonathan's concerns directly",
+                "reason": "test ability to recognize how the intention change in the correct time stage",
+                "explain": "how the intention change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Reassure Jonathan and boost his confidence to Create a personalized fitness plan for Jonathan",
+                "reason": "test ability to recognize how the intention change in the correct time stage",
+                "explain": "how the intention change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_9": {
+        "question": "Whether the intention of Janet Prioleau change from scenario 3 to scenario 4? if yes, from what to what?",
+        "true answer": "c",
+        "options": [
+            "a. Yes, from Address Jonathan's concerns directly to Reassure Jonathan and boost his confidence",
+            "b. No",
+            "c. Yes, from Reassure Jonathan and boost his confidence to Create a personalized fitness plan for Jonathan",
+            "d. Yes, from Convince Jonathan to start a fitness program to Address Jonathan's concerns directly"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Reassure Jonathan and boost his confidence to Create a personalized fitness plan for Jonathan",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the intention change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Convince Jonathan to start a fitness program to Address Jonathan's concerns directly",
+                "reason": "test ability to recognize how the intention change in the correct time stage",
+                "explain": "how the intention change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Address Jonathan's concerns directly to Reassure Jonathan and boost his confidence",
+                "reason": "test ability to recognize how the intention change in the correct time stage",
+                "explain": "how the intention change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_10": {
+        "question": "Whether the action of Janet Prioleau change from scenario 1 to scenario 2? if yes, from what to what?",
+        "true answer": "a",
+        "options": [
+            "a. Yes, from Enthusiastically describes the potential benefits of a fitness regimen to Jonathan. to Asks Jonathan to share why he feels he cannot commit to a fitness routine.",
+            "b. No",
+            "c. Yes, from Asks Jonathan to share why he feels he cannot commit to a fitness routine. to Shares personal stories of past struggles and overcoming them.",
+            "d. Yes, from Shares personal stories of past struggles and overcoming them. to Outlines a step-by-step fitness plan tailored to Jonathan's needs."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Enthusiastically describes the potential benefits of a fitness regimen to Jonathan. to Asks Jonathan to share why he feels he cannot commit to a fitness routine.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the action change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Asks Jonathan to share why he feels he cannot commit to a fitness routine. to Shares personal stories of past struggles and overcoming them.",
+                "reason": "test ability to recognize how the action change in the correct time stage",
+                "explain": "how the action change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Shares personal stories of past struggles and overcoming them. to Outlines a step-by-step fitness plan tailored to Jonathan's needs.",
+                "reason": "test ability to recognize how the action change in the correct time stage",
+                "explain": "how the action change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_11": {
+        "question": "Whether the action of Janet Prioleau change from scenario 2 to scenario 3? if yes, from what to what?",
+        "true answer": "c",
+        "options": [
+            "a. Yes, from Enthusiastically describes the potential benefits of a fitness regimen to Jonathan. to Asks Jonathan to share why he feels he cannot commit to a fitness routine.",
+            "b. Yes, from Shares personal stories of past struggles and overcoming them. to Outlines a step-by-step fitness plan tailored to Jonathan's needs.",
+            "c. Yes, from Asks Jonathan to share why he feels he cannot commit to a fitness routine. to Shares personal stories of past struggles and overcoming them.",
+            "d. No"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Asks Jonathan to share why he feels he cannot commit to a fitness routine. to Shares personal stories of past struggles and overcoming them.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the action change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Enthusiastically describes the potential benefits of a fitness regimen to Jonathan. to Asks Jonathan to share why he feels he cannot commit to a fitness routine.",
+                "reason": "test ability to recognize how the action change in the correct time stage",
+                "explain": "how the action change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Shares personal stories of past struggles and overcoming them. to Outlines a step-by-step fitness plan tailored to Jonathan's needs.",
+                "reason": "test ability to recognize how the action change in the correct time stage",
+                "explain": "how the action change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_12": {
+        "question": "Whether the action of Janet Prioleau change from scenario 3 to scenario 4? if yes, from what to what?",
+        "true answer": "a",
+        "options": [
+            "a. Yes, from Shares personal stories of past struggles and overcoming them. to Outlines a step-by-step fitness plan tailored to Jonathan's needs.",
+            "b. No",
+            "c. Yes, from Enthusiastically describes the potential benefits of a fitness regimen to Jonathan. to Asks Jonathan to share why he feels he cannot commit to a fitness routine.",
+            "d. Yes, from Asks Jonathan to share why he feels he cannot commit to a fitness routine. to Shares personal stories of past struggles and overcoming them."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Shares personal stories of past struggles and overcoming them. to Outlines a step-by-step fitness plan tailored to Jonathan's needs.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the action change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Enthusiastically describes the potential benefits of a fitness regimen to Jonathan. to Asks Jonathan to share why he feels he cannot commit to a fitness routine.",
+                "reason": "test ability to recognize how the action change in the correct time stage",
+                "explain": "how the action change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Asks Jonathan to share why he feels he cannot commit to a fitness routine. to Shares personal stories of past struggles and overcoming them.",
+                "reason": "test ability to recognize how the action change in the correct time stage",
+                "explain": "how the action change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_c_how_1": {
+        "question": "In scenario 1, how does the belief of Janet Prioleau influence the emotion of Janet Prioleau?",
+        "true answer": "b",
+        "options": [
+            "a. Janet's belief in Jonathan's resistance causes frustration.",
+            "b. Janet's belief in her friend's potential makes her feel hopeful.",
+            "c. Her intention leads her to actively promote fitness to Jonathan.",
+            "d. Her belief and hope motivate her to plan on convincing Jonathan.",
+            "e. Janet's belief in Jonathan's fear of failure nurtures her empathy."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "Janet's belief in her friend's potential makes her feel hopeful.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Her belief and hope motivate her to plan on convincing Jonathan.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Her intention leads her to actively promote fitness to Jonathan.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Janet's belief in Jonathan's resistance causes frustration.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in other time stage",
+                "explain": "how the belief influence emotion in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Janet's belief in Jonathan's fear of failure nurtures her empathy.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in other time stage",
+                "explain": "how the belief influence emotion in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_2": {
+        "question": "In scenario 2, how does the belief of Janet Prioleau influence the emotion of Janet Prioleau?",
+        "true answer": "e",
+        "options": [
+            "a. Her intention to understand his resistance leads her to ask probing questions.",
+            "b. Janet's belief in Jonathan's fear of failure nurtures her empathy.",
+            "c. Janet's belief in her friend's potential makes her feel hopeful.",
+            "d. Her belief in his resistance combined with her frustration compels her to address his concerns directly.",
+            "e. Janet's belief in Jonathan's resistance causes frustration."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "Janet's belief in Jonathan's resistance causes frustration.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Her belief in his resistance combined with her frustration compels her to address his concerns directly.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Her intention to understand his resistance leads her to ask probing questions.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Janet's belief in her friend's potential makes her feel hopeful.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in other time stage",
+                "explain": "how the belief influence emotion in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Janet's belief in Jonathan's fear of failure nurtures her empathy.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in other time stage",
+                "explain": "how the belief influence emotion in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_3": {
+        "question": "In scenario 3, how does the belief of Janet Prioleau influence the emotion of Janet Prioleau?",
+        "true answer": "d",
+        "options": [
+            "a. Her belief in his fear and her empathy motivate her to reassure him.",
+            "b. Her intention to boost his confidence influences her to share personal stories.",
+            "c. Janet's belief in Jonathan's resistance causes frustration.",
+            "d. Janet's belief in Jonathan's fear of failure nurtures her empathy.",
+            "e. Janet's belief in her friend's potential makes her feel hopeful."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "Janet's belief in Jonathan's fear of failure nurtures her empathy.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Her belief in his fear and her empathy motivate her to reassure him.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Her intention to boost his confidence influences her to share personal stories.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Janet's belief in her friend's potential makes her feel hopeful.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in other time stage",
+                "explain": "how the belief influence emotion in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Janet's belief in Jonathan's resistance causes frustration.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in other time stage",
+                "explain": "how the belief influence emotion in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_4": {
+        "question": "In scenario 4, how does the belief of Janet Prioleau influence the emotion of Janet Prioleau?",
+        "true answer": "e",
+        "options": [
+            "a. Janet's belief in Jonathan's fear of failure nurtures her empathy.",
+            "b. Janet's belief in her friend's potential makes her feel hopeful.",
+            "c. Her belief in his openness and her encouragement drive her to plan a personalized routine.",
+            "d. Janet's belief in Jonathan's resistance causes frustration.",
+            "e. Janet's belief in Jonathan's openness makes her feel encouraged.",
+            "f. Her intention to create a plan results in her crafting a detailed fitness regimen."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "Janet's belief in Jonathan's openness makes her feel encouraged.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Her belief in his openness and her encouragement drive her to plan a personalized routine.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Her intention to create a plan results in her crafting a detailed fitness regimen.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Janet's belief in her friend's potential makes her feel hopeful.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in other time stage",
+                "explain": "how the belief influence emotion in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Janet's belief in Jonathan's resistance causes frustration.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in other time stage",
+                "explain": "how the belief influence emotion in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Janet's belief in Jonathan's fear of failure nurtures her empathy.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in other time stage",
+                "explain": "how the belief influence emotion in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_5": {
+        "question": "In scenario 1, how does the belief&emotion of Janet Prioleau influence the intention of Janet Prioleau?",
+        "true answer": "d",
+        "options": [
+            "a. Her intention leads her to actively promote fitness to Jonathan.",
+            "b. Her belief in his fear and her empathy motivate her to reassure him.",
+            "c. Janet's belief in her friend's potential makes her feel hopeful.",
+            "d. Her belief and hope motivate her to plan on convincing Jonathan.",
+            "e. Her belief in his resistance combined with her frustration compels her to address his concerns directly."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "Her belief and hope motivate her to plan on convincing Jonathan.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Janet's belief in her friend's potential makes her feel hopeful.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Her intention leads her to actively promote fitness to Jonathan.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Her belief in his resistance combined with her frustration compels her to address his concerns directly.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in other time stage",
+                "explain": "how the belief&emotion influence intention in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Her belief in his fear and her empathy motivate her to reassure him.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in other time stage",
+                "explain": "how the belief&emotion influence intention in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_6": {
+        "question": "In scenario 2, how does the belief&emotion of Janet Prioleau influence the intention of Janet Prioleau?",
+        "true answer": "b",
+        "options": [
+            "a. Her belief and hope motivate her to plan on convincing Jonathan.",
+            "b. Her belief in his resistance combined with her frustration compels her to address his concerns directly.",
+            "c. Janet's belief in Jonathan's resistance causes frustration.",
+            "d. Her belief in his fear and her empathy motivate her to reassure him.",
+            "e. Her intention to understand his resistance leads her to ask probing questions."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "Her belief in his resistance combined with her frustration compels her to address his concerns directly.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Janet's belief in Jonathan's resistance causes frustration.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Her intention to understand his resistance leads her to ask probing questions.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Her belief and hope motivate her to plan on convincing Jonathan.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in other time stage",
+                "explain": "how the belief&emotion influence intention in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Her belief in his fear and her empathy motivate her to reassure him.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in other time stage",
+                "explain": "how the belief&emotion influence intention in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_7": {
+        "question": "In scenario 3, how does the belief&emotion of Janet Prioleau influence the intention of Janet Prioleau?",
+        "true answer": "e",
+        "options": [
+            "a. Her belief and hope motivate her to plan on convincing Jonathan.",
+            "b. Her belief in his resistance combined with her frustration compels her to address his concerns directly.",
+            "c. Janet's belief in Jonathan's fear of failure nurtures her empathy.",
+            "d. Her intention to boost his confidence influences her to share personal stories.",
+            "e. Her belief in his fear and her empathy motivate her to reassure him."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "Her belief in his fear and her empathy motivate her to reassure him.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Janet's belief in Jonathan's fear of failure nurtures her empathy.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Her intention to boost his confidence influences her to share personal stories.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Her belief and hope motivate her to plan on convincing Jonathan.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in other time stage",
+                "explain": "how the belief&emotion influence intention in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Her belief in his resistance combined with her frustration compels her to address his concerns directly.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in other time stage",
+                "explain": "how the belief&emotion influence intention in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_8": {
+        "question": "In scenario 4, how does the belief&emotion of Janet Prioleau influence the intention of Janet Prioleau?",
+        "true answer": "c",
+        "options": [
+            "a. Her belief in his resistance combined with her frustration compels her to address his concerns directly.",
+            "b. Janet's belief in Jonathan's openness makes her feel encouraged.",
+            "c. Her belief in his openness and her encouragement drive her to plan a personalized routine.",
+            "d. Her intention to create a plan results in her crafting a detailed fitness regimen.",
+            "e. Her belief in his fear and her empathy motivate her to reassure him.",
+            "f. Her belief and hope motivate her to plan on convincing Jonathan."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "Her belief in his openness and her encouragement drive her to plan a personalized routine.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Janet's belief in Jonathan's openness makes her feel encouraged.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Her intention to create a plan results in her crafting a detailed fitness regimen.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Her belief and hope motivate her to plan on convincing Jonathan.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in other time stage",
+                "explain": "how the belief&emotion influence intention in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Her belief in his resistance combined with her frustration compels her to address his concerns directly.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in other time stage",
+                "explain": "how the belief&emotion influence intention in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Her belief in his fear and her empathy motivate her to reassure him.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in other time stage",
+                "explain": "how the belief&emotion influence intention in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_9": {
+        "question": "In scenario 1, how does the intention of Janet Prioleau influence the action of Janet Prioleau?",
+        "true answer": "e",
+        "options": [
+            "a. Her intention to understand his resistance leads her to ask probing questions.",
+            "b. Her intention to boost his confidence influences her to share personal stories.",
+            "c. Her belief and hope motivate her to plan on convincing Jonathan.",
+            "d. Janet's belief in her friend's potential makes her feel hopeful.",
+            "e. Her intention leads her to actively promote fitness to Jonathan."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "Her intention leads her to actively promote fitness to Jonathan.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Janet's belief in her friend's potential makes her feel hopeful.",
+                "reason": "test ability to correctly recognize how the intention influence action in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Her belief and hope motivate her to plan on convincing Jonathan.",
+                "reason": "test ability to correctly recognize how the intention influence action in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Her intention to understand his resistance leads her to ask probing questions.",
+                "reason": "test ability to correctly recognize how the intention influence action in other time stage",
+                "explain": "how the intention influence action in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Her intention to boost his confidence influences her to share personal stories.",
+                "reason": "test ability to correctly recognize how the intention influence action in other time stage",
+                "explain": "how the intention influence action in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_10": {
+        "question": "In scenario 2, how does the intention of Janet Prioleau influence the action of Janet Prioleau?",
+        "true answer": "a",
+        "options": [
+            "a. Her intention to understand his resistance leads her to ask probing questions.",
+            "b. Her intention to boost his confidence influences her to share personal stories.",
+            "c. Janet's belief in Jonathan's resistance causes frustration.",
+            "d. Her belief in his resistance combined with her frustration compels her to address his concerns directly.",
+            "e. Her intention leads her to actively promote fitness to Jonathan."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "Her intention to understand his resistance leads her to ask probing questions.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Janet's belief in Jonathan's resistance causes frustration.",
+                "reason": "test ability to correctly recognize how the intention influence action in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Her belief in his resistance combined with her frustration compels her to address his concerns directly.",
+                "reason": "test ability to correctly recognize how the intention influence action in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Her intention leads her to actively promote fitness to Jonathan.",
+                "reason": "test ability to correctly recognize how the intention influence action in other time stage",
+                "explain": "how the intention influence action in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Her intention to boost his confidence influences her to share personal stories.",
+                "reason": "test ability to correctly recognize how the intention influence action in other time stage",
+                "explain": "how the intention influence action in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_11": {
+        "question": "In scenario 3, how does the intention of Janet Prioleau influence the action of Janet Prioleau?",
+        "true answer": "d",
+        "options": [
+            "a. Her intention to understand his resistance leads her to ask probing questions.",
+            "b. Janet's belief in Jonathan's fear of failure nurtures her empathy.",
+            "c. Her belief in his fear and her empathy motivate her to reassure him.",
+            "d. Her intention to boost his confidence influences her to share personal stories.",
+            "e. Her intention leads her to actively promote fitness to Jonathan."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "Her intention to boost his confidence influences her to share personal stories.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Janet's belief in Jonathan's fear of failure nurtures her empathy.",
+                "reason": "test ability to correctly recognize how the intention influence action in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Her belief in his fear and her empathy motivate her to reassure him.",
+                "reason": "test ability to correctly recognize how the intention influence action in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Her intention leads her to actively promote fitness to Jonathan.",
+                "reason": "test ability to correctly recognize how the intention influence action in other time stage",
+                "explain": "how the intention influence action in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Her intention to understand his resistance leads her to ask probing questions.",
+                "reason": "test ability to correctly recognize how the intention influence action in other time stage",
+                "explain": "how the intention influence action in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_12": {
+        "question": "In scenario 4, how does the intention of Janet Prioleau influence the action of Janet Prioleau?",
+        "true answer": "c",
+        "options": [
+            "a. Her intention leads her to actively promote fitness to Jonathan.",
+            "b. Her belief in his openness and her encouragement drive her to plan a personalized routine.",
+            "c. Her intention to create a plan results in her crafting a detailed fitness regimen.",
+            "d. Her intention to understand his resistance leads her to ask probing questions.",
+            "e. Janet's belief in Jonathan's openness makes her feel encouraged.",
+            "f. Her intention to boost his confidence influences her to share personal stories."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "Her intention to create a plan results in her crafting a detailed fitness regimen.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Janet's belief in Jonathan's openness makes her feel encouraged.",
+                "reason": "test ability to correctly recognize how the intention influence action in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Her belief in his openness and her encouragement drive her to plan a personalized routine.",
+                "reason": "test ability to correctly recognize how the intention influence action in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Her intention leads her to actively promote fitness to Jonathan.",
+                "reason": "test ability to correctly recognize how the intention influence action in other time stage",
+                "explain": "how the intention influence action in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Her intention to understand his resistance leads her to ask probing questions.",
+                "reason": "test ability to correctly recognize how the intention influence action in other time stage",
+                "explain": "how the intention influence action in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Her intention to boost his confidence influences her to share personal stories.",
+                "reason": "test ability to correctly recognize how the intention influence action in other time stage",
+                "explain": "how the intention influence action in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_a_what_1": {
+        "question": "What is the belief of Janet Prioleau in scenario 1?",
+        "true answer": "a",
+        "options": [
+            "a. Janet believes Jonathan can benefit from a healthier lifestyle and improved fitness.",
+            "b. Janet believes Jonathan\u2019s previous failures in other areas may contribute to his fear of failing in fitness.",
+            "c. Enthusiastically describes the potential benefits of a fitness regimen to Jonathan.",
+            "d. Janet believes Jonathan is resistant to change due to past failures.",
+            "e. Janet now believes Jonathan is more open to trying new things, including fitness.",
+            "f. Hopeful and optimistic",
+            "g. Convince Jonathan to start a fitness program"
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Janet believes Jonathan can benefit from a healthier lifestyle and improved fitness.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Janet believes Jonathan is resistant to change due to past failures.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Janet believes Jonathan\u2019s previous failures in other areas may contribute to his fear of failing in fitness.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Janet now believes Jonathan is more open to trying new things, including fitness.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Hopeful and optimistic",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Convince Jonathan to start a fitness program",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Enthusiastically describes the potential benefits of a fitness regimen to Jonathan.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_2": {
+        "question": "What is the belief of Janet Prioleau in scenario 2?",
+        "true answer": "d",
+        "options": [
+            "a. Address Jonathan's concerns directly",
+            "b. Janet believes Jonathan\u2019s previous failures in other areas may contribute to his fear of failing in fitness.",
+            "c. Janet believes Jonathan can benefit from a healthier lifestyle and improved fitness.",
+            "d. Janet believes Jonathan is resistant to change due to past failures.",
+            "e. Frustrated and concerned",
+            "f. Asks Jonathan to share why he feels he cannot commit to a fitness routine.",
+            "g. Janet now believes Jonathan is more open to trying new things, including fitness."
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Janet believes Jonathan is resistant to change due to past failures.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Janet believes Jonathan can benefit from a healthier lifestyle and improved fitness.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Janet believes Jonathan\u2019s previous failures in other areas may contribute to his fear of failing in fitness.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Janet now believes Jonathan is more open to trying new things, including fitness.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Frustrated and concerned",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Address Jonathan's concerns directly",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Asks Jonathan to share why he feels he cannot commit to a fitness routine.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_3": {
+        "question": "What is the belief of Janet Prioleau in scenario 3?",
+        "true answer": "g",
+        "options": [
+            "a. Janet believes Jonathan is resistant to change due to past failures.",
+            "b. Reassure Jonathan and boost his confidence",
+            "c. Empathetic and compassionate",
+            "d. Shares personal stories of past struggles and overcoming them.",
+            "e. Janet believes Jonathan can benefit from a healthier lifestyle and improved fitness.",
+            "f. Janet now believes Jonathan is more open to trying new things, including fitness.",
+            "g. Janet believes Jonathan\u2019s previous failures in other areas may contribute to his fear of failing in fitness."
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Janet believes Jonathan\u2019s previous failures in other areas may contribute to his fear of failing in fitness.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Janet believes Jonathan can benefit from a healthier lifestyle and improved fitness.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Janet believes Jonathan is resistant to change due to past failures.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Janet now believes Jonathan is more open to trying new things, including fitness.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Empathetic and compassionate",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Reassure Jonathan and boost his confidence",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Shares personal stories of past struggles and overcoming them.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_4": {
+        "question": "What is the belief of Janet Prioleau in scenario 4?",
+        "true answer": "a",
+        "options": [
+            "a. Janet now believes Jonathan is more open to trying new things, including fitness.",
+            "b. Janet believes Jonathan is resistant to change due to past failures.",
+            "c. Encouraged and motivated",
+            "d. Janet believes Jonathan\u2019s previous failures in other areas may contribute to his fear of failing in fitness.",
+            "e. Janet believes Jonathan can benefit from a healthier lifestyle and improved fitness.",
+            "f. Outlines a step-by-step fitness plan tailored to Jonathan's needs.",
+            "g. Create a personalized fitness plan for Jonathan"
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Janet now believes Jonathan is more open to trying new things, including fitness.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Janet believes Jonathan can benefit from a healthier lifestyle and improved fitness.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Janet believes Jonathan is resistant to change due to past failures.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Janet believes Jonathan\u2019s previous failures in other areas may contribute to his fear of failing in fitness.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Encouraged and motivated",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Create a personalized fitness plan for Jonathan",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Outlines a step-by-step fitness plan tailored to Jonathan's needs.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_5": {
+        "question": "What is the emotion of Janet Prioleau in scenario 1?",
+        "true answer": "g",
+        "options": [
+            "a. Encouraged and motivated",
+            "b. Enthusiastically describes the potential benefits of a fitness regimen to Jonathan.",
+            "c. Frustrated and concerned",
+            "d. Convince Jonathan to start a fitness program",
+            "e. Empathetic and compassionate",
+            "f. Janet believes Jonathan can benefit from a healthier lifestyle and improved fitness.",
+            "g. Hopeful and optimistic"
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Hopeful and optimistic",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Frustrated and concerned",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Empathetic and compassionate",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Encouraged and motivated",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Janet believes Jonathan can benefit from a healthier lifestyle and improved fitness.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Convince Jonathan to start a fitness program",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Enthusiastically describes the potential benefits of a fitness regimen to Jonathan.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_6": {
+        "question": "What is the emotion of Janet Prioleau in scenario 2?",
+        "true answer": "a",
+        "options": [
+            "a. Frustrated and concerned",
+            "b. Asks Jonathan to share why he feels he cannot commit to a fitness routine.",
+            "c. Encouraged and motivated",
+            "d. Empathetic and compassionate",
+            "e. Janet believes Jonathan is resistant to change due to past failures.",
+            "f. Address Jonathan's concerns directly",
+            "g. Hopeful and optimistic"
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Frustrated and concerned",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Hopeful and optimistic",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Empathetic and compassionate",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Encouraged and motivated",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Janet believes Jonathan is resistant to change due to past failures.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Address Jonathan's concerns directly",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Asks Jonathan to share why he feels he cannot commit to a fitness routine.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_7": {
+        "question": "What is the emotion of Janet Prioleau in scenario 3?",
+        "true answer": "b",
+        "options": [
+            "a. Hopeful and optimistic",
+            "b. Empathetic and compassionate",
+            "c. Reassure Jonathan and boost his confidence",
+            "d. Frustrated and concerned",
+            "e. Janet believes Jonathan\u2019s previous failures in other areas may contribute to his fear of failing in fitness.",
+            "f. Encouraged and motivated",
+            "g. Shares personal stories of past struggles and overcoming them."
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Empathetic and compassionate",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Hopeful and optimistic",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Frustrated and concerned",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Encouraged and motivated",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Janet believes Jonathan\u2019s previous failures in other areas may contribute to his fear of failing in fitness.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Reassure Jonathan and boost his confidence",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Shares personal stories of past struggles and overcoming them.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_8": {
+        "question": "What is the emotion of Janet Prioleau in scenario 4?",
+        "true answer": "e",
+        "options": [
+            "a. Hopeful and optimistic",
+            "b. Outlines a step-by-step fitness plan tailored to Jonathan's needs.",
+            "c. Create a personalized fitness plan for Jonathan",
+            "d. Janet now believes Jonathan is more open to trying new things, including fitness.",
+            "e. Encouraged and motivated",
+            "f. Frustrated and concerned",
+            "g. Empathetic and compassionate"
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Encouraged and motivated",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Hopeful and optimistic",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Frustrated and concerned",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Empathetic and compassionate",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Janet now believes Jonathan is more open to trying new things, including fitness.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Create a personalized fitness plan for Jonathan",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Outlines a step-by-step fitness plan tailored to Jonathan's needs.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_9": {
+        "question": "What is the intention of Janet Prioleau in scenario 1?",
+        "true answer": "f",
+        "options": [
+            "a. Reassure Jonathan and boost his confidence",
+            "b. Hopeful and optimistic",
+            "c. Enthusiastically describes the potential benefits of a fitness regimen to Jonathan.",
+            "d. Create a personalized fitness plan for Jonathan",
+            "e. Address Jonathan's concerns directly",
+            "f. Convince Jonathan to start a fitness program",
+            "g. Janet believes Jonathan can benefit from a healthier lifestyle and improved fitness."
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Convince Jonathan to start a fitness program",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Address Jonathan's concerns directly",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Reassure Jonathan and boost his confidence",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Create a personalized fitness plan for Jonathan",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Janet believes Jonathan can benefit from a healthier lifestyle and improved fitness.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Hopeful and optimistic",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Enthusiastically describes the potential benefits of a fitness regimen to Jonathan.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_10": {
+        "question": "What is the intention of Janet Prioleau in scenario 2?",
+        "true answer": "c",
+        "options": [
+            "a. Frustrated and concerned",
+            "b. Convince Jonathan to start a fitness program",
+            "c. Address Jonathan's concerns directly",
+            "d. Reassure Jonathan and boost his confidence",
+            "e. Create a personalized fitness plan for Jonathan",
+            "f. Janet believes Jonathan is resistant to change due to past failures.",
+            "g. Asks Jonathan to share why he feels he cannot commit to a fitness routine."
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Address Jonathan's concerns directly",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Convince Jonathan to start a fitness program",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Reassure Jonathan and boost his confidence",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Create a personalized fitness plan for Jonathan",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Janet believes Jonathan is resistant to change due to past failures.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Frustrated and concerned",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Asks Jonathan to share why he feels he cannot commit to a fitness routine.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_11": {
+        "question": "What is the intention of Janet Prioleau in scenario 3?",
+        "true answer": "f",
+        "options": [
+            "a. Shares personal stories of past struggles and overcoming them.",
+            "b. Create a personalized fitness plan for Jonathan",
+            "c. Convince Jonathan to start a fitness program",
+            "d. Empathetic and compassionate",
+            "e. Address Jonathan's concerns directly",
+            "f. Reassure Jonathan and boost his confidence",
+            "g. Janet believes Jonathan\u2019s previous failures in other areas may contribute to his fear of failing in fitness."
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Reassure Jonathan and boost his confidence",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Convince Jonathan to start a fitness program",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Address Jonathan's concerns directly",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Create a personalized fitness plan for Jonathan",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Janet believes Jonathan\u2019s previous failures in other areas may contribute to his fear of failing in fitness.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Empathetic and compassionate",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Shares personal stories of past struggles and overcoming them.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_12": {
+        "question": "What is the intention of Janet Prioleau in scenario 4?",
+        "true answer": "g",
+        "options": [
+            "a. Encouraged and motivated",
+            "b. Outlines a step-by-step fitness plan tailored to Jonathan's needs.",
+            "c. Janet now believes Jonathan is more open to trying new things, including fitness.",
+            "d. Convince Jonathan to start a fitness program",
+            "e. Reassure Jonathan and boost his confidence",
+            "f. Address Jonathan's concerns directly",
+            "g. Create a personalized fitness plan for Jonathan"
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Create a personalized fitness plan for Jonathan",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Convince Jonathan to start a fitness program",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Address Jonathan's concerns directly",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Reassure Jonathan and boost his confidence",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Janet now believes Jonathan is more open to trying new things, including fitness.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Encouraged and motivated",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Outlines a step-by-step fitness plan tailored to Jonathan's needs.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_13": {
+        "question": "What is the action of Janet Prioleau in scenario 1?",
+        "true answer": "e",
+        "options": [
+            "a. Hopeful and optimistic",
+            "b. Asks Jonathan to share why he feels he cannot commit to a fitness routine.",
+            "c. Shares personal stories of past struggles and overcoming them.",
+            "d. Convince Jonathan to start a fitness program",
+            "e. Enthusiastically describes the potential benefits of a fitness regimen to Jonathan.",
+            "f. Janet believes Jonathan can benefit from a healthier lifestyle and improved fitness.",
+            "g. Outlines a step-by-step fitness plan tailored to Jonathan's needs."
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Enthusiastically describes the potential benefits of a fitness regimen to Jonathan.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Asks Jonathan to share why he feels he cannot commit to a fitness routine.",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Shares personal stories of past struggles and overcoming them.",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Outlines a step-by-step fitness plan tailored to Jonathan's needs.",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Janet believes Jonathan can benefit from a healthier lifestyle and improved fitness.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Hopeful and optimistic",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Convince Jonathan to start a fitness program",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_14": {
+        "question": "What is the action of Janet Prioleau in scenario 2?",
+        "true answer": "d",
+        "options": [
+            "a. Outlines a step-by-step fitness plan tailored to Jonathan's needs.",
+            "b. Shares personal stories of past struggles and overcoming them.",
+            "c. Janet believes Jonathan is resistant to change due to past failures.",
+            "d. Asks Jonathan to share why he feels he cannot commit to a fitness routine.",
+            "e. Address Jonathan's concerns directly",
+            "f. Frustrated and concerned",
+            "g. Enthusiastically describes the potential benefits of a fitness regimen to Jonathan."
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Asks Jonathan to share why he feels he cannot commit to a fitness routine.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Enthusiastically describes the potential benefits of a fitness regimen to Jonathan.",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Shares personal stories of past struggles and overcoming them.",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Outlines a step-by-step fitness plan tailored to Jonathan's needs.",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Janet believes Jonathan is resistant to change due to past failures.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Frustrated and concerned",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Address Jonathan's concerns directly",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_15": {
+        "question": "What is the action of Janet Prioleau in scenario 3?",
+        "true answer": "d",
+        "options": [
+            "a. Asks Jonathan to share why he feels he cannot commit to a fitness routine.",
+            "b. Enthusiastically describes the potential benefits of a fitness regimen to Jonathan.",
+            "c. Janet believes Jonathan\u2019s previous failures in other areas may contribute to his fear of failing in fitness.",
+            "d. Shares personal stories of past struggles and overcoming them.",
+            "e. Outlines a step-by-step fitness plan tailored to Jonathan's needs.",
+            "f. Empathetic and compassionate",
+            "g. Reassure Jonathan and boost his confidence"
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Shares personal stories of past struggles and overcoming them.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Enthusiastically describes the potential benefits of a fitness regimen to Jonathan.",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Asks Jonathan to share why he feels he cannot commit to a fitness routine.",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Outlines a step-by-step fitness plan tailored to Jonathan's needs.",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Janet believes Jonathan\u2019s previous failures in other areas may contribute to his fear of failing in fitness.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Empathetic and compassionate",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Reassure Jonathan and boost his confidence",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_16": {
+        "question": "What is the action of Janet Prioleau in scenario 4?",
+        "true answer": "f",
+        "options": [
+            "a. Janet now believes Jonathan is more open to trying new things, including fitness.",
+            "b. Enthusiastically describes the potential benefits of a fitness regimen to Jonathan.",
+            "c. Shares personal stories of past struggles and overcoming them.",
+            "d. Encouraged and motivated",
+            "e. Asks Jonathan to share why he feels he cannot commit to a fitness routine.",
+            "f. Outlines a step-by-step fitness plan tailored to Jonathan's needs.",
+            "g. Create a personalized fitness plan for Jonathan"
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Outlines a step-by-step fitness plan tailored to Jonathan's needs.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Enthusiastically describes the potential benefits of a fitness regimen to Jonathan.",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Asks Jonathan to share why he feels he cannot commit to a fitness routine.",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Shares personal stories of past struggles and overcoming them.",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Janet now believes Jonathan is more open to trying new things, including fitness.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Encouraged and motivated",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Create a personalized fitness plan for Jonathan",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    }
+}

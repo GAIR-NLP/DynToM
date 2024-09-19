@@ -51,7 +51,7 @@ def load_system_prompt(
     characters_information = script["characters information"]
     full_prompt = f"{system_prompt}\n{characters_information}\n{story}\n{questions_new}\n{system_prompt}"
     # print(full_prompt)
-    return full_prompt
+    return full_prompt, len(questions_new)
 
 
 if __name__ == "__main__":

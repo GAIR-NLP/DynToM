@@ -189,9 +189,9 @@ if __name__ == "__main__":
     #     for model in models:
     #         calculate_accuracy(script_id, model, level)
 
-    scrip_ids = range(50, 1050)
+    scrip_ids = range(1150, 1170)
     level = "level1"
-    model = "Mixtral-8x7B-Instruct-v0.1"
+    model = "DeepSeek-V2-Lite-Chat"
     overal_analysis(scrip_ids, model, level)
     
     # model = "gpt-4o-2024-05-13"
