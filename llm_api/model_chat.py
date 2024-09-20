@@ -56,19 +56,22 @@ class ConvertToJSON:
 
     def convert_qwen(self):
         """remove useless content"""
+        
+        # print(self.content)
         self.content = self.content[self.content.find("{") :]
         self.content = self.content[: self.content.find("}") + 1]
+        
+        print(self.content)
         
         if self.content == "":
             self.logger.error("model: %s, content is empty", self.model_name)
             self.content = "{}"
             # print(self.content
-        
-        if "{" in self.content:
-            self.content = self.content[:self.content.find("{",1)+2]
-            if self.content[-1]!="\"":
-                self.content=self.content+"\""
-            self.content=self.content+"}"
+        # elif "{" in self.content:
+        #     self.content = self.content[:self.content.find("{",1)+2]
+        #     if self.content[-1]!="\"":
+        #         self.content=self.content+"\""
+        #     self.content=self.content+"}"
 
         return self.convert_to_json()
 
@@ -297,7 +300,7 @@ class Chat:
             model=self.model_save_path,
             tensor_parallel_size=self.gpus,
             trust_remote_code=True,
-            gpu_memory_utilization=0.9,
+            gpu_memory_utilization=0.99,
         )
         self.sampling_params = SamplingParams(temperature=0.01, max_tokens=8192)
 
@@ -332,8 +335,8 @@ class Llama38BInstruct(Chat):
         # full_model_path = f"{model_save_folder}/Meta-Llama-3.1-8B-Instruct"
         super().__init__(
             model_name="Meta-Llama-3.1-8B-Instruct",
-            model_save_path="/data/xiaoyang/models/meta-llama/Meta-Llama-3.1-8B-Instruct",
-             gpus=4,
+            model_save_path="/home/share/models/Meta-Llama-3.1-8B-Instruct",
+            gpus=8,
             logger=inference2_logger,
         )
 
@@ -344,11 +347,11 @@ class Llama370BInstruct(Chat):
     """Llama 3.1 70B chat model"""
 
     def __init__(self):
-        full_model_path = "/data/xiaoyang/models/meta-llama/Meta-Llama-3.1-70B-Instruct"
+        full_model_path = "/home/share/models/Meta-Llama-3.1-70B-Instruct"
         super().__init__(
             model_name="Meta-Llama-3.1-70B-Instruct",
             model_save_path=full_model_path,
-            gpus=4,
+            gpus=8,
             logger=inference2_logger,
         )
 
@@ -357,7 +360,7 @@ class Mistra7BInstructV03(Chat):
     """mistralai/Mistral-7B-Instruct-v0.3"""
 
     def __init__(self):
-        full_model_path = f"{model_save_folder}/Mistral-7B-Instruct-v0.3"
+        full_model_path = f"/home/share/models/Mistral-7B-Instruct-v0.3"
         super().__init__(
             model_name="Mistral-7B-Instruct-v0.3", model_save_path=full_model_path,
             gpus=4,
@@ -368,7 +371,7 @@ class Mistra87BInstructV01(Chat):
     """mistralai/Mixtral-8x7B-Instruct-v0.1"""
 
     def __init__(self):
-        full_model_path = "/data/xiaoyang/models/mistralai/Mixtral-8x7B-Instruct-v0.1"
+        full_model_path = "/home/share/models/Mixtral-8x7B-Instruct-v0.1"
         super().__init__(
             model_name="Mixtral-8x7B-Instruct-v0.1",
             model_save_path=full_model_path,
@@ -381,7 +384,7 @@ class QWen27BInstruct(Chat):
     """Qwen/Qwen2-7B-Instruct"""
 
     def __init__(self):
-        full_model_path = f"{model_save_folder}/models--Qwen--Qwen2-7B-Instruct/snapshots/41c66b0be1c3081f13defc6bdf946c2ef240d6a6"
+        full_model_path = "/home/share/models/Qwen2-7B-Instruct"
         super().__init__(
             model_name="Qwen2-7B-Instruct", model_save_path=full_model_path,
              gpus=4,
@@ -406,7 +409,7 @@ class DeepSeekV2LiteChat(Chat):
     """DeepSeek-V2-Lite-Chat"""
 
     def __init__(self):
-        full_model_path = f"{model_save_folder}/models--deepseek-ai--DeepSeek-V2-Lite-Chat/snapshots/85864749cd611b4353ce1decdb286193298f64c7"
+        full_model_path = f"/home/share/models/DeepSeek-V2-Lite-Chat"
         super().__init__(
             model_name="DeepSeek-V2-Lite-Chat", model_save_path=full_model_path,
             gpus=4,

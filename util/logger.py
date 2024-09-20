@@ -8,7 +8,7 @@ import logging
 # Create a custom logger
 logger = logging.getLogger("generate_data")
 # Create handlers
-f_handler = logging.FileHandler("/home/xiaoyang/ToMValley/util/logging/experiment.log", mode="a")
+f_handler = logging.FileHandler("util/logging/experiment.log", mode="a")
 #f_handler.setLevel(logging.DEBUG)
 
 # Create formatters and add it to handlers
@@ -23,7 +23,7 @@ logger.setLevel(logging.DEBUG)
 # Create a custom logger
 inference_logger = logging.getLogger("inference")
 # Create handlers
-i_f_handler = logging.FileHandler("/home/xiaoyang/ToMValley/util/logging/inference.log", mode="a")
+i_f_handler = logging.FileHandler("util/logging/inference.log", mode="a")
 #i_f_handler.setLevel(logging.DEBUG)
 
 # Create formatters and add it to handlers
@@ -38,7 +38,7 @@ inference_logger.setLevel(logging.DEBUG)
 # Create a custom logger
 inference2_logger = logging.getLogger("inference2")
 # Create handlers
-i_f_handler = logging.FileHandler("/home/xiaoyang/ToMValley/util/logging/inference2.log", mode="a")
+i_f_handler = logging.FileHandler("util/logging/inference2.log", mode="a")
 #i_f_handler.setLevel(logging.DEBUG)
 
 # Create formatters and add it to handlers
@@ -52,7 +52,7 @@ inference2_logger.setLevel(logging.DEBUG)
 # Create a custom logger
 inference3_logger = logging.getLogger("inference3")
 # Create handlers
-i_f_handler = logging.FileHandler("/home/xiaoyang/ToMValley/util/logging/inference3.log", mode="a")
+i_f_handler = logging.FileHandler("util/logging/inference3.log", mode="a")
 #i_f_handler.setLevel(logging.DEBUG)
 
 # Create formatters and add it to handlers

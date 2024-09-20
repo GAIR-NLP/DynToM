@@ -169,20 +169,20 @@ def draw_table_time_stage(models,level):
     width = 0.2  # the width of the bars
     multiplier = 0
     
-    color=['#297A8E', '#CAE11F', '#40BD72', '#472C7A']
+    color=['#076678', '#8EC07C', '#F28482', '#FFABBE']
 
     fig, ax = plt.subplots(layout='constrained')
 
     for mental, measurement in mental.items():
         offset = width * multiplier
         rects = ax.bar(x + offset, measurement, width, label=mental,color=color[multiplier])
-        ax.bar_label(rects, padding=3,rotation=45)
+        ax.bar_label(rects, padding=3,rotation=45,weight='bold')
         multiplier += 1
 
     # Add some text for labels, title and custom x-axis tick labels, etc.
-    ax.set_xlabel('Time Span')
-    ax.set_ylabel('Accuracy')
-    ax.set_title("LLM's performance of transformation")
+    ax.set_xlabel('Time Span',weight='bold')
+    ax.set_ylabel('Accuracy',weight='bold')
+    ax.set_title("LLM's performance of transformation",weight='bold')
     ax.set_xticks(x + width*1.5, time_stage)
     ax.legend(loc='upper left', ncols=2)
     ax.set_ylim(0, 0.5)
@@ -268,20 +268,21 @@ def draw_table_time_stage_7(models,level):
     width = 0.2  # the width of the bars
     multiplier = 0
     
-    color=['#297A8E', '#CAE11F', '#40BD72', '#472C7A', '#F9A03F', '#F9D03F', '#F9F03F']
+    color=['#076678', '#8EC07C', '#F28482', '#FFABBE']
+
 
     fig, ax = plt.subplots(layout='constrained')
 
     for mental, measurement in mental.items():
         offset = width * multiplier
         rects = ax.bar(x + offset, measurement, width, label=mental,color=color[multiplier])
-        ax.bar_label(rects, padding=3,rotation=45)
+        ax.bar_label(rects, padding=3,rotation=60,weight='bold')
         multiplier += 1
 
     # Add some text for labels, title and custom x-axis tick labels, etc.
-    ax.set_xlabel('Time Span')
-    ax.set_ylabel('Accuracy')
-    ax.set_title("LLM's performance of transformation")
+    ax.set_xlabel('Time Span',weight='bold')
+    ax.set_ylabel('Accuracy',weight='bold')
+    ax.set_title("LLM's performance of transformation",weight='bold')
     ax.set_xticks(x + width*1.5, time_stage)
     ax.legend(loc='upper left', ncols=2)
     ax.set_ylim(0, 0.7)
@@ -366,20 +367,21 @@ def draw_table_time_stage_6(models,level):
     width = 0.2  # the width of the bars
     multiplier = 0
     
-    color=['#297A8E', '#CAE11F', '#40BD72', '#472C7A']
+    color=['#076678', '#8EC07C', '#F28482', '#FFABBE']
+
 
     fig, ax = plt.subplots(layout='constrained')
 
     for mental, measurement in mental.items():
         offset = width * multiplier
         rects = ax.bar(x + offset, measurement, width, label=mental,color=color[multiplier])
-        ax.bar_label(rects, padding=3,rotation=45)
+        ax.bar_label(rects, padding=3,rotation=60,weight='bold')
         multiplier += 1
 
     # Add some text for labels, title and custom x-axis tick labels, etc.
-    ax.set_xlabel('Time Span')
-    ax.set_ylabel('Accuracy')
-    ax.set_title("LLM's performance of transformation")
+    ax.set_xlabel('Time Span',weight='bold')
+    ax.set_ylabel('Accuracy',weight='bold')
+    ax.set_title("LLM's performance of transformation",weight='bold')
     ax.set_xticks(x + width*1.5, time_stage)
     ax.legend(loc='upper left', ncols=2)
     ax.set_ylim(0, 0.7)
@@ -484,6 +486,25 @@ def draw_table_time_stage_4(models,level):
     
     
 if __name__ == "__main__":
+    models=[
+    "gpt-4o-2024-05-13", 
+    "gpt-4-turbo-2024-04-09",
+   
+    
+    "Meta-Llama-3.1-70B-Instruct",
+    "Meta-Llama-3.1-8B-Instruct",
+    
+    "Mixtral-8x7B-Instruct-v0.1",
+    "Mistral-7B-Instruct-v0.3",
+    
+    "Qwen2-72B-Instruct",
+    "Qwen2-7B-Instruct",
+    
+    "DeepSeek-V2-Lite-Chat",
+    
+    "glm-4-9b-chat", 
+]
+    draw_table_time_stage(models,"level1")
     
     models=[
     "gpt-4o-2024-05-13", 
@@ -503,7 +524,7 @@ if __name__ == "__main__":
     
     "glm-4-9b-chat", 
 ]
-
+    
     draw_table_time_stage_7(models,"level1")
     draw_table_time_stage_6(models,"level1")
-    draw_table_time_stage_4(models,"level1")
+    #draw_table_time_stage_4(models,"level1")
