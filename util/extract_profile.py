@@ -2,7 +2,7 @@ import json
 import csv
 import random
 
-root_path = "/home/xiaoyang/ToMValley"
+root_path = ""
 race_list = [
     "American Indian",
     "Alaska Native",
@@ -41,7 +41,7 @@ def load_profile_description_template(version="v1") -> str:
     Returns:
         str: the template string
     """
-    path = f"{root_path}/synthesize_data/prompt_template/character_template.json"
+    path = f"{root_path}synthesize_data/prompt_template/character_template.json"
     with open(path) as f:
         d = json.load(f)
 
@@ -69,7 +69,7 @@ def read_given_name(gender: str) -> list[str]:
     Returns:
         list[str]: list of name of the chosen gender
     """
-    path = f"{root_path}/synthesize_data/profile_data/100_given_name.csv"
+    path = f"{root_path}synthesize_data/profile_data/100_given_name.csv"
     boy = []
     girl = []
     with open(path) as csv_file:
@@ -97,7 +97,7 @@ def read_surname(race) -> list[str]:
     Returns:
         list[str]: list of surname in the race
     """
-    path = f"{root_path}/synthesize_data/profile_data/surname_list.json"
+    path = f"{root_path}synthesize_data/profile_data/surname_list.json"
     with open(path) as f:
         d = json.load(f)
 
@@ -118,7 +118,7 @@ def read_occupation(gender: str) -> list[str]:
     Returns:
         list[str]: list of occupation of the given gender
     """
-    path = f"{root_path}/synthesize_data/profile_data/occupations.json"
+    path = f"{root_path}synthesize_data/profile_data/occupations.json"
     with open(path) as f:
         d = json.load(f)
 
@@ -131,7 +131,7 @@ def read_education() -> list[str]:
     Returns:
         list[str]: the education list
     """
-    path = f"{root_path}/synthesize_data/profile_data/education.json"
+    path = f"{root_path}synthesize_data/profile_data/education.json"
     with open(path) as f:
         d = json.load(f)
 
@@ -147,7 +147,7 @@ def read_social_setting() -> list[str]:
     Returns:
         list[str]: the social setting list based on the setting type
     """
-    path = f"{root_path}/synthesize_data/profile_data/social_setting.json"
+    path = f"{root_path}synthesize_data/profile_data/social_setting.json"
     with open(path) as f:
         d = json.load(f)
 
@@ -180,7 +180,7 @@ def read_personality() -> str:
     Returns:
         str: the chosen random personality
     """
-    path = f"{root_path}/synthesize_data/profile_data/mbti.json"
+    path = f"{root_path}synthesize_data/profile_data/mbti.json"
     with open(path) as f:
         d = json.load(f)
 

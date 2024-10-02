@@ -537,9 +537,36 @@ def pipeline(
 
 if __name__ == "__main__":
     model = GPT4(model_name="gpt-4o-2024-05-13")
-    #model = GPT4(model_name="gpt-4-turbo-2024-04-09")
-    script_numbers = range(1165,1170)
-    number_of_characters = [2] * len(script_numbers)
-    scenario_numbers = [4] * len(script_numbers)
-
+    # #model = GPT4(model_name="gpt-4-turbo-2024-04-09")
+    # script_numbers = range(1170,1180)
+    # scenario=4
+    # character=2
+    # number_of_characters = [character] * len(script_numbers)
+    # scenario_numbers = [scenario] * len(script_numbers)
+    # pipeline(model, script_numbers, number_of_characters, scenario_numbers)
+    
+    # script_numbers = range(1180,1190)
+    # scenario=5
+    # character=2
+    # number_of_characters = [character] * len(script_numbers)
+    # scenario_numbers = [scenario] * len(script_numbers)
+    # pipeline(model, script_numbers, number_of_characters, scenario_numbers)
+    
+    # script_numbers = range(1190,1200)
+    # scenario=6
+    # character=2
+    # number_of_characters = [character] * len(script_numbers)
+    # scenario_numbers = [scenario] * len(script_numbers)
+    # pipeline(model, script_numbers, number_of_characters, scenario_numbers)
+    
+    script_numbers = range(1210,1211)
+    scenario=5
+    character=2
+    number_of_characters = [character] * len(script_numbers)
+    scenario_numbers = [scenario] * len(script_numbers)
     pipeline(model, script_numbers, number_of_characters, scenario_numbers)
+    
+    
+    
+    
+    

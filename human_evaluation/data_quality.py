@@ -69,7 +69,7 @@ def data_quality():
         meta=json.load(f)
     
     results={
-        # "rating_of_mental_state_influence":0, # 
+        "rating_of_mental_state_influence":0, # 
         "rating_of_mental_state_change":0, # RQ3-Dynamism:
         "rating_of_plot_consistency":0, #  RQ1-Coherence1
         "rating_of_social_context_consistency":0, #  RQ1-Coherence2
@@ -121,5 +121,5 @@ def count_percentage_of_real(key="rating_of_dialogue_real"):
 
 if __name__ == "__main__":
     print(question_quality_all([60,62,65,70,71,73,75,94,95,102,110,112,129,130]))
-    #data_quality()
+    data_quality()
     # count_percentage_of_real(key="rating_of_mental_state_change")

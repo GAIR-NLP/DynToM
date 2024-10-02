@@ -123,7 +123,7 @@ if __name__ == "__main__":
 
     models = [
        # "Meta-Llama-3.1-8B-Instruct",
-        "DeepSeek-V2-Lite-Chat"]
+        "Qwen2-72B-Instruct"]
     # models = [ "gpt-4o-2024-05-13"]
 
     # levels = ["level1", "level2"]

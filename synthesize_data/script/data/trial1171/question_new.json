@@ -1,0 +1,3285 @@
+{
+    "type_d_how_1": {
+        "question": "How does the belief of Roy Schroeder change across the 4 scenarios?",
+        "true answer": "g",
+        "options": [
+            "a. Roy believes Hannah is hiding information. -> Ask more questions. -> Roy believes the watch is valuable. -> Roy realizes Hannah was honest.",
+            "b. Negotiate the best price. -> Roy doubts the watch\u2019s value. -> Roy believes the watch is valuable. -> Roy realizes Hannah was honest.",
+            "c. Roy doubts the watch\u2019s value. -> Roy realizes Hannah was honest. -> Roy believes Hannah is hiding information. -> Roy believes the watch is valuable.",
+            "d. Roy believes Hannah is hiding information. -> Roy doubts the watch\u2019s value. -> Roy believes the watch is valuable.",
+            "e. Confidence -> Roy doubts the watch\u2019s value. -> Roy believes the watch is valuable. -> Roy realizes Hannah was honest.",
+            "f. Roy believes Hannah is hiding information. -> Roy doubts the watch\u2019s value. -> Roy believes the watch is valuable. -> Roy realizes Hannah was honest.",
+            "g. Roy believes the watch is valuable. -> Roy doubts the watch\u2019s value. -> Roy believes Hannah is hiding information. -> Roy realizes Hannah was honest.",
+            "h. Roy realizes Hannah was honest. -> Roy believes the watch is valuable. -> Roy doubts the watch\u2019s value. -> Roy believes Hannah is hiding information."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Roy believes the watch is valuable. -> Roy doubts the watch\u2019s value. -> Roy believes Hannah is hiding information. -> Roy realizes Hannah was honest.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Roy doubts the watch\u2019s value. -> Roy realizes Hannah was honest. -> Roy believes Hannah is hiding information. -> Roy believes the watch is valuable.",
+                "explain": "shuffle the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Roy believes Hannah is hiding information. -> Roy doubts the watch\u2019s value. -> Roy believes the watch is valuable. -> Roy realizes Hannah was honest.",
+                "explain": "change the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Roy realizes Hannah was honest. -> Roy believes the watch is valuable. -> Roy doubts the watch\u2019s value. -> Roy believes Hannah is hiding information.",
+                "explain": "reverse the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Roy believes Hannah is hiding information. -> Roy doubts the watch\u2019s value. -> Roy believes the watch is valuable.",
+                "explain": "remove one belief in one time stage",
+                "reason": "test ability to recognize the completeness of the mental states",
+                "short": "type_d_how_recognize_time_stage_completeness"
+            },
+            {
+                "option": "Confidence -> Roy doubts the watch\u2019s value. -> Roy believes the watch is valuable. -> Roy realizes Hannah was honest.",
+                "reason": "test ability to recognize the relationship between belief and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Negotiate the best price. -> Roy doubts the watch\u2019s value. -> Roy believes the watch is valuable. -> Roy realizes Hannah was honest.",
+                "reason": "test ability to recognize the relationship between belief and intention",
+                "explain": "intention change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Roy believes Hannah is hiding information. -> Ask more questions. -> Roy believes the watch is valuable. -> Roy realizes Hannah was honest.",
+                "reason": "test ability to recognize the relationship between belief and action",
+                "explain": "action change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_how_2": {
+        "question": "How does the emotion of Roy Schroeder change across the 4 scenarios?",
+        "true answer": "c",
+        "options": [
+            "a. Confidence -> Frustration and Suspicion -> Anxiety -> Remorse",
+            "b. Confidence -> Frustration and Suspicion -> Accuse Hannah. -> Remorse",
+            "c. Confidence -> Anxiety -> Frustration and Suspicion -> Remorse",
+            "d. Confidence -> Frustration and Suspicion -> Anxiety -> Roy realizes Hannah was honest.",
+            "e. Remorse -> Anxiety -> Frustration and Suspicion -> Confidence",
+            "f. Confidence -> Frustration and Suspicion -> Press Hannah for the truth. -> Remorse",
+            "g. Confidence -> Anxiety -> Remorse",
+            "h. Anxiety -> Frustration and Suspicion -> Remorse -> Confidence"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Confidence -> Anxiety -> Frustration and Suspicion -> Remorse",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Anxiety -> Frustration and Suspicion -> Remorse -> Confidence",
+                "explain": "shuffle the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Confidence -> Frustration and Suspicion -> Anxiety -> Remorse",
+                "explain": "change the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Remorse -> Anxiety -> Frustration and Suspicion -> Confidence",
+                "explain": "reverse the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Confidence -> Anxiety -> Remorse",
+                "explain": "remove one belief in one time stage",
+                "reason": "test ability to recognize the completeness of the mental states",
+                "short": "type_d_how_recognize_time_stage_completeness"
+            },
+            {
+                "option": "Confidence -> Frustration and Suspicion -> Anxiety -> Roy realizes Hannah was honest.",
+                "reason": "test ability to recognize the relationship between emotion and belief",
+                "explain": "belief change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Confidence -> Frustration and Suspicion -> Press Hannah for the truth. -> Remorse",
+                "reason": "test ability to recognize the relationship between emotion and intention",
+                "explain": "intention change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Confidence -> Frustration and Suspicion -> Accuse Hannah. -> Remorse",
+                "reason": "test ability to recognize the relationship between emotion and action",
+                "explain": "action change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_how_3": {
+        "question": "How does the intention of Roy Schroeder change across the 4 scenarios?",
+        "true answer": "e",
+        "options": [
+            "a. Negotiate the best price. -> Press Hannah for the truth. -> Apologize and accept the deal.",
+            "b. Apologize and accept the deal. -> Press Hannah for the truth. -> Negotiate the best price. -> Gather more information.",
+            "c. Gather more information. -> Press Hannah for the truth. -> Negotiate the best price. -> Apologize and accept the deal.",
+            "d. Gather more information. -> Roy doubts the watch\u2019s value. -> Press Hannah for the truth. -> Apologize and accept the deal.",
+            "e. Negotiate the best price. -> Gather more information. -> Press Hannah for the truth. -> Apologize and accept the deal.",
+            "f. Confidence -> Negotiate the best price. -> Press Hannah for the truth. -> Apologize and accept the deal.",
+            "g. Gather more information. -> Negotiate the best price. -> Press Hannah for the truth. -> Apologize and accept the deal.",
+            "h. Gather more information. -> Ask more questions. -> Press Hannah for the truth. -> Apologize and accept the deal."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Negotiate the best price. -> Gather more information. -> Press Hannah for the truth. -> Apologize and accept the deal.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Gather more information. -> Press Hannah for the truth. -> Negotiate the best price. -> Apologize and accept the deal.",
+                "explain": "shuffle the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Gather more information. -> Negotiate the best price. -> Press Hannah for the truth. -> Apologize and accept the deal.",
+                "explain": "change the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Apologize and accept the deal. -> Press Hannah for the truth. -> Negotiate the best price. -> Gather more information.",
+                "explain": "reverse the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Negotiate the best price. -> Press Hannah for the truth. -> Apologize and accept the deal.",
+                "explain": "remove one belief in one time stage",
+                "reason": "test ability to recognize the completeness of the mental states",
+                "short": "type_d_how_recognize_time_stage_completeness"
+            },
+            {
+                "option": "Gather more information. -> Roy doubts the watch\u2019s value. -> Press Hannah for the truth. -> Apologize and accept the deal.",
+                "reason": "test ability to recognize the relationship between intention and belief",
+                "explain": "belief change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Confidence -> Negotiate the best price. -> Press Hannah for the truth. -> Apologize and accept the deal.",
+                "reason": "test ability to recognize the relationship between intention and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Gather more information. -> Ask more questions. -> Press Hannah for the truth. -> Apologize and accept the deal.",
+                "reason": "test ability to recognize the relationship between intention and action",
+                "explain": "action change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_how_4": {
+        "question": "How does the action of Roy Schroeder change across the 4 scenarios?",
+        "true answer": "a",
+        "options": [
+            "a. Negotiate with Hannah. -> Ask more questions. -> Accuse Hannah. -> Apologize and accept the deal.",
+            "b. Negotiate with Hannah. -> Roy doubts the watch\u2019s value. -> Accuse Hannah. -> Ask more questions.",
+            "c. Negotiate with Hannah. -> Apologize and accept the deal. -> Anxiety -> Ask more questions.",
+            "d. Ask more questions. -> Accuse Hannah. -> Apologize and accept the deal. -> Negotiate with Hannah.",
+            "e. Negotiate with Hannah. -> Apologize and accept the deal. -> Accuse Hannah. -> Ask more questions.",
+            "f. Gather more information. -> Apologize and accept the deal. -> Accuse Hannah. -> Ask more questions.",
+            "g. Negotiate with Hannah. -> Accuse Hannah. -> Apologize and accept the deal. -> Ask more questions.",
+            "h. Negotiate with Hannah. -> Accuse Hannah. -> Ask more questions."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Negotiate with Hannah. -> Ask more questions. -> Accuse Hannah. -> Apologize and accept the deal.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Negotiate with Hannah. -> Accuse Hannah. -> Apologize and accept the deal. -> Ask more questions.",
+                "explain": "shuffle the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Negotiate with Hannah. -> Apologize and accept the deal. -> Accuse Hannah. -> Ask more questions.",
+                "explain": "change the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Ask more questions. -> Accuse Hannah. -> Apologize and accept the deal. -> Negotiate with Hannah.",
+                "explain": "reverse the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Negotiate with Hannah. -> Accuse Hannah. -> Ask more questions.",
+                "explain": "remove one belief in one time stage",
+                "reason": "test ability to recognize the completeness of the mental states",
+                "short": "type_d_how_recognize_time_stage_completeness"
+            },
+            {
+                "option": "Negotiate with Hannah. -> Roy doubts the watch\u2019s value. -> Accuse Hannah. -> Ask more questions.",
+                "reason": "test ability to recognize the relationship between action and belief",
+                "explain": "belief change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Negotiate with Hannah. -> Apologize and accept the deal. -> Anxiety -> Ask more questions.",
+                "reason": "test ability to recognize the relationship between action and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Gather more information. -> Apologize and accept the deal. -> Accuse Hannah. -> Ask more questions.",
+                "reason": "test ability to recognize the relationship between action and intention",
+                "explain": "intention change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_1": {
+        "question": "Why does the belief of Roy Schroeder change from scenario 1 to scenario 2?",
+        "true answer": "h",
+        "options": [
+            "a. Frustration turns into confrontation.",
+            "b. Doubt about the watch's value.",
+            "c. Intent to press for truth leads to accusations.",
+            "d. Intent to apologize leads to accepting the deal.",
+            "e. Realization of truth leads to making amends.",
+            "f. Realization of truth causes remorse.",
+            "g. Roy's doubt deepens into suspicion.",
+            "h. Hannah's assessment causes doubt.",
+            "i. Uncertainty turns into suspicion and frustration.",
+            "j. Intent to gather more info leads to questions.",
+            "k. Driven by anxiety to seek more info.",
+            "l. Reflection and clarity after aggressive behavior reveal the truth."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Hannah's assessment causes doubt.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Roy's doubt deepens into suspicion.",
+                "reason": "test ability to recognize the reason of belief change in different time stage",
+                "explain": "belief change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Reflection and clarity after aggressive behavior reveal the truth.",
+                "reason": "test ability to recognize the reason of belief change in different time stage",
+                "explain": "belief change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Doubt about the watch's value.",
+                "reason": "test ability to recognize the reason between belief and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Uncertainty turns into suspicion and frustration.",
+                "reason": "test ability to recognize the reason between belief and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Realization of truth causes remorse.",
+                "reason": "test ability to recognize the reason between belief and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Driven by anxiety to seek more info.",
+                "reason": "test ability to recognize the reason between belief and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Frustration turns into confrontation.",
+                "reason": "test ability to recognize the reason between belief and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Realization of truth leads to making amends.",
+                "reason": "test ability to recognize the reason between belief and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Intent to gather more info leads to questions.",
+                "reason": "test ability to recognize the reason between belief and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Intent to press for truth leads to accusations.",
+                "reason": "test ability to recognize the reason between belief and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Intent to apologize leads to accepting the deal.",
+                "reason": "test ability to recognize the reason between belief and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_2": {
+        "question": "Why does the belief of Roy Schroeder change from scenario 2 to scenario 3?",
+        "true answer": "l",
+        "options": [
+            "a. Intent to apologize leads to accepting the deal.",
+            "b. Uncertainty turns into suspicion and frustration.",
+            "c. Doubt about the watch's value.",
+            "d. Intent to gather more info leads to questions.",
+            "e. Realization of truth leads to making amends.",
+            "f. Reflection and clarity after aggressive behavior reveal the truth.",
+            "g. Realization of truth causes remorse.",
+            "h. Frustration turns into confrontation.",
+            "i. Intent to press for truth leads to accusations.",
+            "j. Hannah's assessment causes doubt.",
+            "k. Driven by anxiety to seek more info.",
+            "l. Roy's doubt deepens into suspicion."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Roy's doubt deepens into suspicion.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Hannah's assessment causes doubt.",
+                "reason": "test ability to recognize the reason of belief change in different time stage",
+                "explain": "belief change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Reflection and clarity after aggressive behavior reveal the truth.",
+                "reason": "test ability to recognize the reason of belief change in different time stage",
+                "explain": "belief change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Doubt about the watch's value.",
+                "reason": "test ability to recognize the reason between belief and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Uncertainty turns into suspicion and frustration.",
+                "reason": "test ability to recognize the reason between belief and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Realization of truth causes remorse.",
+                "reason": "test ability to recognize the reason between belief and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Driven by anxiety to seek more info.",
+                "reason": "test ability to recognize the reason between belief and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Frustration turns into confrontation.",
+                "reason": "test ability to recognize the reason between belief and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Realization of truth leads to making amends.",
+                "reason": "test ability to recognize the reason between belief and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Intent to gather more info leads to questions.",
+                "reason": "test ability to recognize the reason between belief and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Intent to press for truth leads to accusations.",
+                "reason": "test ability to recognize the reason between belief and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Intent to apologize leads to accepting the deal.",
+                "reason": "test ability to recognize the reason between belief and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_3": {
+        "question": "Why does the belief of Roy Schroeder change from scenario 3 to scenario 4?",
+        "true answer": "a",
+        "options": [
+            "a. Reflection and clarity after aggressive behavior reveal the truth.",
+            "b. Uncertainty turns into suspicion and frustration.",
+            "c. Doubt about the watch's value.",
+            "d. Roy's doubt deepens into suspicion.",
+            "e. Intent to gather more info leads to questions.",
+            "f. Driven by anxiety to seek more info.",
+            "g. Realization of truth leads to making amends.",
+            "h. Intent to press for truth leads to accusations.",
+            "i. Hannah's assessment causes doubt.",
+            "j. Intent to apologize leads to accepting the deal.",
+            "k. Realization of truth causes remorse.",
+            "l. Frustration turns into confrontation."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Reflection and clarity after aggressive behavior reveal the truth.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Hannah's assessment causes doubt.",
+                "reason": "test ability to recognize the reason of belief change in different time stage",
+                "explain": "belief change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Roy's doubt deepens into suspicion.",
+                "reason": "test ability to recognize the reason of belief change in different time stage",
+                "explain": "belief change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Doubt about the watch's value.",
+                "reason": "test ability to recognize the reason between belief and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Uncertainty turns into suspicion and frustration.",
+                "reason": "test ability to recognize the reason between belief and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Realization of truth causes remorse.",
+                "reason": "test ability to recognize the reason between belief and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Driven by anxiety to seek more info.",
+                "reason": "test ability to recognize the reason between belief and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Frustration turns into confrontation.",
+                "reason": "test ability to recognize the reason between belief and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Realization of truth leads to making amends.",
+                "reason": "test ability to recognize the reason between belief and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Intent to gather more info leads to questions.",
+                "reason": "test ability to recognize the reason between belief and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Intent to press for truth leads to accusations.",
+                "reason": "test ability to recognize the reason between belief and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Intent to apologize leads to accepting the deal.",
+                "reason": "test ability to recognize the reason between belief and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_4": {
+        "question": "Why does the emotion of Roy Schroeder change from scenario 1 to scenario 2?",
+        "true answer": "i",
+        "options": [
+            "a. Roy's doubt deepens into suspicion.",
+            "b. Intent to press for truth leads to accusations.",
+            "c. Driven by anxiety to seek more info.",
+            "d. Realization of truth causes remorse.",
+            "e. Realization of truth leads to making amends.",
+            "f. Frustration turns into confrontation.",
+            "g. Intent to gather more info leads to questions.",
+            "h. Hannah's assessment causes doubt.",
+            "i. Doubt about the watch's value.",
+            "j. Intent to apologize leads to accepting the deal.",
+            "k. Uncertainty turns into suspicion and frustration.",
+            "l. Reflection and clarity after aggressive behavior reveal the truth."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Doubt about the watch's value.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Uncertainty turns into suspicion and frustration.",
+                "reason": "test ability to recognize the reason of emotion change in different time stage",
+                "explain": "emotion change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Realization of truth causes remorse.",
+                "reason": "test ability to recognize the reason of emotion change in different time stage",
+                "explain": "emotion change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Hannah's assessment causes doubt.",
+                "reason": "test ability to recognize the reason between emotion and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Roy's doubt deepens into suspicion.",
+                "reason": "test ability to recognize the reason between emotion and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Reflection and clarity after aggressive behavior reveal the truth.",
+                "reason": "test ability to recognize the reason between emotion and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Driven by anxiety to seek more info.",
+                "reason": "test ability to recognize the reason between emotion and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Frustration turns into confrontation.",
+                "reason": "test ability to recognize the reason between emotion and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Realization of truth leads to making amends.",
+                "reason": "test ability to recognize the reason between emotion and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Intent to gather more info leads to questions.",
+                "reason": "test ability to recognize the reason between emotion and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Intent to press for truth leads to accusations.",
+                "reason": "test ability to recognize the reason between emotion and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Intent to apologize leads to accepting the deal.",
+                "reason": "test ability to recognize the reason between emotion and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_5": {
+        "question": "Why does the emotion of Roy Schroeder change from scenario 2 to scenario 3?",
+        "true answer": "b",
+        "options": [
+            "a. Frustration turns into confrontation.",
+            "b. Uncertainty turns into suspicion and frustration.",
+            "c. Intent to apologize leads to accepting the deal.",
+            "d. Intent to press for truth leads to accusations.",
+            "e. Driven by anxiety to seek more info.",
+            "f. Doubt about the watch's value.",
+            "g. Roy's doubt deepens into suspicion.",
+            "h. Intent to gather more info leads to questions.",
+            "i. Realization of truth causes remorse.",
+            "j. Hannah's assessment causes doubt.",
+            "k. Reflection and clarity after aggressive behavior reveal the truth.",
+            "l. Realization of truth leads to making amends."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Uncertainty turns into suspicion and frustration.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Doubt about the watch's value.",
+                "reason": "test ability to recognize the reason of emotion change in different time stage",
+                "explain": "emotion change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Realization of truth causes remorse.",
+                "reason": "test ability to recognize the reason of emotion change in different time stage",
+                "explain": "emotion change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Hannah's assessment causes doubt.",
+                "reason": "test ability to recognize the reason between emotion and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Roy's doubt deepens into suspicion.",
+                "reason": "test ability to recognize the reason between emotion and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Reflection and clarity after aggressive behavior reveal the truth.",
+                "reason": "test ability to recognize the reason between emotion and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Driven by anxiety to seek more info.",
+                "reason": "test ability to recognize the reason between emotion and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Frustration turns into confrontation.",
+                "reason": "test ability to recognize the reason between emotion and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Realization of truth leads to making amends.",
+                "reason": "test ability to recognize the reason between emotion and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Intent to gather more info leads to questions.",
+                "reason": "test ability to recognize the reason between emotion and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Intent to press for truth leads to accusations.",
+                "reason": "test ability to recognize the reason between emotion and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Intent to apologize leads to accepting the deal.",
+                "reason": "test ability to recognize the reason between emotion and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_6": {
+        "question": "Why does the emotion of Roy Schroeder change from scenario 3 to scenario 4?",
+        "true answer": "j",
+        "options": [
+            "a. Intent to press for truth leads to accusations.",
+            "b. Frustration turns into confrontation.",
+            "c. Intent to apologize leads to accepting the deal.",
+            "d. Driven by anxiety to seek more info.",
+            "e. Roy's doubt deepens into suspicion.",
+            "f. Intent to gather more info leads to questions.",
+            "g. Doubt about the watch's value.",
+            "h. Uncertainty turns into suspicion and frustration.",
+            "i. Realization of truth leads to making amends.",
+            "j. Realization of truth causes remorse.",
+            "k. Reflection and clarity after aggressive behavior reveal the truth.",
+            "l. Hannah's assessment causes doubt."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Realization of truth causes remorse.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Doubt about the watch's value.",
+                "reason": "test ability to recognize the reason of emotion change in different time stage",
+                "explain": "emotion change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Uncertainty turns into suspicion and frustration.",
+                "reason": "test ability to recognize the reason of emotion change in different time stage",
+                "explain": "emotion change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Hannah's assessment causes doubt.",
+                "reason": "test ability to recognize the reason between emotion and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Roy's doubt deepens into suspicion.",
+                "reason": "test ability to recognize the reason between emotion and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Reflection and clarity after aggressive behavior reveal the truth.",
+                "reason": "test ability to recognize the reason between emotion and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Driven by anxiety to seek more info.",
+                "reason": "test ability to recognize the reason between emotion and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Frustration turns into confrontation.",
+                "reason": "test ability to recognize the reason between emotion and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Realization of truth leads to making amends.",
+                "reason": "test ability to recognize the reason between emotion and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Intent to gather more info leads to questions.",
+                "reason": "test ability to recognize the reason between emotion and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Intent to press for truth leads to accusations.",
+                "reason": "test ability to recognize the reason between emotion and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Intent to apologize leads to accepting the deal.",
+                "reason": "test ability to recognize the reason between emotion and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_7": {
+        "question": "Why does the intention of Roy Schroeder change from scenario 1 to scenario 2?",
+        "true answer": "h",
+        "options": [
+            "a. Roy's doubt deepens into suspicion.",
+            "b. Intent to press for truth leads to accusations.",
+            "c. Hannah's assessment causes doubt.",
+            "d. Frustration turns into confrontation.",
+            "e. Realization of truth leads to making amends.",
+            "f. Intent to apologize leads to accepting the deal.",
+            "g. Intent to gather more info leads to questions.",
+            "h. Driven by anxiety to seek more info.",
+            "i. Doubt about the watch's value.",
+            "j. Uncertainty turns into suspicion and frustration.",
+            "k. Realization of truth causes remorse.",
+            "l. Reflection and clarity after aggressive behavior reveal the truth."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Driven by anxiety to seek more info.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Frustration turns into confrontation.",
+                "reason": "test ability to recognize the reason of intention change in different time stage",
+                "explain": "intention change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Realization of truth leads to making amends.",
+                "reason": "test ability to recognize the reason of intention change in different time stage",
+                "explain": "intention change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Hannah's assessment causes doubt.",
+                "reason": "test ability to recognize the reason between intention and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Roy's doubt deepens into suspicion.",
+                "reason": "test ability to recognize the reason between intention and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Reflection and clarity after aggressive behavior reveal the truth.",
+                "reason": "test ability to recognize the reason between intention and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Doubt about the watch's value.",
+                "reason": "test ability to recognize the reason between intention and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Uncertainty turns into suspicion and frustration.",
+                "reason": "test ability to recognize the reason between intention and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Realization of truth causes remorse.",
+                "reason": "test ability to recognize the reason between intention and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Intent to gather more info leads to questions.",
+                "reason": "test ability to recognize the reason between intention and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Intent to press for truth leads to accusations.",
+                "reason": "test ability to recognize the reason between intention and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Intent to apologize leads to accepting the deal.",
+                "reason": "test ability to recognize the reason between intention and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_8": {
+        "question": "Why does the intention of Roy Schroeder change from scenario 2 to scenario 3?",
+        "true answer": "a",
+        "options": [
+            "a. Frustration turns into confrontation.",
+            "b. Intent to gather more info leads to questions.",
+            "c. Realization of truth causes remorse.",
+            "d. Driven by anxiety to seek more info.",
+            "e. Hannah's assessment causes doubt.",
+            "f. Doubt about the watch's value.",
+            "g. Reflection and clarity after aggressive behavior reveal the truth.",
+            "h. Uncertainty turns into suspicion and frustration.",
+            "i. Intent to apologize leads to accepting the deal.",
+            "j. Intent to press for truth leads to accusations.",
+            "k. Roy's doubt deepens into suspicion.",
+            "l. Realization of truth leads to making amends."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Frustration turns into confrontation.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Driven by anxiety to seek more info.",
+                "reason": "test ability to recognize the reason of intention change in different time stage",
+                "explain": "intention change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Realization of truth leads to making amends.",
+                "reason": "test ability to recognize the reason of intention change in different time stage",
+                "explain": "intention change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Hannah's assessment causes doubt.",
+                "reason": "test ability to recognize the reason between intention and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Roy's doubt deepens into suspicion.",
+                "reason": "test ability to recognize the reason between intention and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Reflection and clarity after aggressive behavior reveal the truth.",
+                "reason": "test ability to recognize the reason between intention and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Doubt about the watch's value.",
+                "reason": "test ability to recognize the reason between intention and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Uncertainty turns into suspicion and frustration.",
+                "reason": "test ability to recognize the reason between intention and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Realization of truth causes remorse.",
+                "reason": "test ability to recognize the reason between intention and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Intent to gather more info leads to questions.",
+                "reason": "test ability to recognize the reason between intention and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Intent to press for truth leads to accusations.",
+                "reason": "test ability to recognize the reason between intention and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Intent to apologize leads to accepting the deal.",
+                "reason": "test ability to recognize the reason between intention and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_9": {
+        "question": "Why does the intention of Roy Schroeder change from scenario 3 to scenario 4?",
+        "true answer": "l",
+        "options": [
+            "a. Intent to press for truth leads to accusations.",
+            "b. Roy's doubt deepens into suspicion.",
+            "c. Uncertainty turns into suspicion and frustration.",
+            "d. Driven by anxiety to seek more info.",
+            "e. Intent to gather more info leads to questions.",
+            "f. Doubt about the watch's value.",
+            "g. Hannah's assessment causes doubt.",
+            "h. Intent to apologize leads to accepting the deal.",
+            "i. Realization of truth causes remorse.",
+            "j. Reflection and clarity after aggressive behavior reveal the truth.",
+            "k. Frustration turns into confrontation.",
+            "l. Realization of truth leads to making amends."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Realization of truth leads to making amends.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Driven by anxiety to seek more info.",
+                "reason": "test ability to recognize the reason of intention change in different time stage",
+                "explain": "intention change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Frustration turns into confrontation.",
+                "reason": "test ability to recognize the reason of intention change in different time stage",
+                "explain": "intention change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Hannah's assessment causes doubt.",
+                "reason": "test ability to recognize the reason between intention and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Roy's doubt deepens into suspicion.",
+                "reason": "test ability to recognize the reason between intention and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Reflection and clarity after aggressive behavior reveal the truth.",
+                "reason": "test ability to recognize the reason between intention and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Doubt about the watch's value.",
+                "reason": "test ability to recognize the reason between intention and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Uncertainty turns into suspicion and frustration.",
+                "reason": "test ability to recognize the reason between intention and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Realization of truth causes remorse.",
+                "reason": "test ability to recognize the reason between intention and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Intent to gather more info leads to questions.",
+                "reason": "test ability to recognize the reason between intention and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Intent to press for truth leads to accusations.",
+                "reason": "test ability to recognize the reason between intention and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Intent to apologize leads to accepting the deal.",
+                "reason": "test ability to recognize the reason between intention and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_10": {
+        "question": "Why does the action of Roy Schroeder change from scenario 1 to scenario 2?",
+        "true answer": "b",
+        "options": [
+            "a. Intent to press for truth leads to accusations.",
+            "b. Intent to gather more info leads to questions.",
+            "c. Driven by anxiety to seek more info.",
+            "d. Doubt about the watch's value.",
+            "e. Realization of truth causes remorse.",
+            "f. Hannah's assessment causes doubt.",
+            "g. Reflection and clarity after aggressive behavior reveal the truth.",
+            "h. Intent to apologize leads to accepting the deal.",
+            "i. Frustration turns into confrontation.",
+            "j. Realization of truth leads to making amends.",
+            "k. Roy's doubt deepens into suspicion.",
+            "l. Uncertainty turns into suspicion and frustration."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Intent to gather more info leads to questions.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Intent to press for truth leads to accusations.",
+                "reason": "test ability to recognize the reason of action change in different time stage",
+                "explain": "action change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Intent to apologize leads to accepting the deal.",
+                "reason": "test ability to recognize the reason of action change in different time stage",
+                "explain": "action change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Hannah's assessment causes doubt.",
+                "reason": "test ability to recognize the reason between action and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Roy's doubt deepens into suspicion.",
+                "reason": "test ability to recognize the reason between action and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Reflection and clarity after aggressive behavior reveal the truth.",
+                "reason": "test ability to recognize the reason between action and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Doubt about the watch's value.",
+                "reason": "test ability to recognize the reason between action and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Uncertainty turns into suspicion and frustration.",
+                "reason": "test ability to recognize the reason between action and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Realization of truth causes remorse.",
+                "reason": "test ability to recognize the reason between action and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Driven by anxiety to seek more info.",
+                "reason": "test ability to recognize the reason between action and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Frustration turns into confrontation.",
+                "reason": "test ability to recognize the reason between action and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Realization of truth leads to making amends.",
+                "reason": "test ability to recognize the reason between action and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_11": {
+        "question": "Why does the action of Roy Schroeder change from scenario 2 to scenario 3?",
+        "true answer": "f",
+        "options": [
+            "a. Uncertainty turns into suspicion and frustration.",
+            "b. Intent to gather more info leads to questions.",
+            "c. Driven by anxiety to seek more info.",
+            "d. Reflection and clarity after aggressive behavior reveal the truth.",
+            "e. Realization of truth causes remorse.",
+            "f. Intent to press for truth leads to accusations.",
+            "g. Hannah's assessment causes doubt.",
+            "h. Doubt about the watch's value.",
+            "i. Frustration turns into confrontation.",
+            "j. Realization of truth leads to making amends.",
+            "k. Intent to apologize leads to accepting the deal.",
+            "l. Roy's doubt deepens into suspicion."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Intent to press for truth leads to accusations.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Intent to gather more info leads to questions.",
+                "reason": "test ability to recognize the reason of action change in different time stage",
+                "explain": "action change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Intent to apologize leads to accepting the deal.",
+                "reason": "test ability to recognize the reason of action change in different time stage",
+                "explain": "action change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Hannah's assessment causes doubt.",
+                "reason": "test ability to recognize the reason between action and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Roy's doubt deepens into suspicion.",
+                "reason": "test ability to recognize the reason between action and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Reflection and clarity after aggressive behavior reveal the truth.",
+                "reason": "test ability to recognize the reason between action and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Doubt about the watch's value.",
+                "reason": "test ability to recognize the reason between action and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Uncertainty turns into suspicion and frustration.",
+                "reason": "test ability to recognize the reason between action and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Realization of truth causes remorse.",
+                "reason": "test ability to recognize the reason between action and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Driven by anxiety to seek more info.",
+                "reason": "test ability to recognize the reason between action and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Frustration turns into confrontation.",
+                "reason": "test ability to recognize the reason between action and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Realization of truth leads to making amends.",
+                "reason": "test ability to recognize the reason between action and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_12": {
+        "question": "Why does the action of Roy Schroeder change from scenario 3 to scenario 4?",
+        "true answer": "h",
+        "options": [
+            "a. Hannah's assessment causes doubt.",
+            "b. Realization of truth leads to making amends.",
+            "c. Frustration turns into confrontation.",
+            "d. Intent to press for truth leads to accusations.",
+            "e. Uncertainty turns into suspicion and frustration.",
+            "f. Intent to gather more info leads to questions.",
+            "g. Doubt about the watch's value.",
+            "h. Intent to apologize leads to accepting the deal.",
+            "i. Reflection and clarity after aggressive behavior reveal the truth.",
+            "j. Roy's doubt deepens into suspicion.",
+            "k. Driven by anxiety to seek more info.",
+            "l. Realization of truth causes remorse."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Intent to apologize leads to accepting the deal.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Intent to gather more info leads to questions.",
+                "reason": "test ability to recognize the reason of action change in different time stage",
+                "explain": "action change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Intent to press for truth leads to accusations.",
+                "reason": "test ability to recognize the reason of action change in different time stage",
+                "explain": "action change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Hannah's assessment causes doubt.",
+                "reason": "test ability to recognize the reason between action and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Roy's doubt deepens into suspicion.",
+                "reason": "test ability to recognize the reason between action and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Reflection and clarity after aggressive behavior reveal the truth.",
+                "reason": "test ability to recognize the reason between action and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Doubt about the watch's value.",
+                "reason": "test ability to recognize the reason between action and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Uncertainty turns into suspicion and frustration.",
+                "reason": "test ability to recognize the reason between action and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Realization of truth causes remorse.",
+                "reason": "test ability to recognize the reason between action and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Driven by anxiety to seek more info.",
+                "reason": "test ability to recognize the reason between action and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Frustration turns into confrontation.",
+                "reason": "test ability to recognize the reason between action and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Realization of truth leads to making amends.",
+                "reason": "test ability to recognize the reason between action and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_whether_1": {
+        "question": "Whether the belief of Roy Schroeder change from scenario 1 to scenario 2? if yes, from what to what?",
+        "true answer": "b",
+        "options": [
+            "a. Yes, from Roy doubts the watch\u2019s value. to Roy believes Hannah is hiding information.",
+            "b. Yes, from Roy believes the watch is valuable. to Roy doubts the watch\u2019s value.",
+            "c. No",
+            "d. Yes, from Roy believes Hannah is hiding information. to Roy realizes Hannah was honest."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Roy believes the watch is valuable. to Roy doubts the watch\u2019s value.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the belief change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Roy doubts the watch\u2019s value. to Roy believes Hannah is hiding information.",
+                "reason": "test ability to recognize how the belief change in the correct time stage",
+                "explain": "how the belief change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Roy believes Hannah is hiding information. to Roy realizes Hannah was honest.",
+                "reason": "test ability to recognize how the belief change in the correct time stage",
+                "explain": "how the belief change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_2": {
+        "question": "Whether the belief of Roy Schroeder change from scenario 2 to scenario 3? if yes, from what to what?",
+        "true answer": "d",
+        "options": [
+            "a. Yes, from Roy believes the watch is valuable. to Roy doubts the watch\u2019s value.",
+            "b. Yes, from Roy believes Hannah is hiding information. to Roy realizes Hannah was honest.",
+            "c. No",
+            "d. Yes, from Roy doubts the watch\u2019s value. to Roy believes Hannah is hiding information."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Roy doubts the watch\u2019s value. to Roy believes Hannah is hiding information.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the belief change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Roy believes the watch is valuable. to Roy doubts the watch\u2019s value.",
+                "reason": "test ability to recognize how the belief change in the correct time stage",
+                "explain": "how the belief change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Roy believes Hannah is hiding information. to Roy realizes Hannah was honest.",
+                "reason": "test ability to recognize how the belief change in the correct time stage",
+                "explain": "how the belief change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_3": {
+        "question": "Whether the belief of Roy Schroeder change from scenario 3 to scenario 4? if yes, from what to what?",
+        "true answer": "c",
+        "options": [
+            "a. Yes, from Roy believes the watch is valuable. to Roy doubts the watch\u2019s value.",
+            "b. No",
+            "c. Yes, from Roy believes Hannah is hiding information. to Roy realizes Hannah was honest.",
+            "d. Yes, from Roy doubts the watch\u2019s value. to Roy believes Hannah is hiding information."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Roy believes Hannah is hiding information. to Roy realizes Hannah was honest.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the belief change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Roy believes the watch is valuable. to Roy doubts the watch\u2019s value.",
+                "reason": "test ability to recognize how the belief change in the correct time stage",
+                "explain": "how the belief change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Roy doubts the watch\u2019s value. to Roy believes Hannah is hiding information.",
+                "reason": "test ability to recognize how the belief change in the correct time stage",
+                "explain": "how the belief change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_4": {
+        "question": "Whether the emotion of Roy Schroeder change from scenario 1 to scenario 2? if yes, from what to what?",
+        "true answer": "c",
+        "options": [
+            "a. No",
+            "b. Yes, from Anxiety to Frustration and Suspicion",
+            "c. Yes, from Confidence to Anxiety",
+            "d. Yes, from Frustration and Suspicion to Remorse"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Confidence to Anxiety",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the emotion change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Anxiety to Frustration and Suspicion",
+                "reason": "test ability to recognize how the emotion change in the correct time stage",
+                "explain": "how the emotion change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Frustration and Suspicion to Remorse",
+                "reason": "test ability to recognize how the emotion change in the correct time stage",
+                "explain": "how the emotion change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_5": {
+        "question": "Whether the emotion of Roy Schroeder change from scenario 2 to scenario 3? if yes, from what to what?",
+        "true answer": "d",
+        "options": [
+            "a. Yes, from Confidence to Anxiety",
+            "b. Yes, from Frustration and Suspicion to Remorse",
+            "c. No",
+            "d. Yes, from Anxiety to Frustration and Suspicion"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Anxiety to Frustration and Suspicion",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the emotion change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Confidence to Anxiety",
+                "reason": "test ability to recognize how the emotion change in the correct time stage",
+                "explain": "how the emotion change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Frustration and Suspicion to Remorse",
+                "reason": "test ability to recognize how the emotion change in the correct time stage",
+                "explain": "how the emotion change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_6": {
+        "question": "Whether the emotion of Roy Schroeder change from scenario 3 to scenario 4? if yes, from what to what?",
+        "true answer": "a",
+        "options": [
+            "a. Yes, from Frustration and Suspicion to Remorse",
+            "b. Yes, from Anxiety to Frustration and Suspicion",
+            "c. No",
+            "d. Yes, from Confidence to Anxiety"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Frustration and Suspicion to Remorse",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the emotion change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Confidence to Anxiety",
+                "reason": "test ability to recognize how the emotion change in the correct time stage",
+                "explain": "how the emotion change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Anxiety to Frustration and Suspicion",
+                "reason": "test ability to recognize how the emotion change in the correct time stage",
+                "explain": "how the emotion change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_7": {
+        "question": "Whether the intention of Roy Schroeder change from scenario 1 to scenario 2? if yes, from what to what?",
+        "true answer": "a",
+        "options": [
+            "a. Yes, from Negotiate the best price. to Gather more information.",
+            "b. Yes, from Gather more information. to Press Hannah for the truth.",
+            "c. No",
+            "d. Yes, from Press Hannah for the truth. to Apologize and accept the deal."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Negotiate the best price. to Gather more information.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the intention change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Gather more information. to Press Hannah for the truth.",
+                "reason": "test ability to recognize how the intention change in the correct time stage",
+                "explain": "how the intention change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Press Hannah for the truth. to Apologize and accept the deal.",
+                "reason": "test ability to recognize how the intention change in the correct time stage",
+                "explain": "how the intention change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_8": {
+        "question": "Whether the intention of Roy Schroeder change from scenario 2 to scenario 3? if yes, from what to what?",
+        "true answer": "c",
+        "options": [
+            "a. No",
+            "b. Yes, from Press Hannah for the truth. to Apologize and accept the deal.",
+            "c. Yes, from Gather more information. to Press Hannah for the truth.",
+            "d. Yes, from Negotiate the best price. to Gather more information."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Gather more information. to Press Hannah for the truth.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the intention change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Negotiate the best price. to Gather more information.",
+                "reason": "test ability to recognize how the intention change in the correct time stage",
+                "explain": "how the intention change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Press Hannah for the truth. to Apologize and accept the deal.",
+                "reason": "test ability to recognize how the intention change in the correct time stage",
+                "explain": "how the intention change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_9": {
+        "question": "Whether the intention of Roy Schroeder change from scenario 3 to scenario 4? if yes, from what to what?",
+        "true answer": "c",
+        "options": [
+            "a. Yes, from Negotiate the best price. to Gather more information.",
+            "b. No",
+            "c. Yes, from Press Hannah for the truth. to Apologize and accept the deal.",
+            "d. Yes, from Gather more information. to Press Hannah for the truth."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Press Hannah for the truth. to Apologize and accept the deal.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the intention change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Negotiate the best price. to Gather more information.",
+                "reason": "test ability to recognize how the intention change in the correct time stage",
+                "explain": "how the intention change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Gather more information. to Press Hannah for the truth.",
+                "reason": "test ability to recognize how the intention change in the correct time stage",
+                "explain": "how the intention change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_10": {
+        "question": "Whether the action of Roy Schroeder change from scenario 1 to scenario 2? if yes, from what to what?",
+        "true answer": "b",
+        "options": [
+            "a. Yes, from Ask more questions. to Accuse Hannah.",
+            "b. Yes, from Negotiate with Hannah. to Ask more questions.",
+            "c. Yes, from Accuse Hannah. to Apologize and accept the deal.",
+            "d. No"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Negotiate with Hannah. to Ask more questions.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the action change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Ask more questions. to Accuse Hannah.",
+                "reason": "test ability to recognize how the action change in the correct time stage",
+                "explain": "how the action change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Accuse Hannah. to Apologize and accept the deal.",
+                "reason": "test ability to recognize how the action change in the correct time stage",
+                "explain": "how the action change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_11": {
+        "question": "Whether the action of Roy Schroeder change from scenario 2 to scenario 3? if yes, from what to what?",
+        "true answer": "b",
+        "options": [
+            "a. Yes, from Negotiate with Hannah. to Ask more questions.",
+            "b. Yes, from Ask more questions. to Accuse Hannah.",
+            "c. No",
+            "d. Yes, from Accuse Hannah. to Apologize and accept the deal."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Ask more questions. to Accuse Hannah.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the action change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Negotiate with Hannah. to Ask more questions.",
+                "reason": "test ability to recognize how the action change in the correct time stage",
+                "explain": "how the action change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Accuse Hannah. to Apologize and accept the deal.",
+                "reason": "test ability to recognize how the action change in the correct time stage",
+                "explain": "how the action change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_12": {
+        "question": "Whether the action of Roy Schroeder change from scenario 3 to scenario 4? if yes, from what to what?",
+        "true answer": "a",
+        "options": [
+            "a. Yes, from Accuse Hannah. to Apologize and accept the deal.",
+            "b. Yes, from Ask more questions. to Accuse Hannah.",
+            "c. Yes, from Negotiate with Hannah. to Ask more questions.",
+            "d. No"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Accuse Hannah. to Apologize and accept the deal.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the action change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Negotiate with Hannah. to Ask more questions.",
+                "reason": "test ability to recognize how the action change in the correct time stage",
+                "explain": "how the action change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Ask more questions. to Accuse Hannah.",
+                "reason": "test ability to recognize how the action change in the correct time stage",
+                "explain": "how the action change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_c_how_1": {
+        "question": "In scenario 1, how does the belief of Roy Schroeder influence the emotion of Roy Schroeder?",
+        "true answer": "d",
+        "options": [
+            "a. Roy's doubt about the watch's value causes him to feel anxious.",
+            "b. Roy's belief that Hannah is withholding information makes him feel suspicious and frustrated.",
+            "c. Roy's intention to negotiate leads him to approach Hannah with the watch.",
+            "d. Roy's belief in the value of the watch makes him feel confident.",
+            "e. Roy's confidence and belief in the watch's worth make him determined to negotiate a good price."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "Roy's belief in the value of the watch makes him feel confident.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Roy's confidence and belief in the watch's worth make him determined to negotiate a good price.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Roy's intention to negotiate leads him to approach Hannah with the watch.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Roy's doubt about the watch's value causes him to feel anxious.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in other time stage",
+                "explain": "how the belief influence emotion in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Roy's belief that Hannah is withholding information makes him feel suspicious and frustrated.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in other time stage",
+                "explain": "how the belief influence emotion in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_2": {
+        "question": "In scenario 2, how does the belief of Roy Schroeder influence the emotion of Roy Schroeder?",
+        "true answer": "d",
+        "options": [
+            "a. Roy\u2019s intention to gather more information leads him to inquire further with Hannah.",
+            "b. Roy's uncertainty and anxiety make him want to collect more information.",
+            "c. Roy's belief that Hannah is withholding information makes him feel suspicious and frustrated.",
+            "d. Roy's doubt about the watch's value causes him to feel anxious.",
+            "e. Roy's belief in the value of the watch makes him feel confident."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "Roy's doubt about the watch's value causes him to feel anxious.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Roy's uncertainty and anxiety make him want to collect more information.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Roy\u2019s intention to gather more information leads him to inquire further with Hannah.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Roy's belief in the value of the watch makes him feel confident.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in other time stage",
+                "explain": "how the belief influence emotion in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Roy's belief that Hannah is withholding information makes him feel suspicious and frustrated.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in other time stage",
+                "explain": "how the belief influence emotion in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_3": {
+        "question": "In scenario 3, how does the belief of Roy Schroeder influence the emotion of Roy Schroeder?",
+        "true answer": "a",
+        "options": [
+            "a. Roy's belief that Hannah is withholding information makes him feel suspicious and frustrated.",
+            "b. Roy\u2019s frustration and suspicion drive him to confront Hannah more forcefully.",
+            "c. Roy's belief in the value of the watch makes him feel confident.",
+            "d. Roy's doubt about the watch's value causes him to feel anxious.",
+            "e. Roy\u2019s intention to get the truth out of Hannah leads to a more aggressive interaction."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "Roy's belief that Hannah is withholding information makes him feel suspicious and frustrated.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Roy\u2019s frustration and suspicion drive him to confront Hannah more forcefully.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Roy\u2019s intention to get the truth out of Hannah leads to a more aggressive interaction.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Roy's belief in the value of the watch makes him feel confident.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in other time stage",
+                "explain": "how the belief influence emotion in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Roy's doubt about the watch's value causes him to feel anxious.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in other time stage",
+                "explain": "how the belief influence emotion in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_4": {
+        "question": "In scenario 4, how does the belief of Roy Schroeder influence the emotion of Roy Schroeder?",
+        "true answer": "e",
+        "options": [
+            "a. Roy's doubt about the watch's value causes him to feel anxious.",
+            "b. Roy\u2019s intention to apologize results in him accepting the deal and expressing his remorse to Hannah.",
+            "c. Roy\u2019s remorse and corrected belief lead him to want to make amends.",
+            "d. Roy's belief that Hannah is withholding information makes him feel suspicious and frustrated.",
+            "e. Roy\u2019s realization that Hannah was honest makes him feel remorseful.",
+            "f. Roy's belief in the value of the watch makes him feel confident."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "Roy\u2019s realization that Hannah was honest makes him feel remorseful.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Roy\u2019s remorse and corrected belief lead him to want to make amends.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Roy\u2019s intention to apologize results in him accepting the deal and expressing his remorse to Hannah.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Roy's belief in the value of the watch makes him feel confident.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in other time stage",
+                "explain": "how the belief influence emotion in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Roy's doubt about the watch's value causes him to feel anxious.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in other time stage",
+                "explain": "how the belief influence emotion in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Roy's belief that Hannah is withholding information makes him feel suspicious and frustrated.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in other time stage",
+                "explain": "how the belief influence emotion in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_5": {
+        "question": "In scenario 1, how does the belief&emotion of Roy Schroeder influence the intention of Roy Schroeder?",
+        "true answer": "a",
+        "options": [
+            "a. Roy's confidence and belief in the watch's worth make him determined to negotiate a good price.",
+            "b. Roy\u2019s frustration and suspicion drive him to confront Hannah more forcefully.",
+            "c. Roy's uncertainty and anxiety make him want to collect more information.",
+            "d. Roy's belief in the value of the watch makes him feel confident.",
+            "e. Roy's intention to negotiate leads him to approach Hannah with the watch."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "Roy's confidence and belief in the watch's worth make him determined to negotiate a good price.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Roy's belief in the value of the watch makes him feel confident.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Roy's intention to negotiate leads him to approach Hannah with the watch.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Roy's uncertainty and anxiety make him want to collect more information.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in other time stage",
+                "explain": "how the belief&emotion influence intention in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Roy\u2019s frustration and suspicion drive him to confront Hannah more forcefully.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in other time stage",
+                "explain": "how the belief&emotion influence intention in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_6": {
+        "question": "In scenario 2, how does the belief&emotion of Roy Schroeder influence the intention of Roy Schroeder?",
+        "true answer": "d",
+        "options": [
+            "a. Roy\u2019s intention to gather more information leads him to inquire further with Hannah.",
+            "b. Roy's doubt about the watch's value causes him to feel anxious.",
+            "c. Roy's confidence and belief in the watch's worth make him determined to negotiate a good price.",
+            "d. Roy's uncertainty and anxiety make him want to collect more information.",
+            "e. Roy\u2019s frustration and suspicion drive him to confront Hannah more forcefully."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "Roy's uncertainty and anxiety make him want to collect more information.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Roy's doubt about the watch's value causes him to feel anxious.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Roy\u2019s intention to gather more information leads him to inquire further with Hannah.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Roy's confidence and belief in the watch's worth make him determined to negotiate a good price.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in other time stage",
+                "explain": "how the belief&emotion influence intention in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Roy\u2019s frustration and suspicion drive him to confront Hannah more forcefully.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in other time stage",
+                "explain": "how the belief&emotion influence intention in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_7": {
+        "question": "In scenario 3, how does the belief&emotion of Roy Schroeder influence the intention of Roy Schroeder?",
+        "true answer": "d",
+        "options": [
+            "a. Roy\u2019s intention to get the truth out of Hannah leads to a more aggressive interaction.",
+            "b. Roy's uncertainty and anxiety make him want to collect more information.",
+            "c. Roy's confidence and belief in the watch's worth make him determined to negotiate a good price.",
+            "d. Roy\u2019s frustration and suspicion drive him to confront Hannah more forcefully.",
+            "e. Roy's belief that Hannah is withholding information makes him feel suspicious and frustrated."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "Roy\u2019s frustration and suspicion drive him to confront Hannah more forcefully.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Roy's belief that Hannah is withholding information makes him feel suspicious and frustrated.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Roy\u2019s intention to get the truth out of Hannah leads to a more aggressive interaction.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Roy's confidence and belief in the watch's worth make him determined to negotiate a good price.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in other time stage",
+                "explain": "how the belief&emotion influence intention in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Roy's uncertainty and anxiety make him want to collect more information.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in other time stage",
+                "explain": "how the belief&emotion influence intention in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_8": {
+        "question": "In scenario 4, how does the belief&emotion of Roy Schroeder influence the intention of Roy Schroeder?",
+        "true answer": "b",
+        "options": [
+            "a. Roy\u2019s realization that Hannah was honest makes him feel remorseful.",
+            "b. Roy\u2019s remorse and corrected belief lead him to want to make amends.",
+            "c. Roy's uncertainty and anxiety make him want to collect more information.",
+            "d. Roy\u2019s frustration and suspicion drive him to confront Hannah more forcefully.",
+            "e. Roy\u2019s intention to apologize results in him accepting the deal and expressing his remorse to Hannah.",
+            "f. Roy's confidence and belief in the watch's worth make him determined to negotiate a good price."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "Roy\u2019s remorse and corrected belief lead him to want to make amends.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Roy\u2019s realization that Hannah was honest makes him feel remorseful.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Roy\u2019s intention to apologize results in him accepting the deal and expressing his remorse to Hannah.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Roy's confidence and belief in the watch's worth make him determined to negotiate a good price.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in other time stage",
+                "explain": "how the belief&emotion influence intention in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Roy's uncertainty and anxiety make him want to collect more information.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in other time stage",
+                "explain": "how the belief&emotion influence intention in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Roy\u2019s frustration and suspicion drive him to confront Hannah more forcefully.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in other time stage",
+                "explain": "how the belief&emotion influence intention in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_9": {
+        "question": "In scenario 1, how does the intention of Roy Schroeder influence the action of Roy Schroeder?",
+        "true answer": "c",
+        "options": [
+            "a. Roy's belief in the value of the watch makes him feel confident.",
+            "b. Roy\u2019s intention to get the truth out of Hannah leads to a more aggressive interaction.",
+            "c. Roy's intention to negotiate leads him to approach Hannah with the watch.",
+            "d. Roy's confidence and belief in the watch's worth make him determined to negotiate a good price.",
+            "e. Roy\u2019s intention to gather more information leads him to inquire further with Hannah."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "Roy's intention to negotiate leads him to approach Hannah with the watch.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Roy's belief in the value of the watch makes him feel confident.",
+                "reason": "test ability to correctly recognize how the intention influence action in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Roy's confidence and belief in the watch's worth make him determined to negotiate a good price.",
+                "reason": "test ability to correctly recognize how the intention influence action in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Roy\u2019s intention to gather more information leads him to inquire further with Hannah.",
+                "reason": "test ability to correctly recognize how the intention influence action in other time stage",
+                "explain": "how the intention influence action in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Roy\u2019s intention to get the truth out of Hannah leads to a more aggressive interaction.",
+                "reason": "test ability to correctly recognize how the intention influence action in other time stage",
+                "explain": "how the intention influence action in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_10": {
+        "question": "In scenario 2, how does the intention of Roy Schroeder influence the action of Roy Schroeder?",
+        "true answer": "b",
+        "options": [
+            "a. Roy's intention to negotiate leads him to approach Hannah with the watch.",
+            "b. Roy\u2019s intention to gather more information leads him to inquire further with Hannah.",
+            "c. Roy's uncertainty and anxiety make him want to collect more information.",
+            "d. Roy's doubt about the watch's value causes him to feel anxious.",
+            "e. Roy\u2019s intention to get the truth out of Hannah leads to a more aggressive interaction."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "Roy\u2019s intention to gather more information leads him to inquire further with Hannah.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Roy's doubt about the watch's value causes him to feel anxious.",
+                "reason": "test ability to correctly recognize how the intention influence action in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Roy's uncertainty and anxiety make him want to collect more information.",
+                "reason": "test ability to correctly recognize how the intention influence action in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Roy's intention to negotiate leads him to approach Hannah with the watch.",
+                "reason": "test ability to correctly recognize how the intention influence action in other time stage",
+                "explain": "how the intention influence action in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Roy\u2019s intention to get the truth out of Hannah leads to a more aggressive interaction.",
+                "reason": "test ability to correctly recognize how the intention influence action in other time stage",
+                "explain": "how the intention influence action in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_11": {
+        "question": "In scenario 3, how does the intention of Roy Schroeder influence the action of Roy Schroeder?",
+        "true answer": "a",
+        "options": [
+            "a. Roy\u2019s intention to get the truth out of Hannah leads to a more aggressive interaction.",
+            "b. Roy's belief that Hannah is withholding information makes him feel suspicious and frustrated.",
+            "c. Roy's intention to negotiate leads him to approach Hannah with the watch.",
+            "d. Roy\u2019s frustration and suspicion drive him to confront Hannah more forcefully.",
+            "e. Roy\u2019s intention to gather more information leads him to inquire further with Hannah."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "Roy\u2019s intention to get the truth out of Hannah leads to a more aggressive interaction.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Roy's belief that Hannah is withholding information makes him feel suspicious and frustrated.",
+                "reason": "test ability to correctly recognize how the intention influence action in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Roy\u2019s frustration and suspicion drive him to confront Hannah more forcefully.",
+                "reason": "test ability to correctly recognize how the intention influence action in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Roy's intention to negotiate leads him to approach Hannah with the watch.",
+                "reason": "test ability to correctly recognize how the intention influence action in other time stage",
+                "explain": "how the intention influence action in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Roy\u2019s intention to gather more information leads him to inquire further with Hannah.",
+                "reason": "test ability to correctly recognize how the intention influence action in other time stage",
+                "explain": "how the intention influence action in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_12": {
+        "question": "In scenario 4, how does the intention of Roy Schroeder influence the action of Roy Schroeder?",
+        "true answer": "e",
+        "options": [
+            "a. Roy\u2019s realization that Hannah was honest makes him feel remorseful.",
+            "b. Roy's intention to negotiate leads him to approach Hannah with the watch.",
+            "c. Roy\u2019s intention to get the truth out of Hannah leads to a more aggressive interaction.",
+            "d. Roy\u2019s intention to gather more information leads him to inquire further with Hannah.",
+            "e. Roy\u2019s intention to apologize results in him accepting the deal and expressing his remorse to Hannah.",
+            "f. Roy\u2019s remorse and corrected belief lead him to want to make amends."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "Roy\u2019s intention to apologize results in him accepting the deal and expressing his remorse to Hannah.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Roy\u2019s realization that Hannah was honest makes him feel remorseful.",
+                "reason": "test ability to correctly recognize how the intention influence action in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Roy\u2019s remorse and corrected belief lead him to want to make amends.",
+                "reason": "test ability to correctly recognize how the intention influence action in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Roy's intention to negotiate leads him to approach Hannah with the watch.",
+                "reason": "test ability to correctly recognize how the intention influence action in other time stage",
+                "explain": "how the intention influence action in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Roy\u2019s intention to gather more information leads him to inquire further with Hannah.",
+                "reason": "test ability to correctly recognize how the intention influence action in other time stage",
+                "explain": "how the intention influence action in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Roy\u2019s intention to get the truth out of Hannah leads to a more aggressive interaction.",
+                "reason": "test ability to correctly recognize how the intention influence action in other time stage",
+                "explain": "how the intention influence action in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_a_what_1": {
+        "question": "What is the belief of Roy Schroeder in scenario 1?",
+        "true answer": "b",
+        "options": [
+            "a. Roy realizes Hannah was honest.",
+            "b. Roy believes the watch is valuable.",
+            "c. Negotiate with Hannah.",
+            "d. Roy believes Hannah is hiding information.",
+            "e. Roy doubts the watch\u2019s value.",
+            "f. Negotiate the best price.",
+            "g. Confidence"
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Roy believes the watch is valuable.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Roy doubts the watch\u2019s value.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Roy believes Hannah is hiding information.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Roy realizes Hannah was honest.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Confidence",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Negotiate the best price.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Negotiate with Hannah.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_2": {
+        "question": "What is the belief of Roy Schroeder in scenario 2?",
+        "true answer": "e",
+        "options": [
+            "a. Ask more questions.",
+            "b. Roy realizes Hannah was honest.",
+            "c. Anxiety",
+            "d. Roy believes the watch is valuable.",
+            "e. Roy doubts the watch\u2019s value.",
+            "f. Gather more information.",
+            "g. Roy believes Hannah is hiding information."
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Roy doubts the watch\u2019s value.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Roy believes the watch is valuable.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Roy believes Hannah is hiding information.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Roy realizes Hannah was honest.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Anxiety",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Gather more information.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Ask more questions.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_3": {
+        "question": "What is the belief of Roy Schroeder in scenario 3?",
+        "true answer": "d",
+        "options": [
+            "a. Roy doubts the watch\u2019s value.",
+            "b. Press Hannah for the truth.",
+            "c. Accuse Hannah.",
+            "d. Roy believes Hannah is hiding information.",
+            "e. Frustration and Suspicion",
+            "f. Roy believes the watch is valuable.",
+            "g. Roy realizes Hannah was honest."
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Roy believes Hannah is hiding information.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Roy believes the watch is valuable.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Roy doubts the watch\u2019s value.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Roy realizes Hannah was honest.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Frustration and Suspicion",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Press Hannah for the truth.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Accuse Hannah.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_4": {
+        "question": "What is the belief of Roy Schroeder in scenario 4?",
+        "true answer": "e",
+        "options": [
+            "a. Remorse",
+            "b. Apologize and accept the deal.",
+            "c. Roy believes Hannah is hiding information.",
+            "d. Roy doubts the watch\u2019s value.",
+            "e. Roy realizes Hannah was honest.",
+            "f. Roy believes the watch is valuable.",
+            "g. Apologize and accept the deal."
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Roy realizes Hannah was honest.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Roy believes the watch is valuable.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Roy doubts the watch\u2019s value.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Roy believes Hannah is hiding information.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Remorse",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Apologize and accept the deal.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Apologize and accept the deal.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_5": {
+        "question": "What is the emotion of Roy Schroeder in scenario 1?",
+        "true answer": "c",
+        "options": [
+            "a. Anxiety",
+            "b. Remorse",
+            "c. Confidence",
+            "d. Roy believes the watch is valuable.",
+            "e. Frustration and Suspicion",
+            "f. Negotiate with Hannah.",
+            "g. Negotiate the best price."
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Confidence",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Anxiety",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Frustration and Suspicion",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Remorse",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Roy believes the watch is valuable.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Negotiate the best price.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Negotiate with Hannah.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_6": {
+        "question": "What is the emotion of Roy Schroeder in scenario 2?",
+        "true answer": "g",
+        "options": [
+            "a. Gather more information.",
+            "b. Ask more questions.",
+            "c. Roy doubts the watch\u2019s value.",
+            "d. Remorse",
+            "e. Confidence",
+            "f. Frustration and Suspicion",
+            "g. Anxiety"
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Anxiety",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Confidence",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Frustration and Suspicion",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Remorse",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Roy doubts the watch\u2019s value.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Gather more information.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Ask more questions.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_7": {
+        "question": "What is the emotion of Roy Schroeder in scenario 3?",
+        "true answer": "d",
+        "options": [
+            "a. Press Hannah for the truth.",
+            "b. Remorse",
+            "c. Confidence",
+            "d. Frustration and Suspicion",
+            "e. Anxiety",
+            "f. Accuse Hannah.",
+            "g. Roy believes Hannah is hiding information."
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Frustration and Suspicion",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Confidence",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Anxiety",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Remorse",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Roy believes Hannah is hiding information.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Press Hannah for the truth.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Accuse Hannah.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_8": {
+        "question": "What is the emotion of Roy Schroeder in scenario 4?",
+        "true answer": "e",
+        "options": [
+            "a. Apologize and accept the deal.",
+            "b. Roy realizes Hannah was honest.",
+            "c. Apologize and accept the deal.",
+            "d. Frustration and Suspicion",
+            "e. Remorse",
+            "f. Confidence",
+            "g. Anxiety"
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Remorse",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Confidence",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Anxiety",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Frustration and Suspicion",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Roy realizes Hannah was honest.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Apologize and accept the deal.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Apologize and accept the deal.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_9": {
+        "question": "What is the intention of Roy Schroeder in scenario 1?",
+        "true answer": "d",
+        "options": [
+            "a. Gather more information.",
+            "b. Roy believes the watch is valuable.",
+            "c. Confidence",
+            "d. Negotiate the best price.",
+            "e. Press Hannah for the truth.",
+            "f. Negotiate with Hannah.",
+            "g. Apologize and accept the deal."
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Negotiate the best price.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Gather more information.",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Press Hannah for the truth.",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Apologize and accept the deal.",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Roy believes the watch is valuable.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Confidence",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Negotiate with Hannah.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_10": {
+        "question": "What is the intention of Roy Schroeder in scenario 2?",
+        "true answer": "g",
+        "options": [
+            "a. Apologize and accept the deal.",
+            "b. Press Hannah for the truth.",
+            "c. Anxiety",
+            "d. Roy doubts the watch\u2019s value.",
+            "e. Ask more questions.",
+            "f. Negotiate the best price.",
+            "g. Gather more information."
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Gather more information.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Negotiate the best price.",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Press Hannah for the truth.",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Apologize and accept the deal.",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Roy doubts the watch\u2019s value.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Anxiety",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Ask more questions.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_11": {
+        "question": "What is the intention of Roy Schroeder in scenario 3?",
+        "true answer": "c",
+        "options": [
+            "a. Accuse Hannah.",
+            "b. Apologize and accept the deal.",
+            "c. Press Hannah for the truth.",
+            "d. Roy believes Hannah is hiding information.",
+            "e. Gather more information.",
+            "f. Negotiate the best price.",
+            "g. Frustration and Suspicion"
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Press Hannah for the truth.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Negotiate the best price.",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Gather more information.",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Apologize and accept the deal.",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Roy believes Hannah is hiding information.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Frustration and Suspicion",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Accuse Hannah.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_12": {
+        "question": "What is the intention of Roy Schroeder in scenario 4?",
+        "true answer": "f",
+        "options": [
+            "a. Gather more information.",
+            "b. Roy realizes Hannah was honest.",
+            "c. Remorse",
+            "d. Press Hannah for the truth.",
+            "e. Negotiate the best price.",
+            "f. Apologize and accept the deal."
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Apologize and accept the deal.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Negotiate the best price.",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Gather more information.",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Press Hannah for the truth.",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Roy realizes Hannah was honest.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Remorse",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_13": {
+        "question": "What is the action of Roy Schroeder in scenario 1?",
+        "true answer": "g",
+        "options": [
+            "a. Confidence",
+            "b. Roy believes the watch is valuable.",
+            "c. Apologize and accept the deal.",
+            "d. Accuse Hannah.",
+            "e. Negotiate the best price.",
+            "f. Ask more questions.",
+            "g. Negotiate with Hannah."
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Negotiate with Hannah.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Ask more questions.",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Accuse Hannah.",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Apologize and accept the deal.",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Roy believes the watch is valuable.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Confidence",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Negotiate the best price.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_14": {
+        "question": "What is the action of Roy Schroeder in scenario 2?",
+        "true answer": "b",
+        "options": [
+            "a. Apologize and accept the deal.",
+            "b. Ask more questions.",
+            "c. Gather more information.",
+            "d. Accuse Hannah.",
+            "e. Anxiety",
+            "f. Negotiate with Hannah.",
+            "g. Roy doubts the watch\u2019s value."
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Ask more questions.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Negotiate with Hannah.",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Accuse Hannah.",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Apologize and accept the deal.",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Roy doubts the watch\u2019s value.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Anxiety",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Gather more information.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_15": {
+        "question": "What is the action of Roy Schroeder in scenario 3?",
+        "true answer": "d",
+        "options": [
+            "a. Frustration and Suspicion",
+            "b. Roy believes Hannah is hiding information.",
+            "c. Ask more questions.",
+            "d. Accuse Hannah.",
+            "e. Apologize and accept the deal.",
+            "f. Negotiate with Hannah.",
+            "g. Press Hannah for the truth."
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Accuse Hannah.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Negotiate with Hannah.",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Ask more questions.",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Apologize and accept the deal.",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Roy believes Hannah is hiding information.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Frustration and Suspicion",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Press Hannah for the truth.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_16": {
+        "question": "What is the action of Roy Schroeder in scenario 4?",
+        "true answer": "e",
+        "options": [
+            "a. Roy realizes Hannah was honest.",
+            "b. Accuse Hannah.",
+            "c. Ask more questions.",
+            "d. Negotiate with Hannah.",
+            "e. Apologize and accept the deal.",
+            "f. Remorse"
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Apologize and accept the deal.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Negotiate with Hannah.",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Ask more questions.",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Accuse Hannah.",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Roy realizes Hannah was honest.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Remorse",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    }
+}

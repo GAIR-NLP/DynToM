@@ -1,0 +1,3299 @@
+{
+    "type_d_how_1": {
+        "question": "How does the belief of William Lo change across the 4 scenarios?",
+        "true answer": "h",
+        "options": [
+            "a. William believes that the core issue lies in the children\u2019s home environments, which impacts their behavior in school. -> William now believes that Ann is receptive to new ideas but needs practical examples. -> William believes that Ann is genuinely trying his suggestions but is facing resistance from the children. -> William believes that Ann is underestimating the children's ability to grasp complex emotions.",
+            "b. William believes that Ann is genuinely trying his suggestions but is facing resistance from the children. -> William now believes that Ann is receptive to new ideas but needs practical examples. -> William believes that Ann is underestimating the children's ability to grasp complex emotions. -> Start a community initiative aimed at educating parents about emotional development.",
+            "c. William believes that the core issue lies in the children\u2019s home environments, which impacts their behavior in school. -> William believes that Ann is underestimating the children's ability to grasp complex emotions. -> William now believes that Ann is receptive to new ideas but needs practical examples. -> William believes that Ann is genuinely trying his suggestions but is facing resistance from the children.",
+            "d. William believes that Ann is genuinely trying his suggestions but is facing resistance from the children. -> William now believes that Ann is receptive to new ideas but needs practical examples. -> William believes that Ann is underestimating the children's ability to grasp complex emotions. -> William believes that the core issue lies in the children\u2019s home environments, which impacts their behavior in school.",
+            "e. William believes that Ann is genuinely trying his suggestions but is facing resistance from the children. -> William now believes that Ann is receptive to new ideas but needs practical examples. -> Observes a class and gives Ann tailored advice. -> William believes that the core issue lies in the children\u2019s home environments, which impacts their behavior in school.",
+            "f. Frustrated -> William now believes that Ann is receptive to new ideas but needs practical examples. -> William believes that Ann is underestimating the children's ability to grasp complex emotions. -> William believes that the core issue lies in the children\u2019s home environments, which impacts their behavior in school.",
+            "g. William believes that Ann is genuinely trying his suggestions but is facing resistance from the children. -> William now believes that Ann is receptive to new ideas but needs practical examples. -> William believes that Ann is underestimating the children's ability to grasp complex emotions.",
+            "h. William believes that Ann is underestimating the children's ability to grasp complex emotions. -> William now believes that Ann is receptive to new ideas but needs practical examples. -> William believes that Ann is genuinely trying his suggestions but is facing resistance from the children. -> William believes that the core issue lies in the children\u2019s home environments, which impacts their behavior in school."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "William believes that Ann is underestimating the children's ability to grasp complex emotions. -> William now believes that Ann is receptive to new ideas but needs practical examples. -> William believes that Ann is genuinely trying his suggestions but is facing resistance from the children. -> William believes that the core issue lies in the children\u2019s home environments, which impacts their behavior in school.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "William believes that the core issue lies in the children\u2019s home environments, which impacts their behavior in school. -> William now believes that Ann is receptive to new ideas but needs practical examples. -> William believes that Ann is genuinely trying his suggestions but is facing resistance from the children. -> William believes that Ann is underestimating the children's ability to grasp complex emotions.",
+                "explain": "shuffle the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "William believes that Ann is genuinely trying his suggestions but is facing resistance from the children. -> William now believes that Ann is receptive to new ideas but needs practical examples. -> William believes that Ann is underestimating the children's ability to grasp complex emotions. -> William believes that the core issue lies in the children\u2019s home environments, which impacts their behavior in school.",
+                "explain": "change the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "William believes that the core issue lies in the children\u2019s home environments, which impacts their behavior in school. -> William believes that Ann is underestimating the children's ability to grasp complex emotions. -> William now believes that Ann is receptive to new ideas but needs practical examples. -> William believes that Ann is genuinely trying his suggestions but is facing resistance from the children.",
+                "explain": "reverse the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "William believes that Ann is genuinely trying his suggestions but is facing resistance from the children. -> William now believes that Ann is receptive to new ideas but needs practical examples. -> William believes that Ann is underestimating the children's ability to grasp complex emotions.",
+                "explain": "remove one belief in one time stage",
+                "reason": "test ability to recognize the completeness of the mental states",
+                "short": "type_d_how_recognize_time_stage_completeness"
+            },
+            {
+                "option": "Frustrated -> William now believes that Ann is receptive to new ideas but needs practical examples. -> William believes that Ann is underestimating the children's ability to grasp complex emotions. -> William believes that the core issue lies in the children\u2019s home environments, which impacts their behavior in school.",
+                "reason": "test ability to recognize the relationship between belief and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "William believes that Ann is genuinely trying his suggestions but is facing resistance from the children. -> William now believes that Ann is receptive to new ideas but needs practical examples. -> William believes that Ann is underestimating the children's ability to grasp complex emotions. -> Start a community initiative aimed at educating parents about emotional development.",
+                "reason": "test ability to recognize the relationship between belief and intention",
+                "explain": "intention change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "William believes that Ann is genuinely trying his suggestions but is facing resistance from the children. -> William now believes that Ann is receptive to new ideas but needs practical examples. -> Observes a class and gives Ann tailored advice. -> William believes that the core issue lies in the children\u2019s home environments, which impacts their behavior in school.",
+                "reason": "test ability to recognize the relationship between belief and action",
+                "explain": "action change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_how_2": {
+        "question": "How does the emotion of William Lo change across the 4 scenarios?",
+        "true answer": "b",
+        "options": [
+            "a. Empathetic -> Hopeful -> Frustrated -> William believes that the core issue lies in the children\u2019s home environments, which impacts their behavior in school.",
+            "b. Frustrated -> Hopeful -> Empathetic -> Determined",
+            "c. Presents evidence from child psychology studies to Ann. -> Hopeful -> Frustrated -> Determined",
+            "d. Determined -> Frustrated -> Hopeful -> Empathetic",
+            "e. Hopeful -> Frustrated -> Determined",
+            "f. Empathetic -> Hopeful -> Frustrated -> Determined",
+            "g. Hopeful -> Determined -> Frustrated -> Empathetic",
+            "h. Convince Ann to adopt a different approach towards teaching emotions. -> Hopeful -> Frustrated -> Determined"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Frustrated -> Hopeful -> Empathetic -> Determined",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Hopeful -> Determined -> Frustrated -> Empathetic",
+                "explain": "shuffle the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Empathetic -> Hopeful -> Frustrated -> Determined",
+                "explain": "change the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Determined -> Frustrated -> Hopeful -> Empathetic",
+                "explain": "reverse the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Hopeful -> Frustrated -> Determined",
+                "explain": "remove one belief in one time stage",
+                "reason": "test ability to recognize the completeness of the mental states",
+                "short": "type_d_how_recognize_time_stage_completeness"
+            },
+            {
+                "option": "Empathetic -> Hopeful -> Frustrated -> William believes that the core issue lies in the children\u2019s home environments, which impacts their behavior in school.",
+                "reason": "test ability to recognize the relationship between emotion and belief",
+                "explain": "belief change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Convince Ann to adopt a different approach towards teaching emotions. -> Hopeful -> Frustrated -> Determined",
+                "reason": "test ability to recognize the relationship between emotion and intention",
+                "explain": "intention change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Presents evidence from child psychology studies to Ann. -> Hopeful -> Frustrated -> Determined",
+                "reason": "test ability to recognize the relationship between emotion and action",
+                "explain": "action change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_how_3": {
+        "question": "How does the intention of William Lo change across the 4 scenarios?",
+        "true answer": "f",
+        "options": [
+            "a. Support Ann by helping her adapt his activities to better suit the children. -> Provide Ann with practical examples she can use. -> Convince Ann to adopt a different approach towards teaching emotions. -> Start a community initiative aimed at educating parents about emotional development.",
+            "b. Start a community initiative aimed at educating parents about emotional development. -> Convince Ann to adopt a different approach towards teaching emotions. -> Provide Ann with practical examples she can use. -> Support Ann by helping her adapt his activities to better suit the children.",
+            "c. Support Ann by helping her adapt his activities to better suit the children. -> William now believes that Ann is receptive to new ideas but needs practical examples. -> Convince Ann to adopt a different approach towards teaching emotions. -> Start a community initiative aimed at educating parents about emotional development.",
+            "d. Start a community initiative aimed at educating parents about emotional development. -> Convince Ann to adopt a different approach towards teaching emotions. -> Provide Ann with practical examples she can use. -> Support Ann by helping her adapt his activities to better suit the children.",
+            "e. Support Ann by helping her adapt his activities to better suit the children. -> Provide Ann with practical examples she can use. -> Observes a class and gives Ann tailored advice. -> Start a community initiative aimed at educating parents about emotional development.",
+            "f. Convince Ann to adopt a different approach towards teaching emotions. -> Provide Ann with practical examples she can use. -> Support Ann by helping her adapt his activities to better suit the children. -> Start a community initiative aimed at educating parents about emotional development.",
+            "g. Support Ann by helping her adapt his activities to better suit the children. -> Hopeful -> Convince Ann to adopt a different approach towards teaching emotions. -> Start a community initiative aimed at educating parents about emotional development.",
+            "h. Provide Ann with practical examples she can use. -> Convince Ann to adopt a different approach towards teaching emotions. -> Start a community initiative aimed at educating parents about emotional development."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Convince Ann to adopt a different approach towards teaching emotions. -> Provide Ann with practical examples she can use. -> Support Ann by helping her adapt his activities to better suit the children. -> Start a community initiative aimed at educating parents about emotional development.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Start a community initiative aimed at educating parents about emotional development. -> Convince Ann to adopt a different approach towards teaching emotions. -> Provide Ann with practical examples she can use. -> Support Ann by helping her adapt his activities to better suit the children.",
+                "explain": "shuffle the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Support Ann by helping her adapt his activities to better suit the children. -> Provide Ann with practical examples she can use. -> Convince Ann to adopt a different approach towards teaching emotions. -> Start a community initiative aimed at educating parents about emotional development.",
+                "explain": "change the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Start a community initiative aimed at educating parents about emotional development. -> Convince Ann to adopt a different approach towards teaching emotions. -> Provide Ann with practical examples she can use. -> Support Ann by helping her adapt his activities to better suit the children.",
+                "explain": "reverse the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Provide Ann with practical examples she can use. -> Convince Ann to adopt a different approach towards teaching emotions. -> Start a community initiative aimed at educating parents about emotional development.",
+                "explain": "remove one belief in one time stage",
+                "reason": "test ability to recognize the completeness of the mental states",
+                "short": "type_d_how_recognize_time_stage_completeness"
+            },
+            {
+                "option": "Support Ann by helping her adapt his activities to better suit the children. -> William now believes that Ann is receptive to new ideas but needs practical examples. -> Convince Ann to adopt a different approach towards teaching emotions. -> Start a community initiative aimed at educating parents about emotional development.",
+                "reason": "test ability to recognize the relationship between intention and belief",
+                "explain": "belief change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Support Ann by helping her adapt his activities to better suit the children. -> Hopeful -> Convince Ann to adopt a different approach towards teaching emotions. -> Start a community initiative aimed at educating parents about emotional development.",
+                "reason": "test ability to recognize the relationship between intention and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Support Ann by helping her adapt his activities to better suit the children. -> Provide Ann with practical examples she can use. -> Observes a class and gives Ann tailored advice. -> Start a community initiative aimed at educating parents about emotional development.",
+                "reason": "test ability to recognize the relationship between intention and action",
+                "explain": "action change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_how_4": {
+        "question": "How does the action of William Lo change across the 4 scenarios?",
+        "true answer": "b",
+        "options": [
+            "a. Observes a class and gives Ann tailored advice. -> Organizes a community meeting and invites experts to speak. -> Shares a detailed plan that includes specific activities for teaching emotions. -> Presents evidence from child psychology studies to Ann.",
+            "b. Presents evidence from child psychology studies to Ann. -> Shares a detailed plan that includes specific activities for teaching emotions. -> Observes a class and gives Ann tailored advice. -> Organizes a community meeting and invites experts to speak.",
+            "c. Shares a detailed plan that includes specific activities for teaching emotions. -> Organizes a community meeting and invites experts to speak. -> Presents evidence from child psychology studies to Ann. -> Observes a class and gives Ann tailored advice.",
+            "d. Presents evidence from child psychology studies to Ann. -> Organizes a community meeting and invites experts to speak. -> Observes a class and gives Ann tailored advice.",
+            "e. Presents evidence from child psychology studies to Ann. -> Shares a detailed plan that includes specific activities for teaching emotions. -> Organizes a community meeting and invites experts to speak. -> Observes a class and gives Ann tailored advice.",
+            "f. Presents evidence from child psychology studies to Ann. -> Shares a detailed plan that includes specific activities for teaching emotions. -> Frustrated -> Observes a class and gives Ann tailored advice.",
+            "g. Presents evidence from child psychology studies to Ann. -> Shares a detailed plan that includes specific activities for teaching emotions. -> Convince Ann to adopt a different approach towards teaching emotions. -> Observes a class and gives Ann tailored advice.",
+            "h. Presents evidence from child psychology studies to Ann. -> William now believes that Ann is receptive to new ideas but needs practical examples. -> Organizes a community meeting and invites experts to speak. -> Observes a class and gives Ann tailored advice."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Presents evidence from child psychology studies to Ann. -> Shares a detailed plan that includes specific activities for teaching emotions. -> Observes a class and gives Ann tailored advice. -> Organizes a community meeting and invites experts to speak.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Shares a detailed plan that includes specific activities for teaching emotions. -> Organizes a community meeting and invites experts to speak. -> Presents evidence from child psychology studies to Ann. -> Observes a class and gives Ann tailored advice.",
+                "explain": "shuffle the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Presents evidence from child psychology studies to Ann. -> Shares a detailed plan that includes specific activities for teaching emotions. -> Organizes a community meeting and invites experts to speak. -> Observes a class and gives Ann tailored advice.",
+                "explain": "change the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Observes a class and gives Ann tailored advice. -> Organizes a community meeting and invites experts to speak. -> Shares a detailed plan that includes specific activities for teaching emotions. -> Presents evidence from child psychology studies to Ann.",
+                "explain": "reverse the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Presents evidence from child psychology studies to Ann. -> Organizes a community meeting and invites experts to speak. -> Observes a class and gives Ann tailored advice.",
+                "explain": "remove one belief in one time stage",
+                "reason": "test ability to recognize the completeness of the mental states",
+                "short": "type_d_how_recognize_time_stage_completeness"
+            },
+            {
+                "option": "Presents evidence from child psychology studies to Ann. -> William now believes that Ann is receptive to new ideas but needs practical examples. -> Organizes a community meeting and invites experts to speak. -> Observes a class and gives Ann tailored advice.",
+                "reason": "test ability to recognize the relationship between action and belief",
+                "explain": "belief change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Presents evidence from child psychology studies to Ann. -> Shares a detailed plan that includes specific activities for teaching emotions. -> Frustrated -> Observes a class and gives Ann tailored advice.",
+                "reason": "test ability to recognize the relationship between action and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Presents evidence from child psychology studies to Ann. -> Shares a detailed plan that includes specific activities for teaching emotions. -> Convince Ann to adopt a different approach towards teaching emotions. -> Observes a class and gives Ann tailored advice.",
+                "reason": "test ability to recognize the relationship between action and intention",
+                "explain": "intention change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_1": {
+        "question": "Why does the belief of William Lo change from scenario 1 to scenario 2?",
+        "true answer": "a",
+        "options": [
+            "a. Ann's receptiveness to evidence and new ideas",
+            "b. Observing Ann's struggle with children\u2019s reactions",
+            "c. Witnessing Ann\u2019s openness to new ideas",
+            "d. Broadening focus to include community influence.",
+            "e. Realizing the parental influence on children\u2019s behavior.",
+            "f. Recognizing the need for broader community involvement.",
+            "g. Shift from theoretical to practical help",
+            "h. Ann\u2019s continued struggle with child resistance",
+            "i. Realizing that external factors are influencing children\u2019s behavior.",
+            "j. Observing Ann\u2019s dedicated effort",
+            "k. Ann\u2019s interest in suggestions",
+            "l. Need to refine practical examples"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Ann's receptiveness to evidence and new ideas",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Observing Ann's struggle with children\u2019s reactions",
+                "reason": "test ability to recognize the reason of belief change in different time stage",
+                "explain": "belief change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Realizing that external factors are influencing children\u2019s behavior.",
+                "reason": "test ability to recognize the reason of belief change in different time stage",
+                "explain": "belief change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Witnessing Ann\u2019s openness to new ideas",
+                "reason": "test ability to recognize the reason between belief and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Observing Ann\u2019s dedicated effort",
+                "reason": "test ability to recognize the reason between belief and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Recognizing the need for broader community involvement.",
+                "reason": "test ability to recognize the reason between belief and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Ann\u2019s interest in suggestions",
+                "reason": "test ability to recognize the reason between belief and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Ann\u2019s continued struggle with child resistance",
+                "reason": "test ability to recognize the reason between belief and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Realizing the parental influence on children\u2019s behavior.",
+                "reason": "test ability to recognize the reason between belief and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Shift from theoretical to practical help",
+                "reason": "test ability to recognize the reason between belief and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Need to refine practical examples",
+                "reason": "test ability to recognize the reason between belief and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Broadening focus to include community influence.",
+                "reason": "test ability to recognize the reason between belief and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_2": {
+        "question": "Why does the belief of William Lo change from scenario 2 to scenario 3?",
+        "true answer": "f",
+        "options": [
+            "a. Need to refine practical examples",
+            "b. Realizing that external factors are influencing children\u2019s behavior.",
+            "c. Shift from theoretical to practical help",
+            "d. Ann\u2019s continued struggle with child resistance",
+            "e. Witnessing Ann\u2019s openness to new ideas",
+            "f. Observing Ann's struggle with children\u2019s reactions",
+            "g. Broadening focus to include community influence.",
+            "h. Observing Ann\u2019s dedicated effort",
+            "i. Realizing the parental influence on children\u2019s behavior.",
+            "j. Recognizing the need for broader community involvement.",
+            "k. Ann\u2019s interest in suggestions",
+            "l. Ann's receptiveness to evidence and new ideas"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Observing Ann's struggle with children\u2019s reactions",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Ann's receptiveness to evidence and new ideas",
+                "reason": "test ability to recognize the reason of belief change in different time stage",
+                "explain": "belief change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Realizing that external factors are influencing children\u2019s behavior.",
+                "reason": "test ability to recognize the reason of belief change in different time stage",
+                "explain": "belief change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Witnessing Ann\u2019s openness to new ideas",
+                "reason": "test ability to recognize the reason between belief and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Observing Ann\u2019s dedicated effort",
+                "reason": "test ability to recognize the reason between belief and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Recognizing the need for broader community involvement.",
+                "reason": "test ability to recognize the reason between belief and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Ann\u2019s interest in suggestions",
+                "reason": "test ability to recognize the reason between belief and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Ann\u2019s continued struggle with child resistance",
+                "reason": "test ability to recognize the reason between belief and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Realizing the parental influence on children\u2019s behavior.",
+                "reason": "test ability to recognize the reason between belief and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Shift from theoretical to practical help",
+                "reason": "test ability to recognize the reason between belief and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Need to refine practical examples",
+                "reason": "test ability to recognize the reason between belief and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Broadening focus to include community influence.",
+                "reason": "test ability to recognize the reason between belief and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_3": {
+        "question": "Why does the belief of William Lo change from scenario 3 to scenario 4?",
+        "true answer": "f",
+        "options": [
+            "a. Realizing the parental influence on children\u2019s behavior.",
+            "b. Ann's receptiveness to evidence and new ideas",
+            "c. Recognizing the need for broader community involvement.",
+            "d. Ann\u2019s continued struggle with child resistance",
+            "e. Observing Ann\u2019s dedicated effort",
+            "f. Realizing that external factors are influencing children\u2019s behavior.",
+            "g. Observing Ann's struggle with children\u2019s reactions",
+            "h. Broadening focus to include community influence.",
+            "i. Ann\u2019s interest in suggestions",
+            "j. Witnessing Ann\u2019s openness to new ideas",
+            "k. Need to refine practical examples",
+            "l. Shift from theoretical to practical help"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Realizing that external factors are influencing children\u2019s behavior.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Ann's receptiveness to evidence and new ideas",
+                "reason": "test ability to recognize the reason of belief change in different time stage",
+                "explain": "belief change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Observing Ann's struggle with children\u2019s reactions",
+                "reason": "test ability to recognize the reason of belief change in different time stage",
+                "explain": "belief change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Witnessing Ann\u2019s openness to new ideas",
+                "reason": "test ability to recognize the reason between belief and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Observing Ann\u2019s dedicated effort",
+                "reason": "test ability to recognize the reason between belief and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Recognizing the need for broader community involvement.",
+                "reason": "test ability to recognize the reason between belief and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Ann\u2019s interest in suggestions",
+                "reason": "test ability to recognize the reason between belief and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Ann\u2019s continued struggle with child resistance",
+                "reason": "test ability to recognize the reason between belief and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Realizing the parental influence on children\u2019s behavior.",
+                "reason": "test ability to recognize the reason between belief and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Shift from theoretical to practical help",
+                "reason": "test ability to recognize the reason between belief and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Need to refine practical examples",
+                "reason": "test ability to recognize the reason between belief and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Broadening focus to include community influence.",
+                "reason": "test ability to recognize the reason between belief and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_4": {
+        "question": "Why does the emotion of William Lo change from scenario 1 to scenario 2?",
+        "true answer": "a",
+        "options": [
+            "a. Witnessing Ann\u2019s openness to new ideas",
+            "b. Ann's receptiveness to evidence and new ideas",
+            "c. Observing Ann's struggle with children\u2019s reactions",
+            "d. Observing Ann\u2019s dedicated effort",
+            "e. Broadening focus to include community influence.",
+            "f. Recognizing the need for broader community involvement.",
+            "g. Ann\u2019s interest in suggestions",
+            "h. Need to refine practical examples",
+            "i. Realizing that external factors are influencing children\u2019s behavior.",
+            "j. Realizing the parental influence on children\u2019s behavior.",
+            "k. Ann\u2019s continued struggle with child resistance",
+            "l. Shift from theoretical to practical help"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Witnessing Ann\u2019s openness to new ideas",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Observing Ann\u2019s dedicated effort",
+                "reason": "test ability to recognize the reason of emotion change in different time stage",
+                "explain": "emotion change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Recognizing the need for broader community involvement.",
+                "reason": "test ability to recognize the reason of emotion change in different time stage",
+                "explain": "emotion change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Ann's receptiveness to evidence and new ideas",
+                "reason": "test ability to recognize the reason between emotion and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Observing Ann's struggle with children\u2019s reactions",
+                "reason": "test ability to recognize the reason between emotion and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Realizing that external factors are influencing children\u2019s behavior.",
+                "reason": "test ability to recognize the reason between emotion and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Ann\u2019s interest in suggestions",
+                "reason": "test ability to recognize the reason between emotion and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Ann\u2019s continued struggle with child resistance",
+                "reason": "test ability to recognize the reason between emotion and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Realizing the parental influence on children\u2019s behavior.",
+                "reason": "test ability to recognize the reason between emotion and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Shift from theoretical to practical help",
+                "reason": "test ability to recognize the reason between emotion and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Need to refine practical examples",
+                "reason": "test ability to recognize the reason between emotion and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Broadening focus to include community influence.",
+                "reason": "test ability to recognize the reason between emotion and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_5": {
+        "question": "Why does the emotion of William Lo change from scenario 2 to scenario 3?",
+        "true answer": "i",
+        "options": [
+            "a. Realizing that external factors are influencing children\u2019s behavior.",
+            "b. Witnessing Ann\u2019s openness to new ideas",
+            "c. Observing Ann's struggle with children\u2019s reactions",
+            "d. Ann's receptiveness to evidence and new ideas",
+            "e. Need to refine practical examples",
+            "f. Realizing the parental influence on children\u2019s behavior.",
+            "g. Shift from theoretical to practical help",
+            "h. Recognizing the need for broader community involvement.",
+            "i. Observing Ann\u2019s dedicated effort",
+            "j. Broadening focus to include community influence.",
+            "k. Ann\u2019s continued struggle with child resistance",
+            "l. Ann\u2019s interest in suggestions"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Observing Ann\u2019s dedicated effort",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Witnessing Ann\u2019s openness to new ideas",
+                "reason": "test ability to recognize the reason of emotion change in different time stage",
+                "explain": "emotion change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Recognizing the need for broader community involvement.",
+                "reason": "test ability to recognize the reason of emotion change in different time stage",
+                "explain": "emotion change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Ann's receptiveness to evidence and new ideas",
+                "reason": "test ability to recognize the reason between emotion and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Observing Ann's struggle with children\u2019s reactions",
+                "reason": "test ability to recognize the reason between emotion and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Realizing that external factors are influencing children\u2019s behavior.",
+                "reason": "test ability to recognize the reason between emotion and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Ann\u2019s interest in suggestions",
+                "reason": "test ability to recognize the reason between emotion and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Ann\u2019s continued struggle with child resistance",
+                "reason": "test ability to recognize the reason between emotion and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Realizing the parental influence on children\u2019s behavior.",
+                "reason": "test ability to recognize the reason between emotion and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Shift from theoretical to practical help",
+                "reason": "test ability to recognize the reason between emotion and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Need to refine practical examples",
+                "reason": "test ability to recognize the reason between emotion and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Broadening focus to include community influence.",
+                "reason": "test ability to recognize the reason between emotion and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_6": {
+        "question": "Why does the emotion of William Lo change from scenario 3 to scenario 4?",
+        "true answer": "i",
+        "options": [
+            "a. Ann's receptiveness to evidence and new ideas",
+            "b. Witnessing Ann\u2019s openness to new ideas",
+            "c. Ann\u2019s continued struggle with child resistance",
+            "d. Ann\u2019s interest in suggestions",
+            "e. Observing Ann\u2019s dedicated effort",
+            "f. Realizing the parental influence on children\u2019s behavior.",
+            "g. Need to refine practical examples",
+            "h. Realizing that external factors are influencing children\u2019s behavior.",
+            "i. Recognizing the need for broader community involvement.",
+            "j. Broadening focus to include community influence.",
+            "k. Observing Ann's struggle with children\u2019s reactions",
+            "l. Shift from theoretical to practical help"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Recognizing the need for broader community involvement.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Witnessing Ann\u2019s openness to new ideas",
+                "reason": "test ability to recognize the reason of emotion change in different time stage",
+                "explain": "emotion change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Observing Ann\u2019s dedicated effort",
+                "reason": "test ability to recognize the reason of emotion change in different time stage",
+                "explain": "emotion change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Ann's receptiveness to evidence and new ideas",
+                "reason": "test ability to recognize the reason between emotion and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Observing Ann's struggle with children\u2019s reactions",
+                "reason": "test ability to recognize the reason between emotion and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Realizing that external factors are influencing children\u2019s behavior.",
+                "reason": "test ability to recognize the reason between emotion and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Ann\u2019s interest in suggestions",
+                "reason": "test ability to recognize the reason between emotion and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Ann\u2019s continued struggle with child resistance",
+                "reason": "test ability to recognize the reason between emotion and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Realizing the parental influence on children\u2019s behavior.",
+                "reason": "test ability to recognize the reason between emotion and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Shift from theoretical to practical help",
+                "reason": "test ability to recognize the reason between emotion and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Need to refine practical examples",
+                "reason": "test ability to recognize the reason between emotion and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Broadening focus to include community influence.",
+                "reason": "test ability to recognize the reason between emotion and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_7": {
+        "question": "Why does the intention of William Lo change from scenario 1 to scenario 2?",
+        "true answer": "l",
+        "options": [
+            "a. Recognizing the need for broader community involvement.",
+            "b. Witnessing Ann\u2019s openness to new ideas",
+            "c. Broadening focus to include community influence.",
+            "d. Realizing the parental influence on children\u2019s behavior.",
+            "e. Observing Ann's struggle with children\u2019s reactions",
+            "f. Shift from theoretical to practical help",
+            "g. Realizing that external factors are influencing children\u2019s behavior.",
+            "h. Observing Ann\u2019s dedicated effort",
+            "i. Need to refine practical examples",
+            "j. Ann\u2019s continued struggle with child resistance",
+            "k. Ann's receptiveness to evidence and new ideas",
+            "l. Ann\u2019s interest in suggestions"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Ann\u2019s interest in suggestions",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Ann\u2019s continued struggle with child resistance",
+                "reason": "test ability to recognize the reason of intention change in different time stage",
+                "explain": "intention change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Realizing the parental influence on children\u2019s behavior.",
+                "reason": "test ability to recognize the reason of intention change in different time stage",
+                "explain": "intention change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Ann's receptiveness to evidence and new ideas",
+                "reason": "test ability to recognize the reason between intention and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Observing Ann's struggle with children\u2019s reactions",
+                "reason": "test ability to recognize the reason between intention and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Realizing that external factors are influencing children\u2019s behavior.",
+                "reason": "test ability to recognize the reason between intention and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Witnessing Ann\u2019s openness to new ideas",
+                "reason": "test ability to recognize the reason between intention and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Observing Ann\u2019s dedicated effort",
+                "reason": "test ability to recognize the reason between intention and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Recognizing the need for broader community involvement.",
+                "reason": "test ability to recognize the reason between intention and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Shift from theoretical to practical help",
+                "reason": "test ability to recognize the reason between intention and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Need to refine practical examples",
+                "reason": "test ability to recognize the reason between intention and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Broadening focus to include community influence.",
+                "reason": "test ability to recognize the reason between intention and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_8": {
+        "question": "Why does the intention of William Lo change from scenario 2 to scenario 3?",
+        "true answer": "c",
+        "options": [
+            "a. Realizing that external factors are influencing children\u2019s behavior.",
+            "b. Ann\u2019s interest in suggestions",
+            "c. Ann\u2019s continued struggle with child resistance",
+            "d. Observing Ann's struggle with children\u2019s reactions",
+            "e. Broadening focus to include community influence.",
+            "f. Realizing the parental influence on children\u2019s behavior.",
+            "g. Need to refine practical examples",
+            "h. Recognizing the need for broader community involvement.",
+            "i. Witnessing Ann\u2019s openness to new ideas",
+            "j. Observing Ann\u2019s dedicated effort",
+            "k. Shift from theoretical to practical help",
+            "l. Ann's receptiveness to evidence and new ideas"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Ann\u2019s continued struggle with child resistance",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Ann\u2019s interest in suggestions",
+                "reason": "test ability to recognize the reason of intention change in different time stage",
+                "explain": "intention change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Realizing the parental influence on children\u2019s behavior.",
+                "reason": "test ability to recognize the reason of intention change in different time stage",
+                "explain": "intention change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Ann's receptiveness to evidence and new ideas",
+                "reason": "test ability to recognize the reason between intention and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Observing Ann's struggle with children\u2019s reactions",
+                "reason": "test ability to recognize the reason between intention and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Realizing that external factors are influencing children\u2019s behavior.",
+                "reason": "test ability to recognize the reason between intention and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Witnessing Ann\u2019s openness to new ideas",
+                "reason": "test ability to recognize the reason between intention and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Observing Ann\u2019s dedicated effort",
+                "reason": "test ability to recognize the reason between intention and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Recognizing the need for broader community involvement.",
+                "reason": "test ability to recognize the reason between intention and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Shift from theoretical to practical help",
+                "reason": "test ability to recognize the reason between intention and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Need to refine practical examples",
+                "reason": "test ability to recognize the reason between intention and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Broadening focus to include community influence.",
+                "reason": "test ability to recognize the reason between intention and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_9": {
+        "question": "Why does the intention of William Lo change from scenario 3 to scenario 4?",
+        "true answer": "g",
+        "options": [
+            "a. Observing Ann\u2019s dedicated effort",
+            "b. Realizing that external factors are influencing children\u2019s behavior.",
+            "c. Ann\u2019s interest in suggestions",
+            "d. Broadening focus to include community influence.",
+            "e. Ann\u2019s continued struggle with child resistance",
+            "f. Witnessing Ann\u2019s openness to new ideas",
+            "g. Realizing the parental influence on children\u2019s behavior.",
+            "h. Recognizing the need for broader community involvement.",
+            "i. Shift from theoretical to practical help",
+            "j. Observing Ann's struggle with children\u2019s reactions",
+            "k. Need to refine practical examples",
+            "l. Ann's receptiveness to evidence and new ideas"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Realizing the parental influence on children\u2019s behavior.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Ann\u2019s interest in suggestions",
+                "reason": "test ability to recognize the reason of intention change in different time stage",
+                "explain": "intention change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Ann\u2019s continued struggle with child resistance",
+                "reason": "test ability to recognize the reason of intention change in different time stage",
+                "explain": "intention change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Ann's receptiveness to evidence and new ideas",
+                "reason": "test ability to recognize the reason between intention and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Observing Ann's struggle with children\u2019s reactions",
+                "reason": "test ability to recognize the reason between intention and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Realizing that external factors are influencing children\u2019s behavior.",
+                "reason": "test ability to recognize the reason between intention and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Witnessing Ann\u2019s openness to new ideas",
+                "reason": "test ability to recognize the reason between intention and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Observing Ann\u2019s dedicated effort",
+                "reason": "test ability to recognize the reason between intention and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Recognizing the need for broader community involvement.",
+                "reason": "test ability to recognize the reason between intention and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Shift from theoretical to practical help",
+                "reason": "test ability to recognize the reason between intention and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Need to refine practical examples",
+                "reason": "test ability to recognize the reason between intention and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Broadening focus to include community influence.",
+                "reason": "test ability to recognize the reason between intention and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_10": {
+        "question": "Why does the action of William Lo change from scenario 1 to scenario 2?",
+        "true answer": "k",
+        "options": [
+            "a. Observing Ann's struggle with children\u2019s reactions",
+            "b. Realizing the parental influence on children\u2019s behavior.",
+            "c. Broadening focus to include community influence.",
+            "d. Ann's receptiveness to evidence and new ideas",
+            "e. Observing Ann\u2019s dedicated effort",
+            "f. Realizing that external factors are influencing children\u2019s behavior.",
+            "g. Need to refine practical examples",
+            "h. Ann\u2019s interest in suggestions",
+            "i. Witnessing Ann\u2019s openness to new ideas",
+            "j. Recognizing the need for broader community involvement.",
+            "k. Shift from theoretical to practical help",
+            "l. Ann\u2019s continued struggle with child resistance"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Shift from theoretical to practical help",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Need to refine practical examples",
+                "reason": "test ability to recognize the reason of action change in different time stage",
+                "explain": "action change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Broadening focus to include community influence.",
+                "reason": "test ability to recognize the reason of action change in different time stage",
+                "explain": "action change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Ann's receptiveness to evidence and new ideas",
+                "reason": "test ability to recognize the reason between action and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Observing Ann's struggle with children\u2019s reactions",
+                "reason": "test ability to recognize the reason between action and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Realizing that external factors are influencing children\u2019s behavior.",
+                "reason": "test ability to recognize the reason between action and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Witnessing Ann\u2019s openness to new ideas",
+                "reason": "test ability to recognize the reason between action and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Observing Ann\u2019s dedicated effort",
+                "reason": "test ability to recognize the reason between action and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Recognizing the need for broader community involvement.",
+                "reason": "test ability to recognize the reason between action and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Ann\u2019s interest in suggestions",
+                "reason": "test ability to recognize the reason between action and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Ann\u2019s continued struggle with child resistance",
+                "reason": "test ability to recognize the reason between action and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Realizing the parental influence on children\u2019s behavior.",
+                "reason": "test ability to recognize the reason between action and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_11": {
+        "question": "Why does the action of William Lo change from scenario 2 to scenario 3?",
+        "true answer": "h",
+        "options": [
+            "a. Realizing the parental influence on children\u2019s behavior.",
+            "b. Broadening focus to include community influence.",
+            "c. Recognizing the need for broader community involvement.",
+            "d. Ann\u2019s continued struggle with child resistance",
+            "e. Realizing that external factors are influencing children\u2019s behavior.",
+            "f. Ann\u2019s interest in suggestions",
+            "g. Observing Ann\u2019s dedicated effort",
+            "h. Need to refine practical examples",
+            "i. Witnessing Ann\u2019s openness to new ideas",
+            "j. Observing Ann's struggle with children\u2019s reactions",
+            "k. Ann's receptiveness to evidence and new ideas",
+            "l. Shift from theoretical to practical help"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Need to refine practical examples",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Shift from theoretical to practical help",
+                "reason": "test ability to recognize the reason of action change in different time stage",
+                "explain": "action change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Broadening focus to include community influence.",
+                "reason": "test ability to recognize the reason of action change in different time stage",
+                "explain": "action change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Ann's receptiveness to evidence and new ideas",
+                "reason": "test ability to recognize the reason between action and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Observing Ann's struggle with children\u2019s reactions",
+                "reason": "test ability to recognize the reason between action and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Realizing that external factors are influencing children\u2019s behavior.",
+                "reason": "test ability to recognize the reason between action and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Witnessing Ann\u2019s openness to new ideas",
+                "reason": "test ability to recognize the reason between action and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Observing Ann\u2019s dedicated effort",
+                "reason": "test ability to recognize the reason between action and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Recognizing the need for broader community involvement.",
+                "reason": "test ability to recognize the reason between action and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Ann\u2019s interest in suggestions",
+                "reason": "test ability to recognize the reason between action and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Ann\u2019s continued struggle with child resistance",
+                "reason": "test ability to recognize the reason between action and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Realizing the parental influence on children\u2019s behavior.",
+                "reason": "test ability to recognize the reason between action and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_12": {
+        "question": "Why does the action of William Lo change from scenario 3 to scenario 4?",
+        "true answer": "e",
+        "options": [
+            "a. Observing Ann\u2019s dedicated effort",
+            "b. Observing Ann's struggle with children\u2019s reactions",
+            "c. Witnessing Ann\u2019s openness to new ideas",
+            "d. Realizing that external factors are influencing children\u2019s behavior.",
+            "e. Broadening focus to include community influence.",
+            "f. Ann's receptiveness to evidence and new ideas",
+            "g. Need to refine practical examples",
+            "h. Realizing the parental influence on children\u2019s behavior.",
+            "i. Shift from theoretical to practical help",
+            "j. Recognizing the need for broader community involvement.",
+            "k. Ann\u2019s interest in suggestions",
+            "l. Ann\u2019s continued struggle with child resistance"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Broadening focus to include community influence.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Shift from theoretical to practical help",
+                "reason": "test ability to recognize the reason of action change in different time stage",
+                "explain": "action change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Need to refine practical examples",
+                "reason": "test ability to recognize the reason of action change in different time stage",
+                "explain": "action change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Ann's receptiveness to evidence and new ideas",
+                "reason": "test ability to recognize the reason between action and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Observing Ann's struggle with children\u2019s reactions",
+                "reason": "test ability to recognize the reason between action and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Realizing that external factors are influencing children\u2019s behavior.",
+                "reason": "test ability to recognize the reason between action and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Witnessing Ann\u2019s openness to new ideas",
+                "reason": "test ability to recognize the reason between action and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Observing Ann\u2019s dedicated effort",
+                "reason": "test ability to recognize the reason between action and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Recognizing the need for broader community involvement.",
+                "reason": "test ability to recognize the reason between action and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Ann\u2019s interest in suggestions",
+                "reason": "test ability to recognize the reason between action and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Ann\u2019s continued struggle with child resistance",
+                "reason": "test ability to recognize the reason between action and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Realizing the parental influence on children\u2019s behavior.",
+                "reason": "test ability to recognize the reason between action and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_whether_1": {
+        "question": "Whether the belief of William Lo change from scenario 1 to scenario 2? if yes, from what to what?",
+        "true answer": "a",
+        "options": [
+            "a. Yes, from William believes that Ann is underestimating the children's ability to grasp complex emotions. to William now believes that Ann is receptive to new ideas but needs practical examples.",
+            "b. Yes, from William now believes that Ann is receptive to new ideas but needs practical examples. to William believes that Ann is genuinely trying his suggestions but is facing resistance from the children.",
+            "c. Yes, from William believes that Ann is genuinely trying his suggestions but is facing resistance from the children. to William believes that the core issue lies in the children\u2019s home environments, which impacts their behavior in school.",
+            "d. No"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from William believes that Ann is underestimating the children's ability to grasp complex emotions. to William now believes that Ann is receptive to new ideas but needs practical examples.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the belief change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from William now believes that Ann is receptive to new ideas but needs practical examples. to William believes that Ann is genuinely trying his suggestions but is facing resistance from the children.",
+                "reason": "test ability to recognize how the belief change in the correct time stage",
+                "explain": "how the belief change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from William believes that Ann is genuinely trying his suggestions but is facing resistance from the children. to William believes that the core issue lies in the children\u2019s home environments, which impacts their behavior in school.",
+                "reason": "test ability to recognize how the belief change in the correct time stage",
+                "explain": "how the belief change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_2": {
+        "question": "Whether the belief of William Lo change from scenario 2 to scenario 3? if yes, from what to what?",
+        "true answer": "a",
+        "options": [
+            "a. Yes, from William now believes that Ann is receptive to new ideas but needs practical examples. to William believes that Ann is genuinely trying his suggestions but is facing resistance from the children.",
+            "b. Yes, from William believes that Ann is genuinely trying his suggestions but is facing resistance from the children. to William believes that the core issue lies in the children\u2019s home environments, which impacts their behavior in school.",
+            "c. Yes, from William believes that Ann is underestimating the children's ability to grasp complex emotions. to William now believes that Ann is receptive to new ideas but needs practical examples.",
+            "d. No"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from William now believes that Ann is receptive to new ideas but needs practical examples. to William believes that Ann is genuinely trying his suggestions but is facing resistance from the children.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the belief change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from William believes that Ann is underestimating the children's ability to grasp complex emotions. to William now believes that Ann is receptive to new ideas but needs practical examples.",
+                "reason": "test ability to recognize how the belief change in the correct time stage",
+                "explain": "how the belief change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from William believes that Ann is genuinely trying his suggestions but is facing resistance from the children. to William believes that the core issue lies in the children\u2019s home environments, which impacts their behavior in school.",
+                "reason": "test ability to recognize how the belief change in the correct time stage",
+                "explain": "how the belief change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_3": {
+        "question": "Whether the belief of William Lo change from scenario 3 to scenario 4? if yes, from what to what?",
+        "true answer": "c",
+        "options": [
+            "a. Yes, from William now believes that Ann is receptive to new ideas but needs practical examples. to William believes that Ann is genuinely trying his suggestions but is facing resistance from the children.",
+            "b. No",
+            "c. Yes, from William believes that Ann is genuinely trying his suggestions but is facing resistance from the children. to William believes that the core issue lies in the children\u2019s home environments, which impacts their behavior in school.",
+            "d. Yes, from William believes that Ann is underestimating the children's ability to grasp complex emotions. to William now believes that Ann is receptive to new ideas but needs practical examples."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from William believes that Ann is genuinely trying his suggestions but is facing resistance from the children. to William believes that the core issue lies in the children\u2019s home environments, which impacts their behavior in school.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the belief change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from William believes that Ann is underestimating the children's ability to grasp complex emotions. to William now believes that Ann is receptive to new ideas but needs practical examples.",
+                "reason": "test ability to recognize how the belief change in the correct time stage",
+                "explain": "how the belief change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from William now believes that Ann is receptive to new ideas but needs practical examples. to William believes that Ann is genuinely trying his suggestions but is facing resistance from the children.",
+                "reason": "test ability to recognize how the belief change in the correct time stage",
+                "explain": "how the belief change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_4": {
+        "question": "Whether the emotion of William Lo change from scenario 1 to scenario 2? if yes, from what to what?",
+        "true answer": "b",
+        "options": [
+            "a. No",
+            "b. Yes, from Frustrated to Hopeful",
+            "c. Yes, from Hopeful to Empathetic",
+            "d. Yes, from Empathetic to Determined"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Frustrated to Hopeful",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the emotion change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Hopeful to Empathetic",
+                "reason": "test ability to recognize how the emotion change in the correct time stage",
+                "explain": "how the emotion change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Empathetic to Determined",
+                "reason": "test ability to recognize how the emotion change in the correct time stage",
+                "explain": "how the emotion change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_5": {
+        "question": "Whether the emotion of William Lo change from scenario 2 to scenario 3? if yes, from what to what?",
+        "true answer": "a",
+        "options": [
+            "a. Yes, from Hopeful to Empathetic",
+            "b. Yes, from Empathetic to Determined",
+            "c. Yes, from Frustrated to Hopeful",
+            "d. No"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Hopeful to Empathetic",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the emotion change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Frustrated to Hopeful",
+                "reason": "test ability to recognize how the emotion change in the correct time stage",
+                "explain": "how the emotion change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Empathetic to Determined",
+                "reason": "test ability to recognize how the emotion change in the correct time stage",
+                "explain": "how the emotion change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_6": {
+        "question": "Whether the emotion of William Lo change from scenario 3 to scenario 4? if yes, from what to what?",
+        "true answer": "c",
+        "options": [
+            "a. Yes, from Hopeful to Empathetic",
+            "b. Yes, from Frustrated to Hopeful",
+            "c. Yes, from Empathetic to Determined",
+            "d. No"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Empathetic to Determined",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the emotion change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Frustrated to Hopeful",
+                "reason": "test ability to recognize how the emotion change in the correct time stage",
+                "explain": "how the emotion change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Hopeful to Empathetic",
+                "reason": "test ability to recognize how the emotion change in the correct time stage",
+                "explain": "how the emotion change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_7": {
+        "question": "Whether the intention of William Lo change from scenario 1 to scenario 2? if yes, from what to what?",
+        "true answer": "c",
+        "options": [
+            "a. No",
+            "b. Yes, from Provide Ann with practical examples she can use. to Support Ann by helping her adapt his activities to better suit the children.",
+            "c. Yes, from Convince Ann to adopt a different approach towards teaching emotions. to Provide Ann with practical examples she can use.",
+            "d. Yes, from Support Ann by helping her adapt his activities to better suit the children. to Start a community initiative aimed at educating parents about emotional development."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Convince Ann to adopt a different approach towards teaching emotions. to Provide Ann with practical examples she can use.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the intention change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Provide Ann with practical examples she can use. to Support Ann by helping her adapt his activities to better suit the children.",
+                "reason": "test ability to recognize how the intention change in the correct time stage",
+                "explain": "how the intention change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Support Ann by helping her adapt his activities to better suit the children. to Start a community initiative aimed at educating parents about emotional development.",
+                "reason": "test ability to recognize how the intention change in the correct time stage",
+                "explain": "how the intention change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_8": {
+        "question": "Whether the intention of William Lo change from scenario 2 to scenario 3? if yes, from what to what?",
+        "true answer": "a",
+        "options": [
+            "a. Yes, from Provide Ann with practical examples she can use. to Support Ann by helping her adapt his activities to better suit the children.",
+            "b. No",
+            "c. Yes, from Convince Ann to adopt a different approach towards teaching emotions. to Provide Ann with practical examples she can use.",
+            "d. Yes, from Support Ann by helping her adapt his activities to better suit the children. to Start a community initiative aimed at educating parents about emotional development."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Provide Ann with practical examples she can use. to Support Ann by helping her adapt his activities to better suit the children.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the intention change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Convince Ann to adopt a different approach towards teaching emotions. to Provide Ann with practical examples she can use.",
+                "reason": "test ability to recognize how the intention change in the correct time stage",
+                "explain": "how the intention change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Support Ann by helping her adapt his activities to better suit the children. to Start a community initiative aimed at educating parents about emotional development.",
+                "reason": "test ability to recognize how the intention change in the correct time stage",
+                "explain": "how the intention change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_9": {
+        "question": "Whether the intention of William Lo change from scenario 3 to scenario 4? if yes, from what to what?",
+        "true answer": "b",
+        "options": [
+            "a. No",
+            "b. Yes, from Support Ann by helping her adapt his activities to better suit the children. to Start a community initiative aimed at educating parents about emotional development.",
+            "c. Yes, from Convince Ann to adopt a different approach towards teaching emotions. to Provide Ann with practical examples she can use.",
+            "d. Yes, from Provide Ann with practical examples she can use. to Support Ann by helping her adapt his activities to better suit the children."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Support Ann by helping her adapt his activities to better suit the children. to Start a community initiative aimed at educating parents about emotional development.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the intention change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Convince Ann to adopt a different approach towards teaching emotions. to Provide Ann with practical examples she can use.",
+                "reason": "test ability to recognize how the intention change in the correct time stage",
+                "explain": "how the intention change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Provide Ann with practical examples she can use. to Support Ann by helping her adapt his activities to better suit the children.",
+                "reason": "test ability to recognize how the intention change in the correct time stage",
+                "explain": "how the intention change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_10": {
+        "question": "Whether the action of William Lo change from scenario 1 to scenario 2? if yes, from what to what?",
+        "true answer": "c",
+        "options": [
+            "a. Yes, from Observes a class and gives Ann tailored advice. to Organizes a community meeting and invites experts to speak.",
+            "b. Yes, from Shares a detailed plan that includes specific activities for teaching emotions. to Observes a class and gives Ann tailored advice.",
+            "c. Yes, from Presents evidence from child psychology studies to Ann. to Shares a detailed plan that includes specific activities for teaching emotions.",
+            "d. No"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Presents evidence from child psychology studies to Ann. to Shares a detailed plan that includes specific activities for teaching emotions.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the action change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Shares a detailed plan that includes specific activities for teaching emotions. to Observes a class and gives Ann tailored advice.",
+                "reason": "test ability to recognize how the action change in the correct time stage",
+                "explain": "how the action change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Observes a class and gives Ann tailored advice. to Organizes a community meeting and invites experts to speak.",
+                "reason": "test ability to recognize how the action change in the correct time stage",
+                "explain": "how the action change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_11": {
+        "question": "Whether the action of William Lo change from scenario 2 to scenario 3? if yes, from what to what?",
+        "true answer": "d",
+        "options": [
+            "a. Yes, from Presents evidence from child psychology studies to Ann. to Shares a detailed plan that includes specific activities for teaching emotions.",
+            "b. No",
+            "c. Yes, from Observes a class and gives Ann tailored advice. to Organizes a community meeting and invites experts to speak.",
+            "d. Yes, from Shares a detailed plan that includes specific activities for teaching emotions. to Observes a class and gives Ann tailored advice."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Shares a detailed plan that includes specific activities for teaching emotions. to Observes a class and gives Ann tailored advice.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the action change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Presents evidence from child psychology studies to Ann. to Shares a detailed plan that includes specific activities for teaching emotions.",
+                "reason": "test ability to recognize how the action change in the correct time stage",
+                "explain": "how the action change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Observes a class and gives Ann tailored advice. to Organizes a community meeting and invites experts to speak.",
+                "reason": "test ability to recognize how the action change in the correct time stage",
+                "explain": "how the action change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_12": {
+        "question": "Whether the action of William Lo change from scenario 3 to scenario 4? if yes, from what to what?",
+        "true answer": "d",
+        "options": [
+            "a. No",
+            "b. Yes, from Shares a detailed plan that includes specific activities for teaching emotions. to Observes a class and gives Ann tailored advice.",
+            "c. Yes, from Presents evidence from child psychology studies to Ann. to Shares a detailed plan that includes specific activities for teaching emotions.",
+            "d. Yes, from Observes a class and gives Ann tailored advice. to Organizes a community meeting and invites experts to speak."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Observes a class and gives Ann tailored advice. to Organizes a community meeting and invites experts to speak.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the action change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Presents evidence from child psychology studies to Ann. to Shares a detailed plan that includes specific activities for teaching emotions.",
+                "reason": "test ability to recognize how the action change in the correct time stage",
+                "explain": "how the action change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Shares a detailed plan that includes specific activities for teaching emotions. to Observes a class and gives Ann tailored advice.",
+                "reason": "test ability to recognize how the action change in the correct time stage",
+                "explain": "how the action change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_c_how_1": {
+        "question": "In scenario 1, how does the belief of William Lo influence the emotion of William Lo?",
+        "true answer": "e",
+        "options": [
+            "a. His belief and frustration fuel his intention to change Ann's teaching strategy.",
+            "b. William's belief that Ann is open-minded makes him feel hopeful.",
+            "c. His intention to change Ann's approach leads him to present academic evidence.",
+            "d. William's empathy arises from his belief in Ann's effort but also her challenges.",
+            "e. William's frustration stems from his belief that Ann is dismissing his insights."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "William's frustration stems from his belief that Ann is dismissing his insights.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "His belief and frustration fuel his intention to change Ann's teaching strategy.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "His intention to change Ann's approach leads him to present academic evidence.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "William's belief that Ann is open-minded makes him feel hopeful.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in other time stage",
+                "explain": "how the belief influence emotion in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "William's empathy arises from his belief in Ann's effort but also her challenges.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in other time stage",
+                "explain": "how the belief influence emotion in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_2": {
+        "question": "In scenario 2, how does the belief of William Lo influence the emotion of William Lo?",
+        "true answer": "b",
+        "options": [
+            "a. William's empathy arises from his belief in Ann's effort but also her challenges.",
+            "b. William's belief that Ann is open-minded makes him feel hopeful.",
+            "c. William's frustration stems from his belief that Ann is dismissing his insights.",
+            "d. His new belief and hope lead him to focus on practical solutions.",
+            "e. His intention to be helpful directs him to create a detailed activity plan."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "William's belief that Ann is open-minded makes him feel hopeful.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "His new belief and hope lead him to focus on practical solutions.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "His intention to be helpful directs him to create a detailed activity plan.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "William's frustration stems from his belief that Ann is dismissing his insights.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in other time stage",
+                "explain": "how the belief influence emotion in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "William's empathy arises from his belief in Ann's effort but also her challenges.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in other time stage",
+                "explain": "how the belief influence emotion in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_3": {
+        "question": "In scenario 3, how does the belief of William Lo influence the emotion of William Lo?",
+        "true answer": "c",
+        "options": [
+            "a. His intention to support Ann translates into classroom observation and providing tailored advice.",
+            "b. William's frustration stems from his belief that Ann is dismissing his insights.",
+            "c. William's empathy arises from his belief in Ann's effort but also her challenges.",
+            "d. William's belief that Ann is open-minded makes him feel hopeful.",
+            "e. His belief in Ann's effort and his empathy form his intention to support her further."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "William's empathy arises from his belief in Ann's effort but also her challenges.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "His belief in Ann's effort and his empathy form his intention to support her further.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "His intention to support Ann translates into classroom observation and providing tailored advice.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "William's frustration stems from his belief that Ann is dismissing his insights.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in other time stage",
+                "explain": "how the belief influence emotion in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "William's belief that Ann is open-minded makes him feel hopeful.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in other time stage",
+                "explain": "how the belief influence emotion in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_4": {
+        "question": "In scenario 4, how does the belief of William Lo influence the emotion of William Lo?",
+        "true answer": "a",
+        "options": [
+            "a. William's determination is driven by his belief in the influence of home environments.",
+            "b. His intention leads him to organize a community meeting and involve experts.",
+            "c. His belief about the core issue and his determination drive his intention to engage the community.",
+            "d. William's belief that Ann is open-minded makes him feel hopeful.",
+            "e. William's frustration stems from his belief that Ann is dismissing his insights.",
+            "f. William's empathy arises from his belief in Ann's effort but also her challenges."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "William's determination is driven by his belief in the influence of home environments.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "His belief about the core issue and his determination drive his intention to engage the community.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "His intention leads him to organize a community meeting and involve experts.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "William's frustration stems from his belief that Ann is dismissing his insights.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in other time stage",
+                "explain": "how the belief influence emotion in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "William's belief that Ann is open-minded makes him feel hopeful.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in other time stage",
+                "explain": "how the belief influence emotion in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "William's empathy arises from his belief in Ann's effort but also her challenges.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in other time stage",
+                "explain": "how the belief influence emotion in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_5": {
+        "question": "In scenario 1, how does the belief&emotion of William Lo influence the intention of William Lo?",
+        "true answer": "a",
+        "options": [
+            "a. His belief and frustration fuel his intention to change Ann's teaching strategy.",
+            "b. William's frustration stems from his belief that Ann is dismissing his insights.",
+            "c. His belief in Ann's effort and his empathy form his intention to support her further.",
+            "d. His intention to change Ann's approach leads him to present academic evidence.",
+            "e. His new belief and hope lead him to focus on practical solutions."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "His belief and frustration fuel his intention to change Ann's teaching strategy.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "William's frustration stems from his belief that Ann is dismissing his insights.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "His intention to change Ann's approach leads him to present academic evidence.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "His new belief and hope lead him to focus on practical solutions.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in other time stage",
+                "explain": "how the belief&emotion influence intention in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "His belief in Ann's effort and his empathy form his intention to support her further.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in other time stage",
+                "explain": "how the belief&emotion influence intention in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_6": {
+        "question": "In scenario 2, how does the belief&emotion of William Lo influence the intention of William Lo?",
+        "true answer": "a",
+        "options": [
+            "a. His new belief and hope lead him to focus on practical solutions.",
+            "b. His intention to be helpful directs him to create a detailed activity plan.",
+            "c. His belief and frustration fuel his intention to change Ann's teaching strategy.",
+            "d. His belief in Ann's effort and his empathy form his intention to support her further.",
+            "e. William's belief that Ann is open-minded makes him feel hopeful."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "His new belief and hope lead him to focus on practical solutions.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "William's belief that Ann is open-minded makes him feel hopeful.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "His intention to be helpful directs him to create a detailed activity plan.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "His belief and frustration fuel his intention to change Ann's teaching strategy.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in other time stage",
+                "explain": "how the belief&emotion influence intention in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "His belief in Ann's effort and his empathy form his intention to support her further.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in other time stage",
+                "explain": "how the belief&emotion influence intention in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_7": {
+        "question": "In scenario 3, how does the belief&emotion of William Lo influence the intention of William Lo?",
+        "true answer": "c",
+        "options": [
+            "a. His intention to support Ann translates into classroom observation and providing tailored advice.",
+            "b. William's empathy arises from his belief in Ann's effort but also her challenges.",
+            "c. His belief in Ann's effort and his empathy form his intention to support her further.",
+            "d. His belief and frustration fuel his intention to change Ann's teaching strategy.",
+            "e. His new belief and hope lead him to focus on practical solutions."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "His belief in Ann's effort and his empathy form his intention to support her further.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "William's empathy arises from his belief in Ann's effort but also her challenges.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "His intention to support Ann translates into classroom observation and providing tailored advice.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "His belief and frustration fuel his intention to change Ann's teaching strategy.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in other time stage",
+                "explain": "how the belief&emotion influence intention in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "His new belief and hope lead him to focus on practical solutions.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in other time stage",
+                "explain": "how the belief&emotion influence intention in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_8": {
+        "question": "In scenario 4, how does the belief&emotion of William Lo influence the intention of William Lo?",
+        "true answer": "c",
+        "options": [
+            "a. His new belief and hope lead him to focus on practical solutions.",
+            "b. His belief in Ann's effort and his empathy form his intention to support her further.",
+            "c. His belief about the core issue and his determination drive his intention to engage the community.",
+            "d. William's determination is driven by his belief in the influence of home environments.",
+            "e. His intention leads him to organize a community meeting and involve experts.",
+            "f. His belief and frustration fuel his intention to change Ann's teaching strategy."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "His belief about the core issue and his determination drive his intention to engage the community.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "William's determination is driven by his belief in the influence of home environments.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "His intention leads him to organize a community meeting and involve experts.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "His belief and frustration fuel his intention to change Ann's teaching strategy.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in other time stage",
+                "explain": "how the belief&emotion influence intention in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "His new belief and hope lead him to focus on practical solutions.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in other time stage",
+                "explain": "how the belief&emotion influence intention in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "His belief in Ann's effort and his empathy form his intention to support her further.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in other time stage",
+                "explain": "how the belief&emotion influence intention in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_9": {
+        "question": "In scenario 1, how does the intention of William Lo influence the action of William Lo?",
+        "true answer": "c",
+        "options": [
+            "a. His belief and frustration fuel his intention to change Ann's teaching strategy.",
+            "b. His intention to be helpful directs him to create a detailed activity plan.",
+            "c. His intention to change Ann's approach leads him to present academic evidence.",
+            "d. His intention to support Ann translates into classroom observation and providing tailored advice.",
+            "e. William's frustration stems from his belief that Ann is dismissing his insights."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "His intention to change Ann's approach leads him to present academic evidence.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "William's frustration stems from his belief that Ann is dismissing his insights.",
+                "reason": "test ability to correctly recognize how the intention influence action in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "His belief and frustration fuel his intention to change Ann's teaching strategy.",
+                "reason": "test ability to correctly recognize how the intention influence action in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "His intention to be helpful directs him to create a detailed activity plan.",
+                "reason": "test ability to correctly recognize how the intention influence action in other time stage",
+                "explain": "how the intention influence action in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "His intention to support Ann translates into classroom observation and providing tailored advice.",
+                "reason": "test ability to correctly recognize how the intention influence action in other time stage",
+                "explain": "how the intention influence action in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_10": {
+        "question": "In scenario 2, how does the intention of William Lo influence the action of William Lo?",
+        "true answer": "b",
+        "options": [
+            "a. His intention to support Ann translates into classroom observation and providing tailored advice.",
+            "b. His intention to be helpful directs him to create a detailed activity plan.",
+            "c. His new belief and hope lead him to focus on practical solutions.",
+            "d. His intention to change Ann's approach leads him to present academic evidence.",
+            "e. William's belief that Ann is open-minded makes him feel hopeful."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "His intention to be helpful directs him to create a detailed activity plan.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "William's belief that Ann is open-minded makes him feel hopeful.",
+                "reason": "test ability to correctly recognize how the intention influence action in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "His new belief and hope lead him to focus on practical solutions.",
+                "reason": "test ability to correctly recognize how the intention influence action in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "His intention to change Ann's approach leads him to present academic evidence.",
+                "reason": "test ability to correctly recognize how the intention influence action in other time stage",
+                "explain": "how the intention influence action in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "His intention to support Ann translates into classroom observation and providing tailored advice.",
+                "reason": "test ability to correctly recognize how the intention influence action in other time stage",
+                "explain": "how the intention influence action in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_11": {
+        "question": "In scenario 3, how does the intention of William Lo influence the action of William Lo?",
+        "true answer": "b",
+        "options": [
+            "a. William's empathy arises from his belief in Ann's effort but also her challenges.",
+            "b. His intention to support Ann translates into classroom observation and providing tailored advice.",
+            "c. His intention to be helpful directs him to create a detailed activity plan.",
+            "d. His belief in Ann's effort and his empathy form his intention to support her further.",
+            "e. His intention to change Ann's approach leads him to present academic evidence."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "His intention to support Ann translates into classroom observation and providing tailored advice.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "William's empathy arises from his belief in Ann's effort but also her challenges.",
+                "reason": "test ability to correctly recognize how the intention influence action in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "His belief in Ann's effort and his empathy form his intention to support her further.",
+                "reason": "test ability to correctly recognize how the intention influence action in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "His intention to change Ann's approach leads him to present academic evidence.",
+                "reason": "test ability to correctly recognize how the intention influence action in other time stage",
+                "explain": "how the intention influence action in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "His intention to be helpful directs him to create a detailed activity plan.",
+                "reason": "test ability to correctly recognize how the intention influence action in other time stage",
+                "explain": "how the intention influence action in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_12": {
+        "question": "In scenario 4, how does the intention of William Lo influence the action of William Lo?",
+        "true answer": "e",
+        "options": [
+            "a. William's determination is driven by his belief in the influence of home environments.",
+            "b. His belief about the core issue and his determination drive his intention to engage the community.",
+            "c. His intention to change Ann's approach leads him to present academic evidence.",
+            "d. His intention to be helpful directs him to create a detailed activity plan.",
+            "e. His intention leads him to organize a community meeting and involve experts.",
+            "f. His intention to support Ann translates into classroom observation and providing tailored advice."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "His intention leads him to organize a community meeting and involve experts.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "William's determination is driven by his belief in the influence of home environments.",
+                "reason": "test ability to correctly recognize how the intention influence action in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "His belief about the core issue and his determination drive his intention to engage the community.",
+                "reason": "test ability to correctly recognize how the intention influence action in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "His intention to change Ann's approach leads him to present academic evidence.",
+                "reason": "test ability to correctly recognize how the intention influence action in other time stage",
+                "explain": "how the intention influence action in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "His intention to be helpful directs him to create a detailed activity plan.",
+                "reason": "test ability to correctly recognize how the intention influence action in other time stage",
+                "explain": "how the intention influence action in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "His intention to support Ann translates into classroom observation and providing tailored advice.",
+                "reason": "test ability to correctly recognize how the intention influence action in other time stage",
+                "explain": "how the intention influence action in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_a_what_1": {
+        "question": "What is the belief of William Lo in scenario 1?",
+        "true answer": "b",
+        "options": [
+            "a. Presents evidence from child psychology studies to Ann.",
+            "b. William believes that Ann is underestimating the children's ability to grasp complex emotions.",
+            "c. Frustrated",
+            "d. Convince Ann to adopt a different approach towards teaching emotions.",
+            "e. William now believes that Ann is receptive to new ideas but needs practical examples.",
+            "f. William believes that Ann is genuinely trying his suggestions but is facing resistance from the children.",
+            "g. William believes that the core issue lies in the children\u2019s home environments, which impacts their behavior in school."
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "William believes that Ann is underestimating the children's ability to grasp complex emotions.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "William now believes that Ann is receptive to new ideas but needs practical examples.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "William believes that Ann is genuinely trying his suggestions but is facing resistance from the children.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "William believes that the core issue lies in the children\u2019s home environments, which impacts their behavior in school.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Frustrated",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Convince Ann to adopt a different approach towards teaching emotions.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Presents evidence from child psychology studies to Ann.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_2": {
+        "question": "What is the belief of William Lo in scenario 2?",
+        "true answer": "b",
+        "options": [
+            "a. William believes that the core issue lies in the children\u2019s home environments, which impacts their behavior in school.",
+            "b. William now believes that Ann is receptive to new ideas but needs practical examples.",
+            "c. William believes that Ann is underestimating the children's ability to grasp complex emotions.",
+            "d. William believes that Ann is genuinely trying his suggestions but is facing resistance from the children.",
+            "e. Hopeful",
+            "f. Provide Ann with practical examples she can use.",
+            "g. Shares a detailed plan that includes specific activities for teaching emotions."
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "William now believes that Ann is receptive to new ideas but needs practical examples.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "William believes that Ann is underestimating the children's ability to grasp complex emotions.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "William believes that Ann is genuinely trying his suggestions but is facing resistance from the children.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "William believes that the core issue lies in the children\u2019s home environments, which impacts their behavior in school.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Hopeful",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Provide Ann with practical examples she can use.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Shares a detailed plan that includes specific activities for teaching emotions.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_3": {
+        "question": "What is the belief of William Lo in scenario 3?",
+        "true answer": "g",
+        "options": [
+            "a. William believes that Ann is underestimating the children's ability to grasp complex emotions.",
+            "b. William now believes that Ann is receptive to new ideas but needs practical examples.",
+            "c. William believes that the core issue lies in the children\u2019s home environments, which impacts their behavior in school.",
+            "d. Support Ann by helping her adapt his activities to better suit the children.",
+            "e. Observes a class and gives Ann tailored advice.",
+            "f. Empathetic",
+            "g. William believes that Ann is genuinely trying his suggestions but is facing resistance from the children."
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "William believes that Ann is genuinely trying his suggestions but is facing resistance from the children.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "William believes that Ann is underestimating the children's ability to grasp complex emotions.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "William now believes that Ann is receptive to new ideas but needs practical examples.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "William believes that the core issue lies in the children\u2019s home environments, which impacts their behavior in school.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Empathetic",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Support Ann by helping her adapt his activities to better suit the children.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Observes a class and gives Ann tailored advice.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_4": {
+        "question": "What is the belief of William Lo in scenario 4?",
+        "true answer": "b",
+        "options": [
+            "a. William believes that Ann is genuinely trying his suggestions but is facing resistance from the children.",
+            "b. William believes that the core issue lies in the children\u2019s home environments, which impacts their behavior in school.",
+            "c. Organizes a community meeting and invites experts to speak.",
+            "d. Start a community initiative aimed at educating parents about emotional development.",
+            "e. Determined",
+            "f. William now believes that Ann is receptive to new ideas but needs practical examples.",
+            "g. William believes that Ann is underestimating the children's ability to grasp complex emotions."
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "William believes that the core issue lies in the children\u2019s home environments, which impacts their behavior in school.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "William believes that Ann is underestimating the children's ability to grasp complex emotions.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "William now believes that Ann is receptive to new ideas but needs practical examples.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "William believes that Ann is genuinely trying his suggestions but is facing resistance from the children.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Determined",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Start a community initiative aimed at educating parents about emotional development.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Organizes a community meeting and invites experts to speak.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_5": {
+        "question": "What is the emotion of William Lo in scenario 1?",
+        "true answer": "b",
+        "options": [
+            "a. Presents evidence from child psychology studies to Ann.",
+            "b. Frustrated",
+            "c. Determined",
+            "d. Hopeful",
+            "e. William believes that Ann is underestimating the children's ability to grasp complex emotions.",
+            "f. Empathetic",
+            "g. Convince Ann to adopt a different approach towards teaching emotions."
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Frustrated",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Hopeful",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Empathetic",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Determined",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "William believes that Ann is underestimating the children's ability to grasp complex emotions.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Convince Ann to adopt a different approach towards teaching emotions.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Presents evidence from child psychology studies to Ann.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_6": {
+        "question": "What is the emotion of William Lo in scenario 2?",
+        "true answer": "b",
+        "options": [
+            "a. Determined",
+            "b. Hopeful",
+            "c. Frustrated",
+            "d. Shares a detailed plan that includes specific activities for teaching emotions.",
+            "e. Empathetic",
+            "f. Provide Ann with practical examples she can use.",
+            "g. William now believes that Ann is receptive to new ideas but needs practical examples."
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Hopeful",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Frustrated",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Empathetic",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Determined",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "William now believes that Ann is receptive to new ideas but needs practical examples.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Provide Ann with practical examples she can use.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Shares a detailed plan that includes specific activities for teaching emotions.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_7": {
+        "question": "What is the emotion of William Lo in scenario 3?",
+        "true answer": "e",
+        "options": [
+            "a. Observes a class and gives Ann tailored advice.",
+            "b. Determined",
+            "c. William believes that Ann is genuinely trying his suggestions but is facing resistance from the children.",
+            "d. Hopeful",
+            "e. Empathetic",
+            "f. Frustrated",
+            "g. Support Ann by helping her adapt his activities to better suit the children."
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Empathetic",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Frustrated",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Hopeful",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Determined",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "William believes that Ann is genuinely trying his suggestions but is facing resistance from the children.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Support Ann by helping her adapt his activities to better suit the children.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Observes a class and gives Ann tailored advice.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_8": {
+        "question": "What is the emotion of William Lo in scenario 4?",
+        "true answer": "c",
+        "options": [
+            "a. Organizes a community meeting and invites experts to speak.",
+            "b. Empathetic",
+            "c. Determined",
+            "d. Start a community initiative aimed at educating parents about emotional development.",
+            "e. Hopeful",
+            "f. Frustrated",
+            "g. William believes that the core issue lies in the children\u2019s home environments, which impacts their behavior in school."
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Determined",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Frustrated",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Hopeful",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Empathetic",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "William believes that the core issue lies in the children\u2019s home environments, which impacts their behavior in school.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Start a community initiative aimed at educating parents about emotional development.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Organizes a community meeting and invites experts to speak.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_9": {
+        "question": "What is the intention of William Lo in scenario 1?",
+        "true answer": "e",
+        "options": [
+            "a. Frustrated",
+            "b. Start a community initiative aimed at educating parents about emotional development.",
+            "c. Provide Ann with practical examples she can use.",
+            "d. Presents evidence from child psychology studies to Ann.",
+            "e. Convince Ann to adopt a different approach towards teaching emotions.",
+            "f. William believes that Ann is underestimating the children's ability to grasp complex emotions.",
+            "g. Support Ann by helping her adapt his activities to better suit the children."
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Convince Ann to adopt a different approach towards teaching emotions.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Provide Ann with practical examples she can use.",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Support Ann by helping her adapt his activities to better suit the children.",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Start a community initiative aimed at educating parents about emotional development.",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "William believes that Ann is underestimating the children's ability to grasp complex emotions.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Frustrated",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Presents evidence from child psychology studies to Ann.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_10": {
+        "question": "What is the intention of William Lo in scenario 2?",
+        "true answer": "a",
+        "options": [
+            "a. Provide Ann with practical examples she can use.",
+            "b. Support Ann by helping her adapt his activities to better suit the children.",
+            "c. William now believes that Ann is receptive to new ideas but needs practical examples.",
+            "d. Start a community initiative aimed at educating parents about emotional development.",
+            "e. Shares a detailed plan that includes specific activities for teaching emotions.",
+            "f. Hopeful",
+            "g. Convince Ann to adopt a different approach towards teaching emotions."
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Provide Ann with practical examples she can use.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Convince Ann to adopt a different approach towards teaching emotions.",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Support Ann by helping her adapt his activities to better suit the children.",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Start a community initiative aimed at educating parents about emotional development.",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "William now believes that Ann is receptive to new ideas but needs practical examples.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Hopeful",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Shares a detailed plan that includes specific activities for teaching emotions.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_11": {
+        "question": "What is the intention of William Lo in scenario 3?",
+        "true answer": "d",
+        "options": [
+            "a. Start a community initiative aimed at educating parents about emotional development.",
+            "b. Observes a class and gives Ann tailored advice.",
+            "c. Convince Ann to adopt a different approach towards teaching emotions.",
+            "d. Support Ann by helping her adapt his activities to better suit the children.",
+            "e. Empathetic",
+            "f. Provide Ann with practical examples she can use.",
+            "g. William believes that Ann is genuinely trying his suggestions but is facing resistance from the children."
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Support Ann by helping her adapt his activities to better suit the children.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Convince Ann to adopt a different approach towards teaching emotions.",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Provide Ann with practical examples she can use.",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Start a community initiative aimed at educating parents about emotional development.",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "William believes that Ann is genuinely trying his suggestions but is facing resistance from the children.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Empathetic",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Observes a class and gives Ann tailored advice.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_12": {
+        "question": "What is the intention of William Lo in scenario 4?",
+        "true answer": "b",
+        "options": [
+            "a. Determined",
+            "b. Start a community initiative aimed at educating parents about emotional development.",
+            "c. Support Ann by helping her adapt his activities to better suit the children.",
+            "d. Convince Ann to adopt a different approach towards teaching emotions.",
+            "e. William believes that the core issue lies in the children\u2019s home environments, which impacts their behavior in school.",
+            "f. Provide Ann with practical examples she can use.",
+            "g. Organizes a community meeting and invites experts to speak."
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Start a community initiative aimed at educating parents about emotional development.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Convince Ann to adopt a different approach towards teaching emotions.",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Provide Ann with practical examples she can use.",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Support Ann by helping her adapt his activities to better suit the children.",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "William believes that the core issue lies in the children\u2019s home environments, which impacts their behavior in school.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Determined",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Organizes a community meeting and invites experts to speak.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_13": {
+        "question": "What is the action of William Lo in scenario 1?",
+        "true answer": "e",
+        "options": [
+            "a. Shares a detailed plan that includes specific activities for teaching emotions.",
+            "b. Organizes a community meeting and invites experts to speak.",
+            "c. Observes a class and gives Ann tailored advice.",
+            "d. Convince Ann to adopt a different approach towards teaching emotions.",
+            "e. Presents evidence from child psychology studies to Ann.",
+            "f. Frustrated",
+            "g. William believes that Ann is underestimating the children's ability to grasp complex emotions."
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Presents evidence from child psychology studies to Ann.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Shares a detailed plan that includes specific activities for teaching emotions.",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Observes a class and gives Ann tailored advice.",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Organizes a community meeting and invites experts to speak.",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "William believes that Ann is underestimating the children's ability to grasp complex emotions.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Frustrated",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Convince Ann to adopt a different approach towards teaching emotions.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_14": {
+        "question": "What is the action of William Lo in scenario 2?",
+        "true answer": "g",
+        "options": [
+            "a. Provide Ann with practical examples she can use.",
+            "b. Organizes a community meeting and invites experts to speak.",
+            "c. Hopeful",
+            "d. William now believes that Ann is receptive to new ideas but needs practical examples.",
+            "e. Presents evidence from child psychology studies to Ann.",
+            "f. Observes a class and gives Ann tailored advice.",
+            "g. Shares a detailed plan that includes specific activities for teaching emotions."
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Shares a detailed plan that includes specific activities for teaching emotions.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Presents evidence from child psychology studies to Ann.",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Observes a class and gives Ann tailored advice.",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Organizes a community meeting and invites experts to speak.",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "William now believes that Ann is receptive to new ideas but needs practical examples.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Hopeful",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Provide Ann with practical examples she can use.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_15": {
+        "question": "What is the action of William Lo in scenario 3?",
+        "true answer": "g",
+        "options": [
+            "a. William believes that Ann is genuinely trying his suggestions but is facing resistance from the children.",
+            "b. Support Ann by helping her adapt his activities to better suit the children.",
+            "c. Presents evidence from child psychology studies to Ann.",
+            "d. Empathetic",
+            "e. Shares a detailed plan that includes specific activities for teaching emotions.",
+            "f. Organizes a community meeting and invites experts to speak.",
+            "g. Observes a class and gives Ann tailored advice."
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Observes a class and gives Ann tailored advice.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Presents evidence from child psychology studies to Ann.",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Shares a detailed plan that includes specific activities for teaching emotions.",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Organizes a community meeting and invites experts to speak.",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "William believes that Ann is genuinely trying his suggestions but is facing resistance from the children.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Empathetic",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Support Ann by helping her adapt his activities to better suit the children.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_16": {
+        "question": "What is the action of William Lo in scenario 4?",
+        "true answer": "c",
+        "options": [
+            "a. William believes that the core issue lies in the children\u2019s home environments, which impacts their behavior in school.",
+            "b. Shares a detailed plan that includes specific activities for teaching emotions.",
+            "c. Organizes a community meeting and invites experts to speak.",
+            "d. Determined",
+            "e. Start a community initiative aimed at educating parents about emotional development.",
+            "f. Presents evidence from child psychology studies to Ann.",
+            "g. Observes a class and gives Ann tailored advice."
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Organizes a community meeting and invites experts to speak.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Presents evidence from child psychology studies to Ann.",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Shares a detailed plan that includes specific activities for teaching emotions.",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Observes a class and gives Ann tailored advice.",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "William believes that the core issue lies in the children\u2019s home environments, which impacts their behavior in school.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Determined",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Start a community initiative aimed at educating parents about emotional development.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    }
+}

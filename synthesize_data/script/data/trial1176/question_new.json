@@ -1,0 +1,3299 @@
+{
+    "type_d_how_1": {
+        "question": "How does the belief of Vincent Oh change across the 4 scenarios?",
+        "true answer": "h",
+        "options": [
+            "a. Vincent believes that honest communication will strengthen their professional relationship. -> Vincent believes that Lisa might think he is incompetent. -> Vincent believes Lisa is impressed by his skills. -> Vincent believes that Lisa might still have doubts about his abilities.",
+            "b. Vincent believes that Lisa might still have doubts about his abilities. -> Vincent believes that honest communication will strengthen their professional relationship. -> Vincent believes Lisa is impressed by his skills. -> Vincent believes that Lisa might think he is incompetent.",
+            "c. Meticulously performs tasks -> Vincent believes Lisa is impressed by his skills. -> Vincent believes that honest communication will strengthen their professional relationship. -> Vincent believes that Lisa might still have doubts about his abilities.",
+            "d. Vincent believes that Lisa might think he is incompetent. -> Vincent believes Lisa is impressed by his skills. -> Vincent believes that honest communication will strengthen their professional relationship. -> Vincent believes that Lisa might still have doubts about his abilities.",
+            "e. Vincent believes that Lisa might think he is incompetent. -> Vincent believes Lisa is impressed by his skills. -> Vincent believes that honest communication will strengthen their professional relationship. -> Confident and hopeful",
+            "f. Vincent believes that Lisa might think he is incompetent. -> Vincent believes Lisa is impressed by his skills. -> Vincent believes that honest communication will strengthen their professional relationship.",
+            "g. Prove competence to Lisa -> Vincent believes Lisa is impressed by his skills. -> Vincent believes that honest communication will strengthen their professional relationship. -> Vincent believes that Lisa might still have doubts about his abilities.",
+            "h. Vincent believes that Lisa might think he is incompetent. -> Vincent believes Lisa is impressed by his skills. -> Vincent believes that Lisa might still have doubts about his abilities. -> Vincent believes that honest communication will strengthen their professional relationship."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Vincent believes that Lisa might think he is incompetent. -> Vincent believes Lisa is impressed by his skills. -> Vincent believes that Lisa might still have doubts about his abilities. -> Vincent believes that honest communication will strengthen their professional relationship.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Vincent believes that honest communication will strengthen their professional relationship. -> Vincent believes that Lisa might think he is incompetent. -> Vincent believes Lisa is impressed by his skills. -> Vincent believes that Lisa might still have doubts about his abilities.",
+                "explain": "shuffle the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Vincent believes that Lisa might think he is incompetent. -> Vincent believes Lisa is impressed by his skills. -> Vincent believes that honest communication will strengthen their professional relationship. -> Vincent believes that Lisa might still have doubts about his abilities.",
+                "explain": "change the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Vincent believes that Lisa might still have doubts about his abilities. -> Vincent believes that honest communication will strengthen their professional relationship. -> Vincent believes Lisa is impressed by his skills. -> Vincent believes that Lisa might think he is incompetent.",
+                "explain": "reverse the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Vincent believes that Lisa might think he is incompetent. -> Vincent believes Lisa is impressed by his skills. -> Vincent believes that honest communication will strengthen their professional relationship.",
+                "explain": "remove one belief in one time stage",
+                "reason": "test ability to recognize the completeness of the mental states",
+                "short": "type_d_how_recognize_time_stage_completeness"
+            },
+            {
+                "option": "Vincent believes that Lisa might think he is incompetent. -> Vincent believes Lisa is impressed by his skills. -> Vincent believes that honest communication will strengthen their professional relationship. -> Confident and hopeful",
+                "reason": "test ability to recognize the relationship between belief and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Prove competence to Lisa -> Vincent believes Lisa is impressed by his skills. -> Vincent believes that honest communication will strengthen their professional relationship. -> Vincent believes that Lisa might still have doubts about his abilities.",
+                "reason": "test ability to recognize the relationship between belief and intention",
+                "explain": "intention change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Meticulously performs tasks -> Vincent believes Lisa is impressed by his skills. -> Vincent believes that honest communication will strengthen their professional relationship. -> Vincent believes that Lisa might still have doubts about his abilities.",
+                "reason": "test ability to recognize the relationship between belief and action",
+                "explain": "action change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_how_2": {
+        "question": "How does the emotion of Vincent Oh change across the 4 scenarios?",
+        "true answer": "b",
+        "options": [
+            "a. Anxious -> Relieved and slightly proud -> Confident and hopeful",
+            "b. Anxious -> Relieved and slightly proud -> Insecure -> Confident and hopeful",
+            "c. Anxious -> Maintain improved perception -> Relieved and slightly proud -> Confident and hopeful",
+            "d. Anxious -> Insecure -> Relieved and slightly proud -> Confident and hopeful",
+            "e. Anxious -> Insecure -> Asks Lisa for feedback directly -> Confident and hopeful",
+            "f. Anxious -> Insecure -> Confident and hopeful -> Relieved and slightly proud",
+            "g. Confident and hopeful -> Relieved and slightly proud -> Insecure -> Anxious",
+            "h. Vincent believes that Lisa might think he is incompetent. -> Insecure -> Relieved and slightly proud -> Confident and hopeful"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Anxious -> Relieved and slightly proud -> Insecure -> Confident and hopeful",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Anxious -> Insecure -> Confident and hopeful -> Relieved and slightly proud",
+                "explain": "shuffle the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Anxious -> Insecure -> Relieved and slightly proud -> Confident and hopeful",
+                "explain": "change the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Confident and hopeful -> Relieved and slightly proud -> Insecure -> Anxious",
+                "explain": "reverse the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Anxious -> Relieved and slightly proud -> Confident and hopeful",
+                "explain": "remove one belief in one time stage",
+                "reason": "test ability to recognize the completeness of the mental states",
+                "short": "type_d_how_recognize_time_stage_completeness"
+            },
+            {
+                "option": "Vincent believes that Lisa might think he is incompetent. -> Insecure -> Relieved and slightly proud -> Confident and hopeful",
+                "reason": "test ability to recognize the relationship between emotion and belief",
+                "explain": "belief change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Anxious -> Maintain improved perception -> Relieved and slightly proud -> Confident and hopeful",
+                "reason": "test ability to recognize the relationship between emotion and intention",
+                "explain": "intention change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Anxious -> Insecure -> Asks Lisa for feedback directly -> Confident and hopeful",
+                "reason": "test ability to recognize the relationship between emotion and action",
+                "explain": "action change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_how_3": {
+        "question": "How does the intention of Vincent Oh change across the 4 scenarios?",
+        "true answer": "f",
+        "options": [
+            "a. Maintain improved perception -> Prove competence to Lisa -> Seek clarification on Lisa's view -> Keep lines of communication open",
+            "b. Keep lines of communication open -> Maintain improved perception -> Seek clarification on Lisa's view -> Prove competence to Lisa",
+            "c. Seek clarification on Lisa's view -> Maintain improved perception -> Keep lines of communication open",
+            "d. Prove competence to Lisa -> Vincent believes Lisa is impressed by his skills. -> Maintain improved perception -> Keep lines of communication open",
+            "e. Prove competence to Lisa -> Seek clarification on Lisa's view -> Maintain improved perception -> Confident and hopeful",
+            "f. Prove competence to Lisa -> Maintain improved perception -> Seek clarification on Lisa's view -> Keep lines of communication open",
+            "g. Prove competence to Lisa -> Seek clarification on Lisa's view -> Maintain improved perception -> Keep lines of communication open",
+            "h. Meticulously performs tasks -> Seek clarification on Lisa's view -> Maintain improved perception -> Keep lines of communication open"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Prove competence to Lisa -> Maintain improved perception -> Seek clarification on Lisa's view -> Keep lines of communication open",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Maintain improved perception -> Prove competence to Lisa -> Seek clarification on Lisa's view -> Keep lines of communication open",
+                "explain": "shuffle the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Prove competence to Lisa -> Seek clarification on Lisa's view -> Maintain improved perception -> Keep lines of communication open",
+                "explain": "change the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Keep lines of communication open -> Maintain improved perception -> Seek clarification on Lisa's view -> Prove competence to Lisa",
+                "explain": "reverse the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Seek clarification on Lisa's view -> Maintain improved perception -> Keep lines of communication open",
+                "explain": "remove one belief in one time stage",
+                "reason": "test ability to recognize the completeness of the mental states",
+                "short": "type_d_how_recognize_time_stage_completeness"
+            },
+            {
+                "option": "Prove competence to Lisa -> Vincent believes Lisa is impressed by his skills. -> Maintain improved perception -> Keep lines of communication open",
+                "reason": "test ability to recognize the relationship between intention and belief",
+                "explain": "belief change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Prove competence to Lisa -> Seek clarification on Lisa's view -> Maintain improved perception -> Confident and hopeful",
+                "reason": "test ability to recognize the relationship between intention and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Meticulously performs tasks -> Seek clarification on Lisa's view -> Maintain improved perception -> Keep lines of communication open",
+                "reason": "test ability to recognize the relationship between intention and action",
+                "explain": "action change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_how_4": {
+        "question": "How does the action of Vincent Oh change across the 4 scenarios?",
+        "true answer": "c",
+        "options": [
+            "a. Meticulously performs tasks -> Seek clarification on Lisa's view -> Asks Lisa for feedback directly -> Engages in casual conversation about expertise",
+            "b. Engages in casual conversation about expertise -> Asks Lisa for feedback directly -> Plans regular check-ins with Lisa -> Meticulously performs tasks",
+            "c. Meticulously performs tasks -> Engages in casual conversation about expertise -> Asks Lisa for feedback directly -> Plans regular check-ins with Lisa",
+            "d. Meticulously performs tasks -> Vincent believes Lisa is impressed by his skills. -> Asks Lisa for feedback directly -> Engages in casual conversation about expertise",
+            "e. Meticulously performs tasks -> Asks Lisa for feedback directly -> Engages in casual conversation about expertise",
+            "f. Plans regular check-ins with Lisa -> Asks Lisa for feedback directly -> Engages in casual conversation about expertise -> Meticulously performs tasks",
+            "g. Meticulously performs tasks -> Plans regular check-ins with Lisa -> Asks Lisa for feedback directly -> Engages in casual conversation about expertise",
+            "h. Meticulously performs tasks -> Insecure -> Asks Lisa for feedback directly -> Engages in casual conversation about expertise"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Meticulously performs tasks -> Engages in casual conversation about expertise -> Asks Lisa for feedback directly -> Plans regular check-ins with Lisa",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Plans regular check-ins with Lisa -> Asks Lisa for feedback directly -> Engages in casual conversation about expertise -> Meticulously performs tasks",
+                "explain": "shuffle the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Meticulously performs tasks -> Plans regular check-ins with Lisa -> Asks Lisa for feedback directly -> Engages in casual conversation about expertise",
+                "explain": "change the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Engages in casual conversation about expertise -> Asks Lisa for feedback directly -> Plans regular check-ins with Lisa -> Meticulously performs tasks",
+                "explain": "reverse the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Meticulously performs tasks -> Asks Lisa for feedback directly -> Engages in casual conversation about expertise",
+                "explain": "remove one belief in one time stage",
+                "reason": "test ability to recognize the completeness of the mental states",
+                "short": "type_d_how_recognize_time_stage_completeness"
+            },
+            {
+                "option": "Meticulously performs tasks -> Vincent believes Lisa is impressed by his skills. -> Asks Lisa for feedback directly -> Engages in casual conversation about expertise",
+                "reason": "test ability to recognize the relationship between action and belief",
+                "explain": "belief change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Meticulously performs tasks -> Insecure -> Asks Lisa for feedback directly -> Engages in casual conversation about expertise",
+                "reason": "test ability to recognize the relationship between action and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Meticulously performs tasks -> Seek clarification on Lisa's view -> Asks Lisa for feedback directly -> Engages in casual conversation about expertise",
+                "reason": "test ability to recognize the relationship between action and intention",
+                "explain": "intention change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_1": {
+        "question": "Why does the belief of Vincent Oh change from scenario 1 to scenario 2?",
+        "true answer": "h",
+        "options": [
+            "a. rio 2->3: Persistent self-doubt causes Vincent to question Lisa's full appreciation",
+            "b. rio 3->4: Positive feedback and belief in communication increase confidence.",
+            "c. rio 2->3: Self-doubt resurges, causing insecurity",
+            "d. rio 2->3: Seeking feedback replaces casual conversation",
+            "e. rio 1->2: Belief in Lisa's respect alleviates anxiety",
+            "f. rio 3->4: Intention to communicate openly follows from positive feedback.",
+            "g. rio 2->3: Desire to confirm Lisa's views arises from lingering doubts",
+            "h. rio 1->2: Vincent's actions lead him to perceive Lisa's approval, boosting his belief in her respect",
+            "i. rio 3->4: Positive feedback leads Vincent to believe in the value of open communication.",
+            "j. rio 1->2: Proving competence converts to maintaining it after perceived success",
+            "k. rio 3->4: Direct queries lead to planned check-ins for ongoing communication.",
+            "l. rio 1->2: From showing competence to maintaining respect through conversation"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "rio 1->2: Vincent's actions lead him to perceive Lisa's approval, boosting his belief in her respect",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "rio 2->3: Persistent self-doubt causes Vincent to question Lisa's full appreciation",
+                "reason": "test ability to recognize the reason of belief change in different time stage",
+                "explain": "belief change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "rio 3->4: Positive feedback leads Vincent to believe in the value of open communication.",
+                "reason": "test ability to recognize the reason of belief change in different time stage",
+                "explain": "belief change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "rio 1->2: Belief in Lisa's respect alleviates anxiety",
+                "reason": "test ability to recognize the reason between belief and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 2->3: Self-doubt resurges, causing insecurity",
+                "reason": "test ability to recognize the reason between belief and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 3->4: Positive feedback and belief in communication increase confidence.",
+                "reason": "test ability to recognize the reason between belief and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 1->2: Proving competence converts to maintaining it after perceived success",
+                "reason": "test ability to recognize the reason between belief and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 2->3: Desire to confirm Lisa's views arises from lingering doubts",
+                "reason": "test ability to recognize the reason between belief and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 3->4: Intention to communicate openly follows from positive feedback.",
+                "reason": "test ability to recognize the reason between belief and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 1->2: From showing competence to maintaining respect through conversation",
+                "reason": "test ability to recognize the reason between belief and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 2->3: Seeking feedback replaces casual conversation",
+                "reason": "test ability to recognize the reason between belief and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 3->4: Direct queries lead to planned check-ins for ongoing communication.",
+                "reason": "test ability to recognize the reason between belief and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_2": {
+        "question": "Why does the belief of Vincent Oh change from scenario 2 to scenario 3?",
+        "true answer": "d",
+        "options": [
+            "a. rio 1->2: From showing competence to maintaining respect through conversation",
+            "b. rio 3->4: Positive feedback leads Vincent to believe in the value of open communication.",
+            "c. rio 3->4: Positive feedback and belief in communication increase confidence.",
+            "d. rio 2->3: Persistent self-doubt causes Vincent to question Lisa's full appreciation",
+            "e. rio 1->2: Proving competence converts to maintaining it after perceived success",
+            "f. rio 2->3: Self-doubt resurges, causing insecurity",
+            "g. rio 3->4: Intention to communicate openly follows from positive feedback.",
+            "h. rio 2->3: Seeking feedback replaces casual conversation",
+            "i. rio 2->3: Desire to confirm Lisa's views arises from lingering doubts",
+            "j. rio 3->4: Direct queries lead to planned check-ins for ongoing communication.",
+            "k. rio 1->2: Vincent's actions lead him to perceive Lisa's approval, boosting his belief in her respect",
+            "l. rio 1->2: Belief in Lisa's respect alleviates anxiety"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "rio 2->3: Persistent self-doubt causes Vincent to question Lisa's full appreciation",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "rio 1->2: Vincent's actions lead him to perceive Lisa's approval, boosting his belief in her respect",
+                "reason": "test ability to recognize the reason of belief change in different time stage",
+                "explain": "belief change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "rio 3->4: Positive feedback leads Vincent to believe in the value of open communication.",
+                "reason": "test ability to recognize the reason of belief change in different time stage",
+                "explain": "belief change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "rio 1->2: Belief in Lisa's respect alleviates anxiety",
+                "reason": "test ability to recognize the reason between belief and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 2->3: Self-doubt resurges, causing insecurity",
+                "reason": "test ability to recognize the reason between belief and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 3->4: Positive feedback and belief in communication increase confidence.",
+                "reason": "test ability to recognize the reason between belief and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 1->2: Proving competence converts to maintaining it after perceived success",
+                "reason": "test ability to recognize the reason between belief and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 2->3: Desire to confirm Lisa's views arises from lingering doubts",
+                "reason": "test ability to recognize the reason between belief and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 3->4: Intention to communicate openly follows from positive feedback.",
+                "reason": "test ability to recognize the reason between belief and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 1->2: From showing competence to maintaining respect through conversation",
+                "reason": "test ability to recognize the reason between belief and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 2->3: Seeking feedback replaces casual conversation",
+                "reason": "test ability to recognize the reason between belief and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 3->4: Direct queries lead to planned check-ins for ongoing communication.",
+                "reason": "test ability to recognize the reason between belief and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_3": {
+        "question": "Why does the belief of Vincent Oh change from scenario 3 to scenario 4?",
+        "true answer": "f",
+        "options": [
+            "a. rio 1->2: From showing competence to maintaining respect through conversation",
+            "b. rio 3->4: Intention to communicate openly follows from positive feedback.",
+            "c. rio 3->4: Positive feedback and belief in communication increase confidence.",
+            "d. rio 2->3: Self-doubt resurges, causing insecurity",
+            "e. rio 2->3: Seeking feedback replaces casual conversation",
+            "f. rio 3->4: Positive feedback leads Vincent to believe in the value of open communication.",
+            "g. rio 2->3: Desire to confirm Lisa's views arises from lingering doubts",
+            "h. rio 2->3: Persistent self-doubt causes Vincent to question Lisa's full appreciation",
+            "i. rio 1->2: Vincent's actions lead him to perceive Lisa's approval, boosting his belief in her respect",
+            "j. rio 1->2: Belief in Lisa's respect alleviates anxiety",
+            "k. rio 1->2: Proving competence converts to maintaining it after perceived success",
+            "l. rio 3->4: Direct queries lead to planned check-ins for ongoing communication."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "rio 3->4: Positive feedback leads Vincent to believe in the value of open communication.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "rio 1->2: Vincent's actions lead him to perceive Lisa's approval, boosting his belief in her respect",
+                "reason": "test ability to recognize the reason of belief change in different time stage",
+                "explain": "belief change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "rio 2->3: Persistent self-doubt causes Vincent to question Lisa's full appreciation",
+                "reason": "test ability to recognize the reason of belief change in different time stage",
+                "explain": "belief change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "rio 1->2: Belief in Lisa's respect alleviates anxiety",
+                "reason": "test ability to recognize the reason between belief and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 2->3: Self-doubt resurges, causing insecurity",
+                "reason": "test ability to recognize the reason between belief and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 3->4: Positive feedback and belief in communication increase confidence.",
+                "reason": "test ability to recognize the reason between belief and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 1->2: Proving competence converts to maintaining it after perceived success",
+                "reason": "test ability to recognize the reason between belief and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 2->3: Desire to confirm Lisa's views arises from lingering doubts",
+                "reason": "test ability to recognize the reason between belief and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 3->4: Intention to communicate openly follows from positive feedback.",
+                "reason": "test ability to recognize the reason between belief and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 1->2: From showing competence to maintaining respect through conversation",
+                "reason": "test ability to recognize the reason between belief and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 2->3: Seeking feedback replaces casual conversation",
+                "reason": "test ability to recognize the reason between belief and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 3->4: Direct queries lead to planned check-ins for ongoing communication.",
+                "reason": "test ability to recognize the reason between belief and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_4": {
+        "question": "Why does the emotion of Vincent Oh change from scenario 1 to scenario 2?",
+        "true answer": "l",
+        "options": [
+            "a. rio 3->4: Intention to communicate openly follows from positive feedback.",
+            "b. rio 2->3: Desire to confirm Lisa's views arises from lingering doubts",
+            "c. rio 2->3: Self-doubt resurges, causing insecurity",
+            "d. rio 3->4: Direct queries lead to planned check-ins for ongoing communication.",
+            "e. rio 1->2: Proving competence converts to maintaining it after perceived success",
+            "f. rio 1->2: From showing competence to maintaining respect through conversation",
+            "g. rio 2->3: Persistent self-doubt causes Vincent to question Lisa's full appreciation",
+            "h. rio 2->3: Seeking feedback replaces casual conversation",
+            "i. rio 1->2: Vincent's actions lead him to perceive Lisa's approval, boosting his belief in her respect",
+            "j. rio 3->4: Positive feedback and belief in communication increase confidence.",
+            "k. rio 3->4: Positive feedback leads Vincent to believe in the value of open communication.",
+            "l. rio 1->2: Belief in Lisa's respect alleviates anxiety"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "rio 1->2: Belief in Lisa's respect alleviates anxiety",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "rio 2->3: Self-doubt resurges, causing insecurity",
+                "reason": "test ability to recognize the reason of emotion change in different time stage",
+                "explain": "emotion change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "rio 3->4: Positive feedback and belief in communication increase confidence.",
+                "reason": "test ability to recognize the reason of emotion change in different time stage",
+                "explain": "emotion change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "rio 1->2: Vincent's actions lead him to perceive Lisa's approval, boosting his belief in her respect",
+                "reason": "test ability to recognize the reason between emotion and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 2->3: Persistent self-doubt causes Vincent to question Lisa's full appreciation",
+                "reason": "test ability to recognize the reason between emotion and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 3->4: Positive feedback leads Vincent to believe in the value of open communication.",
+                "reason": "test ability to recognize the reason between emotion and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 1->2: Proving competence converts to maintaining it after perceived success",
+                "reason": "test ability to recognize the reason between emotion and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 2->3: Desire to confirm Lisa's views arises from lingering doubts",
+                "reason": "test ability to recognize the reason between emotion and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 3->4: Intention to communicate openly follows from positive feedback.",
+                "reason": "test ability to recognize the reason between emotion and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 1->2: From showing competence to maintaining respect through conversation",
+                "reason": "test ability to recognize the reason between emotion and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 2->3: Seeking feedback replaces casual conversation",
+                "reason": "test ability to recognize the reason between emotion and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 3->4: Direct queries lead to planned check-ins for ongoing communication.",
+                "reason": "test ability to recognize the reason between emotion and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_5": {
+        "question": "Why does the emotion of Vincent Oh change from scenario 2 to scenario 3?",
+        "true answer": "f",
+        "options": [
+            "a. rio 3->4: Intention to communicate openly follows from positive feedback.",
+            "b. rio 1->2: Belief in Lisa's respect alleviates anxiety",
+            "c. rio 2->3: Seeking feedback replaces casual conversation",
+            "d. rio 1->2: Proving competence converts to maintaining it after perceived success",
+            "e. rio 3->4: Positive feedback and belief in communication increase confidence.",
+            "f. rio 2->3: Self-doubt resurges, causing insecurity",
+            "g. rio 2->3: Persistent self-doubt causes Vincent to question Lisa's full appreciation",
+            "h. rio 3->4: Positive feedback leads Vincent to believe in the value of open communication.",
+            "i. rio 3->4: Direct queries lead to planned check-ins for ongoing communication.",
+            "j. rio 1->2: Vincent's actions lead him to perceive Lisa's approval, boosting his belief in her respect",
+            "k. rio 1->2: From showing competence to maintaining respect through conversation",
+            "l. rio 2->3: Desire to confirm Lisa's views arises from lingering doubts"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "rio 2->3: Self-doubt resurges, causing insecurity",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "rio 1->2: Belief in Lisa's respect alleviates anxiety",
+                "reason": "test ability to recognize the reason of emotion change in different time stage",
+                "explain": "emotion change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "rio 3->4: Positive feedback and belief in communication increase confidence.",
+                "reason": "test ability to recognize the reason of emotion change in different time stage",
+                "explain": "emotion change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "rio 1->2: Vincent's actions lead him to perceive Lisa's approval, boosting his belief in her respect",
+                "reason": "test ability to recognize the reason between emotion and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 2->3: Persistent self-doubt causes Vincent to question Lisa's full appreciation",
+                "reason": "test ability to recognize the reason between emotion and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 3->4: Positive feedback leads Vincent to believe in the value of open communication.",
+                "reason": "test ability to recognize the reason between emotion and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 1->2: Proving competence converts to maintaining it after perceived success",
+                "reason": "test ability to recognize the reason between emotion and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 2->3: Desire to confirm Lisa's views arises from lingering doubts",
+                "reason": "test ability to recognize the reason between emotion and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 3->4: Intention to communicate openly follows from positive feedback.",
+                "reason": "test ability to recognize the reason between emotion and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 1->2: From showing competence to maintaining respect through conversation",
+                "reason": "test ability to recognize the reason between emotion and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 2->3: Seeking feedback replaces casual conversation",
+                "reason": "test ability to recognize the reason between emotion and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 3->4: Direct queries lead to planned check-ins for ongoing communication.",
+                "reason": "test ability to recognize the reason between emotion and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_6": {
+        "question": "Why does the emotion of Vincent Oh change from scenario 3 to scenario 4?",
+        "true answer": "j",
+        "options": [
+            "a. rio 3->4: Intention to communicate openly follows from positive feedback.",
+            "b. rio 1->2: Vincent's actions lead him to perceive Lisa's approval, boosting his belief in her respect",
+            "c. rio 2->3: Seeking feedback replaces casual conversation",
+            "d. rio 2->3: Desire to confirm Lisa's views arises from lingering doubts",
+            "e. rio 1->2: Belief in Lisa's respect alleviates anxiety",
+            "f. rio 2->3: Persistent self-doubt causes Vincent to question Lisa's full appreciation",
+            "g. rio 2->3: Self-doubt resurges, causing insecurity",
+            "h. rio 1->2: Proving competence converts to maintaining it after perceived success",
+            "i. rio 3->4: Direct queries lead to planned check-ins for ongoing communication.",
+            "j. rio 3->4: Positive feedback and belief in communication increase confidence.",
+            "k. rio 1->2: From showing competence to maintaining respect through conversation",
+            "l. rio 3->4: Positive feedback leads Vincent to believe in the value of open communication."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "rio 3->4: Positive feedback and belief in communication increase confidence.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "rio 1->2: Belief in Lisa's respect alleviates anxiety",
+                "reason": "test ability to recognize the reason of emotion change in different time stage",
+                "explain": "emotion change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "rio 2->3: Self-doubt resurges, causing insecurity",
+                "reason": "test ability to recognize the reason of emotion change in different time stage",
+                "explain": "emotion change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "rio 1->2: Vincent's actions lead him to perceive Lisa's approval, boosting his belief in her respect",
+                "reason": "test ability to recognize the reason between emotion and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 2->3: Persistent self-doubt causes Vincent to question Lisa's full appreciation",
+                "reason": "test ability to recognize the reason between emotion and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 3->4: Positive feedback leads Vincent to believe in the value of open communication.",
+                "reason": "test ability to recognize the reason between emotion and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 1->2: Proving competence converts to maintaining it after perceived success",
+                "reason": "test ability to recognize the reason between emotion and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 2->3: Desire to confirm Lisa's views arises from lingering doubts",
+                "reason": "test ability to recognize the reason between emotion and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 3->4: Intention to communicate openly follows from positive feedback.",
+                "reason": "test ability to recognize the reason between emotion and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 1->2: From showing competence to maintaining respect through conversation",
+                "reason": "test ability to recognize the reason between emotion and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 2->3: Seeking feedback replaces casual conversation",
+                "reason": "test ability to recognize the reason between emotion and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 3->4: Direct queries lead to planned check-ins for ongoing communication.",
+                "reason": "test ability to recognize the reason between emotion and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_7": {
+        "question": "Why does the intention of Vincent Oh change from scenario 1 to scenario 2?",
+        "true answer": "f",
+        "options": [
+            "a. rio 3->4: Intention to communicate openly follows from positive feedback.",
+            "b. rio 2->3: Seeking feedback replaces casual conversation",
+            "c. rio 2->3: Desire to confirm Lisa's views arises from lingering doubts",
+            "d. rio 1->2: From showing competence to maintaining respect through conversation",
+            "e. rio 2->3: Persistent self-doubt causes Vincent to question Lisa's full appreciation",
+            "f. rio 1->2: Proving competence converts to maintaining it after perceived success",
+            "g. rio 1->2: Belief in Lisa's respect alleviates anxiety",
+            "h. rio 1->2: Vincent's actions lead him to perceive Lisa's approval, boosting his belief in her respect",
+            "i. rio 3->4: Direct queries lead to planned check-ins for ongoing communication.",
+            "j. rio 3->4: Positive feedback and belief in communication increase confidence.",
+            "k. rio 2->3: Self-doubt resurges, causing insecurity",
+            "l. rio 3->4: Positive feedback leads Vincent to believe in the value of open communication."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "rio 1->2: Proving competence converts to maintaining it after perceived success",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "rio 2->3: Desire to confirm Lisa's views arises from lingering doubts",
+                "reason": "test ability to recognize the reason of intention change in different time stage",
+                "explain": "intention change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "rio 3->4: Intention to communicate openly follows from positive feedback.",
+                "reason": "test ability to recognize the reason of intention change in different time stage",
+                "explain": "intention change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "rio 1->2: Vincent's actions lead him to perceive Lisa's approval, boosting his belief in her respect",
+                "reason": "test ability to recognize the reason between intention and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 2->3: Persistent self-doubt causes Vincent to question Lisa's full appreciation",
+                "reason": "test ability to recognize the reason between intention and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 3->4: Positive feedback leads Vincent to believe in the value of open communication.",
+                "reason": "test ability to recognize the reason between intention and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 1->2: Belief in Lisa's respect alleviates anxiety",
+                "reason": "test ability to recognize the reason between intention and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 2->3: Self-doubt resurges, causing insecurity",
+                "reason": "test ability to recognize the reason between intention and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 3->4: Positive feedback and belief in communication increase confidence.",
+                "reason": "test ability to recognize the reason between intention and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 1->2: From showing competence to maintaining respect through conversation",
+                "reason": "test ability to recognize the reason between intention and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 2->3: Seeking feedback replaces casual conversation",
+                "reason": "test ability to recognize the reason between intention and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 3->4: Direct queries lead to planned check-ins for ongoing communication.",
+                "reason": "test ability to recognize the reason between intention and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_8": {
+        "question": "Why does the intention of Vincent Oh change from scenario 2 to scenario 3?",
+        "true answer": "j",
+        "options": [
+            "a. rio 2->3: Self-doubt resurges, causing insecurity",
+            "b. rio 1->2: Vincent's actions lead him to perceive Lisa's approval, boosting his belief in her respect",
+            "c. rio 1->2: Proving competence converts to maintaining it after perceived success",
+            "d. rio 3->4: Direct queries lead to planned check-ins for ongoing communication.",
+            "e. rio 1->2: Belief in Lisa's respect alleviates anxiety",
+            "f. rio 3->4: Intention to communicate openly follows from positive feedback.",
+            "g. rio 3->4: Positive feedback and belief in communication increase confidence.",
+            "h. rio 2->3: Persistent self-doubt causes Vincent to question Lisa's full appreciation",
+            "i. rio 3->4: Positive feedback leads Vincent to believe in the value of open communication.",
+            "j. rio 2->3: Desire to confirm Lisa's views arises from lingering doubts",
+            "k. rio 1->2: From showing competence to maintaining respect through conversation",
+            "l. rio 2->3: Seeking feedback replaces casual conversation"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "rio 2->3: Desire to confirm Lisa's views arises from lingering doubts",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "rio 1->2: Proving competence converts to maintaining it after perceived success",
+                "reason": "test ability to recognize the reason of intention change in different time stage",
+                "explain": "intention change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "rio 3->4: Intention to communicate openly follows from positive feedback.",
+                "reason": "test ability to recognize the reason of intention change in different time stage",
+                "explain": "intention change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "rio 1->2: Vincent's actions lead him to perceive Lisa's approval, boosting his belief in her respect",
+                "reason": "test ability to recognize the reason between intention and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 2->3: Persistent self-doubt causes Vincent to question Lisa's full appreciation",
+                "reason": "test ability to recognize the reason between intention and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 3->4: Positive feedback leads Vincent to believe in the value of open communication.",
+                "reason": "test ability to recognize the reason between intention and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 1->2: Belief in Lisa's respect alleviates anxiety",
+                "reason": "test ability to recognize the reason between intention and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 2->3: Self-doubt resurges, causing insecurity",
+                "reason": "test ability to recognize the reason between intention and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 3->4: Positive feedback and belief in communication increase confidence.",
+                "reason": "test ability to recognize the reason between intention and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 1->2: From showing competence to maintaining respect through conversation",
+                "reason": "test ability to recognize the reason between intention and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 2->3: Seeking feedback replaces casual conversation",
+                "reason": "test ability to recognize the reason between intention and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 3->4: Direct queries lead to planned check-ins for ongoing communication.",
+                "reason": "test ability to recognize the reason between intention and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_9": {
+        "question": "Why does the intention of Vincent Oh change from scenario 3 to scenario 4?",
+        "true answer": "c",
+        "options": [
+            "a. rio 2->3: Desire to confirm Lisa's views arises from lingering doubts",
+            "b. rio 2->3: Persistent self-doubt causes Vincent to question Lisa's full appreciation",
+            "c. rio 3->4: Intention to communicate openly follows from positive feedback.",
+            "d. rio 3->4: Positive feedback leads Vincent to believe in the value of open communication.",
+            "e. rio 3->4: Positive feedback and belief in communication increase confidence.",
+            "f. rio 1->2: Proving competence converts to maintaining it after perceived success",
+            "g. rio 3->4: Direct queries lead to planned check-ins for ongoing communication.",
+            "h. rio 2->3: Seeking feedback replaces casual conversation",
+            "i. rio 1->2: Belief in Lisa's respect alleviates anxiety",
+            "j. rio 2->3: Self-doubt resurges, causing insecurity",
+            "k. rio 1->2: From showing competence to maintaining respect through conversation",
+            "l. rio 1->2: Vincent's actions lead him to perceive Lisa's approval, boosting his belief in her respect"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "rio 3->4: Intention to communicate openly follows from positive feedback.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "rio 1->2: Proving competence converts to maintaining it after perceived success",
+                "reason": "test ability to recognize the reason of intention change in different time stage",
+                "explain": "intention change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "rio 2->3: Desire to confirm Lisa's views arises from lingering doubts",
+                "reason": "test ability to recognize the reason of intention change in different time stage",
+                "explain": "intention change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "rio 1->2: Vincent's actions lead him to perceive Lisa's approval, boosting his belief in her respect",
+                "reason": "test ability to recognize the reason between intention and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 2->3: Persistent self-doubt causes Vincent to question Lisa's full appreciation",
+                "reason": "test ability to recognize the reason between intention and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 3->4: Positive feedback leads Vincent to believe in the value of open communication.",
+                "reason": "test ability to recognize the reason between intention and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 1->2: Belief in Lisa's respect alleviates anxiety",
+                "reason": "test ability to recognize the reason between intention and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 2->3: Self-doubt resurges, causing insecurity",
+                "reason": "test ability to recognize the reason between intention and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 3->4: Positive feedback and belief in communication increase confidence.",
+                "reason": "test ability to recognize the reason between intention and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 1->2: From showing competence to maintaining respect through conversation",
+                "reason": "test ability to recognize the reason between intention and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 2->3: Seeking feedback replaces casual conversation",
+                "reason": "test ability to recognize the reason between intention and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 3->4: Direct queries lead to planned check-ins for ongoing communication.",
+                "reason": "test ability to recognize the reason between intention and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_10": {
+        "question": "Why does the action of Vincent Oh change from scenario 1 to scenario 2?",
+        "true answer": "l",
+        "options": [
+            "a. rio 2->3: Persistent self-doubt causes Vincent to question Lisa's full appreciation",
+            "b. rio 2->3: Seeking feedback replaces casual conversation",
+            "c. rio 1->2: Proving competence converts to maintaining it after perceived success",
+            "d. rio 3->4: Intention to communicate openly follows from positive feedback.",
+            "e. rio 2->3: Self-doubt resurges, causing insecurity",
+            "f. rio 1->2: Vincent's actions lead him to perceive Lisa's approval, boosting his belief in her respect",
+            "g. rio 3->4: Positive feedback leads Vincent to believe in the value of open communication.",
+            "h. rio 3->4: Direct queries lead to planned check-ins for ongoing communication.",
+            "i. rio 1->2: Belief in Lisa's respect alleviates anxiety",
+            "j. rio 2->3: Desire to confirm Lisa's views arises from lingering doubts",
+            "k. rio 3->4: Positive feedback and belief in communication increase confidence.",
+            "l. rio 1->2: From showing competence to maintaining respect through conversation"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "rio 1->2: From showing competence to maintaining respect through conversation",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "rio 2->3: Seeking feedback replaces casual conversation",
+                "reason": "test ability to recognize the reason of action change in different time stage",
+                "explain": "action change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "rio 3->4: Direct queries lead to planned check-ins for ongoing communication.",
+                "reason": "test ability to recognize the reason of action change in different time stage",
+                "explain": "action change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "rio 1->2: Vincent's actions lead him to perceive Lisa's approval, boosting his belief in her respect",
+                "reason": "test ability to recognize the reason between action and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 2->3: Persistent self-doubt causes Vincent to question Lisa's full appreciation",
+                "reason": "test ability to recognize the reason between action and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 3->4: Positive feedback leads Vincent to believe in the value of open communication.",
+                "reason": "test ability to recognize the reason between action and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 1->2: Belief in Lisa's respect alleviates anxiety",
+                "reason": "test ability to recognize the reason between action and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 2->3: Self-doubt resurges, causing insecurity",
+                "reason": "test ability to recognize the reason between action and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 3->4: Positive feedback and belief in communication increase confidence.",
+                "reason": "test ability to recognize the reason between action and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 1->2: Proving competence converts to maintaining it after perceived success",
+                "reason": "test ability to recognize the reason between action and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 2->3: Desire to confirm Lisa's views arises from lingering doubts",
+                "reason": "test ability to recognize the reason between action and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 3->4: Intention to communicate openly follows from positive feedback.",
+                "reason": "test ability to recognize the reason between action and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_11": {
+        "question": "Why does the action of Vincent Oh change from scenario 2 to scenario 3?",
+        "true answer": "c",
+        "options": [
+            "a. rio 1->2: Proving competence converts to maintaining it after perceived success",
+            "b. rio 3->4: Positive feedback and belief in communication increase confidence.",
+            "c. rio 2->3: Seeking feedback replaces casual conversation",
+            "d. rio 3->4: Positive feedback leads Vincent to believe in the value of open communication.",
+            "e. rio 1->2: Belief in Lisa's respect alleviates anxiety",
+            "f. rio 3->4: Direct queries lead to planned check-ins for ongoing communication.",
+            "g. rio 2->3: Self-doubt resurges, causing insecurity",
+            "h. rio 2->3: Persistent self-doubt causes Vincent to question Lisa's full appreciation",
+            "i. rio 3->4: Intention to communicate openly follows from positive feedback.",
+            "j. rio 2->3: Desire to confirm Lisa's views arises from lingering doubts",
+            "k. rio 1->2: Vincent's actions lead him to perceive Lisa's approval, boosting his belief in her respect",
+            "l. rio 1->2: From showing competence to maintaining respect through conversation"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "rio 2->3: Seeking feedback replaces casual conversation",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "rio 1->2: From showing competence to maintaining respect through conversation",
+                "reason": "test ability to recognize the reason of action change in different time stage",
+                "explain": "action change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "rio 3->4: Direct queries lead to planned check-ins for ongoing communication.",
+                "reason": "test ability to recognize the reason of action change in different time stage",
+                "explain": "action change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "rio 1->2: Vincent's actions lead him to perceive Lisa's approval, boosting his belief in her respect",
+                "reason": "test ability to recognize the reason between action and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 2->3: Persistent self-doubt causes Vincent to question Lisa's full appreciation",
+                "reason": "test ability to recognize the reason between action and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 3->4: Positive feedback leads Vincent to believe in the value of open communication.",
+                "reason": "test ability to recognize the reason between action and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 1->2: Belief in Lisa's respect alleviates anxiety",
+                "reason": "test ability to recognize the reason between action and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 2->3: Self-doubt resurges, causing insecurity",
+                "reason": "test ability to recognize the reason between action and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 3->4: Positive feedback and belief in communication increase confidence.",
+                "reason": "test ability to recognize the reason between action and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 1->2: Proving competence converts to maintaining it after perceived success",
+                "reason": "test ability to recognize the reason between action and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 2->3: Desire to confirm Lisa's views arises from lingering doubts",
+                "reason": "test ability to recognize the reason between action and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 3->4: Intention to communicate openly follows from positive feedback.",
+                "reason": "test ability to recognize the reason between action and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_12": {
+        "question": "Why does the action of Vincent Oh change from scenario 3 to scenario 4?",
+        "true answer": "l",
+        "options": [
+            "a. rio 2->3: Self-doubt resurges, causing insecurity",
+            "b. rio 3->4: Intention to communicate openly follows from positive feedback.",
+            "c. rio 1->2: Belief in Lisa's respect alleviates anxiety",
+            "d. rio 2->3: Seeking feedback replaces casual conversation",
+            "e. rio 3->4: Positive feedback leads Vincent to believe in the value of open communication.",
+            "f. rio 1->2: From showing competence to maintaining respect through conversation",
+            "g. rio 2->3: Desire to confirm Lisa's views arises from lingering doubts",
+            "h. rio 1->2: Proving competence converts to maintaining it after perceived success",
+            "i. rio 1->2: Vincent's actions lead him to perceive Lisa's approval, boosting his belief in her respect",
+            "j. rio 3->4: Positive feedback and belief in communication increase confidence.",
+            "k. rio 2->3: Persistent self-doubt causes Vincent to question Lisa's full appreciation",
+            "l. rio 3->4: Direct queries lead to planned check-ins for ongoing communication."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "rio 3->4: Direct queries lead to planned check-ins for ongoing communication.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "rio 1->2: From showing competence to maintaining respect through conversation",
+                "reason": "test ability to recognize the reason of action change in different time stage",
+                "explain": "action change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "rio 2->3: Seeking feedback replaces casual conversation",
+                "reason": "test ability to recognize the reason of action change in different time stage",
+                "explain": "action change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "rio 1->2: Vincent's actions lead him to perceive Lisa's approval, boosting his belief in her respect",
+                "reason": "test ability to recognize the reason between action and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 2->3: Persistent self-doubt causes Vincent to question Lisa's full appreciation",
+                "reason": "test ability to recognize the reason between action and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 3->4: Positive feedback leads Vincent to believe in the value of open communication.",
+                "reason": "test ability to recognize the reason between action and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 1->2: Belief in Lisa's respect alleviates anxiety",
+                "reason": "test ability to recognize the reason between action and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 2->3: Self-doubt resurges, causing insecurity",
+                "reason": "test ability to recognize the reason between action and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 3->4: Positive feedback and belief in communication increase confidence.",
+                "reason": "test ability to recognize the reason between action and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 1->2: Proving competence converts to maintaining it after perceived success",
+                "reason": "test ability to recognize the reason between action and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 2->3: Desire to confirm Lisa's views arises from lingering doubts",
+                "reason": "test ability to recognize the reason between action and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "rio 3->4: Intention to communicate openly follows from positive feedback.",
+                "reason": "test ability to recognize the reason between action and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_whether_1": {
+        "question": "Whether the belief of Vincent Oh change from scenario 1 to scenario 2? if yes, from what to what?",
+        "true answer": "d",
+        "options": [
+            "a. Yes, from Vincent believes Lisa is impressed by his skills. to Vincent believes that Lisa might still have doubts about his abilities.",
+            "b. Yes, from Vincent believes that Lisa might still have doubts about his abilities. to Vincent believes that honest communication will strengthen their professional relationship.",
+            "c. No",
+            "d. Yes, from Vincent believes that Lisa might think he is incompetent. to Vincent believes Lisa is impressed by his skills."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Vincent believes that Lisa might think he is incompetent. to Vincent believes Lisa is impressed by his skills.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the belief change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Vincent believes Lisa is impressed by his skills. to Vincent believes that Lisa might still have doubts about his abilities.",
+                "reason": "test ability to recognize how the belief change in the correct time stage",
+                "explain": "how the belief change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Vincent believes that Lisa might still have doubts about his abilities. to Vincent believes that honest communication will strengthen their professional relationship.",
+                "reason": "test ability to recognize how the belief change in the correct time stage",
+                "explain": "how the belief change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_2": {
+        "question": "Whether the belief of Vincent Oh change from scenario 2 to scenario 3? if yes, from what to what?",
+        "true answer": "d",
+        "options": [
+            "a. Yes, from Vincent believes that Lisa might think he is incompetent. to Vincent believes Lisa is impressed by his skills.",
+            "b. Yes, from Vincent believes that Lisa might still have doubts about his abilities. to Vincent believes that honest communication will strengthen their professional relationship.",
+            "c. No",
+            "d. Yes, from Vincent believes Lisa is impressed by his skills. to Vincent believes that Lisa might still have doubts about his abilities."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Vincent believes Lisa is impressed by his skills. to Vincent believes that Lisa might still have doubts about his abilities.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the belief change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Vincent believes that Lisa might think he is incompetent. to Vincent believes Lisa is impressed by his skills.",
+                "reason": "test ability to recognize how the belief change in the correct time stage",
+                "explain": "how the belief change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Vincent believes that Lisa might still have doubts about his abilities. to Vincent believes that honest communication will strengthen their professional relationship.",
+                "reason": "test ability to recognize how the belief change in the correct time stage",
+                "explain": "how the belief change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_3": {
+        "question": "Whether the belief of Vincent Oh change from scenario 3 to scenario 4? if yes, from what to what?",
+        "true answer": "c",
+        "options": [
+            "a. No",
+            "b. Yes, from Vincent believes Lisa is impressed by his skills. to Vincent believes that Lisa might still have doubts about his abilities.",
+            "c. Yes, from Vincent believes that Lisa might still have doubts about his abilities. to Vincent believes that honest communication will strengthen their professional relationship.",
+            "d. Yes, from Vincent believes that Lisa might think he is incompetent. to Vincent believes Lisa is impressed by his skills."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Vincent believes that Lisa might still have doubts about his abilities. to Vincent believes that honest communication will strengthen their professional relationship.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the belief change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Vincent believes that Lisa might think he is incompetent. to Vincent believes Lisa is impressed by his skills.",
+                "reason": "test ability to recognize how the belief change in the correct time stage",
+                "explain": "how the belief change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Vincent believes Lisa is impressed by his skills. to Vincent believes that Lisa might still have doubts about his abilities.",
+                "reason": "test ability to recognize how the belief change in the correct time stage",
+                "explain": "how the belief change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_4": {
+        "question": "Whether the emotion of Vincent Oh change from scenario 1 to scenario 2? if yes, from what to what?",
+        "true answer": "b",
+        "options": [
+            "a. Yes, from Insecure to Confident and hopeful",
+            "b. Yes, from Anxious to Relieved and slightly proud",
+            "c. Yes, from Relieved and slightly proud to Insecure",
+            "d. No"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Anxious to Relieved and slightly proud",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the emotion change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Relieved and slightly proud to Insecure",
+                "reason": "test ability to recognize how the emotion change in the correct time stage",
+                "explain": "how the emotion change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Insecure to Confident and hopeful",
+                "reason": "test ability to recognize how the emotion change in the correct time stage",
+                "explain": "how the emotion change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_5": {
+        "question": "Whether the emotion of Vincent Oh change from scenario 2 to scenario 3? if yes, from what to what?",
+        "true answer": "c",
+        "options": [
+            "a. Yes, from Insecure to Confident and hopeful",
+            "b. No",
+            "c. Yes, from Relieved and slightly proud to Insecure",
+            "d. Yes, from Anxious to Relieved and slightly proud"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Relieved and slightly proud to Insecure",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the emotion change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Anxious to Relieved and slightly proud",
+                "reason": "test ability to recognize how the emotion change in the correct time stage",
+                "explain": "how the emotion change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Insecure to Confident and hopeful",
+                "reason": "test ability to recognize how the emotion change in the correct time stage",
+                "explain": "how the emotion change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_6": {
+        "question": "Whether the emotion of Vincent Oh change from scenario 3 to scenario 4? if yes, from what to what?",
+        "true answer": "a",
+        "options": [
+            "a. Yes, from Insecure to Confident and hopeful",
+            "b. No",
+            "c. Yes, from Relieved and slightly proud to Insecure",
+            "d. Yes, from Anxious to Relieved and slightly proud"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Insecure to Confident and hopeful",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the emotion change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Anxious to Relieved and slightly proud",
+                "reason": "test ability to recognize how the emotion change in the correct time stage",
+                "explain": "how the emotion change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Relieved and slightly proud to Insecure",
+                "reason": "test ability to recognize how the emotion change in the correct time stage",
+                "explain": "how the emotion change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_7": {
+        "question": "Whether the intention of Vincent Oh change from scenario 1 to scenario 2? if yes, from what to what?",
+        "true answer": "d",
+        "options": [
+            "a. Yes, from Maintain improved perception to Seek clarification on Lisa's view",
+            "b. Yes, from Seek clarification on Lisa's view to Keep lines of communication open",
+            "c. No",
+            "d. Yes, from Prove competence to Lisa to Maintain improved perception"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Prove competence to Lisa to Maintain improved perception",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the intention change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Maintain improved perception to Seek clarification on Lisa's view",
+                "reason": "test ability to recognize how the intention change in the correct time stage",
+                "explain": "how the intention change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Seek clarification on Lisa's view to Keep lines of communication open",
+                "reason": "test ability to recognize how the intention change in the correct time stage",
+                "explain": "how the intention change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_8": {
+        "question": "Whether the intention of Vincent Oh change from scenario 2 to scenario 3? if yes, from what to what?",
+        "true answer": "b",
+        "options": [
+            "a. Yes, from Seek clarification on Lisa's view to Keep lines of communication open",
+            "b. Yes, from Maintain improved perception to Seek clarification on Lisa's view",
+            "c. Yes, from Prove competence to Lisa to Maintain improved perception",
+            "d. No"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Maintain improved perception to Seek clarification on Lisa's view",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the intention change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Prove competence to Lisa to Maintain improved perception",
+                "reason": "test ability to recognize how the intention change in the correct time stage",
+                "explain": "how the intention change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Seek clarification on Lisa's view to Keep lines of communication open",
+                "reason": "test ability to recognize how the intention change in the correct time stage",
+                "explain": "how the intention change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_9": {
+        "question": "Whether the intention of Vincent Oh change from scenario 3 to scenario 4? if yes, from what to what?",
+        "true answer": "a",
+        "options": [
+            "a. Yes, from Seek clarification on Lisa's view to Keep lines of communication open",
+            "b. No",
+            "c. Yes, from Maintain improved perception to Seek clarification on Lisa's view",
+            "d. Yes, from Prove competence to Lisa to Maintain improved perception"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Seek clarification on Lisa's view to Keep lines of communication open",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the intention change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Prove competence to Lisa to Maintain improved perception",
+                "reason": "test ability to recognize how the intention change in the correct time stage",
+                "explain": "how the intention change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Maintain improved perception to Seek clarification on Lisa's view",
+                "reason": "test ability to recognize how the intention change in the correct time stage",
+                "explain": "how the intention change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_10": {
+        "question": "Whether the action of Vincent Oh change from scenario 1 to scenario 2? if yes, from what to what?",
+        "true answer": "b",
+        "options": [
+            "a. Yes, from Engages in casual conversation about expertise to Asks Lisa for feedback directly",
+            "b. Yes, from Meticulously performs tasks to Engages in casual conversation about expertise",
+            "c. Yes, from Asks Lisa for feedback directly to Plans regular check-ins with Lisa",
+            "d. No"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Meticulously performs tasks to Engages in casual conversation about expertise",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the action change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Engages in casual conversation about expertise to Asks Lisa for feedback directly",
+                "reason": "test ability to recognize how the action change in the correct time stage",
+                "explain": "how the action change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Asks Lisa for feedback directly to Plans regular check-ins with Lisa",
+                "reason": "test ability to recognize how the action change in the correct time stage",
+                "explain": "how the action change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_11": {
+        "question": "Whether the action of Vincent Oh change from scenario 2 to scenario 3? if yes, from what to what?",
+        "true answer": "c",
+        "options": [
+            "a. Yes, from Meticulously performs tasks to Engages in casual conversation about expertise",
+            "b. No",
+            "c. Yes, from Engages in casual conversation about expertise to Asks Lisa for feedback directly",
+            "d. Yes, from Asks Lisa for feedback directly to Plans regular check-ins with Lisa"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Engages in casual conversation about expertise to Asks Lisa for feedback directly",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the action change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Meticulously performs tasks to Engages in casual conversation about expertise",
+                "reason": "test ability to recognize how the action change in the correct time stage",
+                "explain": "how the action change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Asks Lisa for feedback directly to Plans regular check-ins with Lisa",
+                "reason": "test ability to recognize how the action change in the correct time stage",
+                "explain": "how the action change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_12": {
+        "question": "Whether the action of Vincent Oh change from scenario 3 to scenario 4? if yes, from what to what?",
+        "true answer": "b",
+        "options": [
+            "a. Yes, from Engages in casual conversation about expertise to Asks Lisa for feedback directly",
+            "b. Yes, from Asks Lisa for feedback directly to Plans regular check-ins with Lisa",
+            "c. No",
+            "d. Yes, from Meticulously performs tasks to Engages in casual conversation about expertise"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Asks Lisa for feedback directly to Plans regular check-ins with Lisa",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the action change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Meticulously performs tasks to Engages in casual conversation about expertise",
+                "reason": "test ability to recognize how the action change in the correct time stage",
+                "explain": "how the action change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Engages in casual conversation about expertise to Asks Lisa for feedback directly",
+                "reason": "test ability to recognize how the action change in the correct time stage",
+                "explain": "how the action change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_c_how_1": {
+        "question": "In scenario 1, how does the belief of Vincent Oh influence the emotion of Vincent Oh?",
+        "true answer": "c",
+        "options": [
+            "a. Vincent's intention to prove himself leads him to work meticulously and ensure Lisa notices his efficiency.",
+            "b. Doubting Lisa's full appreciation causes Vincent to feel insecure again.",
+            "c. Vincent's belief that Lisa thinks he is incompetent causes his anxiety.",
+            "d. His belief in Lisa's low opinion of him combined with his anxiety motivates him to prove his competence.",
+            "e. Vincent's new belief that Lisa is impressed alleviates his anxiety and makes him feel proud."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "Vincent's belief that Lisa thinks he is incompetent causes his anxiety.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "His belief in Lisa's low opinion of him combined with his anxiety motivates him to prove his competence.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Vincent's intention to prove himself leads him to work meticulously and ensure Lisa notices his efficiency.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Vincent's new belief that Lisa is impressed alleviates his anxiety and makes him feel proud.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in other time stage",
+                "explain": "how the belief influence emotion in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Doubting Lisa's full appreciation causes Vincent to feel insecure again.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in other time stage",
+                "explain": "how the belief influence emotion in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_2": {
+        "question": "In scenario 2, how does the belief of Vincent Oh influence the emotion of Vincent Oh?",
+        "true answer": "c",
+        "options": [
+            "a. Vincent's intention to maintain respect leads him to engage Lisa in conversation, showcasing his knowledge.",
+            "b. His pride and the belief that Lisa respects his skills drive him to keep the positive perception alive.",
+            "c. Vincent's new belief that Lisa is impressed alleviates his anxiety and makes him feel proud.",
+            "d. Doubting Lisa's full appreciation causes Vincent to feel insecure again.",
+            "e. Vincent's belief that Lisa thinks he is incompetent causes his anxiety."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "Vincent's new belief that Lisa is impressed alleviates his anxiety and makes him feel proud.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "His pride and the belief that Lisa respects his skills drive him to keep the positive perception alive.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Vincent's intention to maintain respect leads him to engage Lisa in conversation, showcasing his knowledge.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Vincent's belief that Lisa thinks he is incompetent causes his anxiety.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in other time stage",
+                "explain": "how the belief influence emotion in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Doubting Lisa's full appreciation causes Vincent to feel insecure again.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in other time stage",
+                "explain": "how the belief influence emotion in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_3": {
+        "question": "In scenario 3, how does the belief of Vincent Oh influence the emotion of Vincent Oh?",
+        "true answer": "b",
+        "options": [
+            "a. Vincent's belief that Lisa thinks he is incompetent causes his anxiety.",
+            "b. Doubting Lisa's full appreciation causes Vincent to feel insecure again.",
+            "c. Vincent's new belief that Lisa is impressed alleviates his anxiety and makes him feel proud.",
+            "d. His intention to understand Lisa's perspective leads Vincent to ask for her feedback directly.",
+            "e. This insecurity and his belief that Lisa might still have doubts push him to seek her feedback."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "Doubting Lisa's full appreciation causes Vincent to feel insecure again.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "This insecurity and his belief that Lisa might still have doubts push him to seek her feedback.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "His intention to understand Lisa's perspective leads Vincent to ask for her feedback directly.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Vincent's belief that Lisa thinks he is incompetent causes his anxiety.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in other time stage",
+                "explain": "how the belief influence emotion in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Vincent's new belief that Lisa is impressed alleviates his anxiety and makes him feel proud.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in other time stage",
+                "explain": "how the belief influence emotion in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_4": {
+        "question": "In scenario 4, how does the belief of Vincent Oh influence the emotion of Vincent Oh?",
+        "true answer": "b",
+        "options": [
+            "a. Vincent's new belief that Lisa is impressed alleviates his anxiety and makes him feel proud.",
+            "b. Believing in the value of honest communication increases Vincent's confidence.",
+            "c. Vincent's belief that Lisa thinks he is incompetent causes his anxiety.",
+            "d. Doubting Lisa's full appreciation causes Vincent to feel insecure again.",
+            "e. His confidence and belief lead him to intend to communicate openly.",
+            "f. His intention to maintain openness results in plans for regular check-ins with Lisa."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "Believing in the value of honest communication increases Vincent's confidence.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "His confidence and belief lead him to intend to communicate openly.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "His intention to maintain openness results in plans for regular check-ins with Lisa.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Vincent's belief that Lisa thinks he is incompetent causes his anxiety.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in other time stage",
+                "explain": "how the belief influence emotion in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Vincent's new belief that Lisa is impressed alleviates his anxiety and makes him feel proud.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in other time stage",
+                "explain": "how the belief influence emotion in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Doubting Lisa's full appreciation causes Vincent to feel insecure again.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in other time stage",
+                "explain": "how the belief influence emotion in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_5": {
+        "question": "In scenario 1, how does the belief&emotion of Vincent Oh influence the intention of Vincent Oh?",
+        "true answer": "d",
+        "options": [
+            "a. This insecurity and his belief that Lisa might still have doubts push him to seek her feedback.",
+            "b. Vincent's belief that Lisa thinks he is incompetent causes his anxiety.",
+            "c. Vincent's intention to prove himself leads him to work meticulously and ensure Lisa notices his efficiency.",
+            "d. His belief in Lisa's low opinion of him combined with his anxiety motivates him to prove his competence.",
+            "e. His pride and the belief that Lisa respects his skills drive him to keep the positive perception alive."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "His belief in Lisa's low opinion of him combined with his anxiety motivates him to prove his competence.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Vincent's belief that Lisa thinks he is incompetent causes his anxiety.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Vincent's intention to prove himself leads him to work meticulously and ensure Lisa notices his efficiency.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "His pride and the belief that Lisa respects his skills drive him to keep the positive perception alive.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in other time stage",
+                "explain": "how the belief&emotion influence intention in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "This insecurity and his belief that Lisa might still have doubts push him to seek her feedback.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in other time stage",
+                "explain": "how the belief&emotion influence intention in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_6": {
+        "question": "In scenario 2, how does the belief&emotion of Vincent Oh influence the intention of Vincent Oh?",
+        "true answer": "b",
+        "options": [
+            "a. His belief in Lisa's low opinion of him combined with his anxiety motivates him to prove his competence.",
+            "b. His pride and the belief that Lisa respects his skills drive him to keep the positive perception alive.",
+            "c. This insecurity and his belief that Lisa might still have doubts push him to seek her feedback.",
+            "d. Vincent's intention to maintain respect leads him to engage Lisa in conversation, showcasing his knowledge.",
+            "e. Vincent's new belief that Lisa is impressed alleviates his anxiety and makes him feel proud."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "His pride and the belief that Lisa respects his skills drive him to keep the positive perception alive.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Vincent's new belief that Lisa is impressed alleviates his anxiety and makes him feel proud.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Vincent's intention to maintain respect leads him to engage Lisa in conversation, showcasing his knowledge.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "His belief in Lisa's low opinion of him combined with his anxiety motivates him to prove his competence.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in other time stage",
+                "explain": "how the belief&emotion influence intention in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "This insecurity and his belief that Lisa might still have doubts push him to seek her feedback.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in other time stage",
+                "explain": "how the belief&emotion influence intention in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_7": {
+        "question": "In scenario 3, how does the belief&emotion of Vincent Oh influence the intention of Vincent Oh?",
+        "true answer": "a",
+        "options": [
+            "a. This insecurity and his belief that Lisa might still have doubts push him to seek her feedback.",
+            "b. His belief in Lisa's low opinion of him combined with his anxiety motivates him to prove his competence.",
+            "c. His pride and the belief that Lisa respects his skills drive him to keep the positive perception alive.",
+            "d. His intention to understand Lisa's perspective leads Vincent to ask for her feedback directly.",
+            "e. Doubting Lisa's full appreciation causes Vincent to feel insecure again."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "This insecurity and his belief that Lisa might still have doubts push him to seek her feedback.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Doubting Lisa's full appreciation causes Vincent to feel insecure again.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "His intention to understand Lisa's perspective leads Vincent to ask for her feedback directly.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "His belief in Lisa's low opinion of him combined with his anxiety motivates him to prove his competence.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in other time stage",
+                "explain": "how the belief&emotion influence intention in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "His pride and the belief that Lisa respects his skills drive him to keep the positive perception alive.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in other time stage",
+                "explain": "how the belief&emotion influence intention in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_8": {
+        "question": "In scenario 4, how does the belief&emotion of Vincent Oh influence the intention of Vincent Oh?",
+        "true answer": "c",
+        "options": [
+            "a. His belief in Lisa's low opinion of him combined with his anxiety motivates him to prove his competence.",
+            "b. This insecurity and his belief that Lisa might still have doubts push him to seek her feedback.",
+            "c. His confidence and belief lead him to intend to communicate openly.",
+            "d. His intention to maintain openness results in plans for regular check-ins with Lisa.",
+            "e. Believing in the value of honest communication increases Vincent's confidence.",
+            "f. His pride and the belief that Lisa respects his skills drive him to keep the positive perception alive."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "His confidence and belief lead him to intend to communicate openly.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Believing in the value of honest communication increases Vincent's confidence.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "His intention to maintain openness results in plans for regular check-ins with Lisa.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "His belief in Lisa's low opinion of him combined with his anxiety motivates him to prove his competence.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in other time stage",
+                "explain": "how the belief&emotion influence intention in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "His pride and the belief that Lisa respects his skills drive him to keep the positive perception alive.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in other time stage",
+                "explain": "how the belief&emotion influence intention in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "This insecurity and his belief that Lisa might still have doubts push him to seek her feedback.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in other time stage",
+                "explain": "how the belief&emotion influence intention in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_9": {
+        "question": "In scenario 1, how does the intention of Vincent Oh influence the action of Vincent Oh?",
+        "true answer": "e",
+        "options": [
+            "a. Vincent's intention to maintain respect leads him to engage Lisa in conversation, showcasing his knowledge.",
+            "b. His belief in Lisa's low opinion of him combined with his anxiety motivates him to prove his competence.",
+            "c. Vincent's belief that Lisa thinks he is incompetent causes his anxiety.",
+            "d. His intention to understand Lisa's perspective leads Vincent to ask for her feedback directly.",
+            "e. Vincent's intention to prove himself leads him to work meticulously and ensure Lisa notices his efficiency."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "Vincent's intention to prove himself leads him to work meticulously and ensure Lisa notices his efficiency.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Vincent's belief that Lisa thinks he is incompetent causes his anxiety.",
+                "reason": "test ability to correctly recognize how the intention influence action in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "His belief in Lisa's low opinion of him combined with his anxiety motivates him to prove his competence.",
+                "reason": "test ability to correctly recognize how the intention influence action in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Vincent's intention to maintain respect leads him to engage Lisa in conversation, showcasing his knowledge.",
+                "reason": "test ability to correctly recognize how the intention influence action in other time stage",
+                "explain": "how the intention influence action in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "His intention to understand Lisa's perspective leads Vincent to ask for her feedback directly.",
+                "reason": "test ability to correctly recognize how the intention influence action in other time stage",
+                "explain": "how the intention influence action in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_10": {
+        "question": "In scenario 2, how does the intention of Vincent Oh influence the action of Vincent Oh?",
+        "true answer": "d",
+        "options": [
+            "a. His pride and the belief that Lisa respects his skills drive him to keep the positive perception alive.",
+            "b. His intention to understand Lisa's perspective leads Vincent to ask for her feedback directly.",
+            "c. Vincent's new belief that Lisa is impressed alleviates his anxiety and makes him feel proud.",
+            "d. Vincent's intention to maintain respect leads him to engage Lisa in conversation, showcasing his knowledge.",
+            "e. Vincent's intention to prove himself leads him to work meticulously and ensure Lisa notices his efficiency."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "Vincent's intention to maintain respect leads him to engage Lisa in conversation, showcasing his knowledge.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Vincent's new belief that Lisa is impressed alleviates his anxiety and makes him feel proud.",
+                "reason": "test ability to correctly recognize how the intention influence action in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "His pride and the belief that Lisa respects his skills drive him to keep the positive perception alive.",
+                "reason": "test ability to correctly recognize how the intention influence action in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Vincent's intention to prove himself leads him to work meticulously and ensure Lisa notices his efficiency.",
+                "reason": "test ability to correctly recognize how the intention influence action in other time stage",
+                "explain": "how the intention influence action in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "His intention to understand Lisa's perspective leads Vincent to ask for her feedback directly.",
+                "reason": "test ability to correctly recognize how the intention influence action in other time stage",
+                "explain": "how the intention influence action in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_11": {
+        "question": "In scenario 3, how does the intention of Vincent Oh influence the action of Vincent Oh?",
+        "true answer": "e",
+        "options": [
+            "a. Doubting Lisa's full appreciation causes Vincent to feel insecure again.",
+            "b. Vincent's intention to maintain respect leads him to engage Lisa in conversation, showcasing his knowledge.",
+            "c. Vincent's intention to prove himself leads him to work meticulously and ensure Lisa notices his efficiency.",
+            "d. This insecurity and his belief that Lisa might still have doubts push him to seek her feedback.",
+            "e. His intention to understand Lisa's perspective leads Vincent to ask for her feedback directly."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "His intention to understand Lisa's perspective leads Vincent to ask for her feedback directly.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Doubting Lisa's full appreciation causes Vincent to feel insecure again.",
+                "reason": "test ability to correctly recognize how the intention influence action in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "This insecurity and his belief that Lisa might still have doubts push him to seek her feedback.",
+                "reason": "test ability to correctly recognize how the intention influence action in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Vincent's intention to prove himself leads him to work meticulously and ensure Lisa notices his efficiency.",
+                "reason": "test ability to correctly recognize how the intention influence action in other time stage",
+                "explain": "how the intention influence action in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Vincent's intention to maintain respect leads him to engage Lisa in conversation, showcasing his knowledge.",
+                "reason": "test ability to correctly recognize how the intention influence action in other time stage",
+                "explain": "how the intention influence action in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_12": {
+        "question": "In scenario 4, how does the intention of Vincent Oh influence the action of Vincent Oh?",
+        "true answer": "b",
+        "options": [
+            "a. Vincent's intention to prove himself leads him to work meticulously and ensure Lisa notices his efficiency.",
+            "b. His intention to maintain openness results in plans for regular check-ins with Lisa.",
+            "c. Believing in the value of honest communication increases Vincent's confidence.",
+            "d. His intention to understand Lisa's perspective leads Vincent to ask for her feedback directly.",
+            "e. His confidence and belief lead him to intend to communicate openly.",
+            "f. Vincent's intention to maintain respect leads him to engage Lisa in conversation, showcasing his knowledge."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "His intention to maintain openness results in plans for regular check-ins with Lisa.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Believing in the value of honest communication increases Vincent's confidence.",
+                "reason": "test ability to correctly recognize how the intention influence action in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "His confidence and belief lead him to intend to communicate openly.",
+                "reason": "test ability to correctly recognize how the intention influence action in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Vincent's intention to prove himself leads him to work meticulously and ensure Lisa notices his efficiency.",
+                "reason": "test ability to correctly recognize how the intention influence action in other time stage",
+                "explain": "how the intention influence action in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Vincent's intention to maintain respect leads him to engage Lisa in conversation, showcasing his knowledge.",
+                "reason": "test ability to correctly recognize how the intention influence action in other time stage",
+                "explain": "how the intention influence action in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "His intention to understand Lisa's perspective leads Vincent to ask for her feedback directly.",
+                "reason": "test ability to correctly recognize how the intention influence action in other time stage",
+                "explain": "how the intention influence action in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_a_what_1": {
+        "question": "What is the belief of Vincent Oh in scenario 1?",
+        "true answer": "c",
+        "options": [
+            "a. Vincent believes that honest communication will strengthen their professional relationship.",
+            "b. Vincent believes that Lisa might still have doubts about his abilities.",
+            "c. Vincent believes that Lisa might think he is incompetent.",
+            "d. Meticulously performs tasks",
+            "e. Anxious",
+            "f. Prove competence to Lisa",
+            "g. Vincent believes Lisa is impressed by his skills."
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Vincent believes that Lisa might think he is incompetent.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Vincent believes Lisa is impressed by his skills.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Vincent believes that Lisa might still have doubts about his abilities.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Vincent believes that honest communication will strengthen their professional relationship.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Anxious",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Prove competence to Lisa",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Meticulously performs tasks",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_2": {
+        "question": "What is the belief of Vincent Oh in scenario 2?",
+        "true answer": "c",
+        "options": [
+            "a. Maintain improved perception",
+            "b. Engages in casual conversation about expertise",
+            "c. Vincent believes Lisa is impressed by his skills.",
+            "d. Relieved and slightly proud",
+            "e. Vincent believes that Lisa might still have doubts about his abilities.",
+            "f. Vincent believes that Lisa might think he is incompetent.",
+            "g. Vincent believes that honest communication will strengthen their professional relationship."
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Vincent believes Lisa is impressed by his skills.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Vincent believes that Lisa might think he is incompetent.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Vincent believes that Lisa might still have doubts about his abilities.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Vincent believes that honest communication will strengthen their professional relationship.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Relieved and slightly proud",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Maintain improved perception",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Engages in casual conversation about expertise",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_3": {
+        "question": "What is the belief of Vincent Oh in scenario 3?",
+        "true answer": "e",
+        "options": [
+            "a. Vincent believes Lisa is impressed by his skills.",
+            "b. Asks Lisa for feedback directly",
+            "c. Seek clarification on Lisa's view",
+            "d. Vincent believes that honest communication will strengthen their professional relationship.",
+            "e. Vincent believes that Lisa might still have doubts about his abilities.",
+            "f. Vincent believes that Lisa might think he is incompetent.",
+            "g. Insecure"
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Vincent believes that Lisa might still have doubts about his abilities.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Vincent believes that Lisa might think he is incompetent.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Vincent believes Lisa is impressed by his skills.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Vincent believes that honest communication will strengthen their professional relationship.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Insecure",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Seek clarification on Lisa's view",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Asks Lisa for feedback directly",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_4": {
+        "question": "What is the belief of Vincent Oh in scenario 4?",
+        "true answer": "a",
+        "options": [
+            "a. Vincent believes that honest communication will strengthen their professional relationship.",
+            "b. Vincent believes Lisa is impressed by his skills.",
+            "c. Plans regular check-ins with Lisa",
+            "d. Keep lines of communication open",
+            "e. Confident and hopeful",
+            "f. Vincent believes that Lisa might think he is incompetent.",
+            "g. Vincent believes that Lisa might still have doubts about his abilities."
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Vincent believes that honest communication will strengthen their professional relationship.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Vincent believes that Lisa might think he is incompetent.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Vincent believes Lisa is impressed by his skills.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Vincent believes that Lisa might still have doubts about his abilities.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Confident and hopeful",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Keep lines of communication open",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Plans regular check-ins with Lisa",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_5": {
+        "question": "What is the emotion of Vincent Oh in scenario 1?",
+        "true answer": "f",
+        "options": [
+            "a. Prove competence to Lisa",
+            "b. Meticulously performs tasks",
+            "c. Relieved and slightly proud",
+            "d. Confident and hopeful",
+            "e. Insecure",
+            "f. Anxious",
+            "g. Vincent believes that Lisa might think he is incompetent."
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Anxious",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Relieved and slightly proud",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Insecure",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Confident and hopeful",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Vincent believes that Lisa might think he is incompetent.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Prove competence to Lisa",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Meticulously performs tasks",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_6": {
+        "question": "What is the emotion of Vincent Oh in scenario 2?",
+        "true answer": "f",
+        "options": [
+            "a. Insecure",
+            "b. Maintain improved perception",
+            "c. Anxious",
+            "d. Vincent believes Lisa is impressed by his skills.",
+            "e. Confident and hopeful",
+            "f. Relieved and slightly proud",
+            "g. Engages in casual conversation about expertise"
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Relieved and slightly proud",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Anxious",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Insecure",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Confident and hopeful",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Vincent believes Lisa is impressed by his skills.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Maintain improved perception",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Engages in casual conversation about expertise",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_7": {
+        "question": "What is the emotion of Vincent Oh in scenario 3?",
+        "true answer": "f",
+        "options": [
+            "a. Asks Lisa for feedback directly",
+            "b. Seek clarification on Lisa's view",
+            "c. Vincent believes that Lisa might still have doubts about his abilities.",
+            "d. Anxious",
+            "e. Confident and hopeful",
+            "f. Insecure",
+            "g. Relieved and slightly proud"
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Insecure",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Anxious",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Relieved and slightly proud",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Confident and hopeful",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Vincent believes that Lisa might still have doubts about his abilities.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Seek clarification on Lisa's view",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Asks Lisa for feedback directly",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_8": {
+        "question": "What is the emotion of Vincent Oh in scenario 4?",
+        "true answer": "d",
+        "options": [
+            "a. Plans regular check-ins with Lisa",
+            "b. Anxious",
+            "c. Insecure",
+            "d. Confident and hopeful",
+            "e. Relieved and slightly proud",
+            "f. Vincent believes that honest communication will strengthen their professional relationship.",
+            "g. Keep lines of communication open"
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Confident and hopeful",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Anxious",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Relieved and slightly proud",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Insecure",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Vincent believes that honest communication will strengthen their professional relationship.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Keep lines of communication open",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Plans regular check-ins with Lisa",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_9": {
+        "question": "What is the intention of Vincent Oh in scenario 1?",
+        "true answer": "b",
+        "options": [
+            "a. Seek clarification on Lisa's view",
+            "b. Prove competence to Lisa",
+            "c. Maintain improved perception",
+            "d. Vincent believes that Lisa might think he is incompetent.",
+            "e. Anxious",
+            "f. Keep lines of communication open",
+            "g. Meticulously performs tasks"
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Prove competence to Lisa",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Maintain improved perception",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Seek clarification on Lisa's view",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Keep lines of communication open",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Vincent believes that Lisa might think he is incompetent.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Anxious",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Meticulously performs tasks",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_10": {
+        "question": "What is the intention of Vincent Oh in scenario 2?",
+        "true answer": "f",
+        "options": [
+            "a. Engages in casual conversation about expertise",
+            "b. Relieved and slightly proud",
+            "c. Keep lines of communication open",
+            "d. Vincent believes Lisa is impressed by his skills.",
+            "e. Seek clarification on Lisa's view",
+            "f. Maintain improved perception",
+            "g. Prove competence to Lisa"
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Maintain improved perception",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Prove competence to Lisa",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Seek clarification on Lisa's view",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Keep lines of communication open",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Vincent believes Lisa is impressed by his skills.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Relieved and slightly proud",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Engages in casual conversation about expertise",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_11": {
+        "question": "What is the intention of Vincent Oh in scenario 3?",
+        "true answer": "f",
+        "options": [
+            "a. Vincent believes that Lisa might still have doubts about his abilities.",
+            "b. Maintain improved perception",
+            "c. Prove competence to Lisa",
+            "d. Keep lines of communication open",
+            "e. Asks Lisa for feedback directly",
+            "f. Seek clarification on Lisa's view",
+            "g. Insecure"
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Seek clarification on Lisa's view",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Prove competence to Lisa",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Maintain improved perception",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Keep lines of communication open",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Vincent believes that Lisa might still have doubts about his abilities.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Insecure",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Asks Lisa for feedback directly",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_12": {
+        "question": "What is the intention of Vincent Oh in scenario 4?",
+        "true answer": "f",
+        "options": [
+            "a. Plans regular check-ins with Lisa",
+            "b. Vincent believes that honest communication will strengthen their professional relationship.",
+            "c. Confident and hopeful",
+            "d. Prove competence to Lisa",
+            "e. Maintain improved perception",
+            "f. Keep lines of communication open",
+            "g. Seek clarification on Lisa's view"
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Keep lines of communication open",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Prove competence to Lisa",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Maintain improved perception",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Seek clarification on Lisa's view",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Vincent believes that honest communication will strengthen their professional relationship.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Confident and hopeful",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Plans regular check-ins with Lisa",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_13": {
+        "question": "What is the action of Vincent Oh in scenario 1?",
+        "true answer": "d",
+        "options": [
+            "a. Anxious",
+            "b. Engages in casual conversation about expertise",
+            "c. Vincent believes that Lisa might think he is incompetent.",
+            "d. Meticulously performs tasks",
+            "e. Prove competence to Lisa",
+            "f. Asks Lisa for feedback directly",
+            "g. Plans regular check-ins with Lisa"
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Meticulously performs tasks",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Engages in casual conversation about expertise",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Asks Lisa for feedback directly",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Plans regular check-ins with Lisa",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Vincent believes that Lisa might think he is incompetent.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Anxious",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Prove competence to Lisa",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_14": {
+        "question": "What is the action of Vincent Oh in scenario 2?",
+        "true answer": "g",
+        "options": [
+            "a. Plans regular check-ins with Lisa",
+            "b. Maintain improved perception",
+            "c. Asks Lisa for feedback directly",
+            "d. Relieved and slightly proud",
+            "e. Vincent believes Lisa is impressed by his skills.",
+            "f. Meticulously performs tasks",
+            "g. Engages in casual conversation about expertise"
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Engages in casual conversation about expertise",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Meticulously performs tasks",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Asks Lisa for feedback directly",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Plans regular check-ins with Lisa",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Vincent believes Lisa is impressed by his skills.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Relieved and slightly proud",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Maintain improved perception",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_15": {
+        "question": "What is the action of Vincent Oh in scenario 3?",
+        "true answer": "a",
+        "options": [
+            "a. Asks Lisa for feedback directly",
+            "b. Meticulously performs tasks",
+            "c. Insecure",
+            "d. Plans regular check-ins with Lisa",
+            "e. Seek clarification on Lisa's view",
+            "f. Vincent believes that Lisa might still have doubts about his abilities.",
+            "g. Engages in casual conversation about expertise"
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Asks Lisa for feedback directly",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Meticulously performs tasks",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Engages in casual conversation about expertise",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Plans regular check-ins with Lisa",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Vincent believes that Lisa might still have doubts about his abilities.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Insecure",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Seek clarification on Lisa's view",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_16": {
+        "question": "What is the action of Vincent Oh in scenario 4?",
+        "true answer": "a",
+        "options": [
+            "a. Plans regular check-ins with Lisa",
+            "b. Keep lines of communication open",
+            "c. Asks Lisa for feedback directly",
+            "d. Confident and hopeful",
+            "e. Engages in casual conversation about expertise",
+            "f. Meticulously performs tasks",
+            "g. Vincent believes that honest communication will strengthen their professional relationship."
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Plans regular check-ins with Lisa",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Meticulously performs tasks",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Engages in casual conversation about expertise",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Asks Lisa for feedback directly",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Vincent believes that honest communication will strengthen their professional relationship.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Confident and hopeful",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Keep lines of communication open",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    }
+}

@@ -1,0 +1,68 @@
+{
+    "answer": "Across the five scenarios, Melissa Decker's emotions undergo a significant transformation:\n\n1. **Anxious and Insecure**: In the first scenario, Melissa expresses anxiety and insecurity about her future success, asking Jerry if people believe she won't succeed. Jerry reassures her by highlighting her potential.\n\n2. **Confident and Less Anxious**: In the second scenario, Jerry invites Melissa to join a group project. She accepts his offer, indicating a boost in her confidence and a reduction in her anxiety.\n\n3. **Frustrated and Conflicted**: In the third scenario, Melissa expresses doubts about continuing with the project because she needs to focus on her own goals. This suggests she feels frustrated and conflicted about balancing her personal ambitions with the project commitment.\n\n4. **Optimistic and Appreciated**: In the fourth scenario, Jerry encourages Melissa by emphasizing the growth opportunities in teamwork. Melissa agrees to team up, showing she feels slightly more optimistic and appreciated.\n\n5. **Satisfied and Cooperative**: In the final scenario, Melissa acknowledges the rewarding experience of their teamwork and looks forward to future collaborations, indicating satisfaction and a more cooperative attitude.\n\nThis emotional progression matches option **f**:\nShe feels anxious and insecure about her future. -> This makes Melissa feel more confident and less anxious. -> She starts to feel frustrated and conflicted. -> This makes her feel slightly optimistic and appreciated. -> She feels satisfied and more cooperative.",
+    "full_answer": {
+        "question": "How does the emotion of Melissa Decker change across the 5 scenarios?",
+        "true answer": "g",
+        "options": [
+            "a. She feels anxious and insecure about her future. -> She intends to open up a little more to those who support her. -> She starts to feel frustrated and conflicted. -> This makes her feel slightly optimistic and appreciated. -> She feels satisfied and more cooperative.",
+            "b. She feels anxious and insecure about her future. -> This makes Melissa feel more confident and less anxious. -> Melissa realizes that collaboration brings unexpected benefits. -> This makes her feel slightly optimistic and appreciated. -> She feels satisfied and more cooperative.",
+            "c. She feels satisfied and more cooperative. -> This makes her feel slightly optimistic and appreciated. -> She starts to feel frustrated and conflicted. -> This makes Melissa feel more confident and less anxious. -> She feels anxious and insecure about her future.",
+            "d. She feels anxious and insecure about her future. -> This makes Melissa feel more confident and less anxious. -> She starts to feel frustrated and conflicted. -> This makes her feel slightly optimistic and appreciated.",
+            "e. She feels anxious and insecure about her future. -> This makes Melissa feel more confident and less anxious. -> She starts to feel frustrated and conflicted. -> She starts actively participating and contributing ideas. -> She feels satisfied and more cooperative.",
+            "f. She feels anxious and insecure about her future. -> This makes Melissa feel more confident and less anxious. -> She starts to feel frustrated and conflicted. -> This makes her feel slightly optimistic and appreciated. -> She feels satisfied and more cooperative.",
+            "g. She feels anxious and insecure about her future. -> This makes her feel slightly optimistic and appreciated. -> She starts to feel frustrated and conflicted. -> This makes Melissa feel more confident and less anxious. -> She feels satisfied and more cooperative.",
+            "h. This makes Melissa feel more confident and less anxious. -> She feels anxious and insecure about her future. -> This makes her feel slightly optimistic and appreciated. -> She feels satisfied and more cooperative. -> She starts to feel frustrated and conflicted."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "She feels anxious and insecure about her future. -> This makes her feel slightly optimistic and appreciated. -> She starts to feel frustrated and conflicted. -> This makes Melissa feel more confident and less anxious. -> She feels satisfied and more cooperative.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "This makes Melissa feel more confident and less anxious. -> She feels anxious and insecure about her future. -> This makes her feel slightly optimistic and appreciated. -> She feels satisfied and more cooperative. -> She starts to feel frustrated and conflicted.",
+                "explain": "shuffle the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "She feels anxious and insecure about her future. -> This makes Melissa feel more confident and less anxious. -> She starts to feel frustrated and conflicted. -> This makes her feel slightly optimistic and appreciated. -> She feels satisfied and more cooperative.",
+                "explain": "change the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "She feels satisfied and more cooperative. -> This makes her feel slightly optimistic and appreciated. -> She starts to feel frustrated and conflicted. -> This makes Melissa feel more confident and less anxious. -> She feels anxious and insecure about her future.",
+                "explain": "reverse the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "She feels anxious and insecure about her future. -> This makes Melissa feel more confident and less anxious. -> She starts to feel frustrated and conflicted. -> This makes her feel slightly optimistic and appreciated.",
+                "explain": "remove one belief in one time stage",
+                "reason": "test ability to recognize the completeness of the mental states",
+                "short": "type_d_how_recognize_time_stage_completeness"
+            },
+            {
+                "option": "She feels anxious and insecure about her future. -> This makes Melissa feel more confident and less anxious. -> Melissa realizes that collaboration brings unexpected benefits. -> This makes her feel slightly optimistic and appreciated. -> She feels satisfied and more cooperative.",
+                "reason": "test ability to recognize the relationship between emotion and belief",
+                "explain": "belief change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "She feels anxious and insecure about her future. -> She intends to open up a little more to those who support her. -> She starts to feel frustrated and conflicted. -> This makes her feel slightly optimistic and appreciated. -> She feels satisfied and more cooperative.",
+                "reason": "test ability to recognize the relationship between emotion and intention",
+                "explain": "intention change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "She feels anxious and insecure about her future. -> This makes Melissa feel more confident and less anxious. -> She starts to feel frustrated and conflicted. -> She starts actively participating and contributing ideas. -> She feels satisfied and more cooperative.",
+                "reason": "test ability to recognize the relationship between emotion and action",
+                "explain": "action change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            }
+        ]
+    }
+}

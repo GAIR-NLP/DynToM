@@ -1,0 +1,3299 @@
+{
+    "type_d_how_1": {
+        "question": "How does the belief of Abigail Grandberry change across the 4 scenarios?",
+        "true answer": "a",
+        "options": [
+            "Abigail believes that Samuel is content with his job as a banker. -> Abigail starts to believe that Samuel isn't entirely happy with his current job. -> Abigail believes Samuel wants to change careers but doesn't know how. -> Abigail now believes Samuel has a plan to explore a new career path.",
+            "Abigail believes that Samuel is content with his job as a banker. -> Abigail now believes Samuel has a plan to explore a new career path. -> Abigail starts to believe that Samuel isn't entirely happy with his current job. -> Abigail believes Samuel wants to change careers but doesn't know how.",
+            "Abigail starts to believe that Samuel isn't entirely happy with his current job. -> Abigail believes that Samuel is content with his job as a banker. -> Abigail believes Samuel wants to change careers but doesn't know how. -> Abigail now believes Samuel has a plan to explore a new career path.",
+            "Abigail now believes Samuel has a plan to explore a new career path. -> Abigail believes Samuel wants to change careers but doesn't know how. -> Abigail believes that Samuel is content with his job as a banker. -> Abigail starts to believe that Samuel isn't entirely happy with his current job.",
+            "Abigail believes that Samuel is content with his job as a banker. -> Abigail believes Samuel wants to change careers but doesn't know how. -> Abigail now believes Samuel has a plan to explore a new career path.",
+            "Abigail starts to believe that Samuel isn't entirely happy with his current job. -> Abigail begins to feel concerned for Samuel. -> Abigail believes Samuel wants to change careers but doesn't know how. -> Abigail now believes Samuel has a plan to explore a new career path.",
+            "Abigail intends to catch up and have a light-hearted conversation. -> Abigail believes that Samuel is content with his job as a banker. -> Abigail believes Samuel wants to change careers but doesn't know how. -> Abigail now believes Samuel has a plan to explore a new career path.",
+            "Abigail starts to believe that Samuel isn't entirely happy with his current job. -> Abigail asks Samuel more probing questions about his job satisfaction. -> Abigail believes Samuel wants to change careers but doesn't know how. -> Abigail now believes Samuel has a plan to explore a new career path."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Abigail believes that Samuel is content with his job as a banker. -> Abigail starts to believe that Samuel isn't entirely happy with his current job. -> Abigail believes Samuel wants to change careers but doesn't know how. -> Abigail now believes Samuel has a plan to explore a new career path.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Abigail believes that Samuel is content with his job as a banker. -> Abigail now believes Samuel has a plan to explore a new career path. -> Abigail starts to believe that Samuel isn't entirely happy with his current job. -> Abigail believes Samuel wants to change careers but doesn't know how.",
+                "explain": "shuffle the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Abigail starts to believe that Samuel isn't entirely happy with his current job. -> Abigail believes that Samuel is content with his job as a banker. -> Abigail believes Samuel wants to change careers but doesn't know how. -> Abigail now believes Samuel has a plan to explore a new career path.",
+                "explain": "change the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Abigail now believes Samuel has a plan to explore a new career path. -> Abigail believes Samuel wants to change careers but doesn't know how. -> Abigail believes that Samuel is content with his job as a banker. -> Abigail starts to believe that Samuel isn't entirely happy with his current job.",
+                "explain": "reverse the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Abigail believes that Samuel is content with his job as a banker. -> Abigail believes Samuel wants to change careers but doesn't know how. -> Abigail now believes Samuel has a plan to explore a new career path.",
+                "explain": "remove one belief in one time stage",
+                "reason": "test ability to recognize the completeness of the mental states",
+                "short": "type_d_how_recognize_time_stage_completeness"
+            },
+            {
+                "option": "Abigail starts to believe that Samuel isn't entirely happy with his current job. -> Abigail begins to feel concerned for Samuel. -> Abigail believes Samuel wants to change careers but doesn't know how. -> Abigail now believes Samuel has a plan to explore a new career path.",
+                "reason": "test ability to recognize the relationship between belief and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Abigail intends to catch up and have a light-hearted conversation. -> Abigail believes that Samuel is content with his job as a banker. -> Abigail believes Samuel wants to change careers but doesn't know how. -> Abigail now believes Samuel has a plan to explore a new career path.",
+                "reason": "test ability to recognize the relationship between belief and intention",
+                "explain": "intention change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Abigail starts to believe that Samuel isn't entirely happy with his current job. -> Abigail asks Samuel more probing questions about his job satisfaction. -> Abigail believes Samuel wants to change careers but doesn't know how. -> Abigail now believes Samuel has a plan to explore a new career path.",
+                "reason": "test ability to recognize the relationship between belief and action",
+                "explain": "action change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_how_2": {
+        "question": "How does the emotion of Abigail Grandberry change across the 4 scenarios?",
+        "true answer": "a",
+        "options": [
+            "Abigail feels relieved to see Samuel after so many years. -> Abigail begins to feel concerned for Samuel. -> Abigail feels a sense of empathy for Samuel's uncertainty. -> Abigail feels hopeful for Samuel's future.",
+            "Abigail feels hopeful for Samuel's future. -> Abigail feels a sense of empathy for Samuel's uncertainty. -> Abigail begins to feel concerned for Samuel. -> Abigail feels relieved to see Samuel after so many years.",
+            "Abigail feels a sense of empathy for Samuel's uncertainty. -> Abigail begins to feel concerned for Samuel. -> Abigail feels relieved to see Samuel after so many years. -> Abigail feels hopeful for Samuel's future.",
+            "Abigail feels hopeful for Samuel's future. -> Abigail feels relieved to see Samuel after so many years. -> Abigail begins to feel concerned for Samuel. -> Abigail feels a sense of empathy for Samuel's uncertainty.",
+            "Abigail feels a sense of empathy for Samuel's uncertainty. -> Abigail begins to feel concerned for Samuel. -> Abigail feels hopeful for Samuel's future.",
+            "Abigail starts to believe that Samuel isn't entirely happy with his current job. -> Abigail begins to feel concerned for Samuel. -> Abigail feels relieved to see Samuel after so many years. -> Abigail feels hopeful for Samuel's future.",
+            "Abigail feels a sense of empathy for Samuel's uncertainty. -> Abigail begins to feel concerned for Samuel. -> Abigail intends to offer him guidance on career change options. -> Abigail feels hopeful for Samuel's future.",
+            "Abigail feels a sense of empathy for Samuel's uncertainty. -> Abigail begins to feel concerned for Samuel. -> Abigail shares her experiences and gives Samuel suggestions on how to transition careers. -> Abigail feels hopeful for Samuel's future."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Abigail feels relieved to see Samuel after so many years. -> Abigail begins to feel concerned for Samuel. -> Abigail feels a sense of empathy for Samuel's uncertainty. -> Abigail feels hopeful for Samuel's future.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Abigail feels hopeful for Samuel's future. -> Abigail feels a sense of empathy for Samuel's uncertainty. -> Abigail begins to feel concerned for Samuel. -> Abigail feels relieved to see Samuel after so many years.",
+                "explain": "shuffle the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Abigail feels a sense of empathy for Samuel's uncertainty. -> Abigail begins to feel concerned for Samuel. -> Abigail feels relieved to see Samuel after so many years. -> Abigail feels hopeful for Samuel's future.",
+                "explain": "change the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Abigail feels hopeful for Samuel's future. -> Abigail feels relieved to see Samuel after so many years. -> Abigail begins to feel concerned for Samuel. -> Abigail feels a sense of empathy for Samuel's uncertainty.",
+                "explain": "reverse the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Abigail feels a sense of empathy for Samuel's uncertainty. -> Abigail begins to feel concerned for Samuel. -> Abigail feels hopeful for Samuel's future.",
+                "explain": "remove one belief in one time stage",
+                "reason": "test ability to recognize the completeness of the mental states",
+                "short": "type_d_how_recognize_time_stage_completeness"
+            },
+            {
+                "option": "Abigail starts to believe that Samuel isn't entirely happy with his current job. -> Abigail begins to feel concerned for Samuel. -> Abigail feels relieved to see Samuel after so many years. -> Abigail feels hopeful for Samuel's future.",
+                "reason": "test ability to recognize the relationship between emotion and belief",
+                "explain": "belief change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Abigail feels a sense of empathy for Samuel's uncertainty. -> Abigail begins to feel concerned for Samuel. -> Abigail intends to offer him guidance on career change options. -> Abigail feels hopeful for Samuel's future.",
+                "reason": "test ability to recognize the relationship between emotion and intention",
+                "explain": "intention change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Abigail feels a sense of empathy for Samuel's uncertainty. -> Abigail begins to feel concerned for Samuel. -> Abigail shares her experiences and gives Samuel suggestions on how to transition careers. -> Abigail feels hopeful for Samuel's future.",
+                "reason": "test ability to recognize the relationship between emotion and action",
+                "explain": "action change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_how_3": {
+        "question": "How does the intention of Abigail Grandberry change across the 4 scenarios?",
+        "true answer": "a",
+        "options": [
+            "Abigail intends to catch up and have a light-hearted conversation. -> Abigail intends to dig deeper into Samuel's feelings about his job. -> Abigail intends to offer him guidance on career change options. -> Abigail intends to encourage and support Samuel's new plans.",
+            "Abigail intends to offer him guidance on career change options. -> Abigail intends to encourage and support Samuel's new plans. -> Abigail intends to dig deeper into Samuel's feelings about his job. -> Abigail intends to catch up and have a light-hearted conversation.",
+            "Abigail intends to offer him guidance on career change options. -> Abigail intends to dig deeper into Samuel's feelings about his job. -> Abigail intends to catch up and have a light-hearted conversation. -> Abigail intends to encourage and support Samuel's new plans.",
+            "Abigail intends to encourage and support Samuel's new plans. -> Abigail intends to catch up and have a light-hearted conversation. -> Abigail intends to dig deeper into Samuel's feelings about his job. -> Abigail intends to offer him guidance on career change options.",
+            "Abigail intends to dig deeper into Samuel's feelings about his job. -> Abigail intends to catch up and have a light-hearted conversation. -> Abigail intends to encourage and support Samuel's new plans.",
+            "Abigail starts to believe that Samuel isn't entirely happy with his current job. -> Abigail intends to dig deeper into Samuel's feelings about his job. -> Abigail intends to catch up and have a light-hearted conversation. -> Abigail intends to encourage and support Samuel's new plans.",
+            "Abigail intends to offer him guidance on career change options. -> Abigail intends to dig deeper into Samuel's feelings about his job. -> Abigail intends to catch up and have a light-hearted conversation. -> Abigail feels hopeful for Samuel's future.",
+            "Abigail strikes a casual conversation with Samuel about life. -> Abigail intends to dig deeper into Samuel's feelings about his job. -> Abigail intends to catch up and have a light-hearted conversation. -> Abigail intends to encourage and support Samuel's new plans."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Abigail intends to catch up and have a light-hearted conversation. -> Abigail intends to dig deeper into Samuel's feelings about his job. -> Abigail intends to offer him guidance on career change options. -> Abigail intends to encourage and support Samuel's new plans.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Abigail intends to offer him guidance on career change options. -> Abigail intends to encourage and support Samuel's new plans. -> Abigail intends to dig deeper into Samuel's feelings about his job. -> Abigail intends to catch up and have a light-hearted conversation.",
+                "explain": "shuffle the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Abigail intends to offer him guidance on career change options. -> Abigail intends to dig deeper into Samuel's feelings about his job. -> Abigail intends to catch up and have a light-hearted conversation. -> Abigail intends to encourage and support Samuel's new plans.",
+                "explain": "change the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Abigail intends to encourage and support Samuel's new plans. -> Abigail intends to catch up and have a light-hearted conversation. -> Abigail intends to dig deeper into Samuel's feelings about his job. -> Abigail intends to offer him guidance on career change options.",
+                "explain": "reverse the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Abigail intends to dig deeper into Samuel's feelings about his job. -> Abigail intends to catch up and have a light-hearted conversation. -> Abigail intends to encourage and support Samuel's new plans.",
+                "explain": "remove one belief in one time stage",
+                "reason": "test ability to recognize the completeness of the mental states",
+                "short": "type_d_how_recognize_time_stage_completeness"
+            },
+            {
+                "option": "Abigail starts to believe that Samuel isn't entirely happy with his current job. -> Abigail intends to dig deeper into Samuel's feelings about his job. -> Abigail intends to catch up and have a light-hearted conversation. -> Abigail intends to encourage and support Samuel's new plans.",
+                "reason": "test ability to recognize the relationship between intention and belief",
+                "explain": "belief change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Abigail intends to offer him guidance on career change options. -> Abigail intends to dig deeper into Samuel's feelings about his job. -> Abigail intends to catch up and have a light-hearted conversation. -> Abigail feels hopeful for Samuel's future.",
+                "reason": "test ability to recognize the relationship between intention and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Abigail strikes a casual conversation with Samuel about life. -> Abigail intends to dig deeper into Samuel's feelings about his job. -> Abigail intends to catch up and have a light-hearted conversation. -> Abigail intends to encourage and support Samuel's new plans.",
+                "reason": "test ability to recognize the relationship between intention and action",
+                "explain": "action change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_how_4": {
+        "question": "How does the action of Abigail Grandberry change across the 4 scenarios?",
+        "true answer": "a",
+        "options": [
+            "Abigail strikes a casual conversation with Samuel about life. -> Abigail asks Samuel more probing questions about his job satisfaction. -> Abigail shares her experiences and gives Samuel suggestions on how to transition careers. -> Abigail offers to connect Samuel with some of her professional contacts.",
+            "Abigail shares her experiences and gives Samuel suggestions on how to transition careers. -> Abigail asks Samuel more probing questions about his job satisfaction. -> Abigail offers to connect Samuel with some of her professional contacts. -> Abigail strikes a casual conversation with Samuel about life.",
+            "Abigail strikes a casual conversation with Samuel about life. -> Abigail asks Samuel more probing questions about his job satisfaction. -> Abigail offers to connect Samuel with some of her professional contacts. -> Abigail shares her experiences and gives Samuel suggestions on how to transition careers.",
+            "Abigail shares her experiences and gives Samuel suggestions on how to transition careers. -> Abigail offers to connect Samuel with some of her professional contacts. -> Abigail asks Samuel more probing questions about his job satisfaction. -> Abigail strikes a casual conversation with Samuel about life.",
+            "Abigail asks Samuel more probing questions about his job satisfaction. -> Abigail offers to connect Samuel with some of her professional contacts. -> Abigail shares her experiences and gives Samuel suggestions on how to transition careers.",
+            "Abigail strikes a casual conversation with Samuel about life. -> Abigail asks Samuel more probing questions about his job satisfaction. -> Abigail believes Samuel wants to change careers but doesn't know how. -> Abigail shares her experiences and gives Samuel suggestions on how to transition careers.",
+            "Abigail strikes a casual conversation with Samuel about life. -> Abigail begins to feel concerned for Samuel. -> Abigail offers to connect Samuel with some of her professional contacts. -> Abigail shares her experiences and gives Samuel suggestions on how to transition careers.",
+            "Abigail strikes a casual conversation with Samuel about life. -> Abigail asks Samuel more probing questions about his job satisfaction. -> Abigail offers to connect Samuel with some of her professional contacts. -> Abigail intends to encourage and support Samuel's new plans."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Abigail strikes a casual conversation with Samuel about life. -> Abigail asks Samuel more probing questions about his job satisfaction. -> Abigail shares her experiences and gives Samuel suggestions on how to transition careers. -> Abigail offers to connect Samuel with some of her professional contacts.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Abigail shares her experiences and gives Samuel suggestions on how to transition careers. -> Abigail asks Samuel more probing questions about his job satisfaction. -> Abigail offers to connect Samuel with some of her professional contacts. -> Abigail strikes a casual conversation with Samuel about life.",
+                "explain": "shuffle the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Abigail strikes a casual conversation with Samuel about life. -> Abigail asks Samuel more probing questions about his job satisfaction. -> Abigail offers to connect Samuel with some of her professional contacts. -> Abigail shares her experiences and gives Samuel suggestions on how to transition careers.",
+                "explain": "change the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Abigail shares her experiences and gives Samuel suggestions on how to transition careers. -> Abigail offers to connect Samuel with some of her professional contacts. -> Abigail asks Samuel more probing questions about his job satisfaction. -> Abigail strikes a casual conversation with Samuel about life.",
+                "explain": "reverse the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Abigail asks Samuel more probing questions about his job satisfaction. -> Abigail offers to connect Samuel with some of her professional contacts. -> Abigail shares her experiences and gives Samuel suggestions on how to transition careers.",
+                "explain": "remove one belief in one time stage",
+                "reason": "test ability to recognize the completeness of the mental states",
+                "short": "type_d_how_recognize_time_stage_completeness"
+            },
+            {
+                "option": "Abigail strikes a casual conversation with Samuel about life. -> Abigail asks Samuel more probing questions about his job satisfaction. -> Abigail believes Samuel wants to change careers but doesn't know how. -> Abigail shares her experiences and gives Samuel suggestions on how to transition careers.",
+                "reason": "test ability to recognize the relationship between action and belief",
+                "explain": "belief change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Abigail strikes a casual conversation with Samuel about life. -> Abigail begins to feel concerned for Samuel. -> Abigail offers to connect Samuel with some of her professional contacts. -> Abigail shares her experiences and gives Samuel suggestions on how to transition careers.",
+                "reason": "test ability to recognize the relationship between action and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Abigail strikes a casual conversation with Samuel about life. -> Abigail asks Samuel more probing questions about his job satisfaction. -> Abigail offers to connect Samuel with some of her professional contacts. -> Abigail intends to encourage and support Samuel's new plans.",
+                "reason": "test ability to recognize the relationship between action and intention",
+                "explain": "intention change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_1": {
+        "question": "Why does the belief of Abigail Grandberry change from scenario 1 to scenario 2?",
+        "true answer": "a",
+        "options": [
+            "Samuel's responses indicate dissatisfaction",
+            "Further conversation reveals his uncertainty",
+            "Samuel shares his initial career change plans.",
+            "Belief in Samuel\u2019s potential dissatisfaction",
+            "Learning more about Samuel's feelings",
+            "Samuel\u2019s new plan for career change.",
+            "Concern growing from light-hearted conversation",
+            "Understanding Samuel\u2019s career doubts",
+            "Hope from Samuel\u2019s plan.",
+            "From casual to probing based on concerns",
+            "Moving from questions to offering help",
+            "From guidance to direct support."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Samuel's responses indicate dissatisfaction",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Further conversation reveals his uncertainty",
+                "reason": "test ability to recognize the reason of belief change in different time stage",
+                "explain": "belief change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Samuel shares his initial career change plans.",
+                "reason": "test ability to recognize the reason of belief change in different time stage",
+                "explain": "belief change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Belief in Samuel\u2019s potential dissatisfaction",
+                "reason": "test ability to recognize the reason between belief and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Learning more about Samuel's feelings",
+                "reason": "test ability to recognize the reason between belief and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Samuel\u2019s new plan for career change.",
+                "reason": "test ability to recognize the reason between belief and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Concern growing from light-hearted conversation",
+                "reason": "test ability to recognize the reason between belief and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Understanding Samuel\u2019s career doubts",
+                "reason": "test ability to recognize the reason between belief and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Hope from Samuel\u2019s plan.",
+                "reason": "test ability to recognize the reason between belief and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "From casual to probing based on concerns",
+                "reason": "test ability to recognize the reason between belief and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Moving from questions to offering help",
+                "reason": "test ability to recognize the reason between belief and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "From guidance to direct support.",
+                "reason": "test ability to recognize the reason between belief and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_2": {
+        "question": "Why does the belief of Abigail Grandberry change from scenario 2 to scenario 3?",
+        "true answer": "a",
+        "options": [
+            "Further conversation reveals his uncertainty",
+            "Samuel's responses indicate dissatisfaction",
+            "Samuel shares his initial career change plans.",
+            "Belief in Samuel\u2019s potential dissatisfaction",
+            "Learning more about Samuel's feelings",
+            "Samuel\u2019s new plan for career change.",
+            "Concern growing from light-hearted conversation",
+            "Understanding Samuel\u2019s career doubts",
+            "Hope from Samuel\u2019s plan.",
+            "From casual to probing based on concerns",
+            "Moving from questions to offering help",
+            "From guidance to direct support."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Further conversation reveals his uncertainty",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Samuel's responses indicate dissatisfaction",
+                "reason": "test ability to recognize the reason of belief change in different time stage",
+                "explain": "belief change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Samuel shares his initial career change plans.",
+                "reason": "test ability to recognize the reason of belief change in different time stage",
+                "explain": "belief change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Belief in Samuel\u2019s potential dissatisfaction",
+                "reason": "test ability to recognize the reason between belief and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Learning more about Samuel's feelings",
+                "reason": "test ability to recognize the reason between belief and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Samuel\u2019s new plan for career change.",
+                "reason": "test ability to recognize the reason between belief and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Concern growing from light-hearted conversation",
+                "reason": "test ability to recognize the reason between belief and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Understanding Samuel\u2019s career doubts",
+                "reason": "test ability to recognize the reason between belief and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Hope from Samuel\u2019s plan.",
+                "reason": "test ability to recognize the reason between belief and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "From casual to probing based on concerns",
+                "reason": "test ability to recognize the reason between belief and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Moving from questions to offering help",
+                "reason": "test ability to recognize the reason between belief and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "From guidance to direct support.",
+                "reason": "test ability to recognize the reason between belief and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_3": {
+        "question": "Why does the belief of Abigail Grandberry change from scenario 3 to scenario 4?",
+        "true answer": "a",
+        "options": [
+            "Samuel shares his initial career change plans.",
+            "Samuel's responses indicate dissatisfaction",
+            "Further conversation reveals his uncertainty",
+            "Belief in Samuel\u2019s potential dissatisfaction",
+            "Learning more about Samuel's feelings",
+            "Samuel\u2019s new plan for career change.",
+            "Concern growing from light-hearted conversation",
+            "Understanding Samuel\u2019s career doubts",
+            "Hope from Samuel\u2019s plan.",
+            "From casual to probing based on concerns",
+            "Moving from questions to offering help",
+            "From guidance to direct support."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Samuel shares his initial career change plans.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Samuel's responses indicate dissatisfaction",
+                "reason": "test ability to recognize the reason of belief change in different time stage",
+                "explain": "belief change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Further conversation reveals his uncertainty",
+                "reason": "test ability to recognize the reason of belief change in different time stage",
+                "explain": "belief change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Belief in Samuel\u2019s potential dissatisfaction",
+                "reason": "test ability to recognize the reason between belief and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Learning more about Samuel's feelings",
+                "reason": "test ability to recognize the reason between belief and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Samuel\u2019s new plan for career change.",
+                "reason": "test ability to recognize the reason between belief and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Concern growing from light-hearted conversation",
+                "reason": "test ability to recognize the reason between belief and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Understanding Samuel\u2019s career doubts",
+                "reason": "test ability to recognize the reason between belief and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Hope from Samuel\u2019s plan.",
+                "reason": "test ability to recognize the reason between belief and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "From casual to probing based on concerns",
+                "reason": "test ability to recognize the reason between belief and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Moving from questions to offering help",
+                "reason": "test ability to recognize the reason between belief and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "From guidance to direct support.",
+                "reason": "test ability to recognize the reason between belief and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_4": {
+        "question": "Why does the emotion of Abigail Grandberry change from scenario 1 to scenario 2?",
+        "true answer": "a",
+        "options": [
+            "Belief in Samuel\u2019s potential dissatisfaction",
+            "Learning more about Samuel's feelings",
+            "Samuel\u2019s new plan for career change.",
+            "Samuel's responses indicate dissatisfaction",
+            "Further conversation reveals his uncertainty",
+            "Samuel shares his initial career change plans.",
+            "Concern growing from light-hearted conversation",
+            "Understanding Samuel\u2019s career doubts",
+            "Hope from Samuel\u2019s plan.",
+            "From casual to probing based on concerns",
+            "Moving from questions to offering help",
+            "From guidance to direct support."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Belief in Samuel\u2019s potential dissatisfaction",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Learning more about Samuel's feelings",
+                "reason": "test ability to recognize the reason of emotion change in different time stage",
+                "explain": "emotion change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Samuel\u2019s new plan for career change.",
+                "reason": "test ability to recognize the reason of emotion change in different time stage",
+                "explain": "emotion change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Samuel's responses indicate dissatisfaction",
+                "reason": "test ability to recognize the reason between emotion and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Further conversation reveals his uncertainty",
+                "reason": "test ability to recognize the reason between emotion and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Samuel shares his initial career change plans.",
+                "reason": "test ability to recognize the reason between emotion and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Concern growing from light-hearted conversation",
+                "reason": "test ability to recognize the reason between emotion and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Understanding Samuel\u2019s career doubts",
+                "reason": "test ability to recognize the reason between emotion and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Hope from Samuel\u2019s plan.",
+                "reason": "test ability to recognize the reason between emotion and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "From casual to probing based on concerns",
+                "reason": "test ability to recognize the reason between emotion and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Moving from questions to offering help",
+                "reason": "test ability to recognize the reason between emotion and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "From guidance to direct support.",
+                "reason": "test ability to recognize the reason between emotion and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_5": {
+        "question": "Why does the emotion of Abigail Grandberry change from scenario 2 to scenario 3?",
+        "true answer": "a",
+        "options": [
+            "Learning more about Samuel's feelings",
+            "Belief in Samuel\u2019s potential dissatisfaction",
+            "Samuel\u2019s new plan for career change.",
+            "Samuel's responses indicate dissatisfaction",
+            "Further conversation reveals his uncertainty",
+            "Samuel shares his initial career change plans.",
+            "Concern growing from light-hearted conversation",
+            "Understanding Samuel\u2019s career doubts",
+            "Hope from Samuel\u2019s plan.",
+            "From casual to probing based on concerns",
+            "Moving from questions to offering help",
+            "From guidance to direct support."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Learning more about Samuel's feelings",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Belief in Samuel\u2019s potential dissatisfaction",
+                "reason": "test ability to recognize the reason of emotion change in different time stage",
+                "explain": "emotion change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Samuel\u2019s new plan for career change.",
+                "reason": "test ability to recognize the reason of emotion change in different time stage",
+                "explain": "emotion change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Samuel's responses indicate dissatisfaction",
+                "reason": "test ability to recognize the reason between emotion and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Further conversation reveals his uncertainty",
+                "reason": "test ability to recognize the reason between emotion and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Samuel shares his initial career change plans.",
+                "reason": "test ability to recognize the reason between emotion and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Concern growing from light-hearted conversation",
+                "reason": "test ability to recognize the reason between emotion and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Understanding Samuel\u2019s career doubts",
+                "reason": "test ability to recognize the reason between emotion and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Hope from Samuel\u2019s plan.",
+                "reason": "test ability to recognize the reason between emotion and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "From casual to probing based on concerns",
+                "reason": "test ability to recognize the reason between emotion and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Moving from questions to offering help",
+                "reason": "test ability to recognize the reason between emotion and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "From guidance to direct support.",
+                "reason": "test ability to recognize the reason between emotion and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_6": {
+        "question": "Why does the emotion of Abigail Grandberry change from scenario 3 to scenario 4?",
+        "true answer": "a",
+        "options": [
+            "Samuel\u2019s new plan for career change.",
+            "Belief in Samuel\u2019s potential dissatisfaction",
+            "Learning more about Samuel's feelings",
+            "Samuel's responses indicate dissatisfaction",
+            "Further conversation reveals his uncertainty",
+            "Samuel shares his initial career change plans.",
+            "Concern growing from light-hearted conversation",
+            "Understanding Samuel\u2019s career doubts",
+            "Hope from Samuel\u2019s plan.",
+            "From casual to probing based on concerns",
+            "Moving from questions to offering help",
+            "From guidance to direct support."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Samuel\u2019s new plan for career change.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Belief in Samuel\u2019s potential dissatisfaction",
+                "reason": "test ability to recognize the reason of emotion change in different time stage",
+                "explain": "emotion change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Learning more about Samuel's feelings",
+                "reason": "test ability to recognize the reason of emotion change in different time stage",
+                "explain": "emotion change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Samuel's responses indicate dissatisfaction",
+                "reason": "test ability to recognize the reason between emotion and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Further conversation reveals his uncertainty",
+                "reason": "test ability to recognize the reason between emotion and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Samuel shares his initial career change plans.",
+                "reason": "test ability to recognize the reason between emotion and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Concern growing from light-hearted conversation",
+                "reason": "test ability to recognize the reason between emotion and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Understanding Samuel\u2019s career doubts",
+                "reason": "test ability to recognize the reason between emotion and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Hope from Samuel\u2019s plan.",
+                "reason": "test ability to recognize the reason between emotion and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "From casual to probing based on concerns",
+                "reason": "test ability to recognize the reason between emotion and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Moving from questions to offering help",
+                "reason": "test ability to recognize the reason between emotion and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "From guidance to direct support.",
+                "reason": "test ability to recognize the reason between emotion and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_7": {
+        "question": "Why does the intention of Abigail Grandberry change from scenario 1 to scenario 2?",
+        "true answer": "a",
+        "options": [
+            "Concern growing from light-hearted conversation",
+            "Understanding Samuel\u2019s career doubts",
+            "Hope from Samuel\u2019s plan.",
+            "Samuel's responses indicate dissatisfaction",
+            "Further conversation reveals his uncertainty",
+            "Samuel shares his initial career change plans.",
+            "Belief in Samuel\u2019s potential dissatisfaction",
+            "Learning more about Samuel's feelings",
+            "Samuel\u2019s new plan for career change.",
+            "From casual to probing based on concerns",
+            "Moving from questions to offering help",
+            "From guidance to direct support."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Concern growing from light-hearted conversation",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Understanding Samuel\u2019s career doubts",
+                "reason": "test ability to recognize the reason of intention change in different time stage",
+                "explain": "intention change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Hope from Samuel\u2019s plan.",
+                "reason": "test ability to recognize the reason of intention change in different time stage",
+                "explain": "intention change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Samuel's responses indicate dissatisfaction",
+                "reason": "test ability to recognize the reason between intention and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Further conversation reveals his uncertainty",
+                "reason": "test ability to recognize the reason between intention and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Samuel shares his initial career change plans.",
+                "reason": "test ability to recognize the reason between intention and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Belief in Samuel\u2019s potential dissatisfaction",
+                "reason": "test ability to recognize the reason between intention and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Learning more about Samuel's feelings",
+                "reason": "test ability to recognize the reason between intention and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Samuel\u2019s new plan for career change.",
+                "reason": "test ability to recognize the reason between intention and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "From casual to probing based on concerns",
+                "reason": "test ability to recognize the reason between intention and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Moving from questions to offering help",
+                "reason": "test ability to recognize the reason between intention and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "From guidance to direct support.",
+                "reason": "test ability to recognize the reason between intention and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_8": {
+        "question": "Why does the intention of Abigail Grandberry change from scenario 2 to scenario 3?",
+        "true answer": "a",
+        "options": [
+            "Understanding Samuel\u2019s career doubts",
+            "Concern growing from light-hearted conversation",
+            "Hope from Samuel\u2019s plan.",
+            "Samuel's responses indicate dissatisfaction",
+            "Further conversation reveals his uncertainty",
+            "Samuel shares his initial career change plans.",
+            "Belief in Samuel\u2019s potential dissatisfaction",
+            "Learning more about Samuel's feelings",
+            "Samuel\u2019s new plan for career change.",
+            "From casual to probing based on concerns",
+            "Moving from questions to offering help",
+            "From guidance to direct support."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Understanding Samuel\u2019s career doubts",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Concern growing from light-hearted conversation",
+                "reason": "test ability to recognize the reason of intention change in different time stage",
+                "explain": "intention change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Hope from Samuel\u2019s plan.",
+                "reason": "test ability to recognize the reason of intention change in different time stage",
+                "explain": "intention change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Samuel's responses indicate dissatisfaction",
+                "reason": "test ability to recognize the reason between intention and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Further conversation reveals his uncertainty",
+                "reason": "test ability to recognize the reason between intention and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Samuel shares his initial career change plans.",
+                "reason": "test ability to recognize the reason between intention and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Belief in Samuel\u2019s potential dissatisfaction",
+                "reason": "test ability to recognize the reason between intention and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Learning more about Samuel's feelings",
+                "reason": "test ability to recognize the reason between intention and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Samuel\u2019s new plan for career change.",
+                "reason": "test ability to recognize the reason between intention and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "From casual to probing based on concerns",
+                "reason": "test ability to recognize the reason between intention and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Moving from questions to offering help",
+                "reason": "test ability to recognize the reason between intention and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "From guidance to direct support.",
+                "reason": "test ability to recognize the reason between intention and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_9": {
+        "question": "Why does the intention of Abigail Grandberry change from scenario 3 to scenario 4?",
+        "true answer": "a",
+        "options": [
+            "Hope from Samuel\u2019s plan.",
+            "Concern growing from light-hearted conversation",
+            "Understanding Samuel\u2019s career doubts",
+            "Samuel's responses indicate dissatisfaction",
+            "Further conversation reveals his uncertainty",
+            "Samuel shares his initial career change plans.",
+            "Belief in Samuel\u2019s potential dissatisfaction",
+            "Learning more about Samuel's feelings",
+            "Samuel\u2019s new plan for career change.",
+            "From casual to probing based on concerns",
+            "Moving from questions to offering help",
+            "From guidance to direct support."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Hope from Samuel\u2019s plan.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Concern growing from light-hearted conversation",
+                "reason": "test ability to recognize the reason of intention change in different time stage",
+                "explain": "intention change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Understanding Samuel\u2019s career doubts",
+                "reason": "test ability to recognize the reason of intention change in different time stage",
+                "explain": "intention change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Samuel's responses indicate dissatisfaction",
+                "reason": "test ability to recognize the reason between intention and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Further conversation reveals his uncertainty",
+                "reason": "test ability to recognize the reason between intention and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Samuel shares his initial career change plans.",
+                "reason": "test ability to recognize the reason between intention and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Belief in Samuel\u2019s potential dissatisfaction",
+                "reason": "test ability to recognize the reason between intention and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Learning more about Samuel's feelings",
+                "reason": "test ability to recognize the reason between intention and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Samuel\u2019s new plan for career change.",
+                "reason": "test ability to recognize the reason between intention and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "From casual to probing based on concerns",
+                "reason": "test ability to recognize the reason between intention and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Moving from questions to offering help",
+                "reason": "test ability to recognize the reason between intention and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "From guidance to direct support.",
+                "reason": "test ability to recognize the reason between intention and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_10": {
+        "question": "Why does the action of Abigail Grandberry change from scenario 1 to scenario 2?",
+        "true answer": "a",
+        "options": [
+            "From casual to probing based on concerns",
+            "Moving from questions to offering help",
+            "From guidance to direct support.",
+            "Samuel's responses indicate dissatisfaction",
+            "Further conversation reveals his uncertainty",
+            "Samuel shares his initial career change plans.",
+            "Belief in Samuel\u2019s potential dissatisfaction",
+            "Learning more about Samuel's feelings",
+            "Samuel\u2019s new plan for career change.",
+            "Concern growing from light-hearted conversation",
+            "Understanding Samuel\u2019s career doubts",
+            "Hope from Samuel\u2019s plan."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "From casual to probing based on concerns",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Moving from questions to offering help",
+                "reason": "test ability to recognize the reason of action change in different time stage",
+                "explain": "action change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "From guidance to direct support.",
+                "reason": "test ability to recognize the reason of action change in different time stage",
+                "explain": "action change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Samuel's responses indicate dissatisfaction",
+                "reason": "test ability to recognize the reason between action and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Further conversation reveals his uncertainty",
+                "reason": "test ability to recognize the reason between action and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Samuel shares his initial career change plans.",
+                "reason": "test ability to recognize the reason between action and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Belief in Samuel\u2019s potential dissatisfaction",
+                "reason": "test ability to recognize the reason between action and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Learning more about Samuel's feelings",
+                "reason": "test ability to recognize the reason between action and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Samuel\u2019s new plan for career change.",
+                "reason": "test ability to recognize the reason between action and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Concern growing from light-hearted conversation",
+                "reason": "test ability to recognize the reason between action and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Understanding Samuel\u2019s career doubts",
+                "reason": "test ability to recognize the reason between action and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Hope from Samuel\u2019s plan.",
+                "reason": "test ability to recognize the reason between action and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_11": {
+        "question": "Why does the action of Abigail Grandberry change from scenario 2 to scenario 3?",
+        "true answer": "a",
+        "options": [
+            "Moving from questions to offering help",
+            "From casual to probing based on concerns",
+            "From guidance to direct support.",
+            "Samuel's responses indicate dissatisfaction",
+            "Further conversation reveals his uncertainty",
+            "Samuel shares his initial career change plans.",
+            "Belief in Samuel\u2019s potential dissatisfaction",
+            "Learning more about Samuel's feelings",
+            "Samuel\u2019s new plan for career change.",
+            "Concern growing from light-hearted conversation",
+            "Understanding Samuel\u2019s career doubts",
+            "Hope from Samuel\u2019s plan."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Moving from questions to offering help",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "From casual to probing based on concerns",
+                "reason": "test ability to recognize the reason of action change in different time stage",
+                "explain": "action change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "From guidance to direct support.",
+                "reason": "test ability to recognize the reason of action change in different time stage",
+                "explain": "action change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Samuel's responses indicate dissatisfaction",
+                "reason": "test ability to recognize the reason between action and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Further conversation reveals his uncertainty",
+                "reason": "test ability to recognize the reason between action and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Samuel shares his initial career change plans.",
+                "reason": "test ability to recognize the reason between action and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Belief in Samuel\u2019s potential dissatisfaction",
+                "reason": "test ability to recognize the reason between action and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Learning more about Samuel's feelings",
+                "reason": "test ability to recognize the reason between action and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Samuel\u2019s new plan for career change.",
+                "reason": "test ability to recognize the reason between action and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Concern growing from light-hearted conversation",
+                "reason": "test ability to recognize the reason between action and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Understanding Samuel\u2019s career doubts",
+                "reason": "test ability to recognize the reason between action and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Hope from Samuel\u2019s plan.",
+                "reason": "test ability to recognize the reason between action and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_12": {
+        "question": "Why does the action of Abigail Grandberry change from scenario 3 to scenario 4?",
+        "true answer": "a",
+        "options": [
+            "From guidance to direct support.",
+            "From casual to probing based on concerns",
+            "Moving from questions to offering help",
+            "Samuel's responses indicate dissatisfaction",
+            "Further conversation reveals his uncertainty",
+            "Samuel shares his initial career change plans.",
+            "Belief in Samuel\u2019s potential dissatisfaction",
+            "Learning more about Samuel's feelings",
+            "Samuel\u2019s new plan for career change.",
+            "Concern growing from light-hearted conversation",
+            "Understanding Samuel\u2019s career doubts",
+            "Hope from Samuel\u2019s plan."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "From guidance to direct support.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "From casual to probing based on concerns",
+                "reason": "test ability to recognize the reason of action change in different time stage",
+                "explain": "action change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Moving from questions to offering help",
+                "reason": "test ability to recognize the reason of action change in different time stage",
+                "explain": "action change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Samuel's responses indicate dissatisfaction",
+                "reason": "test ability to recognize the reason between action and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Further conversation reveals his uncertainty",
+                "reason": "test ability to recognize the reason between action and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Samuel shares his initial career change plans.",
+                "reason": "test ability to recognize the reason between action and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Belief in Samuel\u2019s potential dissatisfaction",
+                "reason": "test ability to recognize the reason between action and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Learning more about Samuel's feelings",
+                "reason": "test ability to recognize the reason between action and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Samuel\u2019s new plan for career change.",
+                "reason": "test ability to recognize the reason between action and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Concern growing from light-hearted conversation",
+                "reason": "test ability to recognize the reason between action and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Understanding Samuel\u2019s career doubts",
+                "reason": "test ability to recognize the reason between action and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Hope from Samuel\u2019s plan.",
+                "reason": "test ability to recognize the reason between action and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_whether_1": {
+        "question": "Whether the belief of Abigail Grandberry change from scenario 1 to scenario 2? if yes, from what to what?",
+        "true answer": "a",
+        "options": [
+            "Yes, from Abigail believes that Samuel is content with his job as a banker. to Abigail starts to believe that Samuel isn't entirely happy with his current job.",
+            "No",
+            "Yes, from Abigail starts to believe that Samuel isn't entirely happy with his current job. to Abigail believes Samuel wants to change careers but doesn't know how.",
+            "Yes, from Abigail believes Samuel wants to change careers but doesn't know how. to Abigail now believes Samuel has a plan to explore a new career path."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Abigail believes that Samuel is content with his job as a banker. to Abigail starts to believe that Samuel isn't entirely happy with his current job.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the belief change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Abigail starts to believe that Samuel isn't entirely happy with his current job. to Abigail believes Samuel wants to change careers but doesn't know how.",
+                "reason": "test ability to recognize how the belief change in the correct time stage",
+                "explain": "how the belief change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Abigail believes Samuel wants to change careers but doesn't know how. to Abigail now believes Samuel has a plan to explore a new career path.",
+                "reason": "test ability to recognize how the belief change in the correct time stage",
+                "explain": "how the belief change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_2": {
+        "question": "Whether the belief of Abigail Grandberry change from scenario 2 to scenario 3? if yes, from what to what?",
+        "true answer": "a",
+        "options": [
+            "Yes, from Abigail starts to believe that Samuel isn't entirely happy with his current job. to Abigail believes Samuel wants to change careers but doesn't know how.",
+            "No",
+            "Yes, from Abigail believes that Samuel is content with his job as a banker. to Abigail starts to believe that Samuel isn't entirely happy with his current job.",
+            "Yes, from Abigail believes Samuel wants to change careers but doesn't know how. to Abigail now believes Samuel has a plan to explore a new career path."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Abigail starts to believe that Samuel isn't entirely happy with his current job. to Abigail believes Samuel wants to change careers but doesn't know how.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the belief change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Abigail believes that Samuel is content with his job as a banker. to Abigail starts to believe that Samuel isn't entirely happy with his current job.",
+                "reason": "test ability to recognize how the belief change in the correct time stage",
+                "explain": "how the belief change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Abigail believes Samuel wants to change careers but doesn't know how. to Abigail now believes Samuel has a plan to explore a new career path.",
+                "reason": "test ability to recognize how the belief change in the correct time stage",
+                "explain": "how the belief change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_3": {
+        "question": "Whether the belief of Abigail Grandberry change from scenario 3 to scenario 4? if yes, from what to what?",
+        "true answer": "a",
+        "options": [
+            "Yes, from Abigail believes Samuel wants to change careers but doesn't know how. to Abigail now believes Samuel has a plan to explore a new career path.",
+            "No",
+            "Yes, from Abigail believes that Samuel is content with his job as a banker. to Abigail starts to believe that Samuel isn't entirely happy with his current job.",
+            "Yes, from Abigail starts to believe that Samuel isn't entirely happy with his current job. to Abigail believes Samuel wants to change careers but doesn't know how."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Abigail believes Samuel wants to change careers but doesn't know how. to Abigail now believes Samuel has a plan to explore a new career path.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the belief change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Abigail believes that Samuel is content with his job as a banker. to Abigail starts to believe that Samuel isn't entirely happy with his current job.",
+                "reason": "test ability to recognize how the belief change in the correct time stage",
+                "explain": "how the belief change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Abigail starts to believe that Samuel isn't entirely happy with his current job. to Abigail believes Samuel wants to change careers but doesn't know how.",
+                "reason": "test ability to recognize how the belief change in the correct time stage",
+                "explain": "how the belief change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_4": {
+        "question": "Whether the emotion of Abigail Grandberry change from scenario 1 to scenario 2? if yes, from what to what?",
+        "true answer": "a",
+        "options": [
+            "Yes, from Abigail feels relieved to see Samuel after so many years. to Abigail begins to feel concerned for Samuel.",
+            "No",
+            "Yes, from Abigail begins to feel concerned for Samuel. to Abigail feels a sense of empathy for Samuel's uncertainty.",
+            "Yes, from Abigail feels a sense of empathy for Samuel's uncertainty. to Abigail feels hopeful for Samuel's future."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Abigail feels relieved to see Samuel after so many years. to Abigail begins to feel concerned for Samuel.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the emotion change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Abigail begins to feel concerned for Samuel. to Abigail feels a sense of empathy for Samuel's uncertainty.",
+                "reason": "test ability to recognize how the emotion change in the correct time stage",
+                "explain": "how the emotion change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Abigail feels a sense of empathy for Samuel's uncertainty. to Abigail feels hopeful for Samuel's future.",
+                "reason": "test ability to recognize how the emotion change in the correct time stage",
+                "explain": "how the emotion change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_5": {
+        "question": "Whether the emotion of Abigail Grandberry change from scenario 2 to scenario 3? if yes, from what to what?",
+        "true answer": "a",
+        "options": [
+            "Yes, from Abigail begins to feel concerned for Samuel. to Abigail feels a sense of empathy for Samuel's uncertainty.",
+            "No",
+            "Yes, from Abigail feels relieved to see Samuel after so many years. to Abigail begins to feel concerned for Samuel.",
+            "Yes, from Abigail feels a sense of empathy for Samuel's uncertainty. to Abigail feels hopeful for Samuel's future."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Abigail begins to feel concerned for Samuel. to Abigail feels a sense of empathy for Samuel's uncertainty.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the emotion change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Abigail feels relieved to see Samuel after so many years. to Abigail begins to feel concerned for Samuel.",
+                "reason": "test ability to recognize how the emotion change in the correct time stage",
+                "explain": "how the emotion change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Abigail feels a sense of empathy for Samuel's uncertainty. to Abigail feels hopeful for Samuel's future.",
+                "reason": "test ability to recognize how the emotion change in the correct time stage",
+                "explain": "how the emotion change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_6": {
+        "question": "Whether the emotion of Abigail Grandberry change from scenario 3 to scenario 4? if yes, from what to what?",
+        "true answer": "a",
+        "options": [
+            "Yes, from Abigail feels a sense of empathy for Samuel's uncertainty. to Abigail feels hopeful for Samuel's future.",
+            "No",
+            "Yes, from Abigail feels relieved to see Samuel after so many years. to Abigail begins to feel concerned for Samuel.",
+            "Yes, from Abigail begins to feel concerned for Samuel. to Abigail feels a sense of empathy for Samuel's uncertainty."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Abigail feels a sense of empathy for Samuel's uncertainty. to Abigail feels hopeful for Samuel's future.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the emotion change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Abigail feels relieved to see Samuel after so many years. to Abigail begins to feel concerned for Samuel.",
+                "reason": "test ability to recognize how the emotion change in the correct time stage",
+                "explain": "how the emotion change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Abigail begins to feel concerned for Samuel. to Abigail feels a sense of empathy for Samuel's uncertainty.",
+                "reason": "test ability to recognize how the emotion change in the correct time stage",
+                "explain": "how the emotion change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_7": {
+        "question": "Whether the intention of Abigail Grandberry change from scenario 1 to scenario 2? if yes, from what to what?",
+        "true answer": "a",
+        "options": [
+            "Yes, from Abigail intends to catch up and have a light-hearted conversation. to Abigail intends to dig deeper into Samuel's feelings about his job.",
+            "No",
+            "Yes, from Abigail intends to dig deeper into Samuel's feelings about his job. to Abigail intends to offer him guidance on career change options.",
+            "Yes, from Abigail intends to offer him guidance on career change options. to Abigail intends to encourage and support Samuel's new plans."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Abigail intends to catch up and have a light-hearted conversation. to Abigail intends to dig deeper into Samuel's feelings about his job.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the intention change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Abigail intends to dig deeper into Samuel's feelings about his job. to Abigail intends to offer him guidance on career change options.",
+                "reason": "test ability to recognize how the intention change in the correct time stage",
+                "explain": "how the intention change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Abigail intends to offer him guidance on career change options. to Abigail intends to encourage and support Samuel's new plans.",
+                "reason": "test ability to recognize how the intention change in the correct time stage",
+                "explain": "how the intention change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_8": {
+        "question": "Whether the intention of Abigail Grandberry change from scenario 2 to scenario 3? if yes, from what to what?",
+        "true answer": "a",
+        "options": [
+            "Yes, from Abigail intends to dig deeper into Samuel's feelings about his job. to Abigail intends to offer him guidance on career change options.",
+            "No",
+            "Yes, from Abigail intends to catch up and have a light-hearted conversation. to Abigail intends to dig deeper into Samuel's feelings about his job.",
+            "Yes, from Abigail intends to offer him guidance on career change options. to Abigail intends to encourage and support Samuel's new plans."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Abigail intends to dig deeper into Samuel's feelings about his job. to Abigail intends to offer him guidance on career change options.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the intention change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Abigail intends to catch up and have a light-hearted conversation. to Abigail intends to dig deeper into Samuel's feelings about his job.",
+                "reason": "test ability to recognize how the intention change in the correct time stage",
+                "explain": "how the intention change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Abigail intends to offer him guidance on career change options. to Abigail intends to encourage and support Samuel's new plans.",
+                "reason": "test ability to recognize how the intention change in the correct time stage",
+                "explain": "how the intention change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_9": {
+        "question": "Whether the intention of Abigail Grandberry change from scenario 3 to scenario 4? if yes, from what to what?",
+        "true answer": "a",
+        "options": [
+            "Yes, from Abigail intends to offer him guidance on career change options. to Abigail intends to encourage and support Samuel's new plans.",
+            "No",
+            "Yes, from Abigail intends to catch up and have a light-hearted conversation. to Abigail intends to dig deeper into Samuel's feelings about his job.",
+            "Yes, from Abigail intends to dig deeper into Samuel's feelings about his job. to Abigail intends to offer him guidance on career change options."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Abigail intends to offer him guidance on career change options. to Abigail intends to encourage and support Samuel's new plans.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the intention change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Abigail intends to catch up and have a light-hearted conversation. to Abigail intends to dig deeper into Samuel's feelings about his job.",
+                "reason": "test ability to recognize how the intention change in the correct time stage",
+                "explain": "how the intention change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Abigail intends to dig deeper into Samuel's feelings about his job. to Abigail intends to offer him guidance on career change options.",
+                "reason": "test ability to recognize how the intention change in the correct time stage",
+                "explain": "how the intention change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_10": {
+        "question": "Whether the action of Abigail Grandberry change from scenario 1 to scenario 2? if yes, from what to what?",
+        "true answer": "a",
+        "options": [
+            "Yes, from Abigail strikes a casual conversation with Samuel about life. to Abigail asks Samuel more probing questions about his job satisfaction.",
+            "No",
+            "Yes, from Abigail asks Samuel more probing questions about his job satisfaction. to Abigail shares her experiences and gives Samuel suggestions on how to transition careers.",
+            "Yes, from Abigail shares her experiences and gives Samuel suggestions on how to transition careers. to Abigail offers to connect Samuel with some of her professional contacts."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Abigail strikes a casual conversation with Samuel about life. to Abigail asks Samuel more probing questions about his job satisfaction.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the action change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Abigail asks Samuel more probing questions about his job satisfaction. to Abigail shares her experiences and gives Samuel suggestions on how to transition careers.",
+                "reason": "test ability to recognize how the action change in the correct time stage",
+                "explain": "how the action change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Abigail shares her experiences and gives Samuel suggestions on how to transition careers. to Abigail offers to connect Samuel with some of her professional contacts.",
+                "reason": "test ability to recognize how the action change in the correct time stage",
+                "explain": "how the action change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_11": {
+        "question": "Whether the action of Abigail Grandberry change from scenario 2 to scenario 3? if yes, from what to what?",
+        "true answer": "a",
+        "options": [
+            "Yes, from Abigail asks Samuel more probing questions about his job satisfaction. to Abigail shares her experiences and gives Samuel suggestions on how to transition careers.",
+            "No",
+            "Yes, from Abigail strikes a casual conversation with Samuel about life. to Abigail asks Samuel more probing questions about his job satisfaction.",
+            "Yes, from Abigail shares her experiences and gives Samuel suggestions on how to transition careers. to Abigail offers to connect Samuel with some of her professional contacts."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Abigail asks Samuel more probing questions about his job satisfaction. to Abigail shares her experiences and gives Samuel suggestions on how to transition careers.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the action change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Abigail strikes a casual conversation with Samuel about life. to Abigail asks Samuel more probing questions about his job satisfaction.",
+                "reason": "test ability to recognize how the action change in the correct time stage",
+                "explain": "how the action change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Abigail shares her experiences and gives Samuel suggestions on how to transition careers. to Abigail offers to connect Samuel with some of her professional contacts.",
+                "reason": "test ability to recognize how the action change in the correct time stage",
+                "explain": "how the action change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_12": {
+        "question": "Whether the action of Abigail Grandberry change from scenario 3 to scenario 4? if yes, from what to what?",
+        "true answer": "a",
+        "options": [
+            "Yes, from Abigail shares her experiences and gives Samuel suggestions on how to transition careers. to Abigail offers to connect Samuel with some of her professional contacts.",
+            "No",
+            "Yes, from Abigail strikes a casual conversation with Samuel about life. to Abigail asks Samuel more probing questions about his job satisfaction.",
+            "Yes, from Abigail asks Samuel more probing questions about his job satisfaction. to Abigail shares her experiences and gives Samuel suggestions on how to transition careers."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Abigail shares her experiences and gives Samuel suggestions on how to transition careers. to Abigail offers to connect Samuel with some of her professional contacts.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the action change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Abigail strikes a casual conversation with Samuel about life. to Abigail asks Samuel more probing questions about his job satisfaction.",
+                "reason": "test ability to recognize how the action change in the correct time stage",
+                "explain": "how the action change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Abigail asks Samuel more probing questions about his job satisfaction. to Abigail shares her experiences and gives Samuel suggestions on how to transition careers.",
+                "reason": "test ability to recognize how the action change in the correct time stage",
+                "explain": "how the action change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_c_how_1": {
+        "question": "In scenario 1, how does the belief of Abigail Grandberry influence the emotion of Abigail Grandberry?",
+        "true answer": "a",
+        "options": [
+            "Abigail's belief that Samuel is content generates a feeling of relief.",
+            "Feeling relieved and believing Samuel is content, Abigail wants to keep the conversation light-hearted.",
+            "Wanting to keep it light, she talks about their high school memories and casual topics.",
+            "Abigail's new belief about Samuel's dissatisfaction turns her relief into concern.",
+            "Believing that Samuel wants a change makes Abigail empathetic."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "Abigail's belief that Samuel is content generates a feeling of relief.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Feeling relieved and believing Samuel is content, Abigail wants to keep the conversation light-hearted.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Wanting to keep it light, she talks about their high school memories and casual topics.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Abigail's new belief about Samuel's dissatisfaction turns her relief into concern.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in other time stage",
+                "explain": "how the belief influence emotion in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Believing that Samuel wants a change makes Abigail empathetic.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in other time stage",
+                "explain": "how the belief influence emotion in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_2": {
+        "question": "In scenario 2, how does the belief of Abigail Grandberry influence the emotion of Abigail Grandberry?",
+        "true answer": "a",
+        "options": [
+            "Abigail's new belief about Samuel's dissatisfaction turns her relief into concern.",
+            "Concerned and suspecting his dissatisfaction, Abigail decides to inquire more.",
+            "Her intention to understand leads her to ask deeper, more probing questions.",
+            "Abigail's belief that Samuel is content generates a feeling of relief.",
+            "Believing that Samuel wants a change makes Abigail empathetic."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "Abigail's new belief about Samuel's dissatisfaction turns her relief into concern.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Concerned and suspecting his dissatisfaction, Abigail decides to inquire more.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Her intention to understand leads her to ask deeper, more probing questions.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Abigail's belief that Samuel is content generates a feeling of relief.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in other time stage",
+                "explain": "how the belief influence emotion in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Believing that Samuel wants a change makes Abigail empathetic.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in other time stage",
+                "explain": "how the belief influence emotion in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_3": {
+        "question": "In scenario 3, how does the belief of Abigail Grandberry influence the emotion of Abigail Grandberry?",
+        "true answer": "a",
+        "options": [
+            "Believing that Samuel wants a change makes Abigail empathetic.",
+            "Empathy and belief in his desire for change lead Abigail to want to help.",
+            "With the intention of helping, she shares her own career change experiences.",
+            "Abigail's belief that Samuel is content generates a feeling of relief.",
+            "Abigail's new belief about Samuel's dissatisfaction turns her relief into concern."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "Believing that Samuel wants a change makes Abigail empathetic.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Empathy and belief in his desire for change lead Abigail to want to help.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "With the intention of helping, she shares her own career change experiences.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Abigail's belief that Samuel is content generates a feeling of relief.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in other time stage",
+                "explain": "how the belief influence emotion in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Abigail's new belief about Samuel's dissatisfaction turns her relief into concern.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in other time stage",
+                "explain": "how the belief influence emotion in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_4": {
+        "question": "In scenario 4, how does the belief of Abigail Grandberry influence the emotion of Abigail Grandberry?",
+        "true answer": "a",
+        "options": [
+            "Believing Samuel has a plan makes her feel hopeful.",
+            "Hopeful about his future and believing in his plan, she wants to support him.",
+            "Her intention to support leads her to offer professional connections.",
+            "Abigail's belief that Samuel is content generates a feeling of relief.",
+            "Abigail's new belief about Samuel's dissatisfaction turns her relief into concern.",
+            "Believing that Samuel wants a change makes Abigail empathetic."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "Believing Samuel has a plan makes her feel hopeful.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Hopeful about his future and believing in his plan, she wants to support him.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Her intention to support leads her to offer professional connections.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Abigail's belief that Samuel is content generates a feeling of relief.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in other time stage",
+                "explain": "how the belief influence emotion in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Abigail's new belief about Samuel's dissatisfaction turns her relief into concern.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in other time stage",
+                "explain": "how the belief influence emotion in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Believing that Samuel wants a change makes Abigail empathetic.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in other time stage",
+                "explain": "how the belief influence emotion in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_5": {
+        "question": "In scenario 1, how does the belief&emotion of Abigail Grandberry influence the intention of Abigail Grandberry?",
+        "true answer": "a",
+        "options": [
+            "Feeling relieved and believing Samuel is content, Abigail wants to keep the conversation light-hearted.",
+            "Abigail's belief that Samuel is content generates a feeling of relief.",
+            "Wanting to keep it light, she talks about their high school memories and casual topics.",
+            "Concerned and suspecting his dissatisfaction, Abigail decides to inquire more.",
+            "Empathy and belief in his desire for change lead Abigail to want to help."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "Feeling relieved and believing Samuel is content, Abigail wants to keep the conversation light-hearted.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Abigail's belief that Samuel is content generates a feeling of relief.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Wanting to keep it light, she talks about their high school memories and casual topics.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Concerned and suspecting his dissatisfaction, Abigail decides to inquire more.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in other time stage",
+                "explain": "how the belief&emotion influence intention in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Empathy and belief in his desire for change lead Abigail to want to help.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in other time stage",
+                "explain": "how the belief&emotion influence intention in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_6": {
+        "question": "In scenario 2, how does the belief&emotion of Abigail Grandberry influence the intention of Abigail Grandberry?",
+        "true answer": "a",
+        "options": [
+            "Concerned and suspecting his dissatisfaction, Abigail decides to inquire more.",
+            "Abigail's new belief about Samuel's dissatisfaction turns her relief into concern.",
+            "Her intention to understand leads her to ask deeper, more probing questions.",
+            "Feeling relieved and believing Samuel is content, Abigail wants to keep the conversation light-hearted.",
+            "Empathy and belief in his desire for change lead Abigail to want to help."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "Concerned and suspecting his dissatisfaction, Abigail decides to inquire more.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Abigail's new belief about Samuel's dissatisfaction turns her relief into concern.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Her intention to understand leads her to ask deeper, more probing questions.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Feeling relieved and believing Samuel is content, Abigail wants to keep the conversation light-hearted.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in other time stage",
+                "explain": "how the belief&emotion influence intention in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Empathy and belief in his desire for change lead Abigail to want to help.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in other time stage",
+                "explain": "how the belief&emotion influence intention in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_7": {
+        "question": "In scenario 3, how does the belief&emotion of Abigail Grandberry influence the intention of Abigail Grandberry?",
+        "true answer": "a",
+        "options": [
+            "Empathy and belief in his desire for change lead Abigail to want to help.",
+            "Believing that Samuel wants a change makes Abigail empathetic.",
+            "With the intention of helping, she shares her own career change experiences.",
+            "Feeling relieved and believing Samuel is content, Abigail wants to keep the conversation light-hearted.",
+            "Concerned and suspecting his dissatisfaction, Abigail decides to inquire more."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "Empathy and belief in his desire for change lead Abigail to want to help.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Believing that Samuel wants a change makes Abigail empathetic.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "With the intention of helping, she shares her own career change experiences.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Feeling relieved and believing Samuel is content, Abigail wants to keep the conversation light-hearted.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in other time stage",
+                "explain": "how the belief&emotion influence intention in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Concerned and suspecting his dissatisfaction, Abigail decides to inquire more.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in other time stage",
+                "explain": "how the belief&emotion influence intention in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_8": {
+        "question": "In scenario 4, how does the belief&emotion of Abigail Grandberry influence the intention of Abigail Grandberry?",
+        "true answer": "a",
+        "options": [
+            "Hopeful about his future and believing in his plan, she wants to support him.",
+            "Believing Samuel has a plan makes her feel hopeful.",
+            "Her intention to support leads her to offer professional connections.",
+            "Feeling relieved and believing Samuel is content, Abigail wants to keep the conversation light-hearted.",
+            "Concerned and suspecting his dissatisfaction, Abigail decides to inquire more.",
+            "Empathy and belief in his desire for change lead Abigail to want to help."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "Hopeful about his future and believing in his plan, she wants to support him.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Believing Samuel has a plan makes her feel hopeful.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Her intention to support leads her to offer professional connections.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Feeling relieved and believing Samuel is content, Abigail wants to keep the conversation light-hearted.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in other time stage",
+                "explain": "how the belief&emotion influence intention in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Concerned and suspecting his dissatisfaction, Abigail decides to inquire more.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in other time stage",
+                "explain": "how the belief&emotion influence intention in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Empathy and belief in his desire for change lead Abigail to want to help.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in other time stage",
+                "explain": "how the belief&emotion influence intention in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_9": {
+        "question": "In scenario 1, how does the intention of Abigail Grandberry influence the action of Abigail Grandberry?",
+        "true answer": "a",
+        "options": [
+            "Wanting to keep it light, she talks about their high school memories and casual topics.",
+            "Abigail's belief that Samuel is content generates a feeling of relief.",
+            "Feeling relieved and believing Samuel is content, Abigail wants to keep the conversation light-hearted.",
+            "Her intention to understand leads her to ask deeper, more probing questions.",
+            "With the intention of helping, she shares her own career change experiences."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "Wanting to keep it light, she talks about their high school memories and casual topics.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Abigail's belief that Samuel is content generates a feeling of relief.",
+                "reason": "test ability to correctly recognize how the intention influence action in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Feeling relieved and believing Samuel is content, Abigail wants to keep the conversation light-hearted.",
+                "reason": "test ability to correctly recognize how the intention influence action in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Her intention to understand leads her to ask deeper, more probing questions.",
+                "reason": "test ability to correctly recognize how the intention influence action in other time stage",
+                "explain": "how the intention influence action in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "With the intention of helping, she shares her own career change experiences.",
+                "reason": "test ability to correctly recognize how the intention influence action in other time stage",
+                "explain": "how the intention influence action in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_10": {
+        "question": "In scenario 2, how does the intention of Abigail Grandberry influence the action of Abigail Grandberry?",
+        "true answer": "a",
+        "options": [
+            "Her intention to understand leads her to ask deeper, more probing questions.",
+            "Abigail's new belief about Samuel's dissatisfaction turns her relief into concern.",
+            "Concerned and suspecting his dissatisfaction, Abigail decides to inquire more.",
+            "Wanting to keep it light, she talks about their high school memories and casual topics.",
+            "With the intention of helping, she shares her own career change experiences."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "Her intention to understand leads her to ask deeper, more probing questions.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Abigail's new belief about Samuel's dissatisfaction turns her relief into concern.",
+                "reason": "test ability to correctly recognize how the intention influence action in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Concerned and suspecting his dissatisfaction, Abigail decides to inquire more.",
+                "reason": "test ability to correctly recognize how the intention influence action in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Wanting to keep it light, she talks about their high school memories and casual topics.",
+                "reason": "test ability to correctly recognize how the intention influence action in other time stage",
+                "explain": "how the intention influence action in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "With the intention of helping, she shares her own career change experiences.",
+                "reason": "test ability to correctly recognize how the intention influence action in other time stage",
+                "explain": "how the intention influence action in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_11": {
+        "question": "In scenario 3, how does the intention of Abigail Grandberry influence the action of Abigail Grandberry?",
+        "true answer": "a",
+        "options": [
+            "With the intention of helping, she shares her own career change experiences.",
+            "Believing that Samuel wants a change makes Abigail empathetic.",
+            "Empathy and belief in his desire for change lead Abigail to want to help.",
+            "Wanting to keep it light, she talks about their high school memories and casual topics.",
+            "Her intention to understand leads her to ask deeper, more probing questions."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "With the intention of helping, she shares her own career change experiences.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Believing that Samuel wants a change makes Abigail empathetic.",
+                "reason": "test ability to correctly recognize how the intention influence action in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Empathy and belief in his desire for change lead Abigail to want to help.",
+                "reason": "test ability to correctly recognize how the intention influence action in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Wanting to keep it light, she talks about their high school memories and casual topics.",
+                "reason": "test ability to correctly recognize how the intention influence action in other time stage",
+                "explain": "how the intention influence action in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Her intention to understand leads her to ask deeper, more probing questions.",
+                "reason": "test ability to correctly recognize how the intention influence action in other time stage",
+                "explain": "how the intention influence action in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_12": {
+        "question": "In scenario 4, how does the intention of Abigail Grandberry influence the action of Abigail Grandberry?",
+        "true answer": "a",
+        "options": [
+            "Her intention to support leads her to offer professional connections.",
+            "Believing Samuel has a plan makes her feel hopeful.",
+            "Hopeful about his future and believing in his plan, she wants to support him.",
+            "Wanting to keep it light, she talks about their high school memories and casual topics.",
+            "Her intention to understand leads her to ask deeper, more probing questions.",
+            "With the intention of helping, she shares her own career change experiences."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "Her intention to support leads her to offer professional connections.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Believing Samuel has a plan makes her feel hopeful.",
+                "reason": "test ability to correctly recognize how the intention influence action in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Hopeful about his future and believing in his plan, she wants to support him.",
+                "reason": "test ability to correctly recognize how the intention influence action in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Wanting to keep it light, she talks about their high school memories and casual topics.",
+                "reason": "test ability to correctly recognize how the intention influence action in other time stage",
+                "explain": "how the intention influence action in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Her intention to understand leads her to ask deeper, more probing questions.",
+                "reason": "test ability to correctly recognize how the intention influence action in other time stage",
+                "explain": "how the intention influence action in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "With the intention of helping, she shares her own career change experiences.",
+                "reason": "test ability to correctly recognize how the intention influence action in other time stage",
+                "explain": "how the intention influence action in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_a_what_1": {
+        "question": "What is the belief of Abigail Grandberry in scenario 1?",
+        "true answer": "a",
+        "options": [
+            "Abigail believes that Samuel is content with his job as a banker.",
+            "Abigail starts to believe that Samuel isn't entirely happy with his current job.",
+            "Abigail believes Samuel wants to change careers but doesn't know how.",
+            "Abigail now believes Samuel has a plan to explore a new career path.",
+            "Abigail feels relieved to see Samuel after so many years.",
+            "Abigail intends to catch up and have a light-hearted conversation.",
+            "Abigail strikes a casual conversation with Samuel about life."
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Abigail believes that Samuel is content with his job as a banker.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Abigail starts to believe that Samuel isn't entirely happy with his current job.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Abigail believes Samuel wants to change careers but doesn't know how.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Abigail now believes Samuel has a plan to explore a new career path.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Abigail feels relieved to see Samuel after so many years.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Abigail intends to catch up and have a light-hearted conversation.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Abigail strikes a casual conversation with Samuel about life.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_2": {
+        "question": "What is the belief of Abigail Grandberry in scenario 2?",
+        "true answer": "a",
+        "options": [
+            "Abigail starts to believe that Samuel isn't entirely happy with his current job.",
+            "Abigail believes that Samuel is content with his job as a banker.",
+            "Abigail believes Samuel wants to change careers but doesn't know how.",
+            "Abigail now believes Samuel has a plan to explore a new career path.",
+            "Abigail begins to feel concerned for Samuel.",
+            "Abigail intends to dig deeper into Samuel's feelings about his job.",
+            "Abigail asks Samuel more probing questions about his job satisfaction."
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Abigail starts to believe that Samuel isn't entirely happy with his current job.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Abigail believes that Samuel is content with his job as a banker.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Abigail believes Samuel wants to change careers but doesn't know how.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Abigail now believes Samuel has a plan to explore a new career path.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Abigail begins to feel concerned for Samuel.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Abigail intends to dig deeper into Samuel's feelings about his job.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Abigail asks Samuel more probing questions about his job satisfaction.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_3": {
+        "question": "What is the belief of Abigail Grandberry in scenario 3?",
+        "true answer": "a",
+        "options": [
+            "Abigail believes Samuel wants to change careers but doesn't know how.",
+            "Abigail believes that Samuel is content with his job as a banker.",
+            "Abigail starts to believe that Samuel isn't entirely happy with his current job.",
+            "Abigail now believes Samuel has a plan to explore a new career path.",
+            "Abigail feels a sense of empathy for Samuel's uncertainty.",
+            "Abigail intends to offer him guidance on career change options.",
+            "Abigail shares her experiences and gives Samuel suggestions on how to transition careers."
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Abigail believes Samuel wants to change careers but doesn't know how.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Abigail believes that Samuel is content with his job as a banker.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Abigail starts to believe that Samuel isn't entirely happy with his current job.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Abigail now believes Samuel has a plan to explore a new career path.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Abigail feels a sense of empathy for Samuel's uncertainty.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Abigail intends to offer him guidance on career change options.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Abigail shares her experiences and gives Samuel suggestions on how to transition careers.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_4": {
+        "question": "What is the belief of Abigail Grandberry in scenario 4?",
+        "true answer": "a",
+        "options": [
+            "Abigail now believes Samuel has a plan to explore a new career path.",
+            "Abigail believes that Samuel is content with his job as a banker.",
+            "Abigail starts to believe that Samuel isn't entirely happy with his current job.",
+            "Abigail believes Samuel wants to change careers but doesn't know how.",
+            "Abigail feels hopeful for Samuel's future.",
+            "Abigail intends to encourage and support Samuel's new plans.",
+            "Abigail offers to connect Samuel with some of her professional contacts."
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Abigail now believes Samuel has a plan to explore a new career path.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Abigail believes that Samuel is content with his job as a banker.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Abigail starts to believe that Samuel isn't entirely happy with his current job.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Abigail believes Samuel wants to change careers but doesn't know how.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Abigail feels hopeful for Samuel's future.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Abigail intends to encourage and support Samuel's new plans.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Abigail offers to connect Samuel with some of her professional contacts.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_5": {
+        "question": "What is the emotion of Abigail Grandberry in scenario 1?",
+        "true answer": "a",
+        "options": [
+            "Abigail feels relieved to see Samuel after so many years.",
+            "Abigail begins to feel concerned for Samuel.",
+            "Abigail feels a sense of empathy for Samuel's uncertainty.",
+            "Abigail feels hopeful for Samuel's future.",
+            "Abigail believes that Samuel is content with his job as a banker.",
+            "Abigail intends to catch up and have a light-hearted conversation.",
+            "Abigail strikes a casual conversation with Samuel about life."
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Abigail feels relieved to see Samuel after so many years.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Abigail begins to feel concerned for Samuel.",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Abigail feels a sense of empathy for Samuel's uncertainty.",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Abigail feels hopeful for Samuel's future.",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Abigail believes that Samuel is content with his job as a banker.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Abigail intends to catch up and have a light-hearted conversation.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Abigail strikes a casual conversation with Samuel about life.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_6": {
+        "question": "What is the emotion of Abigail Grandberry in scenario 2?",
+        "true answer": "a",
+        "options": [
+            "Abigail begins to feel concerned for Samuel.",
+            "Abigail feels relieved to see Samuel after so many years.",
+            "Abigail feels a sense of empathy for Samuel's uncertainty.",
+            "Abigail feels hopeful for Samuel's future.",
+            "Abigail starts to believe that Samuel isn't entirely happy with his current job.",
+            "Abigail intends to dig deeper into Samuel's feelings about his job.",
+            "Abigail asks Samuel more probing questions about his job satisfaction."
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Abigail begins to feel concerned for Samuel.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Abigail feels relieved to see Samuel after so many years.",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Abigail feels a sense of empathy for Samuel's uncertainty.",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Abigail feels hopeful for Samuel's future.",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Abigail starts to believe that Samuel isn't entirely happy with his current job.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Abigail intends to dig deeper into Samuel's feelings about his job.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Abigail asks Samuel more probing questions about his job satisfaction.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_7": {
+        "question": "What is the emotion of Abigail Grandberry in scenario 3?",
+        "true answer": "a",
+        "options": [
+            "Abigail feels a sense of empathy for Samuel's uncertainty.",
+            "Abigail feels relieved to see Samuel after so many years.",
+            "Abigail begins to feel concerned for Samuel.",
+            "Abigail feels hopeful for Samuel's future.",
+            "Abigail believes Samuel wants to change careers but doesn't know how.",
+            "Abigail intends to offer him guidance on career change options.",
+            "Abigail shares her experiences and gives Samuel suggestions on how to transition careers."
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Abigail feels a sense of empathy for Samuel's uncertainty.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Abigail feels relieved to see Samuel after so many years.",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Abigail begins to feel concerned for Samuel.",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Abigail feels hopeful for Samuel's future.",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Abigail believes Samuel wants to change careers but doesn't know how.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Abigail intends to offer him guidance on career change options.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Abigail shares her experiences and gives Samuel suggestions on how to transition careers.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_8": {
+        "question": "What is the emotion of Abigail Grandberry in scenario 4?",
+        "true answer": "a",
+        "options": [
+            "Abigail feels hopeful for Samuel's future.",
+            "Abigail feels relieved to see Samuel after so many years.",
+            "Abigail begins to feel concerned for Samuel.",
+            "Abigail feels a sense of empathy for Samuel's uncertainty.",
+            "Abigail now believes Samuel has a plan to explore a new career path.",
+            "Abigail intends to encourage and support Samuel's new plans.",
+            "Abigail offers to connect Samuel with some of her professional contacts."
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Abigail feels hopeful for Samuel's future.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Abigail feels relieved to see Samuel after so many years.",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Abigail begins to feel concerned for Samuel.",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Abigail feels a sense of empathy for Samuel's uncertainty.",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Abigail now believes Samuel has a plan to explore a new career path.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Abigail intends to encourage and support Samuel's new plans.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Abigail offers to connect Samuel with some of her professional contacts.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_9": {
+        "question": "What is the intention of Abigail Grandberry in scenario 1?",
+        "true answer": "a",
+        "options": [
+            "Abigail intends to catch up and have a light-hearted conversation.",
+            "Abigail intends to dig deeper into Samuel's feelings about his job.",
+            "Abigail intends to offer him guidance on career change options.",
+            "Abigail intends to encourage and support Samuel's new plans.",
+            "Abigail believes that Samuel is content with his job as a banker.",
+            "Abigail feels relieved to see Samuel after so many years.",
+            "Abigail strikes a casual conversation with Samuel about life."
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Abigail intends to catch up and have a light-hearted conversation.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Abigail intends to dig deeper into Samuel's feelings about his job.",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Abigail intends to offer him guidance on career change options.",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Abigail intends to encourage and support Samuel's new plans.",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Abigail believes that Samuel is content with his job as a banker.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Abigail feels relieved to see Samuel after so many years.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Abigail strikes a casual conversation with Samuel about life.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_10": {
+        "question": "What is the intention of Abigail Grandberry in scenario 2?",
+        "true answer": "a",
+        "options": [
+            "Abigail intends to dig deeper into Samuel's feelings about his job.",
+            "Abigail intends to catch up and have a light-hearted conversation.",
+            "Abigail intends to offer him guidance on career change options.",
+            "Abigail intends to encourage and support Samuel's new plans.",
+            "Abigail starts to believe that Samuel isn't entirely happy with his current job.",
+            "Abigail begins to feel concerned for Samuel.",
+            "Abigail asks Samuel more probing questions about his job satisfaction."
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Abigail intends to dig deeper into Samuel's feelings about his job.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Abigail intends to catch up and have a light-hearted conversation.",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Abigail intends to offer him guidance on career change options.",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Abigail intends to encourage and support Samuel's new plans.",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Abigail starts to believe that Samuel isn't entirely happy with his current job.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Abigail begins to feel concerned for Samuel.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Abigail asks Samuel more probing questions about his job satisfaction.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_11": {
+        "question": "What is the intention of Abigail Grandberry in scenario 3?",
+        "true answer": "a",
+        "options": [
+            "Abigail intends to offer him guidance on career change options.",
+            "Abigail intends to catch up and have a light-hearted conversation.",
+            "Abigail intends to dig deeper into Samuel's feelings about his job.",
+            "Abigail intends to encourage and support Samuel's new plans.",
+            "Abigail believes Samuel wants to change careers but doesn't know how.",
+            "Abigail feels a sense of empathy for Samuel's uncertainty.",
+            "Abigail shares her experiences and gives Samuel suggestions on how to transition careers."
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Abigail intends to offer him guidance on career change options.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Abigail intends to catch up and have a light-hearted conversation.",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Abigail intends to dig deeper into Samuel's feelings about his job.",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Abigail intends to encourage and support Samuel's new plans.",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Abigail believes Samuel wants to change careers but doesn't know how.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Abigail feels a sense of empathy for Samuel's uncertainty.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Abigail shares her experiences and gives Samuel suggestions on how to transition careers.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_12": {
+        "question": "What is the intention of Abigail Grandberry in scenario 4?",
+        "true answer": "a",
+        "options": [
+            "Abigail intends to encourage and support Samuel's new plans.",
+            "Abigail intends to catch up and have a light-hearted conversation.",
+            "Abigail intends to dig deeper into Samuel's feelings about his job.",
+            "Abigail intends to offer him guidance on career change options.",
+            "Abigail now believes Samuel has a plan to explore a new career path.",
+            "Abigail feels hopeful for Samuel's future.",
+            "Abigail offers to connect Samuel with some of her professional contacts."
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Abigail intends to encourage and support Samuel's new plans.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Abigail intends to catch up and have a light-hearted conversation.",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Abigail intends to dig deeper into Samuel's feelings about his job.",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Abigail intends to offer him guidance on career change options.",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Abigail now believes Samuel has a plan to explore a new career path.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Abigail feels hopeful for Samuel's future.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Abigail offers to connect Samuel with some of her professional contacts.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_13": {
+        "question": "What is the action of Abigail Grandberry in scenario 1?",
+        "true answer": "a",
+        "options": [
+            "Abigail strikes a casual conversation with Samuel about life.",
+            "Abigail asks Samuel more probing questions about his job satisfaction.",
+            "Abigail shares her experiences and gives Samuel suggestions on how to transition careers.",
+            "Abigail offers to connect Samuel with some of her professional contacts.",
+            "Abigail believes that Samuel is content with his job as a banker.",
+            "Abigail feels relieved to see Samuel after so many years.",
+            "Abigail intends to catch up and have a light-hearted conversation."
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Abigail strikes a casual conversation with Samuel about life.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Abigail asks Samuel more probing questions about his job satisfaction.",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Abigail shares her experiences and gives Samuel suggestions on how to transition careers.",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Abigail offers to connect Samuel with some of her professional contacts.",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Abigail believes that Samuel is content with his job as a banker.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Abigail feels relieved to see Samuel after so many years.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Abigail intends to catch up and have a light-hearted conversation.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_14": {
+        "question": "What is the action of Abigail Grandberry in scenario 2?",
+        "true answer": "a",
+        "options": [
+            "Abigail asks Samuel more probing questions about his job satisfaction.",
+            "Abigail strikes a casual conversation with Samuel about life.",
+            "Abigail shares her experiences and gives Samuel suggestions on how to transition careers.",
+            "Abigail offers to connect Samuel with some of her professional contacts.",
+            "Abigail starts to believe that Samuel isn't entirely happy with his current job.",
+            "Abigail begins to feel concerned for Samuel.",
+            "Abigail intends to dig deeper into Samuel's feelings about his job."
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Abigail asks Samuel more probing questions about his job satisfaction.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Abigail strikes a casual conversation with Samuel about life.",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Abigail shares her experiences and gives Samuel suggestions on how to transition careers.",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Abigail offers to connect Samuel with some of her professional contacts.",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Abigail starts to believe that Samuel isn't entirely happy with his current job.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Abigail begins to feel concerned for Samuel.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Abigail intends to dig deeper into Samuel's feelings about his job.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_15": {
+        "question": "What is the action of Abigail Grandberry in scenario 3?",
+        "true answer": "a",
+        "options": [
+            "Abigail shares her experiences and gives Samuel suggestions on how to transition careers.",
+            "Abigail strikes a casual conversation with Samuel about life.",
+            "Abigail asks Samuel more probing questions about his job satisfaction.",
+            "Abigail offers to connect Samuel with some of her professional contacts.",
+            "Abigail believes Samuel wants to change careers but doesn't know how.",
+            "Abigail feels a sense of empathy for Samuel's uncertainty.",
+            "Abigail intends to offer him guidance on career change options."
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Abigail shares her experiences and gives Samuel suggestions on how to transition careers.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Abigail strikes a casual conversation with Samuel about life.",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Abigail asks Samuel more probing questions about his job satisfaction.",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Abigail offers to connect Samuel with some of her professional contacts.",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Abigail believes Samuel wants to change careers but doesn't know how.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Abigail feels a sense of empathy for Samuel's uncertainty.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Abigail intends to offer him guidance on career change options.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_16": {
+        "question": "What is the action of Abigail Grandberry in scenario 4?",
+        "true answer": "a",
+        "options": [
+            "Abigail offers to connect Samuel with some of her professional contacts.",
+            "Abigail strikes a casual conversation with Samuel about life.",
+            "Abigail asks Samuel more probing questions about his job satisfaction.",
+            "Abigail shares her experiences and gives Samuel suggestions on how to transition careers.",
+            "Abigail now believes Samuel has a plan to explore a new career path.",
+            "Abigail feels hopeful for Samuel's future.",
+            "Abigail intends to encourage and support Samuel's new plans."
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Abigail offers to connect Samuel with some of her professional contacts.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Abigail strikes a casual conversation with Samuel about life.",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Abigail asks Samuel more probing questions about his job satisfaction.",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Abigail shares her experiences and gives Samuel suggestions on how to transition careers.",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Abigail now believes Samuel has a plan to explore a new career path.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Abigail feels hopeful for Samuel's future.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Abigail intends to encourage and support Samuel's new plans.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    }
+}

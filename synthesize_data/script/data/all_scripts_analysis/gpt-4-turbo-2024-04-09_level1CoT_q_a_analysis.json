@@ -1,0 +1,367 @@
+{
+    "question_all": {
+        "belief:1->2": {
+            "count": 198,
+            "correct": 87,
+            "accuracy": 0.4393939393939394
+        },
+        "belief:2->3": {
+            "count": 198,
+            "correct": 51,
+            "accuracy": 0.25757575757575757
+        },
+        "belief:3->4": {
+            "count": 198,
+            "correct": 39,
+            "accuracy": 0.19696969696969696
+        },
+        "belief:4->5": {
+            "count": 198,
+            "correct": 60,
+            "accuracy": 0.30303030303030304
+        },
+        "emotion:1->2": {
+            "count": 198,
+            "correct": 74,
+            "accuracy": 0.37373737373737376
+        },
+        "emotion:2->3": {
+            "count": 198,
+            "correct": 56,
+            "accuracy": 0.2828282828282828
+        },
+        "emotion:3->4": {
+            "count": 198,
+            "correct": 55,
+            "accuracy": 0.2777777777777778
+        },
+        "emotion:4->5": {
+            "count": 198,
+            "correct": 76,
+            "accuracy": 0.3838383838383838
+        },
+        "intention:1->2": {
+            "count": 198,
+            "correct": 80,
+            "accuracy": 0.40404040404040403
+        },
+        "intention:2->3": {
+            "count": 198,
+            "correct": 49,
+            "accuracy": 0.2474747474747475
+        },
+        "intention:3->4": {
+            "count": 198,
+            "correct": 56,
+            "accuracy": 0.2828282828282828
+        },
+        "intention:4->5": {
+            "count": 198,
+            "correct": 68,
+            "accuracy": 0.3434343434343434
+        },
+        "action:1->2": {
+            "count": 198,
+            "correct": 84,
+            "accuracy": 0.42424242424242425
+        },
+        "action:2->3": {
+            "count": 198,
+            "correct": 61,
+            "accuracy": 0.30808080808080807
+        },
+        "action:3->4": {
+            "count": 198,
+            "correct": 51,
+            "accuracy": 0.25757575757575757
+        },
+        "action:4->5": {
+            "count": 198,
+            "correct": 80,
+            "accuracy": 0.40404040404040403
+        },
+        "belief->emotion:1": {
+            "count": 99,
+            "correct": 65,
+            "accuracy": 0.6565656565656566
+        },
+        "belief->emotion:2": {
+            "count": 99,
+            "correct": 39,
+            "accuracy": 0.3939393939393939
+        },
+        "belief->emotion:3": {
+            "count": 99,
+            "correct": 39,
+            "accuracy": 0.3939393939393939
+        },
+        "belief->emotion:4": {
+            "count": 99,
+            "correct": 19,
+            "accuracy": 0.1919191919191919
+        },
+        "belief->emotion:5": {
+            "count": 99,
+            "correct": 67,
+            "accuracy": 0.6767676767676768
+        },
+        "belief&emotion->intention:1": {
+            "count": 99,
+            "correct": 76,
+            "accuracy": 0.7676767676767676
+        },
+        "belief&emotion->intention:2": {
+            "count": 99,
+            "correct": 47,
+            "accuracy": 0.47474747474747475
+        },
+        "belief&emotion->intention:3": {
+            "count": 99,
+            "correct": 43,
+            "accuracy": 0.43434343434343436
+        },
+        "belief&emotion->intention:4": {
+            "count": 99,
+            "correct": 33,
+            "accuracy": 0.3333333333333333
+        },
+        "belief&emotion->intention:5": {
+            "count": 99,
+            "correct": 58,
+            "accuracy": 0.5858585858585859
+        },
+        "intention->action:1": {
+            "count": 99,
+            "correct": 76,
+            "accuracy": 0.7676767676767676
+        },
+        "intention->action:2": {
+            "count": 99,
+            "correct": 56,
+            "accuracy": 0.5656565656565656
+        },
+        "intention->action:3": {
+            "count": 99,
+            "correct": 67,
+            "accuracy": 0.6767676767676768
+        },
+        "intention->action:4": {
+            "count": 99,
+            "correct": 72,
+            "accuracy": 0.7272727272727273
+        },
+        "intention->action:5": {
+            "count": 99,
+            "correct": 69,
+            "accuracy": 0.696969696969697
+        },
+        "belief:1": {
+            "count": 99,
+            "correct": 70,
+            "accuracy": 0.7070707070707071
+        },
+        "belief:2": {
+            "count": 99,
+            "correct": 59,
+            "accuracy": 0.5959595959595959
+        },
+        "belief:3": {
+            "count": 99,
+            "correct": 52,
+            "accuracy": 0.5252525252525253
+        },
+        "belief:4": {
+            "count": 99,
+            "correct": 49,
+            "accuracy": 0.494949494949495
+        },
+        "belief:5": {
+            "count": 99,
+            "correct": 71,
+            "accuracy": 0.7171717171717171
+        },
+        "emotion:1": {
+            "count": 99,
+            "correct": 82,
+            "accuracy": 0.8282828282828283
+        },
+        "emotion:2": {
+            "count": 99,
+            "correct": 66,
+            "accuracy": 0.6666666666666666
+        },
+        "emotion:3": {
+            "count": 99,
+            "correct": 69,
+            "accuracy": 0.696969696969697
+        },
+        "emotion:4": {
+            "count": 99,
+            "correct": 74,
+            "accuracy": 0.7474747474747475
+        },
+        "emotion:5": {
+            "count": 99,
+            "correct": 93,
+            "accuracy": 0.9393939393939394
+        },
+        "intention:1": {
+            "count": 99,
+            "correct": 81,
+            "accuracy": 0.8181818181818182
+        },
+        "intention:2": {
+            "count": 99,
+            "correct": 72,
+            "accuracy": 0.7272727272727273
+        },
+        "intention:3": {
+            "count": 99,
+            "correct": 61,
+            "accuracy": 0.6161616161616161
+        },
+        "intention:4": {
+            "count": 99,
+            "correct": 64,
+            "accuracy": 0.6464646464646465
+        },
+        "intention:5": {
+            "count": 99,
+            "correct": 80,
+            "accuracy": 0.8080808080808081
+        },
+        "action:1": {
+            "count": 99,
+            "correct": 85,
+            "accuracy": 0.8585858585858586
+        },
+        "action:2": {
+            "count": 99,
+            "correct": 75,
+            "accuracy": 0.7575757575757576
+        },
+        "action:3": {
+            "count": 99,
+            "correct": 73,
+            "accuracy": 0.7373737373737373
+        },
+        "action:4": {
+            "count": 99,
+            "correct": 81,
+            "accuracy": 0.8181818181818182
+        },
+        "action:5": {
+            "count": 99,
+            "correct": 86,
+            "accuracy": 0.8686868686868687
+        }
+    },
+    "time": {
+        "1->2": {
+            "count": 792,
+            "correct": 325,
+            "accuracy": 0.41035353535353536
+        },
+        "2->3": {
+            "count": 792,
+            "correct": 217,
+            "accuracy": 0.273989898989899
+        },
+        "3->4": {
+            "count": 792,
+            "correct": 201,
+            "accuracy": 0.2537878787878788
+        },
+        "4->5": {
+            "count": 792,
+            "correct": 284,
+            "accuracy": 0.35858585858585856
+        },
+        "1": {
+            "count": 693,
+            "correct": 535,
+            "accuracy": 0.772005772005772
+        },
+        "2": {
+            "count": 693,
+            "correct": 414,
+            "accuracy": 0.5974025974025974
+        },
+        "3": {
+            "count": 693,
+            "correct": 404,
+            "accuracy": 0.5829725829725829
+        },
+        "4": {
+            "count": 693,
+            "correct": 392,
+            "accuracy": 0.5656565656565656
+        },
+        "5": {
+            "count": 693,
+            "correct": 524,
+            "accuracy": 0.7561327561327561
+        }
+    },
+    "mental_type": {
+        "belief": {
+            "count": 1287,
+            "correct": 538,
+            "accuracy": 0.41802641802641805
+        },
+        "emotion": {
+            "count": 1287,
+            "correct": 645,
+            "accuracy": 0.5011655011655012
+        },
+        "intention": {
+            "count": 1287,
+            "correct": 611,
+            "accuracy": 0.47474747474747475
+        },
+        "action": {
+            "count": 1287,
+            "correct": 676,
+            "accuracy": 0.5252525252525253
+        },
+        "belief->emotion": {
+            "count": 495,
+            "correct": 229,
+            "accuracy": 0.4626262626262626
+        },
+        "belief&emotion->intention": {
+            "count": 495,
+            "correct": 257,
+            "accuracy": 0.5191919191919192
+        },
+        "intention->action": {
+            "count": 495,
+            "correct": 340,
+            "accuracy": 0.6868686868686869
+        }
+    },
+    "reason_or_not": {
+        "reason": {
+            "count": 3069,
+            "correct": 1024,
+            "accuracy": 0.3336591723688498
+        },
+        "not_reason": {
+            "count": 3564,
+            "correct": 2272,
+            "accuracy": 0.6374859708193041
+        }
+    },
+    "influence": {
+        "pre_0": {
+            "correct": 740,
+            "count": 2238,
+            "accuracy": 0.33065236818588023
+        },
+        "pre_1": {
+            "correct": 1113,
+            "count": 2415,
+            "accuracy": 0.4608695652173913
+        }
+    }
+}

@@ -1,6 +1,6 @@
 import json
 from os import write
-
+from util.random_id_cot import cot_list
 from synthesize_data.process_data import answer_unmber_mapping
 
 
@@ -189,10 +189,14 @@ if __name__ == "__main__":
     #     for model in models:
     #         calculate_accuracy(script_id, model, level)
 
-    scrip_ids = range(1150, 1170)
+    scrip_ids = range(1170,1190)
     level = "level1"
-    model = "DeepSeek-V2-Lite-Chat"
-    overal_analysis(scrip_ids, model, level)
+    # models = ["Meta-Llama-3.1-8B-Instruct","Meta-Llama-3.1-70B-Instruct","Mistral-7B-Instruct-v0.3","Mixtral-8x7B-Instruct-v0.1","Qwen2-7B-Instruct","Qwen2-72B-Instruct","DeepSeek-V2-Lite-Chat","gpt-4-turbo-2024-04-09","gpt-4o-2024-05-13","glm-4-9b-chat"]
+    models = ["gpt-4-turbo-2024-04-09","gpt-4o-2024-05-13"]
+    for model in models:
+        for script_id in scrip_ids:
+            calculate_accuracy(1170, model, level)
+        #overal_analysis(scrip_ids, model, level)
     
     # model = "gpt-4o-2024-05-13"
     # overal_analysis(scrip_ids, model, level)

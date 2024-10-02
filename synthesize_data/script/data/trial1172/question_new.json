@@ -1,0 +1,3299 @@
+{
+    "type_d_how_1": {
+        "question": "How does the belief of Kimberly Yazzie change across the 4 scenarios?",
+        "true answer": "c",
+        "options": [
+            "a. Kimberly now believes Alice feels undervalued at work. -> Kimberly believes that Alice is stressed due to her job. -> Kimberly believes Alice has made a decision about her career path. -> Kimberly starts to believe Alice is considering a career change.",
+            "b. Kimberly believes that Alice is stressed due to her job. -> Kimberly starts to believe Alice is considering a career change. -> Kimberly now believes Alice feels undervalued at work. -> Kimberly believes Alice has made a decision about her career path.",
+            "c. Kimberly believes that Alice is stressed due to her job. -> Kimberly now believes Alice feels undervalued at work. -> Kimberly starts to believe Alice is considering a career change. -> Kimberly believes Alice has made a decision about her career path.",
+            "d. Kimberly believes Alice has made a decision about her career path. -> Kimberly now believes Alice feels undervalued at work. -> Kimberly starts to believe Alice is considering a career change. -> To provide encouragement and practical advice",
+            "e. Kimberly believes Alice has made a decision about her career path. -> Kimberly now believes Alice feels undervalued at work. -> Kimberly starts to believe Alice is considering a career change.",
+            "f. Kimberly believes Alice has made a decision about her career path. -> Shares stories of Alice's successes to remind her of her value -> Kimberly starts to believe Alice is considering a career change. -> Kimberly believes that Alice is stressed due to her job.",
+            "g. Kimberly believes Alice has made a decision about her career path. -> Kimberly now believes Alice feels undervalued at work. -> Worry -> Kimberly believes that Alice is stressed due to her job.",
+            "h. Kimberly believes Alice has made a decision about her career path. -> Kimberly now believes Alice feels undervalued at work. -> Kimberly starts to believe Alice is considering a career change. -> Kimberly believes that Alice is stressed due to her job."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Kimberly believes that Alice is stressed due to her job. -> Kimberly now believes Alice feels undervalued at work. -> Kimberly starts to believe Alice is considering a career change. -> Kimberly believes Alice has made a decision about her career path.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Kimberly now believes Alice feels undervalued at work. -> Kimberly believes that Alice is stressed due to her job. -> Kimberly believes Alice has made a decision about her career path. -> Kimberly starts to believe Alice is considering a career change.",
+                "explain": "shuffle the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Kimberly believes Alice has made a decision about her career path. -> Kimberly now believes Alice feels undervalued at work. -> Kimberly starts to believe Alice is considering a career change. -> Kimberly believes that Alice is stressed due to her job.",
+                "explain": "change the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Kimberly believes that Alice is stressed due to her job. -> Kimberly starts to believe Alice is considering a career change. -> Kimberly now believes Alice feels undervalued at work. -> Kimberly believes Alice has made a decision about her career path.",
+                "explain": "reverse the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Kimberly believes Alice has made a decision about her career path. -> Kimberly now believes Alice feels undervalued at work. -> Kimberly starts to believe Alice is considering a career change.",
+                "explain": "remove one belief in one time stage",
+                "reason": "test ability to recognize the completeness of the mental states",
+                "short": "type_d_how_recognize_time_stage_completeness"
+            },
+            {
+                "option": "Kimberly believes Alice has made a decision about her career path. -> Kimberly now believes Alice feels undervalued at work. -> Worry -> Kimberly believes that Alice is stressed due to her job.",
+                "reason": "test ability to recognize the relationship between belief and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Kimberly believes Alice has made a decision about her career path. -> Kimberly now believes Alice feels undervalued at work. -> Kimberly starts to believe Alice is considering a career change. -> To provide encouragement and practical advice",
+                "reason": "test ability to recognize the relationship between belief and intention",
+                "explain": "intention change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Kimberly believes Alice has made a decision about her career path. -> Shares stories of Alice's successes to remind her of her value -> Kimberly starts to believe Alice is considering a career change. -> Kimberly believes that Alice is stressed due to her job.",
+                "reason": "test ability to recognize the relationship between belief and action",
+                "explain": "action change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_how_2": {
+        "question": "How does the emotion of Kimberly Yazzie change across the 4 scenarios?",
+        "true answer": "c",
+        "options": [
+            "a. Concerned -> Worry -> Empathy -> Supportiveness",
+            "b. Supportiveness -> Empathy -> Worry",
+            "c. Concerned -> Empathy -> Worry -> Supportiveness",
+            "d. Supportiveness -> Kimberly now believes Alice feels undervalued at work. -> Worry -> Concerned",
+            "e. Supportiveness -> Empathy -> Worry -> Offers resources and advice for Alice's new career direction",
+            "f. Empathy -> Concerned -> Supportiveness -> Worry",
+            "g. Supportiveness -> Empathy -> Worry -> To provide encouragement and practical advice",
+            "h. Supportiveness -> Empathy -> Worry -> Concerned"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Concerned -> Empathy -> Worry -> Supportiveness",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Empathy -> Concerned -> Supportiveness -> Worry",
+                "explain": "shuffle the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Supportiveness -> Empathy -> Worry -> Concerned",
+                "explain": "change the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Concerned -> Worry -> Empathy -> Supportiveness",
+                "explain": "reverse the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Supportiveness -> Empathy -> Worry",
+                "explain": "remove one belief in one time stage",
+                "reason": "test ability to recognize the completeness of the mental states",
+                "short": "type_d_how_recognize_time_stage_completeness"
+            },
+            {
+                "option": "Supportiveness -> Kimberly now believes Alice feels undervalued at work. -> Worry -> Concerned",
+                "reason": "test ability to recognize the relationship between emotion and belief",
+                "explain": "belief change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Supportiveness -> Empathy -> Worry -> To provide encouragement and practical advice",
+                "reason": "test ability to recognize the relationship between emotion and intention",
+                "explain": "intention change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Supportiveness -> Empathy -> Worry -> Offers resources and advice for Alice's new career direction",
+                "reason": "test ability to recognize the relationship between emotion and action",
+                "explain": "action change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_how_3": {
+        "question": "How does the intention of Kimberly Yazzie change across the 4 scenarios?",
+        "true answer": "h",
+        "options": [
+            "a. Initiates conversation about Alice's job -> To help Alice manage her stress -> To explore Alice's feelings about a career change -> To provide encouragement and practical advice",
+            "b. To provide encouragement and practical advice -> To explore Alice's feelings about a career change -> To help Alice manage her stress -> To boost Alice's self-esteem",
+            "c. To explore Alice's feelings about a career change -> To provide encouragement and practical advice -> To boost Alice's self-esteem -> To help Alice manage her stress",
+            "d. To boost Alice's self-esteem -> To help Alice manage her stress -> To explore Alice's feelings about a career change -> Kimberly believes that Alice is stressed due to her job.",
+            "e. To boost Alice's self-esteem -> To help Alice manage her stress -> To explore Alice's feelings about a career change -> To provide encouragement and practical advice",
+            "f. To boost Alice's self-esteem -> To help Alice manage her stress -> Worry -> To provide encouragement and practical advice",
+            "g. To boost Alice's self-esteem -> To help Alice manage her stress -> To provide encouragement and practical advice",
+            "h. To help Alice manage her stress -> To boost Alice's self-esteem -> To explore Alice's feelings about a career change -> To provide encouragement and practical advice"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "To help Alice manage her stress -> To boost Alice's self-esteem -> To explore Alice's feelings about a career change -> To provide encouragement and practical advice",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "To explore Alice's feelings about a career change -> To provide encouragement and practical advice -> To boost Alice's self-esteem -> To help Alice manage her stress",
+                "explain": "shuffle the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "To boost Alice's self-esteem -> To help Alice manage her stress -> To explore Alice's feelings about a career change -> To provide encouragement and practical advice",
+                "explain": "change the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "To provide encouragement and practical advice -> To explore Alice's feelings about a career change -> To help Alice manage her stress -> To boost Alice's self-esteem",
+                "explain": "reverse the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "To boost Alice's self-esteem -> To help Alice manage her stress -> To provide encouragement and practical advice",
+                "explain": "remove one belief in one time stage",
+                "reason": "test ability to recognize the completeness of the mental states",
+                "short": "type_d_how_recognize_time_stage_completeness"
+            },
+            {
+                "option": "To boost Alice's self-esteem -> To help Alice manage her stress -> To explore Alice's feelings about a career change -> Kimberly believes that Alice is stressed due to her job.",
+                "reason": "test ability to recognize the relationship between intention and belief",
+                "explain": "belief change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "To boost Alice's self-esteem -> To help Alice manage her stress -> Worry -> To provide encouragement and practical advice",
+                "reason": "test ability to recognize the relationship between intention and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Initiates conversation about Alice's job -> To help Alice manage her stress -> To explore Alice's feelings about a career change -> To provide encouragement and practical advice",
+                "reason": "test ability to recognize the relationship between intention and action",
+                "explain": "action change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_how_4": {
+        "question": "How does the action of Kimberly Yazzie change across the 4 scenarios?",
+        "true answer": "b",
+        "options": [
+            "a. Initiates conversation about Alice's job -> Asks Alice direct questions about her career goals -> Shares stories of Alice's successes to remind her of her value -> Offers resources and advice for Alice's new career direction",
+            "b. Initiates conversation about Alice's job -> Shares stories of Alice's successes to remind her of her value -> Asks Alice direct questions about her career goals -> Offers resources and advice for Alice's new career direction",
+            "c. Supportiveness -> Asks Alice direct questions about her career goals -> Shares stories of Alice's successes to remind her of her value -> Offers resources and advice for Alice's new career direction",
+            "d. Asks Alice direct questions about her career goals -> Initiates conversation about Alice's job -> Offers resources and advice for Alice's new career direction -> Shares stories of Alice's successes to remind her of her value",
+            "e. Offers resources and advice for Alice's new career direction -> Shares stories of Alice's successes to remind her of her value -> Asks Alice direct questions about her career goals -> Initiates conversation about Alice's job",
+            "f. To boost Alice's self-esteem -> Asks Alice direct questions about her career goals -> Shares stories of Alice's successes to remind her of her value -> Offers resources and advice for Alice's new career direction",
+            "g. Initiates conversation about Alice's job -> Kimberly now believes Alice feels undervalued at work. -> Shares stories of Alice's successes to remind her of her value -> Offers resources and advice for Alice's new career direction",
+            "h. Asks Alice direct questions about her career goals -> Shares stories of Alice's successes to remind her of her value -> Offers resources and advice for Alice's new career direction"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Initiates conversation about Alice's job -> Shares stories of Alice's successes to remind her of her value -> Asks Alice direct questions about her career goals -> Offers resources and advice for Alice's new career direction",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Asks Alice direct questions about her career goals -> Initiates conversation about Alice's job -> Offers resources and advice for Alice's new career direction -> Shares stories of Alice's successes to remind her of her value",
+                "explain": "shuffle the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Initiates conversation about Alice's job -> Asks Alice direct questions about her career goals -> Shares stories of Alice's successes to remind her of her value -> Offers resources and advice for Alice's new career direction",
+                "explain": "change the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Offers resources and advice for Alice's new career direction -> Shares stories of Alice's successes to remind her of her value -> Asks Alice direct questions about her career goals -> Initiates conversation about Alice's job",
+                "explain": "reverse the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Asks Alice direct questions about her career goals -> Shares stories of Alice's successes to remind her of her value -> Offers resources and advice for Alice's new career direction",
+                "explain": "remove one belief in one time stage",
+                "reason": "test ability to recognize the completeness of the mental states",
+                "short": "type_d_how_recognize_time_stage_completeness"
+            },
+            {
+                "option": "Initiates conversation about Alice's job -> Kimberly now believes Alice feels undervalued at work. -> Shares stories of Alice's successes to remind her of her value -> Offers resources and advice for Alice's new career direction",
+                "reason": "test ability to recognize the relationship between action and belief",
+                "explain": "belief change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Supportiveness -> Asks Alice direct questions about her career goals -> Shares stories of Alice's successes to remind her of her value -> Offers resources and advice for Alice's new career direction",
+                "reason": "test ability to recognize the relationship between action and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "To boost Alice's self-esteem -> Asks Alice direct questions about her career goals -> Shares stories of Alice's successes to remind her of her value -> Offers resources and advice for Alice's new career direction",
+                "reason": "test ability to recognize the relationship between action and intention",
+                "explain": "intention change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_1": {
+        "question": "Why does the belief of Kimberly Yazzie change from scenario 1 to scenario 2?",
+        "true answer": "k",
+        "options": [
+            "a. Knowing Alice has made a decision changed worry to supportiveness.",
+            "b. Worry led Kimberly to want to better understand Alice's career thoughts.",
+            "c. Alice's indication of a decision about her career path led to another change in Kimberly's belief.",
+            "d. Supportive intentions emerged from understanding Alice's decision.",
+            "e. As empathetic Kimberly wanted to boost Alice's morale.",
+            "f. Belief that Alice is considering a career change turned empathy to worry.",
+            "g. Kimberly's concern shifted to empathy as she understood more about Alice's feelings.",
+            "h. Alice's contemplation about her future career caused Kimberly's belief change.",
+            "i. Initial conversation revealed more about Alice's feelings, prompting supportive actions.",
+            "j. Understanding Alice's career contemplation led Kimberly to deeper questions.",
+            "k. Alice's sharing of feeling undervalued influenced Kimberly's belief.",
+            "l. Decision indication led to Kimberly offering practical help."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Alice's sharing of feeling undervalued influenced Kimberly's belief.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Alice's contemplation about her future career caused Kimberly's belief change.",
+                "reason": "test ability to recognize the reason of belief change in different time stage",
+                "explain": "belief change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Alice's indication of a decision about her career path led to another change in Kimberly's belief.",
+                "reason": "test ability to recognize the reason of belief change in different time stage",
+                "explain": "belief change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Kimberly's concern shifted to empathy as she understood more about Alice's feelings.",
+                "reason": "test ability to recognize the reason between belief and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Belief that Alice is considering a career change turned empathy to worry.",
+                "reason": "test ability to recognize the reason between belief and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Knowing Alice has made a decision changed worry to supportiveness.",
+                "reason": "test ability to recognize the reason between belief and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "As empathetic Kimberly wanted to boost Alice's morale.",
+                "reason": "test ability to recognize the reason between belief and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Worry led Kimberly to want to better understand Alice's career thoughts.",
+                "reason": "test ability to recognize the reason between belief and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Supportive intentions emerged from understanding Alice's decision.",
+                "reason": "test ability to recognize the reason between belief and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Initial conversation revealed more about Alice's feelings, prompting supportive actions.",
+                "reason": "test ability to recognize the reason between belief and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Understanding Alice's career contemplation led Kimberly to deeper questions.",
+                "reason": "test ability to recognize the reason between belief and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Decision indication led to Kimberly offering practical help.",
+                "reason": "test ability to recognize the reason between belief and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_2": {
+        "question": "Why does the belief of Kimberly Yazzie change from scenario 2 to scenario 3?",
+        "true answer": "g",
+        "options": [
+            "a. Decision indication led to Kimberly offering practical help.",
+            "b. Understanding Alice's career contemplation led Kimberly to deeper questions.",
+            "c. Alice's sharing of feeling undervalued influenced Kimberly's belief.",
+            "d. Belief that Alice is considering a career change turned empathy to worry.",
+            "e. Worry led Kimberly to want to better understand Alice's career thoughts.",
+            "f. Knowing Alice has made a decision changed worry to supportiveness.",
+            "g. Alice's contemplation about her future career caused Kimberly's belief change.",
+            "h. Kimberly's concern shifted to empathy as she understood more about Alice's feelings.",
+            "i. Supportive intentions emerged from understanding Alice's decision.",
+            "j. As empathetic Kimberly wanted to boost Alice's morale.",
+            "k. Alice's indication of a decision about her career path led to another change in Kimberly's belief.",
+            "l. Initial conversation revealed more about Alice's feelings, prompting supportive actions."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Alice's contemplation about her future career caused Kimberly's belief change.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Alice's sharing of feeling undervalued influenced Kimberly's belief.",
+                "reason": "test ability to recognize the reason of belief change in different time stage",
+                "explain": "belief change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Alice's indication of a decision about her career path led to another change in Kimberly's belief.",
+                "reason": "test ability to recognize the reason of belief change in different time stage",
+                "explain": "belief change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Kimberly's concern shifted to empathy as she understood more about Alice's feelings.",
+                "reason": "test ability to recognize the reason between belief and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Belief that Alice is considering a career change turned empathy to worry.",
+                "reason": "test ability to recognize the reason between belief and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Knowing Alice has made a decision changed worry to supportiveness.",
+                "reason": "test ability to recognize the reason between belief and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "As empathetic Kimberly wanted to boost Alice's morale.",
+                "reason": "test ability to recognize the reason between belief and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Worry led Kimberly to want to better understand Alice's career thoughts.",
+                "reason": "test ability to recognize the reason between belief and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Supportive intentions emerged from understanding Alice's decision.",
+                "reason": "test ability to recognize the reason between belief and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Initial conversation revealed more about Alice's feelings, prompting supportive actions.",
+                "reason": "test ability to recognize the reason between belief and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Understanding Alice's career contemplation led Kimberly to deeper questions.",
+                "reason": "test ability to recognize the reason between belief and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Decision indication led to Kimberly offering practical help.",
+                "reason": "test ability to recognize the reason between belief and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_3": {
+        "question": "Why does the belief of Kimberly Yazzie change from scenario 3 to scenario 4?",
+        "true answer": "e",
+        "options": [
+            "a. Initial conversation revealed more about Alice's feelings, prompting supportive actions.",
+            "b. Supportive intentions emerged from understanding Alice's decision.",
+            "c. Kimberly's concern shifted to empathy as she understood more about Alice's feelings.",
+            "d. Alice's sharing of feeling undervalued influenced Kimberly's belief.",
+            "e. Alice's indication of a decision about her career path led to another change in Kimberly's belief.",
+            "f. Knowing Alice has made a decision changed worry to supportiveness.",
+            "g. Alice's contemplation about her future career caused Kimberly's belief change.",
+            "h. Belief that Alice is considering a career change turned empathy to worry.",
+            "i. Decision indication led to Kimberly offering practical help.",
+            "j. Understanding Alice's career contemplation led Kimberly to deeper questions.",
+            "k. Worry led Kimberly to want to better understand Alice's career thoughts.",
+            "l. As empathetic Kimberly wanted to boost Alice's morale."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Alice's indication of a decision about her career path led to another change in Kimberly's belief.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Alice's sharing of feeling undervalued influenced Kimberly's belief.",
+                "reason": "test ability to recognize the reason of belief change in different time stage",
+                "explain": "belief change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Alice's contemplation about her future career caused Kimberly's belief change.",
+                "reason": "test ability to recognize the reason of belief change in different time stage",
+                "explain": "belief change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Kimberly's concern shifted to empathy as she understood more about Alice's feelings.",
+                "reason": "test ability to recognize the reason between belief and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Belief that Alice is considering a career change turned empathy to worry.",
+                "reason": "test ability to recognize the reason between belief and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Knowing Alice has made a decision changed worry to supportiveness.",
+                "reason": "test ability to recognize the reason between belief and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "As empathetic Kimberly wanted to boost Alice's morale.",
+                "reason": "test ability to recognize the reason between belief and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Worry led Kimberly to want to better understand Alice's career thoughts.",
+                "reason": "test ability to recognize the reason between belief and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Supportive intentions emerged from understanding Alice's decision.",
+                "reason": "test ability to recognize the reason between belief and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Initial conversation revealed more about Alice's feelings, prompting supportive actions.",
+                "reason": "test ability to recognize the reason between belief and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Understanding Alice's career contemplation led Kimberly to deeper questions.",
+                "reason": "test ability to recognize the reason between belief and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Decision indication led to Kimberly offering practical help.",
+                "reason": "test ability to recognize the reason between belief and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_4": {
+        "question": "Why does the emotion of Kimberly Yazzie change from scenario 1 to scenario 2?",
+        "true answer": "b",
+        "options": [
+            "a. Supportive intentions emerged from understanding Alice's decision.",
+            "b. Kimberly's concern shifted to empathy as she understood more about Alice's feelings.",
+            "c. Understanding Alice's career contemplation led Kimberly to deeper questions.",
+            "d. Worry led Kimberly to want to better understand Alice's career thoughts.",
+            "e. Initial conversation revealed more about Alice's feelings, prompting supportive actions.",
+            "f. Belief that Alice is considering a career change turned empathy to worry.",
+            "g. Alice's contemplation about her future career caused Kimberly's belief change.",
+            "h. Alice's indication of a decision about her career path led to another change in Kimberly's belief.",
+            "i. Decision indication led to Kimberly offering practical help.",
+            "j. Alice's sharing of feeling undervalued influenced Kimberly's belief.",
+            "k. As empathetic Kimberly wanted to boost Alice's morale.",
+            "l. Knowing Alice has made a decision changed worry to supportiveness."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Kimberly's concern shifted to empathy as she understood more about Alice's feelings.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Belief that Alice is considering a career change turned empathy to worry.",
+                "reason": "test ability to recognize the reason of emotion change in different time stage",
+                "explain": "emotion change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Knowing Alice has made a decision changed worry to supportiveness.",
+                "reason": "test ability to recognize the reason of emotion change in different time stage",
+                "explain": "emotion change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Alice's sharing of feeling undervalued influenced Kimberly's belief.",
+                "reason": "test ability to recognize the reason between emotion and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Alice's contemplation about her future career caused Kimberly's belief change.",
+                "reason": "test ability to recognize the reason between emotion and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Alice's indication of a decision about her career path led to another change in Kimberly's belief.",
+                "reason": "test ability to recognize the reason between emotion and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "As empathetic Kimberly wanted to boost Alice's morale.",
+                "reason": "test ability to recognize the reason between emotion and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Worry led Kimberly to want to better understand Alice's career thoughts.",
+                "reason": "test ability to recognize the reason between emotion and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Supportive intentions emerged from understanding Alice's decision.",
+                "reason": "test ability to recognize the reason between emotion and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Initial conversation revealed more about Alice's feelings, prompting supportive actions.",
+                "reason": "test ability to recognize the reason between emotion and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Understanding Alice's career contemplation led Kimberly to deeper questions.",
+                "reason": "test ability to recognize the reason between emotion and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Decision indication led to Kimberly offering practical help.",
+                "reason": "test ability to recognize the reason between emotion and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_5": {
+        "question": "Why does the emotion of Kimberly Yazzie change from scenario 2 to scenario 3?",
+        "true answer": "e",
+        "options": [
+            "a. Worry led Kimberly to want to better understand Alice's career thoughts.",
+            "b. Alice's indication of a decision about her career path led to another change in Kimberly's belief.",
+            "c. Alice's sharing of feeling undervalued influenced Kimberly's belief.",
+            "d. Alice's contemplation about her future career caused Kimberly's belief change.",
+            "e. Belief that Alice is considering a career change turned empathy to worry.",
+            "f. Supportive intentions emerged from understanding Alice's decision.",
+            "g. Decision indication led to Kimberly offering practical help.",
+            "h. Kimberly's concern shifted to empathy as she understood more about Alice's feelings.",
+            "i. Knowing Alice has made a decision changed worry to supportiveness.",
+            "j. Understanding Alice's career contemplation led Kimberly to deeper questions.",
+            "k. As empathetic Kimberly wanted to boost Alice's morale.",
+            "l. Initial conversation revealed more about Alice's feelings, prompting supportive actions."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Belief that Alice is considering a career change turned empathy to worry.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Kimberly's concern shifted to empathy as she understood more about Alice's feelings.",
+                "reason": "test ability to recognize the reason of emotion change in different time stage",
+                "explain": "emotion change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Knowing Alice has made a decision changed worry to supportiveness.",
+                "reason": "test ability to recognize the reason of emotion change in different time stage",
+                "explain": "emotion change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Alice's sharing of feeling undervalued influenced Kimberly's belief.",
+                "reason": "test ability to recognize the reason between emotion and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Alice's contemplation about her future career caused Kimberly's belief change.",
+                "reason": "test ability to recognize the reason between emotion and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Alice's indication of a decision about her career path led to another change in Kimberly's belief.",
+                "reason": "test ability to recognize the reason between emotion and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "As empathetic Kimberly wanted to boost Alice's morale.",
+                "reason": "test ability to recognize the reason between emotion and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Worry led Kimberly to want to better understand Alice's career thoughts.",
+                "reason": "test ability to recognize the reason between emotion and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Supportive intentions emerged from understanding Alice's decision.",
+                "reason": "test ability to recognize the reason between emotion and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Initial conversation revealed more about Alice's feelings, prompting supportive actions.",
+                "reason": "test ability to recognize the reason between emotion and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Understanding Alice's career contemplation led Kimberly to deeper questions.",
+                "reason": "test ability to recognize the reason between emotion and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Decision indication led to Kimberly offering practical help.",
+                "reason": "test ability to recognize the reason between emotion and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_6": {
+        "question": "Why does the emotion of Kimberly Yazzie change from scenario 3 to scenario 4?",
+        "true answer": "d",
+        "options": [
+            "a. Understanding Alice's career contemplation led Kimberly to deeper questions.",
+            "b. Supportive intentions emerged from understanding Alice's decision.",
+            "c. Decision indication led to Kimberly offering practical help.",
+            "d. Knowing Alice has made a decision changed worry to supportiveness.",
+            "e. Initial conversation revealed more about Alice's feelings, prompting supportive actions.",
+            "f. Alice's sharing of feeling undervalued influenced Kimberly's belief.",
+            "g. Alice's contemplation about her future career caused Kimberly's belief change.",
+            "h. Kimberly's concern shifted to empathy as she understood more about Alice's feelings.",
+            "i. As empathetic Kimberly wanted to boost Alice's morale.",
+            "j. Alice's indication of a decision about her career path led to another change in Kimberly's belief.",
+            "k. Worry led Kimberly to want to better understand Alice's career thoughts.",
+            "l. Belief that Alice is considering a career change turned empathy to worry."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Knowing Alice has made a decision changed worry to supportiveness.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Kimberly's concern shifted to empathy as she understood more about Alice's feelings.",
+                "reason": "test ability to recognize the reason of emotion change in different time stage",
+                "explain": "emotion change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Belief that Alice is considering a career change turned empathy to worry.",
+                "reason": "test ability to recognize the reason of emotion change in different time stage",
+                "explain": "emotion change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Alice's sharing of feeling undervalued influenced Kimberly's belief.",
+                "reason": "test ability to recognize the reason between emotion and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Alice's contemplation about her future career caused Kimberly's belief change.",
+                "reason": "test ability to recognize the reason between emotion and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Alice's indication of a decision about her career path led to another change in Kimberly's belief.",
+                "reason": "test ability to recognize the reason between emotion and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "As empathetic Kimberly wanted to boost Alice's morale.",
+                "reason": "test ability to recognize the reason between emotion and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Worry led Kimberly to want to better understand Alice's career thoughts.",
+                "reason": "test ability to recognize the reason between emotion and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Supportive intentions emerged from understanding Alice's decision.",
+                "reason": "test ability to recognize the reason between emotion and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Initial conversation revealed more about Alice's feelings, prompting supportive actions.",
+                "reason": "test ability to recognize the reason between emotion and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Understanding Alice's career contemplation led Kimberly to deeper questions.",
+                "reason": "test ability to recognize the reason between emotion and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Decision indication led to Kimberly offering practical help.",
+                "reason": "test ability to recognize the reason between emotion and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_7": {
+        "question": "Why does the intention of Kimberly Yazzie change from scenario 1 to scenario 2?",
+        "true answer": "i",
+        "options": [
+            "a. Supportive intentions emerged from understanding Alice's decision.",
+            "b. Belief that Alice is considering a career change turned empathy to worry.",
+            "c. Initial conversation revealed more about Alice's feelings, prompting supportive actions.",
+            "d. Alice's indication of a decision about her career path led to another change in Kimberly's belief.",
+            "e. Understanding Alice's career contemplation led Kimberly to deeper questions.",
+            "f. Alice's sharing of feeling undervalued influenced Kimberly's belief.",
+            "g. Knowing Alice has made a decision changed worry to supportiveness.",
+            "h. Decision indication led to Kimberly offering practical help.",
+            "i. As empathetic Kimberly wanted to boost Alice's morale.",
+            "j. Kimberly's concern shifted to empathy as she understood more about Alice's feelings.",
+            "k. Alice's contemplation about her future career caused Kimberly's belief change.",
+            "l. Worry led Kimberly to want to better understand Alice's career thoughts."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "As empathetic Kimberly wanted to boost Alice's morale.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Worry led Kimberly to want to better understand Alice's career thoughts.",
+                "reason": "test ability to recognize the reason of intention change in different time stage",
+                "explain": "intention change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Supportive intentions emerged from understanding Alice's decision.",
+                "reason": "test ability to recognize the reason of intention change in different time stage",
+                "explain": "intention change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Alice's sharing of feeling undervalued influenced Kimberly's belief.",
+                "reason": "test ability to recognize the reason between intention and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Alice's contemplation about her future career caused Kimberly's belief change.",
+                "reason": "test ability to recognize the reason between intention and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Alice's indication of a decision about her career path led to another change in Kimberly's belief.",
+                "reason": "test ability to recognize the reason between intention and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Kimberly's concern shifted to empathy as she understood more about Alice's feelings.",
+                "reason": "test ability to recognize the reason between intention and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Belief that Alice is considering a career change turned empathy to worry.",
+                "reason": "test ability to recognize the reason between intention and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Knowing Alice has made a decision changed worry to supportiveness.",
+                "reason": "test ability to recognize the reason between intention and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Initial conversation revealed more about Alice's feelings, prompting supportive actions.",
+                "reason": "test ability to recognize the reason between intention and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Understanding Alice's career contemplation led Kimberly to deeper questions.",
+                "reason": "test ability to recognize the reason between intention and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Decision indication led to Kimberly offering practical help.",
+                "reason": "test ability to recognize the reason between intention and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_8": {
+        "question": "Why does the intention of Kimberly Yazzie change from scenario 2 to scenario 3?",
+        "true answer": "j",
+        "options": [
+            "a. Knowing Alice has made a decision changed worry to supportiveness.",
+            "b. Supportive intentions emerged from understanding Alice's decision.",
+            "c. As empathetic Kimberly wanted to boost Alice's morale.",
+            "d. Alice's indication of a decision about her career path led to another change in Kimberly's belief.",
+            "e. Kimberly's concern shifted to empathy as she understood more about Alice's feelings.",
+            "f. Decision indication led to Kimberly offering practical help.",
+            "g. Belief that Alice is considering a career change turned empathy to worry.",
+            "h. Alice's sharing of feeling undervalued influenced Kimberly's belief.",
+            "i. Understanding Alice's career contemplation led Kimberly to deeper questions.",
+            "j. Worry led Kimberly to want to better understand Alice's career thoughts.",
+            "k. Initial conversation revealed more about Alice's feelings, prompting supportive actions.",
+            "l. Alice's contemplation about her future career caused Kimberly's belief change."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Worry led Kimberly to want to better understand Alice's career thoughts.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "As empathetic Kimberly wanted to boost Alice's morale.",
+                "reason": "test ability to recognize the reason of intention change in different time stage",
+                "explain": "intention change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Supportive intentions emerged from understanding Alice's decision.",
+                "reason": "test ability to recognize the reason of intention change in different time stage",
+                "explain": "intention change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Alice's sharing of feeling undervalued influenced Kimberly's belief.",
+                "reason": "test ability to recognize the reason between intention and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Alice's contemplation about her future career caused Kimberly's belief change.",
+                "reason": "test ability to recognize the reason between intention and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Alice's indication of a decision about her career path led to another change in Kimberly's belief.",
+                "reason": "test ability to recognize the reason between intention and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Kimberly's concern shifted to empathy as she understood more about Alice's feelings.",
+                "reason": "test ability to recognize the reason between intention and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Belief that Alice is considering a career change turned empathy to worry.",
+                "reason": "test ability to recognize the reason between intention and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Knowing Alice has made a decision changed worry to supportiveness.",
+                "reason": "test ability to recognize the reason between intention and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Initial conversation revealed more about Alice's feelings, prompting supportive actions.",
+                "reason": "test ability to recognize the reason between intention and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Understanding Alice's career contemplation led Kimberly to deeper questions.",
+                "reason": "test ability to recognize the reason between intention and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Decision indication led to Kimberly offering practical help.",
+                "reason": "test ability to recognize the reason between intention and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_9": {
+        "question": "Why does the intention of Kimberly Yazzie change from scenario 3 to scenario 4?",
+        "true answer": "d",
+        "options": [
+            "a. Alice's contemplation about her future career caused Kimberly's belief change.",
+            "b. Alice's indication of a decision about her career path led to another change in Kimberly's belief.",
+            "c. As empathetic Kimberly wanted to boost Alice's morale.",
+            "d. Supportive intentions emerged from understanding Alice's decision.",
+            "e. Kimberly's concern shifted to empathy as she understood more about Alice's feelings.",
+            "f. Worry led Kimberly to want to better understand Alice's career thoughts.",
+            "g. Initial conversation revealed more about Alice's feelings, prompting supportive actions.",
+            "h. Decision indication led to Kimberly offering practical help.",
+            "i. Belief that Alice is considering a career change turned empathy to worry.",
+            "j. Alice's sharing of feeling undervalued influenced Kimberly's belief.",
+            "k. Knowing Alice has made a decision changed worry to supportiveness.",
+            "l. Understanding Alice's career contemplation led Kimberly to deeper questions."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Supportive intentions emerged from understanding Alice's decision.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "As empathetic Kimberly wanted to boost Alice's morale.",
+                "reason": "test ability to recognize the reason of intention change in different time stage",
+                "explain": "intention change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Worry led Kimberly to want to better understand Alice's career thoughts.",
+                "reason": "test ability to recognize the reason of intention change in different time stage",
+                "explain": "intention change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Alice's sharing of feeling undervalued influenced Kimberly's belief.",
+                "reason": "test ability to recognize the reason between intention and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Alice's contemplation about her future career caused Kimberly's belief change.",
+                "reason": "test ability to recognize the reason between intention and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Alice's indication of a decision about her career path led to another change in Kimberly's belief.",
+                "reason": "test ability to recognize the reason between intention and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Kimberly's concern shifted to empathy as she understood more about Alice's feelings.",
+                "reason": "test ability to recognize the reason between intention and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Belief that Alice is considering a career change turned empathy to worry.",
+                "reason": "test ability to recognize the reason between intention and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Knowing Alice has made a decision changed worry to supportiveness.",
+                "reason": "test ability to recognize the reason between intention and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Initial conversation revealed more about Alice's feelings, prompting supportive actions.",
+                "reason": "test ability to recognize the reason between intention and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Understanding Alice's career contemplation led Kimberly to deeper questions.",
+                "reason": "test ability to recognize the reason between intention and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Decision indication led to Kimberly offering practical help.",
+                "reason": "test ability to recognize the reason between intention and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_10": {
+        "question": "Why does the action of Kimberly Yazzie change from scenario 1 to scenario 2?",
+        "true answer": "b",
+        "options": [
+            "a. Alice's indication of a decision about her career path led to another change in Kimberly's belief.",
+            "b. Initial conversation revealed more about Alice's feelings, prompting supportive actions.",
+            "c. Belief that Alice is considering a career change turned empathy to worry.",
+            "d. Alice's sharing of feeling undervalued influenced Kimberly's belief.",
+            "e. Kimberly's concern shifted to empathy as she understood more about Alice's feelings.",
+            "f. Knowing Alice has made a decision changed worry to supportiveness.",
+            "g. Decision indication led to Kimberly offering practical help.",
+            "h. Understanding Alice's career contemplation led Kimberly to deeper questions.",
+            "i. As empathetic Kimberly wanted to boost Alice's morale.",
+            "j. Alice's contemplation about her future career caused Kimberly's belief change.",
+            "k. Supportive intentions emerged from understanding Alice's decision.",
+            "l. Worry led Kimberly to want to better understand Alice's career thoughts."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Initial conversation revealed more about Alice's feelings, prompting supportive actions.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Understanding Alice's career contemplation led Kimberly to deeper questions.",
+                "reason": "test ability to recognize the reason of action change in different time stage",
+                "explain": "action change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Decision indication led to Kimberly offering practical help.",
+                "reason": "test ability to recognize the reason of action change in different time stage",
+                "explain": "action change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Alice's sharing of feeling undervalued influenced Kimberly's belief.",
+                "reason": "test ability to recognize the reason between action and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Alice's contemplation about her future career caused Kimberly's belief change.",
+                "reason": "test ability to recognize the reason between action and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Alice's indication of a decision about her career path led to another change in Kimberly's belief.",
+                "reason": "test ability to recognize the reason between action and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Kimberly's concern shifted to empathy as she understood more about Alice's feelings.",
+                "reason": "test ability to recognize the reason between action and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Belief that Alice is considering a career change turned empathy to worry.",
+                "reason": "test ability to recognize the reason between action and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Knowing Alice has made a decision changed worry to supportiveness.",
+                "reason": "test ability to recognize the reason between action and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "As empathetic Kimberly wanted to boost Alice's morale.",
+                "reason": "test ability to recognize the reason between action and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Worry led Kimberly to want to better understand Alice's career thoughts.",
+                "reason": "test ability to recognize the reason between action and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Supportive intentions emerged from understanding Alice's decision.",
+                "reason": "test ability to recognize the reason between action and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_11": {
+        "question": "Why does the action of Kimberly Yazzie change from scenario 2 to scenario 3?",
+        "true answer": "f",
+        "options": [
+            "a. Alice's contemplation about her future career caused Kimberly's belief change.",
+            "b. Belief that Alice is considering a career change turned empathy to worry.",
+            "c. Initial conversation revealed more about Alice's feelings, prompting supportive actions.",
+            "d. Decision indication led to Kimberly offering practical help.",
+            "e. Alice's sharing of feeling undervalued influenced Kimberly's belief.",
+            "f. Understanding Alice's career contemplation led Kimberly to deeper questions.",
+            "g. Worry led Kimberly to want to better understand Alice's career thoughts.",
+            "h. Alice's indication of a decision about her career path led to another change in Kimberly's belief.",
+            "i. As empathetic Kimberly wanted to boost Alice's morale.",
+            "j. Knowing Alice has made a decision changed worry to supportiveness.",
+            "k. Supportive intentions emerged from understanding Alice's decision.",
+            "l. Kimberly's concern shifted to empathy as she understood more about Alice's feelings."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Understanding Alice's career contemplation led Kimberly to deeper questions.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Initial conversation revealed more about Alice's feelings, prompting supportive actions.",
+                "reason": "test ability to recognize the reason of action change in different time stage",
+                "explain": "action change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Decision indication led to Kimberly offering practical help.",
+                "reason": "test ability to recognize the reason of action change in different time stage",
+                "explain": "action change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Alice's sharing of feeling undervalued influenced Kimberly's belief.",
+                "reason": "test ability to recognize the reason between action and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Alice's contemplation about her future career caused Kimberly's belief change.",
+                "reason": "test ability to recognize the reason between action and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Alice's indication of a decision about her career path led to another change in Kimberly's belief.",
+                "reason": "test ability to recognize the reason between action and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Kimberly's concern shifted to empathy as she understood more about Alice's feelings.",
+                "reason": "test ability to recognize the reason between action and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Belief that Alice is considering a career change turned empathy to worry.",
+                "reason": "test ability to recognize the reason between action and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Knowing Alice has made a decision changed worry to supportiveness.",
+                "reason": "test ability to recognize the reason between action and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "As empathetic Kimberly wanted to boost Alice's morale.",
+                "reason": "test ability to recognize the reason between action and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Worry led Kimberly to want to better understand Alice's career thoughts.",
+                "reason": "test ability to recognize the reason between action and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Supportive intentions emerged from understanding Alice's decision.",
+                "reason": "test ability to recognize the reason between action and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_12": {
+        "question": "Why does the action of Kimberly Yazzie change from scenario 3 to scenario 4?",
+        "true answer": "l",
+        "options": [
+            "a. Belief that Alice is considering a career change turned empathy to worry.",
+            "b. Alice's contemplation about her future career caused Kimberly's belief change.",
+            "c. Kimberly's concern shifted to empathy as she understood more about Alice's feelings.",
+            "d. Understanding Alice's career contemplation led Kimberly to deeper questions.",
+            "e. Knowing Alice has made a decision changed worry to supportiveness.",
+            "f. Worry led Kimberly to want to better understand Alice's career thoughts.",
+            "g. Alice's sharing of feeling undervalued influenced Kimberly's belief.",
+            "h. As empathetic Kimberly wanted to boost Alice's morale.",
+            "i. Initial conversation revealed more about Alice's feelings, prompting supportive actions.",
+            "j. Supportive intentions emerged from understanding Alice's decision.",
+            "k. Alice's indication of a decision about her career path led to another change in Kimberly's belief.",
+            "l. Decision indication led to Kimberly offering practical help."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Decision indication led to Kimberly offering practical help.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Initial conversation revealed more about Alice's feelings, prompting supportive actions.",
+                "reason": "test ability to recognize the reason of action change in different time stage",
+                "explain": "action change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Understanding Alice's career contemplation led Kimberly to deeper questions.",
+                "reason": "test ability to recognize the reason of action change in different time stage",
+                "explain": "action change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Alice's sharing of feeling undervalued influenced Kimberly's belief.",
+                "reason": "test ability to recognize the reason between action and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Alice's contemplation about her future career caused Kimberly's belief change.",
+                "reason": "test ability to recognize the reason between action and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Alice's indication of a decision about her career path led to another change in Kimberly's belief.",
+                "reason": "test ability to recognize the reason between action and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Kimberly's concern shifted to empathy as she understood more about Alice's feelings.",
+                "reason": "test ability to recognize the reason between action and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Belief that Alice is considering a career change turned empathy to worry.",
+                "reason": "test ability to recognize the reason between action and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Knowing Alice has made a decision changed worry to supportiveness.",
+                "reason": "test ability to recognize the reason between action and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "As empathetic Kimberly wanted to boost Alice's morale.",
+                "reason": "test ability to recognize the reason between action and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Worry led Kimberly to want to better understand Alice's career thoughts.",
+                "reason": "test ability to recognize the reason between action and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Supportive intentions emerged from understanding Alice's decision.",
+                "reason": "test ability to recognize the reason between action and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_whether_1": {
+        "question": "Whether the belief of Kimberly Yazzie change from scenario 1 to scenario 2? if yes, from what to what?",
+        "true answer": "b",
+        "options": [
+            "a. Yes, from Kimberly now believes Alice feels undervalued at work. to Kimberly starts to believe Alice is considering a career change.",
+            "b. Yes, from Kimberly believes that Alice is stressed due to her job. to Kimberly now believes Alice feels undervalued at work.",
+            "c. Yes, from Kimberly starts to believe Alice is considering a career change. to Kimberly believes Alice has made a decision about her career path.",
+            "d. No"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Kimberly believes that Alice is stressed due to her job. to Kimberly now believes Alice feels undervalued at work.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the belief change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Kimberly now believes Alice feels undervalued at work. to Kimberly starts to believe Alice is considering a career change.",
+                "reason": "test ability to recognize how the belief change in the correct time stage",
+                "explain": "how the belief change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Kimberly starts to believe Alice is considering a career change. to Kimberly believes Alice has made a decision about her career path.",
+                "reason": "test ability to recognize how the belief change in the correct time stage",
+                "explain": "how the belief change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_2": {
+        "question": "Whether the belief of Kimberly Yazzie change from scenario 2 to scenario 3? if yes, from what to what?",
+        "true answer": "a",
+        "options": [
+            "a. Yes, from Kimberly now believes Alice feels undervalued at work. to Kimberly starts to believe Alice is considering a career change.",
+            "b. Yes, from Kimberly believes that Alice is stressed due to her job. to Kimberly now believes Alice feels undervalued at work.",
+            "c. Yes, from Kimberly starts to believe Alice is considering a career change. to Kimberly believes Alice has made a decision about her career path.",
+            "d. No"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Kimberly now believes Alice feels undervalued at work. to Kimberly starts to believe Alice is considering a career change.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the belief change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Kimberly believes that Alice is stressed due to her job. to Kimberly now believes Alice feels undervalued at work.",
+                "reason": "test ability to recognize how the belief change in the correct time stage",
+                "explain": "how the belief change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Kimberly starts to believe Alice is considering a career change. to Kimberly believes Alice has made a decision about her career path.",
+                "reason": "test ability to recognize how the belief change in the correct time stage",
+                "explain": "how the belief change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_3": {
+        "question": "Whether the belief of Kimberly Yazzie change from scenario 3 to scenario 4? if yes, from what to what?",
+        "true answer": "a",
+        "options": [
+            "a. Yes, from Kimberly starts to believe Alice is considering a career change. to Kimberly believes Alice has made a decision about her career path.",
+            "b. Yes, from Kimberly now believes Alice feels undervalued at work. to Kimberly starts to believe Alice is considering a career change.",
+            "c. No",
+            "d. Yes, from Kimberly believes that Alice is stressed due to her job. to Kimberly now believes Alice feels undervalued at work."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Kimberly starts to believe Alice is considering a career change. to Kimberly believes Alice has made a decision about her career path.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the belief change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Kimberly believes that Alice is stressed due to her job. to Kimberly now believes Alice feels undervalued at work.",
+                "reason": "test ability to recognize how the belief change in the correct time stage",
+                "explain": "how the belief change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Kimberly now believes Alice feels undervalued at work. to Kimberly starts to believe Alice is considering a career change.",
+                "reason": "test ability to recognize how the belief change in the correct time stage",
+                "explain": "how the belief change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_4": {
+        "question": "Whether the emotion of Kimberly Yazzie change from scenario 1 to scenario 2? if yes, from what to what?",
+        "true answer": "b",
+        "options": [
+            "a. Yes, from Empathy to Worry",
+            "b. Yes, from Concerned to Empathy",
+            "c. Yes, from Worry to Supportiveness",
+            "d. No"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Concerned to Empathy",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the emotion change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Empathy to Worry",
+                "reason": "test ability to recognize how the emotion change in the correct time stage",
+                "explain": "how the emotion change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Worry to Supportiveness",
+                "reason": "test ability to recognize how the emotion change in the correct time stage",
+                "explain": "how the emotion change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_5": {
+        "question": "Whether the emotion of Kimberly Yazzie change from scenario 2 to scenario 3? if yes, from what to what?",
+        "true answer": "a",
+        "options": [
+            "a. Yes, from Empathy to Worry",
+            "b. Yes, from Worry to Supportiveness",
+            "c. Yes, from Concerned to Empathy",
+            "d. No"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Empathy to Worry",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the emotion change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Concerned to Empathy",
+                "reason": "test ability to recognize how the emotion change in the correct time stage",
+                "explain": "how the emotion change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Worry to Supportiveness",
+                "reason": "test ability to recognize how the emotion change in the correct time stage",
+                "explain": "how the emotion change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_6": {
+        "question": "Whether the emotion of Kimberly Yazzie change from scenario 3 to scenario 4? if yes, from what to what?",
+        "true answer": "d",
+        "options": [
+            "a. Yes, from Concerned to Empathy",
+            "b. Yes, from Empathy to Worry",
+            "c. No",
+            "d. Yes, from Worry to Supportiveness"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Worry to Supportiveness",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the emotion change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Concerned to Empathy",
+                "reason": "test ability to recognize how the emotion change in the correct time stage",
+                "explain": "how the emotion change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Empathy to Worry",
+                "reason": "test ability to recognize how the emotion change in the correct time stage",
+                "explain": "how the emotion change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_7": {
+        "question": "Whether the intention of Kimberly Yazzie change from scenario 1 to scenario 2? if yes, from what to what?",
+        "true answer": "c",
+        "options": [
+            "a. Yes, from To boost Alice's self-esteem to To explore Alice's feelings about a career change",
+            "b. Yes, from To explore Alice's feelings about a career change to To provide encouragement and practical advice",
+            "c. Yes, from To help Alice manage her stress to To boost Alice's self-esteem",
+            "d. No"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from To help Alice manage her stress to To boost Alice's self-esteem",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the intention change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from To boost Alice's self-esteem to To explore Alice's feelings about a career change",
+                "reason": "test ability to recognize how the intention change in the correct time stage",
+                "explain": "how the intention change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from To explore Alice's feelings about a career change to To provide encouragement and practical advice",
+                "reason": "test ability to recognize how the intention change in the correct time stage",
+                "explain": "how the intention change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_8": {
+        "question": "Whether the intention of Kimberly Yazzie change from scenario 2 to scenario 3? if yes, from what to what?",
+        "true answer": "c",
+        "options": [
+            "a. Yes, from To explore Alice's feelings about a career change to To provide encouragement and practical advice",
+            "b. Yes, from To help Alice manage her stress to To boost Alice's self-esteem",
+            "c. Yes, from To boost Alice's self-esteem to To explore Alice's feelings about a career change",
+            "d. No"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from To boost Alice's self-esteem to To explore Alice's feelings about a career change",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the intention change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from To help Alice manage her stress to To boost Alice's self-esteem",
+                "reason": "test ability to recognize how the intention change in the correct time stage",
+                "explain": "how the intention change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from To explore Alice's feelings about a career change to To provide encouragement and practical advice",
+                "reason": "test ability to recognize how the intention change in the correct time stage",
+                "explain": "how the intention change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_9": {
+        "question": "Whether the intention of Kimberly Yazzie change from scenario 3 to scenario 4? if yes, from what to what?",
+        "true answer": "c",
+        "options": [
+            "a. Yes, from To boost Alice's self-esteem to To explore Alice's feelings about a career change",
+            "b. No",
+            "c. Yes, from To explore Alice's feelings about a career change to To provide encouragement and practical advice",
+            "d. Yes, from To help Alice manage her stress to To boost Alice's self-esteem"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from To explore Alice's feelings about a career change to To provide encouragement and practical advice",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the intention change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from To help Alice manage her stress to To boost Alice's self-esteem",
+                "reason": "test ability to recognize how the intention change in the correct time stage",
+                "explain": "how the intention change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from To boost Alice's self-esteem to To explore Alice's feelings about a career change",
+                "reason": "test ability to recognize how the intention change in the correct time stage",
+                "explain": "how the intention change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_10": {
+        "question": "Whether the action of Kimberly Yazzie change from scenario 1 to scenario 2? if yes, from what to what?",
+        "true answer": "b",
+        "options": [
+            "a. Yes, from Asks Alice direct questions about her career goals to Offers resources and advice for Alice's new career direction",
+            "b. Yes, from Initiates conversation about Alice's job to Shares stories of Alice's successes to remind her of her value",
+            "c. Yes, from Shares stories of Alice's successes to remind her of her value to Asks Alice direct questions about her career goals",
+            "d. No"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Initiates conversation about Alice's job to Shares stories of Alice's successes to remind her of her value",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the action change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Shares stories of Alice's successes to remind her of her value to Asks Alice direct questions about her career goals",
+                "reason": "test ability to recognize how the action change in the correct time stage",
+                "explain": "how the action change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Asks Alice direct questions about her career goals to Offers resources and advice for Alice's new career direction",
+                "reason": "test ability to recognize how the action change in the correct time stage",
+                "explain": "how the action change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_11": {
+        "question": "Whether the action of Kimberly Yazzie change from scenario 2 to scenario 3? if yes, from what to what?",
+        "true answer": "b",
+        "options": [
+            "a. Yes, from Initiates conversation about Alice's job to Shares stories of Alice's successes to remind her of her value",
+            "b. Yes, from Shares stories of Alice's successes to remind her of her value to Asks Alice direct questions about her career goals",
+            "c. Yes, from Asks Alice direct questions about her career goals to Offers resources and advice for Alice's new career direction",
+            "d. No"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Shares stories of Alice's successes to remind her of her value to Asks Alice direct questions about her career goals",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the action change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Initiates conversation about Alice's job to Shares stories of Alice's successes to remind her of her value",
+                "reason": "test ability to recognize how the action change in the correct time stage",
+                "explain": "how the action change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Asks Alice direct questions about her career goals to Offers resources and advice for Alice's new career direction",
+                "reason": "test ability to recognize how the action change in the correct time stage",
+                "explain": "how the action change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_12": {
+        "question": "Whether the action of Kimberly Yazzie change from scenario 3 to scenario 4? if yes, from what to what?",
+        "true answer": "c",
+        "options": [
+            "a. Yes, from Initiates conversation about Alice's job to Shares stories of Alice's successes to remind her of her value",
+            "b. Yes, from Shares stories of Alice's successes to remind her of her value to Asks Alice direct questions about her career goals",
+            "c. Yes, from Asks Alice direct questions about her career goals to Offers resources and advice for Alice's new career direction",
+            "d. No"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Asks Alice direct questions about her career goals to Offers resources and advice for Alice's new career direction",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the action change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Initiates conversation about Alice's job to Shares stories of Alice's successes to remind her of her value",
+                "reason": "test ability to recognize how the action change in the correct time stage",
+                "explain": "how the action change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Shares stories of Alice's successes to remind her of her value to Asks Alice direct questions about her career goals",
+                "reason": "test ability to recognize how the action change in the correct time stage",
+                "explain": "how the action change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_c_how_1": {
+        "question": "In scenario 1, how does the belief of Kimberly Yazzie influence the emotion of Kimberly Yazzie?",
+        "true answer": "a",
+        "options": [
+            "a. Kimberly's belief that Alice is stressed makes her feel concerned.",
+            "b. Kimberly's concern for Alice leads her to want to help her manage the stress.",
+            "c. Kimberly decides to start a conversation about Alice's job situation to provide support.",
+            "d. Kimberly's updated belief about Alice's undervalued feeling shifts her concern to empathy.",
+            "e. Kimberly's belief that Alice is considering a career change prompts her worry."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "Kimberly's belief that Alice is stressed makes her feel concerned.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Kimberly's concern for Alice leads her to want to help her manage the stress.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Kimberly decides to start a conversation about Alice's job situation to provide support.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Kimberly's updated belief about Alice's undervalued feeling shifts her concern to empathy.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in other time stage",
+                "explain": "how the belief influence emotion in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Kimberly's belief that Alice is considering a career change prompts her worry.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in other time stage",
+                "explain": "how the belief influence emotion in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_2": {
+        "question": "In scenario 2, how does the belief of Kimberly Yazzie influence the emotion of Kimberly Yazzie?",
+        "true answer": "e",
+        "options": [
+            "a. Kimberly's belief that Alice is considering a career change prompts her worry.",
+            "b. The combination of her belief and empathy makes Kimberly want to boost Alice's self-esteem.",
+            "c. Kimberly's belief that Alice is stressed makes her feel concerned.",
+            "d. Kimberly acts by sharing positive stories about Alice to remind her of her worth.",
+            "e. Kimberly's updated belief about Alice's undervalued feeling shifts her concern to empathy."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "Kimberly's updated belief about Alice's undervalued feeling shifts her concern to empathy.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "The combination of her belief and empathy makes Kimberly want to boost Alice's self-esteem.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Kimberly acts by sharing positive stories about Alice to remind her of her worth.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Kimberly's belief that Alice is stressed makes her feel concerned.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in other time stage",
+                "explain": "how the belief influence emotion in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Kimberly's belief that Alice is considering a career change prompts her worry.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in other time stage",
+                "explain": "how the belief influence emotion in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_3": {
+        "question": "In scenario 3, how does the belief of Kimberly Yazzie influence the emotion of Kimberly Yazzie?",
+        "true answer": "d",
+        "options": [
+            "a. Kimberly's updated belief about Alice's undervalued feeling shifts her concern to empathy.",
+            "b. Her belief and worry guide Kimberly to explore Alice's feelings more deeply.",
+            "c. Kimberly's belief that Alice is stressed makes her feel concerned.",
+            "d. Kimberly's belief that Alice is considering a career change prompts her worry.",
+            "e. Kimberly acts by asking Alice direct questions about her career aspirations."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "Kimberly's belief that Alice is considering a career change prompts her worry.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Her belief and worry guide Kimberly to explore Alice's feelings more deeply.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Kimberly acts by asking Alice direct questions about her career aspirations.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Kimberly's belief that Alice is stressed makes her feel concerned.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in other time stage",
+                "explain": "how the belief influence emotion in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Kimberly's updated belief about Alice's undervalued feeling shifts her concern to empathy.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in other time stage",
+                "explain": "how the belief influence emotion in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_4": {
+        "question": "In scenario 4, how does the belief of Kimberly Yazzie influence the emotion of Kimberly Yazzie?",
+        "true answer": "f",
+        "options": [
+            "a. Kimberly's updated belief about Alice's undervalued feeling shifts her concern to empathy.",
+            "b. Her supportive belief and emotion lead her to want to encourage and guide Alice.",
+            "c. Kimberly acts by offering practical resources and advice for Alice's new career path.",
+            "d. Kimberly's belief that Alice is stressed makes her feel concerned.",
+            "e. Kimberly's belief that Alice is considering a career change prompts her worry.",
+            "f. Kimberly's belief that Alice has made a career decision turns her worry into supportiveness."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "Kimberly's belief that Alice has made a career decision turns her worry into supportiveness.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Her supportive belief and emotion lead her to want to encourage and guide Alice.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Kimberly acts by offering practical resources and advice for Alice's new career path.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Kimberly's belief that Alice is stressed makes her feel concerned.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in other time stage",
+                "explain": "how the belief influence emotion in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Kimberly's updated belief about Alice's undervalued feeling shifts her concern to empathy.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in other time stage",
+                "explain": "how the belief influence emotion in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Kimberly's belief that Alice is considering a career change prompts her worry.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in other time stage",
+                "explain": "how the belief influence emotion in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_5": {
+        "question": "In scenario 1, how does the belief&emotion of Kimberly Yazzie influence the intention of Kimberly Yazzie?",
+        "true answer": "d",
+        "options": [
+            "a. The combination of her belief and empathy makes Kimberly want to boost Alice's self-esteem.",
+            "b. Kimberly decides to start a conversation about Alice's job situation to provide support.",
+            "c. Kimberly's belief that Alice is stressed makes her feel concerned.",
+            "d. Kimberly's concern for Alice leads her to want to help her manage the stress.",
+            "e. Her belief and worry guide Kimberly to explore Alice's feelings more deeply."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "Kimberly's concern for Alice leads her to want to help her manage the stress.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Kimberly's belief that Alice is stressed makes her feel concerned.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Kimberly decides to start a conversation about Alice's job situation to provide support.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "The combination of her belief and empathy makes Kimberly want to boost Alice's self-esteem.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in other time stage",
+                "explain": "how the belief&emotion influence intention in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Her belief and worry guide Kimberly to explore Alice's feelings more deeply.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in other time stage",
+                "explain": "how the belief&emotion influence intention in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_6": {
+        "question": "In scenario 2, how does the belief&emotion of Kimberly Yazzie influence the intention of Kimberly Yazzie?",
+        "true answer": "c",
+        "options": [
+            "a. Kimberly's concern for Alice leads her to want to help her manage the stress.",
+            "b. Kimberly acts by sharing positive stories about Alice to remind her of her worth.",
+            "c. The combination of her belief and empathy makes Kimberly want to boost Alice's self-esteem.",
+            "d. Her belief and worry guide Kimberly to explore Alice's feelings more deeply.",
+            "e. Kimberly's updated belief about Alice's undervalued feeling shifts her concern to empathy."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "The combination of her belief and empathy makes Kimberly want to boost Alice's self-esteem.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Kimberly's updated belief about Alice's undervalued feeling shifts her concern to empathy.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Kimberly acts by sharing positive stories about Alice to remind her of her worth.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Kimberly's concern for Alice leads her to want to help her manage the stress.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in other time stage",
+                "explain": "how the belief&emotion influence intention in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Her belief and worry guide Kimberly to explore Alice's feelings more deeply.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in other time stage",
+                "explain": "how the belief&emotion influence intention in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_7": {
+        "question": "In scenario 3, how does the belief&emotion of Kimberly Yazzie influence the intention of Kimberly Yazzie?",
+        "true answer": "a",
+        "options": [
+            "a. Her belief and worry guide Kimberly to explore Alice's feelings more deeply.",
+            "b. Kimberly's belief that Alice is considering a career change prompts her worry.",
+            "c. Kimberly acts by asking Alice direct questions about her career aspirations.",
+            "d. Kimberly's concern for Alice leads her to want to help her manage the stress.",
+            "e. The combination of her belief and empathy makes Kimberly want to boost Alice's self-esteem."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "Her belief and worry guide Kimberly to explore Alice's feelings more deeply.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Kimberly's belief that Alice is considering a career change prompts her worry.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Kimberly acts by asking Alice direct questions about her career aspirations.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Kimberly's concern for Alice leads her to want to help her manage the stress.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in other time stage",
+                "explain": "how the belief&emotion influence intention in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "The combination of her belief and empathy makes Kimberly want to boost Alice's self-esteem.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in other time stage",
+                "explain": "how the belief&emotion influence intention in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_8": {
+        "question": "In scenario 4, how does the belief&emotion of Kimberly Yazzie influence the intention of Kimberly Yazzie?",
+        "true answer": "a",
+        "options": [
+            "a. Her supportive belief and emotion lead her to want to encourage and guide Alice.",
+            "b. The combination of her belief and empathy makes Kimberly want to boost Alice's self-esteem.",
+            "c. Kimberly's belief that Alice has made a career decision turns her worry into supportiveness.",
+            "d. Kimberly's concern for Alice leads her to want to help her manage the stress.",
+            "e. Her belief and worry guide Kimberly to explore Alice's feelings more deeply.",
+            "f. Kimberly acts by offering practical resources and advice for Alice's new career path."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "Her supportive belief and emotion lead her to want to encourage and guide Alice.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Kimberly's belief that Alice has made a career decision turns her worry into supportiveness.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Kimberly acts by offering practical resources and advice for Alice's new career path.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Kimberly's concern for Alice leads her to want to help her manage the stress.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in other time stage",
+                "explain": "how the belief&emotion influence intention in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "The combination of her belief and empathy makes Kimberly want to boost Alice's self-esteem.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in other time stage",
+                "explain": "how the belief&emotion influence intention in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Her belief and worry guide Kimberly to explore Alice's feelings more deeply.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in other time stage",
+                "explain": "how the belief&emotion influence intention in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_9": {
+        "question": "In scenario 1, how does the intention of Kimberly Yazzie influence the action of Kimberly Yazzie?",
+        "true answer": "c",
+        "options": [
+            "a. Kimberly acts by asking Alice direct questions about her career aspirations.",
+            "b. Kimberly's belief that Alice is stressed makes her feel concerned.",
+            "c. Kimberly decides to start a conversation about Alice's job situation to provide support.",
+            "d. Kimberly acts by sharing positive stories about Alice to remind her of her worth.",
+            "e. Kimberly's concern for Alice leads her to want to help her manage the stress."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "Kimberly decides to start a conversation about Alice's job situation to provide support.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Kimberly's belief that Alice is stressed makes her feel concerned.",
+                "reason": "test ability to correctly recognize how the intention influence action in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Kimberly's concern for Alice leads her to want to help her manage the stress.",
+                "reason": "test ability to correctly recognize how the intention influence action in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Kimberly acts by sharing positive stories about Alice to remind her of her worth.",
+                "reason": "test ability to correctly recognize how the intention influence action in other time stage",
+                "explain": "how the intention influence action in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Kimberly acts by asking Alice direct questions about her career aspirations.",
+                "reason": "test ability to correctly recognize how the intention influence action in other time stage",
+                "explain": "how the intention influence action in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_10": {
+        "question": "In scenario 2, how does the intention of Kimberly Yazzie influence the action of Kimberly Yazzie?",
+        "true answer": "d",
+        "options": [
+            "a. The combination of her belief and empathy makes Kimberly want to boost Alice's self-esteem.",
+            "b. Kimberly acts by asking Alice direct questions about her career aspirations.",
+            "c. Kimberly decides to start a conversation about Alice's job situation to provide support.",
+            "d. Kimberly acts by sharing positive stories about Alice to remind her of her worth.",
+            "e. Kimberly's updated belief about Alice's undervalued feeling shifts her concern to empathy."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "Kimberly acts by sharing positive stories about Alice to remind her of her worth.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Kimberly's updated belief about Alice's undervalued feeling shifts her concern to empathy.",
+                "reason": "test ability to correctly recognize how the intention influence action in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "The combination of her belief and empathy makes Kimberly want to boost Alice's self-esteem.",
+                "reason": "test ability to correctly recognize how the intention influence action in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Kimberly decides to start a conversation about Alice's job situation to provide support.",
+                "reason": "test ability to correctly recognize how the intention influence action in other time stage",
+                "explain": "how the intention influence action in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Kimberly acts by asking Alice direct questions about her career aspirations.",
+                "reason": "test ability to correctly recognize how the intention influence action in other time stage",
+                "explain": "how the intention influence action in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_11": {
+        "question": "In scenario 3, how does the intention of Kimberly Yazzie influence the action of Kimberly Yazzie?",
+        "true answer": "c",
+        "options": [
+            "a. Her belief and worry guide Kimberly to explore Alice's feelings more deeply.",
+            "b. Kimberly decides to start a conversation about Alice's job situation to provide support.",
+            "c. Kimberly acts by asking Alice direct questions about her career aspirations.",
+            "d. Kimberly acts by sharing positive stories about Alice to remind her of her worth.",
+            "e. Kimberly's belief that Alice is considering a career change prompts her worry."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "Kimberly acts by asking Alice direct questions about her career aspirations.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Kimberly's belief that Alice is considering a career change prompts her worry.",
+                "reason": "test ability to correctly recognize how the intention influence action in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Her belief and worry guide Kimberly to explore Alice's feelings more deeply.",
+                "reason": "test ability to correctly recognize how the intention influence action in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Kimberly decides to start a conversation about Alice's job situation to provide support.",
+                "reason": "test ability to correctly recognize how the intention influence action in other time stage",
+                "explain": "how the intention influence action in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Kimberly acts by sharing positive stories about Alice to remind her of her worth.",
+                "reason": "test ability to correctly recognize how the intention influence action in other time stage",
+                "explain": "how the intention influence action in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_12": {
+        "question": "In scenario 4, how does the intention of Kimberly Yazzie influence the action of Kimberly Yazzie?",
+        "true answer": "d",
+        "options": [
+            "a. Kimberly acts by asking Alice direct questions about her career aspirations.",
+            "b. Her supportive belief and emotion lead her to want to encourage and guide Alice.",
+            "c. Kimberly's belief that Alice has made a career decision turns her worry into supportiveness.",
+            "d. Kimberly acts by offering practical resources and advice for Alice's new career path.",
+            "e. Kimberly decides to start a conversation about Alice's job situation to provide support.",
+            "f. Kimberly acts by sharing positive stories about Alice to remind her of her worth."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "Kimberly acts by offering practical resources and advice for Alice's new career path.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Kimberly's belief that Alice has made a career decision turns her worry into supportiveness.",
+                "reason": "test ability to correctly recognize how the intention influence action in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Her supportive belief and emotion lead her to want to encourage and guide Alice.",
+                "reason": "test ability to correctly recognize how the intention influence action in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Kimberly decides to start a conversation about Alice's job situation to provide support.",
+                "reason": "test ability to correctly recognize how the intention influence action in other time stage",
+                "explain": "how the intention influence action in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Kimberly acts by sharing positive stories about Alice to remind her of her worth.",
+                "reason": "test ability to correctly recognize how the intention influence action in other time stage",
+                "explain": "how the intention influence action in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Kimberly acts by asking Alice direct questions about her career aspirations.",
+                "reason": "test ability to correctly recognize how the intention influence action in other time stage",
+                "explain": "how the intention influence action in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_a_what_1": {
+        "question": "What is the belief of Kimberly Yazzie in scenario 1?",
+        "true answer": "g",
+        "options": [
+            "a. Kimberly believes Alice has made a decision about her career path.",
+            "b. Kimberly starts to believe Alice is considering a career change.",
+            "c. Concerned",
+            "d. Kimberly now believes Alice feels undervalued at work.",
+            "e. To help Alice manage her stress",
+            "f. Initiates conversation about Alice's job",
+            "g. Kimberly believes that Alice is stressed due to her job."
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Kimberly believes that Alice is stressed due to her job.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Kimberly now believes Alice feels undervalued at work.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Kimberly starts to believe Alice is considering a career change.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Kimberly believes Alice has made a decision about her career path.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Concerned",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "To help Alice manage her stress",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Initiates conversation about Alice's job",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_2": {
+        "question": "What is the belief of Kimberly Yazzie in scenario 2?",
+        "true answer": "f",
+        "options": [
+            "a. Empathy",
+            "b. Kimberly believes Alice has made a decision about her career path.",
+            "c. Kimberly starts to believe Alice is considering a career change.",
+            "d. To boost Alice's self-esteem",
+            "e. Kimberly believes that Alice is stressed due to her job.",
+            "f. Kimberly now believes Alice feels undervalued at work.",
+            "g. Shares stories of Alice's successes to remind her of her value"
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Kimberly now believes Alice feels undervalued at work.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Kimberly believes that Alice is stressed due to her job.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Kimberly starts to believe Alice is considering a career change.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Kimberly believes Alice has made a decision about her career path.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Empathy",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "To boost Alice's self-esteem",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Shares stories of Alice's successes to remind her of her value",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_3": {
+        "question": "What is the belief of Kimberly Yazzie in scenario 3?",
+        "true answer": "e",
+        "options": [
+            "a. To explore Alice's feelings about a career change",
+            "b. Kimberly now believes Alice feels undervalued at work.",
+            "c. Worry",
+            "d. Asks Alice direct questions about her career goals",
+            "e. Kimberly starts to believe Alice is considering a career change.",
+            "f. Kimberly believes that Alice is stressed due to her job.",
+            "g. Kimberly believes Alice has made a decision about her career path."
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Kimberly starts to believe Alice is considering a career change.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Kimberly believes that Alice is stressed due to her job.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Kimberly now believes Alice feels undervalued at work.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Kimberly believes Alice has made a decision about her career path.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Worry",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "To explore Alice's feelings about a career change",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Asks Alice direct questions about her career goals",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_4": {
+        "question": "What is the belief of Kimberly Yazzie in scenario 4?",
+        "true answer": "a",
+        "options": [
+            "a. Kimberly believes Alice has made a decision about her career path.",
+            "b. Kimberly believes that Alice is stressed due to her job.",
+            "c. Kimberly now believes Alice feels undervalued at work.",
+            "d. Offers resources and advice for Alice's new career direction",
+            "e. Kimberly starts to believe Alice is considering a career change.",
+            "f. Supportiveness",
+            "g. To provide encouragement and practical advice"
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Kimberly believes Alice has made a decision about her career path.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Kimberly believes that Alice is stressed due to her job.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Kimberly now believes Alice feels undervalued at work.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Kimberly starts to believe Alice is considering a career change.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Supportiveness",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "To provide encouragement and practical advice",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Offers resources and advice for Alice's new career direction",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_5": {
+        "question": "What is the emotion of Kimberly Yazzie in scenario 1?",
+        "true answer": "g",
+        "options": [
+            "a. Kimberly believes that Alice is stressed due to her job.",
+            "b. Empathy",
+            "c. To help Alice manage her stress",
+            "d. Initiates conversation about Alice's job",
+            "e. Supportiveness",
+            "f. Worry",
+            "g. Concerned"
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Concerned",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Empathy",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Worry",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Supportiveness",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Kimberly believes that Alice is stressed due to her job.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "To help Alice manage her stress",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Initiates conversation about Alice's job",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_6": {
+        "question": "What is the emotion of Kimberly Yazzie in scenario 2?",
+        "true answer": "e",
+        "options": [
+            "a. Shares stories of Alice's successes to remind her of her value",
+            "b. Concerned",
+            "c. To boost Alice's self-esteem",
+            "d. Worry",
+            "e. Empathy",
+            "f. Kimberly now believes Alice feels undervalued at work.",
+            "g. Supportiveness"
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Empathy",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Concerned",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Worry",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Supportiveness",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Kimberly now believes Alice feels undervalued at work.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "To boost Alice's self-esteem",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Shares stories of Alice's successes to remind her of her value",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_7": {
+        "question": "What is the emotion of Kimberly Yazzie in scenario 3?",
+        "true answer": "e",
+        "options": [
+            "a. Empathy",
+            "b. Asks Alice direct questions about her career goals",
+            "c. To explore Alice's feelings about a career change",
+            "d. Concerned",
+            "e. Worry",
+            "f. Kimberly starts to believe Alice is considering a career change.",
+            "g. Supportiveness"
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Worry",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Concerned",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Empathy",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Supportiveness",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Kimberly starts to believe Alice is considering a career change.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "To explore Alice's feelings about a career change",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Asks Alice direct questions about her career goals",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_8": {
+        "question": "What is the emotion of Kimberly Yazzie in scenario 4?",
+        "true answer": "d",
+        "options": [
+            "a. Worry",
+            "b. Offers resources and advice for Alice's new career direction",
+            "c. Empathy",
+            "d. Supportiveness",
+            "e. Concerned",
+            "f. To provide encouragement and practical advice",
+            "g. Kimberly believes Alice has made a decision about her career path."
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Supportiveness",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Concerned",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Empathy",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Worry",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Kimberly believes Alice has made a decision about her career path.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "To provide encouragement and practical advice",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Offers resources and advice for Alice's new career direction",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_9": {
+        "question": "What is the intention of Kimberly Yazzie in scenario 1?",
+        "true answer": "g",
+        "options": [
+            "a. To provide encouragement and practical advice",
+            "b. Initiates conversation about Alice's job",
+            "c. To explore Alice's feelings about a career change",
+            "d. Concerned",
+            "e. Kimberly believes that Alice is stressed due to her job.",
+            "f. To boost Alice's self-esteem",
+            "g. To help Alice manage her stress"
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "To help Alice manage her stress",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "To boost Alice's self-esteem",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "To explore Alice's feelings about a career change",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "To provide encouragement and practical advice",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Kimberly believes that Alice is stressed due to her job.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Concerned",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Initiates conversation about Alice's job",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_10": {
+        "question": "What is the intention of Kimberly Yazzie in scenario 2?",
+        "true answer": "b",
+        "options": [
+            "a. Empathy",
+            "b. To boost Alice's self-esteem",
+            "c. To explore Alice's feelings about a career change",
+            "d. Kimberly now believes Alice feels undervalued at work.",
+            "e. To help Alice manage her stress",
+            "f. Shares stories of Alice's successes to remind her of her value",
+            "g. To provide encouragement and practical advice"
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "To boost Alice's self-esteem",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "To help Alice manage her stress",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "To explore Alice's feelings about a career change",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "To provide encouragement and practical advice",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Kimberly now believes Alice feels undervalued at work.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Empathy",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Shares stories of Alice's successes to remind her of her value",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_11": {
+        "question": "What is the intention of Kimberly Yazzie in scenario 3?",
+        "true answer": "g",
+        "options": [
+            "a. Asks Alice direct questions about her career goals",
+            "b. To help Alice manage her stress",
+            "c. Kimberly starts to believe Alice is considering a career change.",
+            "d. To boost Alice's self-esteem",
+            "e. Worry",
+            "f. To provide encouragement and practical advice",
+            "g. To explore Alice's feelings about a career change"
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "To explore Alice's feelings about a career change",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "To help Alice manage her stress",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "To boost Alice's self-esteem",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "To provide encouragement and practical advice",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Kimberly starts to believe Alice is considering a career change.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Worry",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Asks Alice direct questions about her career goals",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_12": {
+        "question": "What is the intention of Kimberly Yazzie in scenario 4?",
+        "true answer": "f",
+        "options": [
+            "a. Supportiveness",
+            "b. To help Alice manage her stress",
+            "c. Kimberly believes Alice has made a decision about her career path.",
+            "d. Offers resources and advice for Alice's new career direction",
+            "e. To explore Alice's feelings about a career change",
+            "f. To provide encouragement and practical advice",
+            "g. To boost Alice's self-esteem"
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "To provide encouragement and practical advice",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "To help Alice manage her stress",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "To boost Alice's self-esteem",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "To explore Alice's feelings about a career change",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Kimberly believes Alice has made a decision about her career path.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Supportiveness",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Offers resources and advice for Alice's new career direction",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_13": {
+        "question": "What is the action of Kimberly Yazzie in scenario 1?",
+        "true answer": "g",
+        "options": [
+            "a. Offers resources and advice for Alice's new career direction",
+            "b. Concerned",
+            "c. Shares stories of Alice's successes to remind her of her value",
+            "d. To help Alice manage her stress",
+            "e. Asks Alice direct questions about her career goals",
+            "f. Kimberly believes that Alice is stressed due to her job.",
+            "g. Initiates conversation about Alice's job"
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Initiates conversation about Alice's job",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Shares stories of Alice's successes to remind her of her value",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Asks Alice direct questions about her career goals",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Offers resources and advice for Alice's new career direction",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Kimberly believes that Alice is stressed due to her job.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Concerned",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "To help Alice manage her stress",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_14": {
+        "question": "What is the action of Kimberly Yazzie in scenario 2?",
+        "true answer": "b",
+        "options": [
+            "a. Kimberly now believes Alice feels undervalued at work.",
+            "b. Shares stories of Alice's successes to remind her of her value",
+            "c. To boost Alice's self-esteem",
+            "d. Offers resources and advice for Alice's new career direction",
+            "e. Asks Alice direct questions about her career goals",
+            "f. Empathy",
+            "g. Initiates conversation about Alice's job"
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Shares stories of Alice's successes to remind her of her value",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Initiates conversation about Alice's job",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Asks Alice direct questions about her career goals",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Offers resources and advice for Alice's new career direction",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Kimberly now believes Alice feels undervalued at work.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Empathy",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "To boost Alice's self-esteem",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_15": {
+        "question": "What is the action of Kimberly Yazzie in scenario 3?",
+        "true answer": "b",
+        "options": [
+            "a. Offers resources and advice for Alice's new career direction",
+            "b. Asks Alice direct questions about her career goals",
+            "c. Initiates conversation about Alice's job",
+            "d. To explore Alice's feelings about a career change",
+            "e. Worry",
+            "f. Kimberly starts to believe Alice is considering a career change.",
+            "g. Shares stories of Alice's successes to remind her of her value"
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Asks Alice direct questions about her career goals",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Initiates conversation about Alice's job",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Shares stories of Alice's successes to remind her of her value",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Offers resources and advice for Alice's new career direction",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Kimberly starts to believe Alice is considering a career change.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Worry",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "To explore Alice's feelings about a career change",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_16": {
+        "question": "What is the action of Kimberly Yazzie in scenario 4?",
+        "true answer": "b",
+        "options": [
+            "a. Shares stories of Alice's successes to remind her of her value",
+            "b. Offers resources and advice for Alice's new career direction",
+            "c. Initiates conversation about Alice's job",
+            "d. To provide encouragement and practical advice",
+            "e. Asks Alice direct questions about her career goals",
+            "f. Supportiveness",
+            "g. Kimberly believes Alice has made a decision about her career path."
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Offers resources and advice for Alice's new career direction",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Initiates conversation about Alice's job",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Shares stories of Alice's successes to remind her of her value",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Asks Alice direct questions about her career goals",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Kimberly believes Alice has made a decision about her career path.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Supportiveness",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "To provide encouragement and practical advice",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    }
+}

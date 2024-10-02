@@ -5,9 +5,10 @@ from tqdm import tqdm
 from llm_api.model_chat import *
 from analysis.statistic import calculate_accuracy
 from util.logger import inference3_logger
+from util.random_id_cot import cot_list
 import os
 
-os.environ["CUDA_VISIBLE_DEVICES"] = "1,2,3,4"
+os.environ["CUDA_VISIBLE_DEVICES"] = "0,1,7,3"
 
 
 model_name_2_class = {
@@ -115,15 +116,15 @@ def main(model: Chat, scripts, levels):
 
 
 if __name__ == "__main__":
-    scrip_ids = range(188, 1050)
+    scrip_ids = cot_list
 
-    models = ["DeepSeek-V2-Lite-Chat"]
+    models = ["Meta-Llama-3-70B-Instruct"]
     # models = [ "gpt-4o-2024-05-13"]
 
     # levels = ["level1", "level2"]
     # levels = ["level2"]
     for model_name in models:
-        levels = ["level1"]
+        levels = ["level1CoT"]
         chat_model: Chat = model_name_2_class[model_name]()
         main(chat_model, scrip_ids, levels)
     

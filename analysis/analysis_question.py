@@ -3,7 +3,7 @@ analysis according to the classification of questions
 """
 
 import json
-
+from util.random_id_cot import cot_list
 # question a need question b and c answered first.
 # question b&c -> a
 influence_mapping = {
@@ -613,14 +613,14 @@ def overall_analysis(script_ids, model, information_level):
 
 
 if __name__ == "__main__":
-    scripts = range(50, 1050)
-    models = ["Meta-Llama-3.1-70B-Instruct"]
+    scripts = cot_list
+    models = ["Meta-Llama-3.1-8B-Instruct","Meta-Llama-3.1-70B-Instruct","Mistral-7B-Instruct-v0.3","Mixtral-8x7B-Instruct-v0.1","Qwen2-7B-Instruct","Qwen2-72B-Instruct","DeepSeek-V2-Lite-Chat","gpt-4-turbo-2024-04-09","gpt-4o-2024-05-13","glm-4-9b-chat"]
 
     for script_id in scripts:
         for model in models:
             print(script_id, model)
-            question_analysis(script_id, model, "level1")
+            question_analysis(script_id, model, "level1CoT")
 
     for model in models:
         # print(model)
-        overall_analysis(scripts, model, "level1")
+        overall_analysis(scripts, model, "level1CoT")

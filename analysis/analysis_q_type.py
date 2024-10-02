@@ -1,6 +1,7 @@
 import json
 from analysis.analysis_question import load_answer_ground_truth
 from llm_api.inference import model_name_2_class
+from util.random_id_cot import cot_list
 
 classification = {
     "understanding": {
@@ -108,6 +109,7 @@ classification = {
 def find_menta_q_type(q_id):
     for q_type in ["understanding", "transformation", "influence"]:
         for mental_state in ["belief", "emotion", "intention", "action"]:
+            # print(q_type, mental_state,q_id)
             if q_id in classification[q_type][mental_state]:
                 return q_type, mental_state
     return None, None
@@ -267,8 +269,9 @@ def analysis_split_mental_q_type(model, ids, information_level):
 
 
 if __name__ == "__main__":
-    models = list(model_name_2_class.keys())
-    ids = range(50, 1050)
-    information_level = "level1"
+    models = ["Meta-Llama-3.1-8B-Instruct","Meta-Llama-3.1-70B-Instruct","Mistral-7B-Instruct-v0.3","Mixtral-8x7B-Instruct-v0.1","Qwen2-7B-Instruct","Qwen2-72B-Instruct","DeepSeek-V2-Lite-Chat","gpt-4-turbo-2024-04-09","gpt-4o-2024-05-13","glm-4-9b-chat"]
+    ids = cot_list
+    information_level = "level1CoT"
     for model in models:
         analysis_split_mental_q_type(model, ids, information_level)
+        analysis(model, ids, information_level)

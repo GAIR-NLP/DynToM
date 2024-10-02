@@ -12,7 +12,7 @@ def draw_bar(error_type,results,title):
     width = 0.2  # the width of the bars
     multiplier = 0
     
-    color=['#076678', '#8EC07C', '#F28482', '#FFABBE']
+    color=['#CC88B0', '#998DB7', '#DBE0ED', '#87B5B2']
 
     fig, ax = plt.subplots(layout='constrained')
 
@@ -20,14 +20,14 @@ def draw_bar(error_type,results,title):
         measurement= [round(i,2) for i in measurement]
         offset = width * multiplier
         rects = ax.bar(x + offset, measurement, width, label=mental,color=color[multiplier])
-        ax.bar_label(rects, padding=3,rotation=45,weight='bold')
+        ax.bar_label(rects, padding=3,rotation=60,weight='bold')
         multiplier += 1
 
     # Add some text for labels, title and custom x-axis tick labels, etc.
     ax.set_xlabel('Category',weight='bold')
     ax.set_ylabel('Percentage',weight='bold')
     #ax.set_title(f"{title[0]}")
-    ax.set_xticks(x + width*(len(results)/2-0.5), error_type)
+    ax.set_xticks(x + width*(len(results)/2-0.5), ["fully correct","local error","full error","restoration error"])
     ax.legend(loc='upper left', ncols=2)
     ax.set_ylim(0, 0.7)
 

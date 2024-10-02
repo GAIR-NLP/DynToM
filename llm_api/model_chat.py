@@ -22,7 +22,7 @@ from util.logger import inference_logger, inference2_logger, inference3_logger
 
 
 # os.environ["CUDA_VISIBLE_DEVICES"] = gpu_id
-openai_api_key = "sk-y5HaEvsvdFtszRjJF6C0441c435f4fD7975a9c33C6B21d16"
+openai_api_key = "sk-cgdz49rvQMfSXD5f8aEd3c6d43734cFaBa95737a1403E001"
 openai_base_url = "https://api3.apifans.com/v1"
 # doubao_base_url = "https://ark.cn-beijing.volces.com/api/v3"
 # doubao_api_key = "19235e27-489a-45fb-a4fa-a7c4169f0abf"
@@ -123,6 +123,12 @@ class ConvertToJSON:
             self.logger.error("model: %s, content is empty", self.model_name)
             self.content = "{}"
             # print(self.content)
+        elif "question_id: answer_option" in self.content:
+            self.logger.error("model: %s, content is wrong", self.model_name)
+            self.content = "{}"
+        elif "[question_id]: [a, b, c or d]" in self.content:
+            self.logger.error("model: %s, content is wrong", self.model_name)
+            self.content = "{}"
 
         content_dic = self.convert_to_json()
         keys = list(content_dic.keys())
@@ -300,7 +306,7 @@ class Chat:
             model=self.model_save_path,
             tensor_parallel_size=self.gpus,
             trust_remote_code=True,
-            gpu_memory_utilization=0.99,
+            gpu_memory_utilization=0.9,
         )
         self.sampling_params = SamplingParams(temperature=0.01, max_tokens=8192)
 
@@ -335,7 +341,7 @@ class Llama38BInstruct(Chat):
         # full_model_path = f"{model_save_folder}/Meta-Llama-3.1-8B-Instruct"
         super().__init__(
             model_name="Meta-Llama-3.1-8B-Instruct",
-            model_save_path="/home/share/models/Meta-Llama-3.1-8B-Instruct",
+            model_save_path=f"{model_save_folder}/Meta-Llama-3.1-8B-Instruct",
             gpus=8,
             logger=inference2_logger,
         )
@@ -347,11 +353,11 @@ class Llama370BInstruct(Chat):
     """Llama 3.1 70B chat model"""
 
     def __init__(self):
-        full_model_path = "/home/share/models/Meta-Llama-3.1-70B-Instruct"
+        full_model_path = f"{model_save_folder}/meta-llama/Meta-Llama-3.1-70B-Instruct"
         super().__init__(
             model_name="Meta-Llama-3.1-70B-Instruct",
             model_save_path=full_model_path,
-            gpus=8,
+            gpus=4,
             logger=inference2_logger,
         )
 
@@ -360,7 +366,7 @@ class Mistra7BInstructV03(Chat):
     """mistralai/Mistral-7B-Instruct-v0.3"""
 
     def __init__(self):
-        full_model_path = f"/home/share/models/Mistral-7B-Instruct-v0.3"
+        full_model_path = f"{model_save_folder}/Mistral-7B-Instruct-v0.3"
         super().__init__(
             model_name="Mistral-7B-Instruct-v0.3", model_save_path=full_model_path,
             gpus=4,
@@ -371,7 +377,7 @@ class Mistra87BInstructV01(Chat):
     """mistralai/Mixtral-8x7B-Instruct-v0.1"""
 
     def __init__(self):
-        full_model_path = "/home/share/models/Mixtral-8x7B-Instruct-v0.1"
+        full_model_path = f"{model_save_folder}/mistralai/Mixtral-8x7B-Instruct-v0.1"
         super().__init__(
             model_name="Mixtral-8x7B-Instruct-v0.1",
             model_save_path=full_model_path,
@@ -384,7 +390,7 @@ class QWen27BInstruct(Chat):
     """Qwen/Qwen2-7B-Instruct"""
 
     def __init__(self):
-        full_model_path = "/home/share/models/Qwen2-7B-Instruct"
+        full_model_path = f"{model_save_folder}/Qwen2-7B-Instruct"
         super().__init__(
             model_name="Qwen2-7B-Instruct", model_save_path=full_model_path,
              gpus=4,
@@ -396,7 +402,7 @@ class QWen272BInstruct(Chat):
     """Qwen/Qwen2-72B-Instruct"""
 
     def __init__(self):
-        full_model_path = "/data/xiaoyang/models/Qwen/Qwen2-72B-Instruct"
+        full_model_path = f"{model_save_folder}/Qwen/Qwen2-72B-Instruct"
         super().__init__(
             model_name="Qwen2-72B-Instruct", model_save_path=full_model_path,
             gpus=4,
@@ -409,7 +415,7 @@ class DeepSeekV2LiteChat(Chat):
     """DeepSeek-V2-Lite-Chat"""
 
     def __init__(self):
-        full_model_path = f"/home/share/models/DeepSeek-V2-Lite-Chat"
+        full_model_path = f"{model_save_folder}/deepseek-ai/DeepSeek-V2-Lite-Chat"
         super().__init__(
             model_name="DeepSeek-V2-Lite-Chat", model_save_path=full_model_path,
             gpus=4,
@@ -576,7 +582,7 @@ class GLM(Chat):
     """glm-4-9b-chat"""
 
     def __init__(self):
-        full_model_path = "/data/xiaoyang/models/THUDM/glm-4-9b-chat"
+        full_model_path = f"{model_save_folder}/THUDM/glm-4-9b-chat"
         super().__init__(
             model_name="glm-4-9b-chat",
             model_save_path=full_model_path,

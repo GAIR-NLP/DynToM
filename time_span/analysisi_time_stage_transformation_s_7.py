@@ -1,0 +1,157 @@
+from analysis.analysis_question import load_answer_ground_truth
+
+import json
+
+
+transformation = {
+    "belief": {
+        "type_d_why_1": "1-2",
+        "type_d_why_2": "2-3",
+        "type_d_why_3": "3-4",
+        "type_d_why_4": "4-5",
+        "type_d_why_5": "5-6",
+        "type_d_why_6": "6-7",
+        
+        "type_d_whether_1": "1-2",
+        "type_d_whether_2": "2-3",
+        "type_d_whether_3": "3-4",
+        "type_d_whether_4": "4-5",
+        "type_d_whether_5": "5-6",
+        "type_d_whether_6": "6-7",
+    },
+    "emotion": {
+        "type_d_why_7": "1-2",
+        "type_d_why_8": "2-3",
+        "type_d_why_9": "3-4",
+        "type_d_why_10": "4-5",
+        "type_d_why_11": "5-6",
+        "type_d_why_12": "6-7",
+        
+        "type_d_whether_7": "1-2",
+        "type_d_whether_8": "2-3",
+        "type_d_whether_9": "3-4",
+        "type_d_whether_10": "4-5",
+        "type_d_whether_11": "5-6",
+        "type_d_whether_12": "6-7",
+    },
+    "intention": {
+        "type_d_why_13": "1-2",
+        "type_d_why_14": "2-3",
+        "type_d_why_15": "3-4",
+        "type_d_why_16": "4-5",
+        "type_d_why_17": "5-6",
+        "type_d_why_18": "6-7",
+        
+        "type_d_whether_13": "1-2",
+        "type_d_whether_14": "2-3",
+        "type_d_whether_15": "3-4",
+        "type_d_whether_16": "4-5",
+        "type_d_whether_17": "5-6",
+        "type_d_whether_18": "6-7",
+    },
+    "action": {
+        "type_d_why_19": "1-2",
+        "type_d_why_20": "2-3",
+        "type_d_why_21": "3-4",
+        "type_d_why_22": "4-5",
+        "type_d_why_23": "5-6",
+        "type_d_why_24": "6-7",
+        
+        "type_d_whether_19": "1-2",
+        "type_d_whether_20": "2-3",
+        "type_d_whether_21": "3-4",
+        "type_d_whether_22": "4-5",
+        "type_d_whether_23": "5-6",
+        "type_d_whether_24": "6-7",
+    },
+}
+def find_menta_q_type(q_id):
+    print(q_id)
+    for mental_state in ["belief", "emotion", "intention", "action"]:
+        print(mental_state)
+        if q_id in transformation[mental_state]:
+            return mental_state
+    return None
+
+def analysis(model, ids, information_level):
+    """ analysis the time stage transformation
+
+    Args:
+        model (_type_): _description_
+        ids (_type_): _description_
+        information_level (_type_): _description_
+    """
+    results = {
+        "belief": {
+            "1-2": {"all": 0, "correct": 0},
+            "2-3": {"all": 0, "correct": 0},
+            "3-4": {"all": 0, "correct": 0},
+            "4-5": {"all": 0, "correct": 0},
+            "5-6": {"all": 0, "correct": 0},
+            "6-7": {"all": 0, "correct": 0},
+        },
+        "emotion": {
+            "1-2": {"all": 0, "correct": 0},
+            "2-3": {"all": 0, "correct": 0},
+            "3-4": {"all": 0, "correct": 0},
+            "4-5": {"all": 0, "correct": 0},
+            "5-6": {"all": 0, "correct": 0},
+            "6-7": {"all": 0, "correct": 0},
+        },
+        "intention": {
+            "1-2": {"all": 0, "correct": 0},
+            "2-3": {"all": 0, "correct": 0},
+            "3-4": {"all": 0, "correct": 0},
+            "4-5": {"all": 0, "correct": 0},
+            "5-6": {"all": 0, "correct": 0},
+            "6-7": {"all": 0, "correct": 0},
+        },
+        "action": {
+            "1-2": {"all": 0, "correct": 0},
+            "2-3": {"all": 0, "correct": 0},
+            "3-4": {"all": 0, "correct": 0},
+            "4-5": {"all": 0, "correct": 0},
+            "5-6": {"all": 0, "correct": 0},
+            "6-7": {"all": 0, "correct": 0},
+        },
+    }
+
+    for id in ids:
+        _, _, result = load_answer_ground_truth(id, model, information_level)
+        # print(result)
+
+        for q_id, _ in result.items():
+            mental_state = find_menta_q_type(q_id)
+            if mental_state is None:
+                continue
+            if q_id in transformation[mental_state]:
+                results[mental_state][transformation[mental_state][q_id]]["all"] += 1
+                results[mental_state][transformation[mental_state][q_id]][
+                    "correct"
+                ] += result[q_id]
+
+    for mental_state in ["belief", "emotion", "intention", "action"]:
+        for transformation_ in ["1-2", "2-3", "3-4", "4-5", "5-6", "6-7"]:
+            results[mental_state][transformation_]["accuracy"] = (
+                results[mental_state][transformation_]["correct"]
+                / results[mental_state][transformation_]["all"]
+            )
+
+    path = f"time_span/data/{model}_{information_level}_time_stage_transformation_s7.json"
+    with open(path, "w") as f:
+        json.dump(results, f)
+
+if __name__ == "__main__":
+    # models = ["gpt-4-turbo-2024-04-09", "gpt-4o-2024-05-13"]
+    # #ids = range(1200,1210)
+    # ids = [1200,1201,1202,1203,1204,1205,1206,1207,1208,1209]
+    # information_level = "level1"
+    # for model in models:
+    #     analysis(model, ids, information_level)
+        
+    models = ["gpt-4-turbo-2024-04-09", "gpt-4o-2024-05-13"]
+    #ids = range(1200,1210)
+    ids = range(1150,1160)
+    information_level = "level1"
+    for model in models:
+        analysis(model, ids, information_level)

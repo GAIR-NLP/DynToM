@@ -18,13 +18,10 @@ def load_system_prompt(
     questions = json.load(open(path, encoding="UTF-8"))
 
     story = script["story"]
-    if information_type == "level1" or information_type == "level1CoT":
-        # only dialogue
-        for key, value in story.items():
-            value.pop("background", None)
-    else:
-        # all information
-        pass
+    
+    for key, value in story.items():
+        value.pop("background", None)
+    
 
     # print(story[list(story.keys())[0]].keys())
     # print(story[list(story.keys())[1]].keys())

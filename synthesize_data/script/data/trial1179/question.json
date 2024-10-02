@@ -1,0 +1,3299 @@
+{
+    "type_d_how_1": {
+        "question": "How does the belief of Gary Ko change across the 4 scenarios?",
+        "true answer": "a",
+        "options": [
+            "Gary believes Sandra is hiding something -> Gary doubts his earlier belief -> Gary believes Sandra is struggling with ethical dilemmas -> Gary believes Sandra might face legal risks",
+            "Gary believes Sandra might face legal risks -> Gary believes Sandra is struggling with ethical dilemmas -> Gary believes Sandra is hiding something -> Gary doubts his earlier belief",
+            "Gary believes Sandra is hiding something -> Gary doubts his earlier belief -> Gary believes Sandra might face legal risks -> Gary believes Sandra is struggling with ethical dilemmas",
+            "Gary believes Sandra is struggling with ethical dilemmas -> Gary believes Sandra might face legal risks -> Gary doubts his earlier belief -> Gary believes Sandra is hiding something",
+            "Gary believes Sandra is hiding something -> Gary believes Sandra might face legal risks -> Gary believes Sandra is struggling with ethical dilemmas",
+            "Frustrated and anxious -> Gary doubts his earlier belief -> Gary believes Sandra might face legal risks -> Gary believes Sandra is struggling with ethical dilemmas",
+            "Gary believes Sandra is hiding something -> Approach diplomatically -> Gary believes Sandra might face legal risks -> Gary believes Sandra is struggling with ethical dilemmas",
+            "Gary believes Sandra is hiding something -> Start dialogue with open-ended questions -> Gary believes Sandra might face legal risks -> Gary believes Sandra is struggling with ethical dilemmas"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Gary believes Sandra is hiding something -> Gary doubts his earlier belief -> Gary believes Sandra is struggling with ethical dilemmas -> Gary believes Sandra might face legal risks",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Gary believes Sandra might face legal risks -> Gary believes Sandra is struggling with ethical dilemmas -> Gary believes Sandra is hiding something -> Gary doubts his earlier belief",
+                "explain": "shuffle the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Gary believes Sandra is hiding something -> Gary doubts his earlier belief -> Gary believes Sandra might face legal risks -> Gary believes Sandra is struggling with ethical dilemmas",
+                "explain": "change the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Gary believes Sandra is struggling with ethical dilemmas -> Gary believes Sandra might face legal risks -> Gary doubts his earlier belief -> Gary believes Sandra is hiding something",
+                "explain": "reverse the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Gary believes Sandra is hiding something -> Gary believes Sandra might face legal risks -> Gary believes Sandra is struggling with ethical dilemmas",
+                "explain": "remove one belief in one time stage",
+                "reason": "test ability to recognize the completeness of the mental states",
+                "short": "type_d_how_recognize_time_stage_completeness"
+            },
+            {
+                "option": "Frustrated and anxious -> Gary doubts his earlier belief -> Gary believes Sandra might face legal risks -> Gary believes Sandra is struggling with ethical dilemmas",
+                "reason": "test ability to recognize the relationship between belief and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Gary believes Sandra is hiding something -> Approach diplomatically -> Gary believes Sandra might face legal risks -> Gary believes Sandra is struggling with ethical dilemmas",
+                "reason": "test ability to recognize the relationship between belief and intention",
+                "explain": "intention change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Gary believes Sandra is hiding something -> Start dialogue with open-ended questions -> Gary believes Sandra might face legal risks -> Gary believes Sandra is struggling with ethical dilemmas",
+                "reason": "test ability to recognize the relationship between belief and action",
+                "explain": "action change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_how_2": {
+        "question": "How does the emotion of Gary Ko change across the 4 scenarios?",
+        "true answer": "a",
+        "options": [
+            "Frustrated and anxious -> Conflicted and uncertain -> Empathetic and concerned -> Worried and responsible",
+            "Empathetic and concerned -> Conflicted and uncertain -> Worried and responsible -> Frustrated and anxious",
+            "Frustrated and anxious -> Worried and responsible -> Empathetic and concerned -> Conflicted and uncertain",
+            "Conflicted and uncertain -> Empathetic and concerned -> Worried and responsible -> Frustrated and anxious",
+            "Frustrated and anxious -> Empathetic and concerned -> Conflicted and uncertain",
+            "Frustrated and anxious -> Worried and responsible -> Empathetic and concerned -> Gary believes Sandra is struggling with ethical dilemmas",
+            "Frustrated and anxious -> Approach diplomatically -> Empathetic and concerned -> Conflicted and uncertain",
+            "Schedule a meeting -> Worried and responsible -> Empathetic and concerned -> Conflicted and uncertain"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Frustrated and anxious -> Conflicted and uncertain -> Empathetic and concerned -> Worried and responsible",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Empathetic and concerned -> Conflicted and uncertain -> Worried and responsible -> Frustrated and anxious",
+                "explain": "shuffle the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Frustrated and anxious -> Worried and responsible -> Empathetic and concerned -> Conflicted and uncertain",
+                "explain": "change the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Conflicted and uncertain -> Empathetic and concerned -> Worried and responsible -> Frustrated and anxious",
+                "explain": "reverse the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Frustrated and anxious -> Empathetic and concerned -> Conflicted and uncertain",
+                "explain": "remove one belief in one time stage",
+                "reason": "test ability to recognize the completeness of the mental states",
+                "short": "type_d_how_recognize_time_stage_completeness"
+            },
+            {
+                "option": "Frustrated and anxious -> Worried and responsible -> Empathetic and concerned -> Gary believes Sandra is struggling with ethical dilemmas",
+                "reason": "test ability to recognize the relationship between emotion and belief",
+                "explain": "belief change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Frustrated and anxious -> Approach diplomatically -> Empathetic and concerned -> Conflicted and uncertain",
+                "reason": "test ability to recognize the relationship between emotion and intention",
+                "explain": "intention change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Schedule a meeting -> Worried and responsible -> Empathetic and concerned -> Conflicted and uncertain",
+                "reason": "test ability to recognize the relationship between emotion and action",
+                "explain": "action change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_how_3": {
+        "question": "How does the intention of Gary Ko change across the 4 scenarios?",
+        "true answer": "a",
+        "options": [
+            "Confront Sandra -> Approach diplomatically -> Offer legal advice -> Follow up to ensure legal soundness",
+            "Follow up to ensure legal soundness -> Approach diplomatically -> Offer legal advice -> Confront Sandra",
+            "Follow up to ensure legal soundness -> Approach diplomatically -> Offer legal advice -> Confront Sandra",
+            "Confront Sandra -> Offer legal advice -> Approach diplomatically -> Follow up to ensure legal soundness",
+            "Follow up to ensure legal soundness -> Approach diplomatically -> Offer legal advice",
+            "Gary believes Sandra is hiding something -> Approach diplomatically -> Offer legal advice -> Confront Sandra",
+            "Follow up to ensure legal soundness -> Worried and responsible -> Offer legal advice -> Confront Sandra",
+            "Follow up to ensure legal soundness -> Start dialogue with open-ended questions -> Offer legal advice -> Confront Sandra"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Confront Sandra -> Approach diplomatically -> Offer legal advice -> Follow up to ensure legal soundness",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Follow up to ensure legal soundness -> Approach diplomatically -> Offer legal advice -> Confront Sandra",
+                "explain": "shuffle the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Follow up to ensure legal soundness -> Approach diplomatically -> Offer legal advice -> Confront Sandra",
+                "explain": "change the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Confront Sandra -> Offer legal advice -> Approach diplomatically -> Follow up to ensure legal soundness",
+                "explain": "reverse the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Follow up to ensure legal soundness -> Approach diplomatically -> Offer legal advice",
+                "explain": "remove one belief in one time stage",
+                "reason": "test ability to recognize the completeness of the mental states",
+                "short": "type_d_how_recognize_time_stage_completeness"
+            },
+            {
+                "option": "Gary believes Sandra is hiding something -> Approach diplomatically -> Offer legal advice -> Confront Sandra",
+                "reason": "test ability to recognize the relationship between intention and belief",
+                "explain": "belief change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Follow up to ensure legal soundness -> Worried and responsible -> Offer legal advice -> Confront Sandra",
+                "reason": "test ability to recognize the relationship between intention and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Follow up to ensure legal soundness -> Start dialogue with open-ended questions -> Offer legal advice -> Confront Sandra",
+                "reason": "test ability to recognize the relationship between intention and action",
+                "explain": "action change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_how_4": {
+        "question": "How does the action of Gary Ko change across the 4 scenarios?",
+        "true answer": "a",
+        "options": [
+            "Schedule a meeting -> Start dialogue with open-ended questions -> Provide legal suggestions -> Arrange a follow-up meeting",
+            "Arrange a follow-up meeting -> Start dialogue with open-ended questions -> Schedule a meeting -> Provide legal suggestions",
+            "Schedule a meeting -> Start dialogue with open-ended questions -> Arrange a follow-up meeting -> Provide legal suggestions",
+            "Provide legal suggestions -> Arrange a follow-up meeting -> Start dialogue with open-ended questions -> Schedule a meeting",
+            "Schedule a meeting -> Start dialogue with open-ended questions -> Arrange a follow-up meeting",
+            "Schedule a meeting -> Start dialogue with open-ended questions -> Arrange a follow-up meeting -> Gary believes Sandra is struggling with ethical dilemmas",
+            "Schedule a meeting -> Start dialogue with open-ended questions -> Arrange a follow-up meeting -> Conflicted and uncertain",
+            "Schedule a meeting -> Approach diplomatically -> Arrange a follow-up meeting -> Provide legal suggestions"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Schedule a meeting -> Start dialogue with open-ended questions -> Provide legal suggestions -> Arrange a follow-up meeting",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Arrange a follow-up meeting -> Start dialogue with open-ended questions -> Schedule a meeting -> Provide legal suggestions",
+                "explain": "shuffle the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Schedule a meeting -> Start dialogue with open-ended questions -> Arrange a follow-up meeting -> Provide legal suggestions",
+                "explain": "change the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Provide legal suggestions -> Arrange a follow-up meeting -> Start dialogue with open-ended questions -> Schedule a meeting",
+                "explain": "reverse the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Schedule a meeting -> Start dialogue with open-ended questions -> Arrange a follow-up meeting",
+                "explain": "remove one belief in one time stage",
+                "reason": "test ability to recognize the completeness of the mental states",
+                "short": "type_d_how_recognize_time_stage_completeness"
+            },
+            {
+                "option": "Schedule a meeting -> Start dialogue with open-ended questions -> Arrange a follow-up meeting -> Gary believes Sandra is struggling with ethical dilemmas",
+                "reason": "test ability to recognize the relationship between action and belief",
+                "explain": "belief change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Schedule a meeting -> Start dialogue with open-ended questions -> Arrange a follow-up meeting -> Conflicted and uncertain",
+                "reason": "test ability to recognize the relationship between action and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Schedule a meeting -> Approach diplomatically -> Arrange a follow-up meeting -> Provide legal suggestions",
+                "reason": "test ability to recognize the relationship between action and intention",
+                "explain": "intention change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_1": {
+        "question": "Why does the belief of Gary Ko change from scenario 1 to scenario 2?",
+        "true answer": "a",
+        "options": [
+            "Sandra's responses in their initial meeting made Gary doubt his belief",
+            "Further conversation revealed Sandra's ethical concerns",
+            "Gary deduced potential legal ramifications from Sandra's dilemmas",
+            "Gary's belief that he misinterpreted Sandra's actions led to uncertainty",
+            "Understanding Sandra's ethical struggle invoked empathy",
+            "Realizing Sandra's risk of legal trouble led to a mix of worry and responsibility",
+            "Gary's uncertainty led him to adopt a more diplomatic approach",
+            "Discovering Sandra's ethical dilemma led him to offer help",
+            "Concern for Sandra's legal situation led him to plan a follow-up",
+            "Gary decided on a more open approach for the meeting",
+            "The conversation led Gary to directly offer legal advice",
+            "Gary's concern for ongoing legal issues led him to follow through with future plans"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Sandra's responses in their initial meeting made Gary doubt his belief",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Further conversation revealed Sandra's ethical concerns",
+                "reason": "test ability to recognize the reason of belief change in different time stage",
+                "explain": "belief change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Gary deduced potential legal ramifications from Sandra's dilemmas",
+                "reason": "test ability to recognize the reason of belief change in different time stage",
+                "explain": "belief change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Gary's belief that he misinterpreted Sandra's actions led to uncertainty",
+                "reason": "test ability to recognize the reason between belief and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Understanding Sandra's ethical struggle invoked empathy",
+                "reason": "test ability to recognize the reason between belief and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Realizing Sandra's risk of legal trouble led to a mix of worry and responsibility",
+                "reason": "test ability to recognize the reason between belief and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Gary's uncertainty led him to adopt a more diplomatic approach",
+                "reason": "test ability to recognize the reason between belief and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Discovering Sandra's ethical dilemma led him to offer help",
+                "reason": "test ability to recognize the reason between belief and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Concern for Sandra's legal situation led him to plan a follow-up",
+                "reason": "test ability to recognize the reason between belief and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Gary decided on a more open approach for the meeting",
+                "reason": "test ability to recognize the reason between belief and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "The conversation led Gary to directly offer legal advice",
+                "reason": "test ability to recognize the reason between belief and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Gary's concern for ongoing legal issues led him to follow through with future plans",
+                "reason": "test ability to recognize the reason between belief and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_2": {
+        "question": "Why does the belief of Gary Ko change from scenario 2 to scenario 3?",
+        "true answer": "a",
+        "options": [
+            "Further conversation revealed Sandra's ethical concerns",
+            "Sandra's responses in their initial meeting made Gary doubt his belief",
+            "Gary deduced potential legal ramifications from Sandra's dilemmas",
+            "Gary's belief that he misinterpreted Sandra's actions led to uncertainty",
+            "Understanding Sandra's ethical struggle invoked empathy",
+            "Realizing Sandra's risk of legal trouble led to a mix of worry and responsibility",
+            "Gary's uncertainty led him to adopt a more diplomatic approach",
+            "Discovering Sandra's ethical dilemma led him to offer help",
+            "Concern for Sandra's legal situation led him to plan a follow-up",
+            "Gary decided on a more open approach for the meeting",
+            "The conversation led Gary to directly offer legal advice",
+            "Gary's concern for ongoing legal issues led him to follow through with future plans"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Further conversation revealed Sandra's ethical concerns",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Sandra's responses in their initial meeting made Gary doubt his belief",
+                "reason": "test ability to recognize the reason of belief change in different time stage",
+                "explain": "belief change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Gary deduced potential legal ramifications from Sandra's dilemmas",
+                "reason": "test ability to recognize the reason of belief change in different time stage",
+                "explain": "belief change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Gary's belief that he misinterpreted Sandra's actions led to uncertainty",
+                "reason": "test ability to recognize the reason between belief and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Understanding Sandra's ethical struggle invoked empathy",
+                "reason": "test ability to recognize the reason between belief and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Realizing Sandra's risk of legal trouble led to a mix of worry and responsibility",
+                "reason": "test ability to recognize the reason between belief and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Gary's uncertainty led him to adopt a more diplomatic approach",
+                "reason": "test ability to recognize the reason between belief and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Discovering Sandra's ethical dilemma led him to offer help",
+                "reason": "test ability to recognize the reason between belief and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Concern for Sandra's legal situation led him to plan a follow-up",
+                "reason": "test ability to recognize the reason between belief and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Gary decided on a more open approach for the meeting",
+                "reason": "test ability to recognize the reason between belief and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "The conversation led Gary to directly offer legal advice",
+                "reason": "test ability to recognize the reason between belief and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Gary's concern for ongoing legal issues led him to follow through with future plans",
+                "reason": "test ability to recognize the reason between belief and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_3": {
+        "question": "Why does the belief of Gary Ko change from scenario 3 to scenario 4?",
+        "true answer": "a",
+        "options": [
+            "Gary deduced potential legal ramifications from Sandra's dilemmas",
+            "Sandra's responses in their initial meeting made Gary doubt his belief",
+            "Further conversation revealed Sandra's ethical concerns",
+            "Gary's belief that he misinterpreted Sandra's actions led to uncertainty",
+            "Understanding Sandra's ethical struggle invoked empathy",
+            "Realizing Sandra's risk of legal trouble led to a mix of worry and responsibility",
+            "Gary's uncertainty led him to adopt a more diplomatic approach",
+            "Discovering Sandra's ethical dilemma led him to offer help",
+            "Concern for Sandra's legal situation led him to plan a follow-up",
+            "Gary decided on a more open approach for the meeting",
+            "The conversation led Gary to directly offer legal advice",
+            "Gary's concern for ongoing legal issues led him to follow through with future plans"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Gary deduced potential legal ramifications from Sandra's dilemmas",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Sandra's responses in their initial meeting made Gary doubt his belief",
+                "reason": "test ability to recognize the reason of belief change in different time stage",
+                "explain": "belief change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Further conversation revealed Sandra's ethical concerns",
+                "reason": "test ability to recognize the reason of belief change in different time stage",
+                "explain": "belief change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Gary's belief that he misinterpreted Sandra's actions led to uncertainty",
+                "reason": "test ability to recognize the reason between belief and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Understanding Sandra's ethical struggle invoked empathy",
+                "reason": "test ability to recognize the reason between belief and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Realizing Sandra's risk of legal trouble led to a mix of worry and responsibility",
+                "reason": "test ability to recognize the reason between belief and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Gary's uncertainty led him to adopt a more diplomatic approach",
+                "reason": "test ability to recognize the reason between belief and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Discovering Sandra's ethical dilemma led him to offer help",
+                "reason": "test ability to recognize the reason between belief and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Concern for Sandra's legal situation led him to plan a follow-up",
+                "reason": "test ability to recognize the reason between belief and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Gary decided on a more open approach for the meeting",
+                "reason": "test ability to recognize the reason between belief and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "The conversation led Gary to directly offer legal advice",
+                "reason": "test ability to recognize the reason between belief and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Gary's concern for ongoing legal issues led him to follow through with future plans",
+                "reason": "test ability to recognize the reason between belief and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_4": {
+        "question": "Why does the emotion of Gary Ko change from scenario 1 to scenario 2?",
+        "true answer": "a",
+        "options": [
+            "Gary's belief that he misinterpreted Sandra's actions led to uncertainty",
+            "Understanding Sandra's ethical struggle invoked empathy",
+            "Realizing Sandra's risk of legal trouble led to a mix of worry and responsibility",
+            "Sandra's responses in their initial meeting made Gary doubt his belief",
+            "Further conversation revealed Sandra's ethical concerns",
+            "Gary deduced potential legal ramifications from Sandra's dilemmas",
+            "Gary's uncertainty led him to adopt a more diplomatic approach",
+            "Discovering Sandra's ethical dilemma led him to offer help",
+            "Concern for Sandra's legal situation led him to plan a follow-up",
+            "Gary decided on a more open approach for the meeting",
+            "The conversation led Gary to directly offer legal advice",
+            "Gary's concern for ongoing legal issues led him to follow through with future plans"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Gary's belief that he misinterpreted Sandra's actions led to uncertainty",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Understanding Sandra's ethical struggle invoked empathy",
+                "reason": "test ability to recognize the reason of emotion change in different time stage",
+                "explain": "emotion change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Realizing Sandra's risk of legal trouble led to a mix of worry and responsibility",
+                "reason": "test ability to recognize the reason of emotion change in different time stage",
+                "explain": "emotion change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Sandra's responses in their initial meeting made Gary doubt his belief",
+                "reason": "test ability to recognize the reason between emotion and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Further conversation revealed Sandra's ethical concerns",
+                "reason": "test ability to recognize the reason between emotion and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Gary deduced potential legal ramifications from Sandra's dilemmas",
+                "reason": "test ability to recognize the reason between emotion and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Gary's uncertainty led him to adopt a more diplomatic approach",
+                "reason": "test ability to recognize the reason between emotion and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Discovering Sandra's ethical dilemma led him to offer help",
+                "reason": "test ability to recognize the reason between emotion and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Concern for Sandra's legal situation led him to plan a follow-up",
+                "reason": "test ability to recognize the reason between emotion and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Gary decided on a more open approach for the meeting",
+                "reason": "test ability to recognize the reason between emotion and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "The conversation led Gary to directly offer legal advice",
+                "reason": "test ability to recognize the reason between emotion and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Gary's concern for ongoing legal issues led him to follow through with future plans",
+                "reason": "test ability to recognize the reason between emotion and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_5": {
+        "question": "Why does the emotion of Gary Ko change from scenario 2 to scenario 3?",
+        "true answer": "a",
+        "options": [
+            "Understanding Sandra's ethical struggle invoked empathy",
+            "Gary's belief that he misinterpreted Sandra's actions led to uncertainty",
+            "Realizing Sandra's risk of legal trouble led to a mix of worry and responsibility",
+            "Sandra's responses in their initial meeting made Gary doubt his belief",
+            "Further conversation revealed Sandra's ethical concerns",
+            "Gary deduced potential legal ramifications from Sandra's dilemmas",
+            "Gary's uncertainty led him to adopt a more diplomatic approach",
+            "Discovering Sandra's ethical dilemma led him to offer help",
+            "Concern for Sandra's legal situation led him to plan a follow-up",
+            "Gary decided on a more open approach for the meeting",
+            "The conversation led Gary to directly offer legal advice",
+            "Gary's concern for ongoing legal issues led him to follow through with future plans"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Understanding Sandra's ethical struggle invoked empathy",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Gary's belief that he misinterpreted Sandra's actions led to uncertainty",
+                "reason": "test ability to recognize the reason of emotion change in different time stage",
+                "explain": "emotion change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Realizing Sandra's risk of legal trouble led to a mix of worry and responsibility",
+                "reason": "test ability to recognize the reason of emotion change in different time stage",
+                "explain": "emotion change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Sandra's responses in their initial meeting made Gary doubt his belief",
+                "reason": "test ability to recognize the reason between emotion and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Further conversation revealed Sandra's ethical concerns",
+                "reason": "test ability to recognize the reason between emotion and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Gary deduced potential legal ramifications from Sandra's dilemmas",
+                "reason": "test ability to recognize the reason between emotion and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Gary's uncertainty led him to adopt a more diplomatic approach",
+                "reason": "test ability to recognize the reason between emotion and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Discovering Sandra's ethical dilemma led him to offer help",
+                "reason": "test ability to recognize the reason between emotion and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Concern for Sandra's legal situation led him to plan a follow-up",
+                "reason": "test ability to recognize the reason between emotion and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Gary decided on a more open approach for the meeting",
+                "reason": "test ability to recognize the reason between emotion and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "The conversation led Gary to directly offer legal advice",
+                "reason": "test ability to recognize the reason between emotion and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Gary's concern for ongoing legal issues led him to follow through with future plans",
+                "reason": "test ability to recognize the reason between emotion and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_6": {
+        "question": "Why does the emotion of Gary Ko change from scenario 3 to scenario 4?",
+        "true answer": "a",
+        "options": [
+            "Realizing Sandra's risk of legal trouble led to a mix of worry and responsibility",
+            "Gary's belief that he misinterpreted Sandra's actions led to uncertainty",
+            "Understanding Sandra's ethical struggle invoked empathy",
+            "Sandra's responses in their initial meeting made Gary doubt his belief",
+            "Further conversation revealed Sandra's ethical concerns",
+            "Gary deduced potential legal ramifications from Sandra's dilemmas",
+            "Gary's uncertainty led him to adopt a more diplomatic approach",
+            "Discovering Sandra's ethical dilemma led him to offer help",
+            "Concern for Sandra's legal situation led him to plan a follow-up",
+            "Gary decided on a more open approach for the meeting",
+            "The conversation led Gary to directly offer legal advice",
+            "Gary's concern for ongoing legal issues led him to follow through with future plans"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Realizing Sandra's risk of legal trouble led to a mix of worry and responsibility",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Gary's belief that he misinterpreted Sandra's actions led to uncertainty",
+                "reason": "test ability to recognize the reason of emotion change in different time stage",
+                "explain": "emotion change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Understanding Sandra's ethical struggle invoked empathy",
+                "reason": "test ability to recognize the reason of emotion change in different time stage",
+                "explain": "emotion change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Sandra's responses in their initial meeting made Gary doubt his belief",
+                "reason": "test ability to recognize the reason between emotion and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Further conversation revealed Sandra's ethical concerns",
+                "reason": "test ability to recognize the reason between emotion and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Gary deduced potential legal ramifications from Sandra's dilemmas",
+                "reason": "test ability to recognize the reason between emotion and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Gary's uncertainty led him to adopt a more diplomatic approach",
+                "reason": "test ability to recognize the reason between emotion and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Discovering Sandra's ethical dilemma led him to offer help",
+                "reason": "test ability to recognize the reason between emotion and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Concern for Sandra's legal situation led him to plan a follow-up",
+                "reason": "test ability to recognize the reason between emotion and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Gary decided on a more open approach for the meeting",
+                "reason": "test ability to recognize the reason between emotion and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "The conversation led Gary to directly offer legal advice",
+                "reason": "test ability to recognize the reason between emotion and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Gary's concern for ongoing legal issues led him to follow through with future plans",
+                "reason": "test ability to recognize the reason between emotion and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_7": {
+        "question": "Why does the intention of Gary Ko change from scenario 1 to scenario 2?",
+        "true answer": "a",
+        "options": [
+            "Gary's uncertainty led him to adopt a more diplomatic approach",
+            "Discovering Sandra's ethical dilemma led him to offer help",
+            "Concern for Sandra's legal situation led him to plan a follow-up",
+            "Sandra's responses in their initial meeting made Gary doubt his belief",
+            "Further conversation revealed Sandra's ethical concerns",
+            "Gary deduced potential legal ramifications from Sandra's dilemmas",
+            "Gary's belief that he misinterpreted Sandra's actions led to uncertainty",
+            "Understanding Sandra's ethical struggle invoked empathy",
+            "Realizing Sandra's risk of legal trouble led to a mix of worry and responsibility",
+            "Gary decided on a more open approach for the meeting",
+            "The conversation led Gary to directly offer legal advice",
+            "Gary's concern for ongoing legal issues led him to follow through with future plans"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Gary's uncertainty led him to adopt a more diplomatic approach",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Discovering Sandra's ethical dilemma led him to offer help",
+                "reason": "test ability to recognize the reason of intention change in different time stage",
+                "explain": "intention change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Concern for Sandra's legal situation led him to plan a follow-up",
+                "reason": "test ability to recognize the reason of intention change in different time stage",
+                "explain": "intention change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Sandra's responses in their initial meeting made Gary doubt his belief",
+                "reason": "test ability to recognize the reason between intention and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Further conversation revealed Sandra's ethical concerns",
+                "reason": "test ability to recognize the reason between intention and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Gary deduced potential legal ramifications from Sandra's dilemmas",
+                "reason": "test ability to recognize the reason between intention and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Gary's belief that he misinterpreted Sandra's actions led to uncertainty",
+                "reason": "test ability to recognize the reason between intention and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Understanding Sandra's ethical struggle invoked empathy",
+                "reason": "test ability to recognize the reason between intention and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Realizing Sandra's risk of legal trouble led to a mix of worry and responsibility",
+                "reason": "test ability to recognize the reason between intention and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Gary decided on a more open approach for the meeting",
+                "reason": "test ability to recognize the reason between intention and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "The conversation led Gary to directly offer legal advice",
+                "reason": "test ability to recognize the reason between intention and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Gary's concern for ongoing legal issues led him to follow through with future plans",
+                "reason": "test ability to recognize the reason between intention and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_8": {
+        "question": "Why does the intention of Gary Ko change from scenario 2 to scenario 3?",
+        "true answer": "a",
+        "options": [
+            "Discovering Sandra's ethical dilemma led him to offer help",
+            "Gary's uncertainty led him to adopt a more diplomatic approach",
+            "Concern for Sandra's legal situation led him to plan a follow-up",
+            "Sandra's responses in their initial meeting made Gary doubt his belief",
+            "Further conversation revealed Sandra's ethical concerns",
+            "Gary deduced potential legal ramifications from Sandra's dilemmas",
+            "Gary's belief that he misinterpreted Sandra's actions led to uncertainty",
+            "Understanding Sandra's ethical struggle invoked empathy",
+            "Realizing Sandra's risk of legal trouble led to a mix of worry and responsibility",
+            "Gary decided on a more open approach for the meeting",
+            "The conversation led Gary to directly offer legal advice",
+            "Gary's concern for ongoing legal issues led him to follow through with future plans"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Discovering Sandra's ethical dilemma led him to offer help",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Gary's uncertainty led him to adopt a more diplomatic approach",
+                "reason": "test ability to recognize the reason of intention change in different time stage",
+                "explain": "intention change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Concern for Sandra's legal situation led him to plan a follow-up",
+                "reason": "test ability to recognize the reason of intention change in different time stage",
+                "explain": "intention change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Sandra's responses in their initial meeting made Gary doubt his belief",
+                "reason": "test ability to recognize the reason between intention and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Further conversation revealed Sandra's ethical concerns",
+                "reason": "test ability to recognize the reason between intention and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Gary deduced potential legal ramifications from Sandra's dilemmas",
+                "reason": "test ability to recognize the reason between intention and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Gary's belief that he misinterpreted Sandra's actions led to uncertainty",
+                "reason": "test ability to recognize the reason between intention and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Understanding Sandra's ethical struggle invoked empathy",
+                "reason": "test ability to recognize the reason between intention and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Realizing Sandra's risk of legal trouble led to a mix of worry and responsibility",
+                "reason": "test ability to recognize the reason between intention and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Gary decided on a more open approach for the meeting",
+                "reason": "test ability to recognize the reason between intention and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "The conversation led Gary to directly offer legal advice",
+                "reason": "test ability to recognize the reason between intention and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Gary's concern for ongoing legal issues led him to follow through with future plans",
+                "reason": "test ability to recognize the reason between intention and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_9": {
+        "question": "Why does the intention of Gary Ko change from scenario 3 to scenario 4?",
+        "true answer": "a",
+        "options": [
+            "Concern for Sandra's legal situation led him to plan a follow-up",
+            "Gary's uncertainty led him to adopt a more diplomatic approach",
+            "Discovering Sandra's ethical dilemma led him to offer help",
+            "Sandra's responses in their initial meeting made Gary doubt his belief",
+            "Further conversation revealed Sandra's ethical concerns",
+            "Gary deduced potential legal ramifications from Sandra's dilemmas",
+            "Gary's belief that he misinterpreted Sandra's actions led to uncertainty",
+            "Understanding Sandra's ethical struggle invoked empathy",
+            "Realizing Sandra's risk of legal trouble led to a mix of worry and responsibility",
+            "Gary decided on a more open approach for the meeting",
+            "The conversation led Gary to directly offer legal advice",
+            "Gary's concern for ongoing legal issues led him to follow through with future plans"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Concern for Sandra's legal situation led him to plan a follow-up",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Gary's uncertainty led him to adopt a more diplomatic approach",
+                "reason": "test ability to recognize the reason of intention change in different time stage",
+                "explain": "intention change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Discovering Sandra's ethical dilemma led him to offer help",
+                "reason": "test ability to recognize the reason of intention change in different time stage",
+                "explain": "intention change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Sandra's responses in their initial meeting made Gary doubt his belief",
+                "reason": "test ability to recognize the reason between intention and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Further conversation revealed Sandra's ethical concerns",
+                "reason": "test ability to recognize the reason between intention and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Gary deduced potential legal ramifications from Sandra's dilemmas",
+                "reason": "test ability to recognize the reason between intention and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Gary's belief that he misinterpreted Sandra's actions led to uncertainty",
+                "reason": "test ability to recognize the reason between intention and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Understanding Sandra's ethical struggle invoked empathy",
+                "reason": "test ability to recognize the reason between intention and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Realizing Sandra's risk of legal trouble led to a mix of worry and responsibility",
+                "reason": "test ability to recognize the reason between intention and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Gary decided on a more open approach for the meeting",
+                "reason": "test ability to recognize the reason between intention and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "The conversation led Gary to directly offer legal advice",
+                "reason": "test ability to recognize the reason between intention and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Gary's concern for ongoing legal issues led him to follow through with future plans",
+                "reason": "test ability to recognize the reason between intention and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_10": {
+        "question": "Why does the action of Gary Ko change from scenario 1 to scenario 2?",
+        "true answer": "a",
+        "options": [
+            "Gary decided on a more open approach for the meeting",
+            "The conversation led Gary to directly offer legal advice",
+            "Gary's concern for ongoing legal issues led him to follow through with future plans",
+            "Sandra's responses in their initial meeting made Gary doubt his belief",
+            "Further conversation revealed Sandra's ethical concerns",
+            "Gary deduced potential legal ramifications from Sandra's dilemmas",
+            "Gary's belief that he misinterpreted Sandra's actions led to uncertainty",
+            "Understanding Sandra's ethical struggle invoked empathy",
+            "Realizing Sandra's risk of legal trouble led to a mix of worry and responsibility",
+            "Gary's uncertainty led him to adopt a more diplomatic approach",
+            "Discovering Sandra's ethical dilemma led him to offer help",
+            "Concern for Sandra's legal situation led him to plan a follow-up"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Gary decided on a more open approach for the meeting",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "The conversation led Gary to directly offer legal advice",
+                "reason": "test ability to recognize the reason of action change in different time stage",
+                "explain": "action change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Gary's concern for ongoing legal issues led him to follow through with future plans",
+                "reason": "test ability to recognize the reason of action change in different time stage",
+                "explain": "action change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Sandra's responses in their initial meeting made Gary doubt his belief",
+                "reason": "test ability to recognize the reason between action and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Further conversation revealed Sandra's ethical concerns",
+                "reason": "test ability to recognize the reason between action and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Gary deduced potential legal ramifications from Sandra's dilemmas",
+                "reason": "test ability to recognize the reason between action and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Gary's belief that he misinterpreted Sandra's actions led to uncertainty",
+                "reason": "test ability to recognize the reason between action and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Understanding Sandra's ethical struggle invoked empathy",
+                "reason": "test ability to recognize the reason between action and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Realizing Sandra's risk of legal trouble led to a mix of worry and responsibility",
+                "reason": "test ability to recognize the reason between action and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Gary's uncertainty led him to adopt a more diplomatic approach",
+                "reason": "test ability to recognize the reason between action and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Discovering Sandra's ethical dilemma led him to offer help",
+                "reason": "test ability to recognize the reason between action and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Concern for Sandra's legal situation led him to plan a follow-up",
+                "reason": "test ability to recognize the reason between action and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_11": {
+        "question": "Why does the action of Gary Ko change from scenario 2 to scenario 3?",
+        "true answer": "a",
+        "options": [
+            "The conversation led Gary to directly offer legal advice",
+            "Gary decided on a more open approach for the meeting",
+            "Gary's concern for ongoing legal issues led him to follow through with future plans",
+            "Sandra's responses in their initial meeting made Gary doubt his belief",
+            "Further conversation revealed Sandra's ethical concerns",
+            "Gary deduced potential legal ramifications from Sandra's dilemmas",
+            "Gary's belief that he misinterpreted Sandra's actions led to uncertainty",
+            "Understanding Sandra's ethical struggle invoked empathy",
+            "Realizing Sandra's risk of legal trouble led to a mix of worry and responsibility",
+            "Gary's uncertainty led him to adopt a more diplomatic approach",
+            "Discovering Sandra's ethical dilemma led him to offer help",
+            "Concern for Sandra's legal situation led him to plan a follow-up"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "The conversation led Gary to directly offer legal advice",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Gary decided on a more open approach for the meeting",
+                "reason": "test ability to recognize the reason of action change in different time stage",
+                "explain": "action change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Gary's concern for ongoing legal issues led him to follow through with future plans",
+                "reason": "test ability to recognize the reason of action change in different time stage",
+                "explain": "action change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Sandra's responses in their initial meeting made Gary doubt his belief",
+                "reason": "test ability to recognize the reason between action and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Further conversation revealed Sandra's ethical concerns",
+                "reason": "test ability to recognize the reason between action and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Gary deduced potential legal ramifications from Sandra's dilemmas",
+                "reason": "test ability to recognize the reason between action and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Gary's belief that he misinterpreted Sandra's actions led to uncertainty",
+                "reason": "test ability to recognize the reason between action and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Understanding Sandra's ethical struggle invoked empathy",
+                "reason": "test ability to recognize the reason between action and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Realizing Sandra's risk of legal trouble led to a mix of worry and responsibility",
+                "reason": "test ability to recognize the reason between action and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Gary's uncertainty led him to adopt a more diplomatic approach",
+                "reason": "test ability to recognize the reason between action and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Discovering Sandra's ethical dilemma led him to offer help",
+                "reason": "test ability to recognize the reason between action and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Concern for Sandra's legal situation led him to plan a follow-up",
+                "reason": "test ability to recognize the reason between action and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_12": {
+        "question": "Why does the action of Gary Ko change from scenario 3 to scenario 4?",
+        "true answer": "a",
+        "options": [
+            "Gary's concern for ongoing legal issues led him to follow through with future plans",
+            "Gary decided on a more open approach for the meeting",
+            "The conversation led Gary to directly offer legal advice",
+            "Sandra's responses in their initial meeting made Gary doubt his belief",
+            "Further conversation revealed Sandra's ethical concerns",
+            "Gary deduced potential legal ramifications from Sandra's dilemmas",
+            "Gary's belief that he misinterpreted Sandra's actions led to uncertainty",
+            "Understanding Sandra's ethical struggle invoked empathy",
+            "Realizing Sandra's risk of legal trouble led to a mix of worry and responsibility",
+            "Gary's uncertainty led him to adopt a more diplomatic approach",
+            "Discovering Sandra's ethical dilemma led him to offer help",
+            "Concern for Sandra's legal situation led him to plan a follow-up"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Gary's concern for ongoing legal issues led him to follow through with future plans",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Gary decided on a more open approach for the meeting",
+                "reason": "test ability to recognize the reason of action change in different time stage",
+                "explain": "action change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "The conversation led Gary to directly offer legal advice",
+                "reason": "test ability to recognize the reason of action change in different time stage",
+                "explain": "action change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "Sandra's responses in their initial meeting made Gary doubt his belief",
+                "reason": "test ability to recognize the reason between action and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Further conversation revealed Sandra's ethical concerns",
+                "reason": "test ability to recognize the reason between action and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Gary deduced potential legal ramifications from Sandra's dilemmas",
+                "reason": "test ability to recognize the reason between action and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Gary's belief that he misinterpreted Sandra's actions led to uncertainty",
+                "reason": "test ability to recognize the reason between action and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Understanding Sandra's ethical struggle invoked empathy",
+                "reason": "test ability to recognize the reason between action and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Realizing Sandra's risk of legal trouble led to a mix of worry and responsibility",
+                "reason": "test ability to recognize the reason between action and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Gary's uncertainty led him to adopt a more diplomatic approach",
+                "reason": "test ability to recognize the reason between action and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Discovering Sandra's ethical dilemma led him to offer help",
+                "reason": "test ability to recognize the reason between action and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Concern for Sandra's legal situation led him to plan a follow-up",
+                "reason": "test ability to recognize the reason between action and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_whether_1": {
+        "question": "Whether the belief of Gary Ko change from scenario 1 to scenario 2? if yes, from what to what?",
+        "true answer": "a",
+        "options": [
+            "Yes, from Gary believes Sandra is hiding something to Gary doubts his earlier belief",
+            "No",
+            "Yes, from Gary doubts his earlier belief to Gary believes Sandra is struggling with ethical dilemmas",
+            "Yes, from Gary believes Sandra is struggling with ethical dilemmas to Gary believes Sandra might face legal risks"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Gary believes Sandra is hiding something to Gary doubts his earlier belief",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the belief change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Gary doubts his earlier belief to Gary believes Sandra is struggling with ethical dilemmas",
+                "reason": "test ability to recognize how the belief change in the correct time stage",
+                "explain": "how the belief change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Gary believes Sandra is struggling with ethical dilemmas to Gary believes Sandra might face legal risks",
+                "reason": "test ability to recognize how the belief change in the correct time stage",
+                "explain": "how the belief change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_2": {
+        "question": "Whether the belief of Gary Ko change from scenario 2 to scenario 3? if yes, from what to what?",
+        "true answer": "a",
+        "options": [
+            "Yes, from Gary doubts his earlier belief to Gary believes Sandra is struggling with ethical dilemmas",
+            "No",
+            "Yes, from Gary believes Sandra is hiding something to Gary doubts his earlier belief",
+            "Yes, from Gary believes Sandra is struggling with ethical dilemmas to Gary believes Sandra might face legal risks"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Gary doubts his earlier belief to Gary believes Sandra is struggling with ethical dilemmas",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the belief change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Gary believes Sandra is hiding something to Gary doubts his earlier belief",
+                "reason": "test ability to recognize how the belief change in the correct time stage",
+                "explain": "how the belief change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Gary believes Sandra is struggling with ethical dilemmas to Gary believes Sandra might face legal risks",
+                "reason": "test ability to recognize how the belief change in the correct time stage",
+                "explain": "how the belief change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_3": {
+        "question": "Whether the belief of Gary Ko change from scenario 3 to scenario 4? if yes, from what to what?",
+        "true answer": "a",
+        "options": [
+            "Yes, from Gary believes Sandra is struggling with ethical dilemmas to Gary believes Sandra might face legal risks",
+            "No",
+            "Yes, from Gary believes Sandra is hiding something to Gary doubts his earlier belief",
+            "Yes, from Gary doubts his earlier belief to Gary believes Sandra is struggling with ethical dilemmas"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Gary believes Sandra is struggling with ethical dilemmas to Gary believes Sandra might face legal risks",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the belief change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Gary believes Sandra is hiding something to Gary doubts his earlier belief",
+                "reason": "test ability to recognize how the belief change in the correct time stage",
+                "explain": "how the belief change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Gary doubts his earlier belief to Gary believes Sandra is struggling with ethical dilemmas",
+                "reason": "test ability to recognize how the belief change in the correct time stage",
+                "explain": "how the belief change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_4": {
+        "question": "Whether the emotion of Gary Ko change from scenario 1 to scenario 2? if yes, from what to what?",
+        "true answer": "a",
+        "options": [
+            "Yes, from Frustrated and anxious to Conflicted and uncertain",
+            "No",
+            "Yes, from Conflicted and uncertain to Empathetic and concerned",
+            "Yes, from Empathetic and concerned to Worried and responsible"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Frustrated and anxious to Conflicted and uncertain",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the emotion change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Conflicted and uncertain to Empathetic and concerned",
+                "reason": "test ability to recognize how the emotion change in the correct time stage",
+                "explain": "how the emotion change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Empathetic and concerned to Worried and responsible",
+                "reason": "test ability to recognize how the emotion change in the correct time stage",
+                "explain": "how the emotion change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_5": {
+        "question": "Whether the emotion of Gary Ko change from scenario 2 to scenario 3? if yes, from what to what?",
+        "true answer": "a",
+        "options": [
+            "Yes, from Conflicted and uncertain to Empathetic and concerned",
+            "No",
+            "Yes, from Frustrated and anxious to Conflicted and uncertain",
+            "Yes, from Empathetic and concerned to Worried and responsible"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Conflicted and uncertain to Empathetic and concerned",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the emotion change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Frustrated and anxious to Conflicted and uncertain",
+                "reason": "test ability to recognize how the emotion change in the correct time stage",
+                "explain": "how the emotion change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Empathetic and concerned to Worried and responsible",
+                "reason": "test ability to recognize how the emotion change in the correct time stage",
+                "explain": "how the emotion change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_6": {
+        "question": "Whether the emotion of Gary Ko change from scenario 3 to scenario 4? if yes, from what to what?",
+        "true answer": "a",
+        "options": [
+            "Yes, from Empathetic and concerned to Worried and responsible",
+            "No",
+            "Yes, from Frustrated and anxious to Conflicted and uncertain",
+            "Yes, from Conflicted and uncertain to Empathetic and concerned"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Empathetic and concerned to Worried and responsible",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the emotion change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Frustrated and anxious to Conflicted and uncertain",
+                "reason": "test ability to recognize how the emotion change in the correct time stage",
+                "explain": "how the emotion change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Conflicted and uncertain to Empathetic and concerned",
+                "reason": "test ability to recognize how the emotion change in the correct time stage",
+                "explain": "how the emotion change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_7": {
+        "question": "Whether the intention of Gary Ko change from scenario 1 to scenario 2? if yes, from what to what?",
+        "true answer": "a",
+        "options": [
+            "Yes, from Confront Sandra to Approach diplomatically",
+            "No",
+            "Yes, from Approach diplomatically to Offer legal advice",
+            "Yes, from Offer legal advice to Follow up to ensure legal soundness"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Confront Sandra to Approach diplomatically",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the intention change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Approach diplomatically to Offer legal advice",
+                "reason": "test ability to recognize how the intention change in the correct time stage",
+                "explain": "how the intention change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Offer legal advice to Follow up to ensure legal soundness",
+                "reason": "test ability to recognize how the intention change in the correct time stage",
+                "explain": "how the intention change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_8": {
+        "question": "Whether the intention of Gary Ko change from scenario 2 to scenario 3? if yes, from what to what?",
+        "true answer": "a",
+        "options": [
+            "Yes, from Approach diplomatically to Offer legal advice",
+            "No",
+            "Yes, from Confront Sandra to Approach diplomatically",
+            "Yes, from Offer legal advice to Follow up to ensure legal soundness"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Approach diplomatically to Offer legal advice",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the intention change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Confront Sandra to Approach diplomatically",
+                "reason": "test ability to recognize how the intention change in the correct time stage",
+                "explain": "how the intention change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Offer legal advice to Follow up to ensure legal soundness",
+                "reason": "test ability to recognize how the intention change in the correct time stage",
+                "explain": "how the intention change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_9": {
+        "question": "Whether the intention of Gary Ko change from scenario 3 to scenario 4? if yes, from what to what?",
+        "true answer": "a",
+        "options": [
+            "Yes, from Offer legal advice to Follow up to ensure legal soundness",
+            "No",
+            "Yes, from Confront Sandra to Approach diplomatically",
+            "Yes, from Approach diplomatically to Offer legal advice"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Offer legal advice to Follow up to ensure legal soundness",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the intention change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Confront Sandra to Approach diplomatically",
+                "reason": "test ability to recognize how the intention change in the correct time stage",
+                "explain": "how the intention change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Approach diplomatically to Offer legal advice",
+                "reason": "test ability to recognize how the intention change in the correct time stage",
+                "explain": "how the intention change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_10": {
+        "question": "Whether the action of Gary Ko change from scenario 1 to scenario 2? if yes, from what to what?",
+        "true answer": "a",
+        "options": [
+            "Yes, from Schedule a meeting to Start dialogue with open-ended questions",
+            "No",
+            "Yes, from Start dialogue with open-ended questions to Provide legal suggestions",
+            "Yes, from Provide legal suggestions to Arrange a follow-up meeting"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Schedule a meeting to Start dialogue with open-ended questions",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the action change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Start dialogue with open-ended questions to Provide legal suggestions",
+                "reason": "test ability to recognize how the action change in the correct time stage",
+                "explain": "how the action change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Provide legal suggestions to Arrange a follow-up meeting",
+                "reason": "test ability to recognize how the action change in the correct time stage",
+                "explain": "how the action change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_11": {
+        "question": "Whether the action of Gary Ko change from scenario 2 to scenario 3? if yes, from what to what?",
+        "true answer": "a",
+        "options": [
+            "Yes, from Start dialogue with open-ended questions to Provide legal suggestions",
+            "No",
+            "Yes, from Schedule a meeting to Start dialogue with open-ended questions",
+            "Yes, from Provide legal suggestions to Arrange a follow-up meeting"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Start dialogue with open-ended questions to Provide legal suggestions",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the action change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Schedule a meeting to Start dialogue with open-ended questions",
+                "reason": "test ability to recognize how the action change in the correct time stage",
+                "explain": "how the action change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Provide legal suggestions to Arrange a follow-up meeting",
+                "reason": "test ability to recognize how the action change in the correct time stage",
+                "explain": "how the action change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_12": {
+        "question": "Whether the action of Gary Ko change from scenario 3 to scenario 4? if yes, from what to what?",
+        "true answer": "a",
+        "options": [
+            "Yes, from Provide legal suggestions to Arrange a follow-up meeting",
+            "No",
+            "Yes, from Schedule a meeting to Start dialogue with open-ended questions",
+            "Yes, from Start dialogue with open-ended questions to Provide legal suggestions"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Provide legal suggestions to Arrange a follow-up meeting",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the action change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Schedule a meeting to Start dialogue with open-ended questions",
+                "reason": "test ability to recognize how the action change in the correct time stage",
+                "explain": "how the action change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Start dialogue with open-ended questions to Provide legal suggestions",
+                "reason": "test ability to recognize how the action change in the correct time stage",
+                "explain": "how the action change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_c_how_1": {
+        "question": "In scenario 1, how does the belief of Gary Ko influence the emotion of Gary Ko?",
+        "true answer": "a",
+        "options": [
+            "Gary's belief that Sandra is hiding something leads to his frustration and anxiety.",
+            "Gary's frustration and anxiety motivate his intention to confront Sandra.",
+            "Gary's intention to confront Sandra is realized by scheduling a meeting with her.",
+            "Gary's doubt in his original belief leads to feelings of conflict and uncertainty.",
+            "Gary's realization about Sandra's ethical dilemma engenders empathy and concern."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "Gary's belief that Sandra is hiding something leads to his frustration and anxiety.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Gary's frustration and anxiety motivate his intention to confront Sandra.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Gary's intention to confront Sandra is realized by scheduling a meeting with her.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Gary's doubt in his original belief leads to feelings of conflict and uncertainty.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in other time stage",
+                "explain": "how the belief influence emotion in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Gary's realization about Sandra's ethical dilemma engenders empathy and concern.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in other time stage",
+                "explain": "how the belief influence emotion in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_2": {
+        "question": "In scenario 2, how does the belief of Gary Ko influence the emotion of Gary Ko?",
+        "true answer": "a",
+        "options": [
+            "Gary's doubt in his original belief leads to feelings of conflict and uncertainty.",
+            "Gary's uncertainty and conflicted emotions lead him to change his approach.",
+            "Gary's new intention leads him to start the conversation diplomatically.",
+            "Gary's belief that Sandra is hiding something leads to his frustration and anxiety.",
+            "Gary's realization about Sandra's ethical dilemma engenders empathy and concern."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "Gary's doubt in his original belief leads to feelings of conflict and uncertainty.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Gary's uncertainty and conflicted emotions lead him to change his approach.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Gary's new intention leads him to start the conversation diplomatically.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Gary's belief that Sandra is hiding something leads to his frustration and anxiety.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in other time stage",
+                "explain": "how the belief influence emotion in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Gary's realization about Sandra's ethical dilemma engenders empathy and concern.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in other time stage",
+                "explain": "how the belief influence emotion in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_3": {
+        "question": "In scenario 3, how does the belief of Gary Ko influence the emotion of Gary Ko?",
+        "true answer": "a",
+        "options": [
+            "Gary's realization about Sandra's ethical dilemma engenders empathy and concern.",
+            "Gary's new understanding and empathetic concern drive his intention to help Sandra.",
+            "Gary's intention leads him to provide legal advice to Sandra.",
+            "Gary's belief that Sandra is hiding something leads to his frustration and anxiety.",
+            "Gary's doubt in his original belief leads to feelings of conflict and uncertainty."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "Gary's realization about Sandra's ethical dilemma engenders empathy and concern.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Gary's new understanding and empathetic concern drive his intention to help Sandra.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Gary's intention leads him to provide legal advice to Sandra.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Gary's belief that Sandra is hiding something leads to his frustration and anxiety.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in other time stage",
+                "explain": "how the belief influence emotion in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Gary's doubt in his original belief leads to feelings of conflict and uncertainty.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in other time stage",
+                "explain": "how the belief influence emotion in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_4": {
+        "question": "In scenario 4, how does the belief of Gary Ko influence the emotion of Gary Ko?",
+        "true answer": "a",
+        "options": [
+            "Gary's concern about Sandra's legal risk results in his worry and sense of responsibility.",
+            "Gary's worry and sense of responsibility drive him to ensure Sandra's legal soundness.",
+            "Gary's intention results in scheduling a follow-up meeting.",
+            "Gary's belief that Sandra is hiding something leads to his frustration and anxiety.",
+            "Gary's doubt in his original belief leads to feelings of conflict and uncertainty.",
+            "Gary's realization about Sandra's ethical dilemma engenders empathy and concern."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "Gary's concern about Sandra's legal risk results in his worry and sense of responsibility.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Gary's worry and sense of responsibility drive him to ensure Sandra's legal soundness.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Gary's intention results in scheduling a follow-up meeting.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Gary's belief that Sandra is hiding something leads to his frustration and anxiety.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in other time stage",
+                "explain": "how the belief influence emotion in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Gary's doubt in his original belief leads to feelings of conflict and uncertainty.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in other time stage",
+                "explain": "how the belief influence emotion in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Gary's realization about Sandra's ethical dilemma engenders empathy and concern.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in other time stage",
+                "explain": "how the belief influence emotion in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_5": {
+        "question": "In scenario 1, how does the belief&emotion of Gary Ko influence the intention of Gary Ko?",
+        "true answer": "a",
+        "options": [
+            "Gary's frustration and anxiety motivate his intention to confront Sandra.",
+            "Gary's belief that Sandra is hiding something leads to his frustration and anxiety.",
+            "Gary's intention to confront Sandra is realized by scheduling a meeting with her.",
+            "Gary's uncertainty and conflicted emotions lead him to change his approach.",
+            "Gary's new understanding and empathetic concern drive his intention to help Sandra."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "Gary's frustration and anxiety motivate his intention to confront Sandra.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Gary's belief that Sandra is hiding something leads to his frustration and anxiety.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Gary's intention to confront Sandra is realized by scheduling a meeting with her.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Gary's uncertainty and conflicted emotions lead him to change his approach.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in other time stage",
+                "explain": "how the belief&emotion influence intention in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Gary's new understanding and empathetic concern drive his intention to help Sandra.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in other time stage",
+                "explain": "how the belief&emotion influence intention in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_6": {
+        "question": "In scenario 2, how does the belief&emotion of Gary Ko influence the intention of Gary Ko?",
+        "true answer": "a",
+        "options": [
+            "Gary's uncertainty and conflicted emotions lead him to change his approach.",
+            "Gary's doubt in his original belief leads to feelings of conflict and uncertainty.",
+            "Gary's new intention leads him to start the conversation diplomatically.",
+            "Gary's frustration and anxiety motivate his intention to confront Sandra.",
+            "Gary's new understanding and empathetic concern drive his intention to help Sandra."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "Gary's uncertainty and conflicted emotions lead him to change his approach.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Gary's doubt in his original belief leads to feelings of conflict and uncertainty.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Gary's new intention leads him to start the conversation diplomatically.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Gary's frustration and anxiety motivate his intention to confront Sandra.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in other time stage",
+                "explain": "how the belief&emotion influence intention in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Gary's new understanding and empathetic concern drive his intention to help Sandra.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in other time stage",
+                "explain": "how the belief&emotion influence intention in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_7": {
+        "question": "In scenario 3, how does the belief&emotion of Gary Ko influence the intention of Gary Ko?",
+        "true answer": "a",
+        "options": [
+            "Gary's new understanding and empathetic concern drive his intention to help Sandra.",
+            "Gary's realization about Sandra's ethical dilemma engenders empathy and concern.",
+            "Gary's intention leads him to provide legal advice to Sandra.",
+            "Gary's frustration and anxiety motivate his intention to confront Sandra.",
+            "Gary's uncertainty and conflicted emotions lead him to change his approach."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "Gary's new understanding and empathetic concern drive his intention to help Sandra.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Gary's realization about Sandra's ethical dilemma engenders empathy and concern.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Gary's intention leads him to provide legal advice to Sandra.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Gary's frustration and anxiety motivate his intention to confront Sandra.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in other time stage",
+                "explain": "how the belief&emotion influence intention in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Gary's uncertainty and conflicted emotions lead him to change his approach.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in other time stage",
+                "explain": "how the belief&emotion influence intention in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_8": {
+        "question": "In scenario 4, how does the belief&emotion of Gary Ko influence the intention of Gary Ko?",
+        "true answer": "a",
+        "options": [
+            "Gary's worry and sense of responsibility drive him to ensure Sandra's legal soundness.",
+            "Gary's concern about Sandra's legal risk results in his worry and sense of responsibility.",
+            "Gary's intention results in scheduling a follow-up meeting.",
+            "Gary's frustration and anxiety motivate his intention to confront Sandra.",
+            "Gary's uncertainty and conflicted emotions lead him to change his approach.",
+            "Gary's new understanding and empathetic concern drive his intention to help Sandra."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "Gary's worry and sense of responsibility drive him to ensure Sandra's legal soundness.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Gary's concern about Sandra's legal risk results in his worry and sense of responsibility.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Gary's intention results in scheduling a follow-up meeting.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Gary's frustration and anxiety motivate his intention to confront Sandra.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in other time stage",
+                "explain": "how the belief&emotion influence intention in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Gary's uncertainty and conflicted emotions lead him to change his approach.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in other time stage",
+                "explain": "how the belief&emotion influence intention in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Gary's new understanding and empathetic concern drive his intention to help Sandra.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in other time stage",
+                "explain": "how the belief&emotion influence intention in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_9": {
+        "question": "In scenario 1, how does the intention of Gary Ko influence the action of Gary Ko?",
+        "true answer": "a",
+        "options": [
+            "Gary's intention to confront Sandra is realized by scheduling a meeting with her.",
+            "Gary's belief that Sandra is hiding something leads to his frustration and anxiety.",
+            "Gary's frustration and anxiety motivate his intention to confront Sandra.",
+            "Gary's new intention leads him to start the conversation diplomatically.",
+            "Gary's intention leads him to provide legal advice to Sandra."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "Gary's intention to confront Sandra is realized by scheduling a meeting with her.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Gary's belief that Sandra is hiding something leads to his frustration and anxiety.",
+                "reason": "test ability to correctly recognize how the intention influence action in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Gary's frustration and anxiety motivate his intention to confront Sandra.",
+                "reason": "test ability to correctly recognize how the intention influence action in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Gary's new intention leads him to start the conversation diplomatically.",
+                "reason": "test ability to correctly recognize how the intention influence action in other time stage",
+                "explain": "how the intention influence action in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Gary's intention leads him to provide legal advice to Sandra.",
+                "reason": "test ability to correctly recognize how the intention influence action in other time stage",
+                "explain": "how the intention influence action in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_10": {
+        "question": "In scenario 2, how does the intention of Gary Ko influence the action of Gary Ko?",
+        "true answer": "a",
+        "options": [
+            "Gary's new intention leads him to start the conversation diplomatically.",
+            "Gary's doubt in his original belief leads to feelings of conflict and uncertainty.",
+            "Gary's uncertainty and conflicted emotions lead him to change his approach.",
+            "Gary's intention to confront Sandra is realized by scheduling a meeting with her.",
+            "Gary's intention leads him to provide legal advice to Sandra."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "Gary's new intention leads him to start the conversation diplomatically.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Gary's doubt in his original belief leads to feelings of conflict and uncertainty.",
+                "reason": "test ability to correctly recognize how the intention influence action in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Gary's uncertainty and conflicted emotions lead him to change his approach.",
+                "reason": "test ability to correctly recognize how the intention influence action in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Gary's intention to confront Sandra is realized by scheduling a meeting with her.",
+                "reason": "test ability to correctly recognize how the intention influence action in other time stage",
+                "explain": "how the intention influence action in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Gary's intention leads him to provide legal advice to Sandra.",
+                "reason": "test ability to correctly recognize how the intention influence action in other time stage",
+                "explain": "how the intention influence action in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_11": {
+        "question": "In scenario 3, how does the intention of Gary Ko influence the action of Gary Ko?",
+        "true answer": "a",
+        "options": [
+            "Gary's intention leads him to provide legal advice to Sandra.",
+            "Gary's realization about Sandra's ethical dilemma engenders empathy and concern.",
+            "Gary's new understanding and empathetic concern drive his intention to help Sandra.",
+            "Gary's intention to confront Sandra is realized by scheduling a meeting with her.",
+            "Gary's new intention leads him to start the conversation diplomatically."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "Gary's intention leads him to provide legal advice to Sandra.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Gary's realization about Sandra's ethical dilemma engenders empathy and concern.",
+                "reason": "test ability to correctly recognize how the intention influence action in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Gary's new understanding and empathetic concern drive his intention to help Sandra.",
+                "reason": "test ability to correctly recognize how the intention influence action in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Gary's intention to confront Sandra is realized by scheduling a meeting with her.",
+                "reason": "test ability to correctly recognize how the intention influence action in other time stage",
+                "explain": "how the intention influence action in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Gary's new intention leads him to start the conversation diplomatically.",
+                "reason": "test ability to correctly recognize how the intention influence action in other time stage",
+                "explain": "how the intention influence action in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_12": {
+        "question": "In scenario 4, how does the intention of Gary Ko influence the action of Gary Ko?",
+        "true answer": "a",
+        "options": [
+            "Gary's intention results in scheduling a follow-up meeting.",
+            "Gary's concern about Sandra's legal risk results in his worry and sense of responsibility.",
+            "Gary's worry and sense of responsibility drive him to ensure Sandra's legal soundness.",
+            "Gary's intention to confront Sandra is realized by scheduling a meeting with her.",
+            "Gary's new intention leads him to start the conversation diplomatically.",
+            "Gary's intention leads him to provide legal advice to Sandra."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "Gary's intention results in scheduling a follow-up meeting.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Gary's concern about Sandra's legal risk results in his worry and sense of responsibility.",
+                "reason": "test ability to correctly recognize how the intention influence action in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Gary's worry and sense of responsibility drive him to ensure Sandra's legal soundness.",
+                "reason": "test ability to correctly recognize how the intention influence action in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Gary's intention to confront Sandra is realized by scheduling a meeting with her.",
+                "reason": "test ability to correctly recognize how the intention influence action in other time stage",
+                "explain": "how the intention influence action in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Gary's new intention leads him to start the conversation diplomatically.",
+                "reason": "test ability to correctly recognize how the intention influence action in other time stage",
+                "explain": "how the intention influence action in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Gary's intention leads him to provide legal advice to Sandra.",
+                "reason": "test ability to correctly recognize how the intention influence action in other time stage",
+                "explain": "how the intention influence action in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_a_what_1": {
+        "question": "What is the belief of Gary Ko in scenario 1?",
+        "true answer": "a",
+        "options": [
+            "Gary believes Sandra is hiding something",
+            "Gary doubts his earlier belief",
+            "Gary believes Sandra is struggling with ethical dilemmas",
+            "Gary believes Sandra might face legal risks",
+            "Frustrated and anxious",
+            "Confront Sandra",
+            "Schedule a meeting"
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Gary believes Sandra is hiding something",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Gary doubts his earlier belief",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Gary believes Sandra is struggling with ethical dilemmas",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Gary believes Sandra might face legal risks",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Frustrated and anxious",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Confront Sandra",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Schedule a meeting",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_2": {
+        "question": "What is the belief of Gary Ko in scenario 2?",
+        "true answer": "a",
+        "options": [
+            "Gary doubts his earlier belief",
+            "Gary believes Sandra is hiding something",
+            "Gary believes Sandra is struggling with ethical dilemmas",
+            "Gary believes Sandra might face legal risks",
+            "Conflicted and uncertain",
+            "Approach diplomatically",
+            "Start dialogue with open-ended questions"
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Gary doubts his earlier belief",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Gary believes Sandra is hiding something",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Gary believes Sandra is struggling with ethical dilemmas",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Gary believes Sandra might face legal risks",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Conflicted and uncertain",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Approach diplomatically",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Start dialogue with open-ended questions",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_3": {
+        "question": "What is the belief of Gary Ko in scenario 3?",
+        "true answer": "a",
+        "options": [
+            "Gary believes Sandra is struggling with ethical dilemmas",
+            "Gary believes Sandra is hiding something",
+            "Gary doubts his earlier belief",
+            "Gary believes Sandra might face legal risks",
+            "Empathetic and concerned",
+            "Offer legal advice",
+            "Provide legal suggestions"
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Gary believes Sandra is struggling with ethical dilemmas",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Gary believes Sandra is hiding something",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Gary doubts his earlier belief",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Gary believes Sandra might face legal risks",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Empathetic and concerned",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Offer legal advice",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Provide legal suggestions",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_4": {
+        "question": "What is the belief of Gary Ko in scenario 4?",
+        "true answer": "a",
+        "options": [
+            "Gary believes Sandra might face legal risks",
+            "Gary believes Sandra is hiding something",
+            "Gary doubts his earlier belief",
+            "Gary believes Sandra is struggling with ethical dilemmas",
+            "Worried and responsible",
+            "Follow up to ensure legal soundness",
+            "Arrange a follow-up meeting"
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Gary believes Sandra might face legal risks",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Gary believes Sandra is hiding something",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Gary doubts his earlier belief",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Gary believes Sandra is struggling with ethical dilemmas",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Worried and responsible",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Follow up to ensure legal soundness",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Arrange a follow-up meeting",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_5": {
+        "question": "What is the emotion of Gary Ko in scenario 1?",
+        "true answer": "a",
+        "options": [
+            "Frustrated and anxious",
+            "Conflicted and uncertain",
+            "Empathetic and concerned",
+            "Worried and responsible",
+            "Gary believes Sandra is hiding something",
+            "Confront Sandra",
+            "Schedule a meeting"
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Frustrated and anxious",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Conflicted and uncertain",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Empathetic and concerned",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Worried and responsible",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Gary believes Sandra is hiding something",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Confront Sandra",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Schedule a meeting",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_6": {
+        "question": "What is the emotion of Gary Ko in scenario 2?",
+        "true answer": "a",
+        "options": [
+            "Conflicted and uncertain",
+            "Frustrated and anxious",
+            "Empathetic and concerned",
+            "Worried and responsible",
+            "Gary doubts his earlier belief",
+            "Approach diplomatically",
+            "Start dialogue with open-ended questions"
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Conflicted and uncertain",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Frustrated and anxious",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Empathetic and concerned",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Worried and responsible",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Gary doubts his earlier belief",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Approach diplomatically",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Start dialogue with open-ended questions",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_7": {
+        "question": "What is the emotion of Gary Ko in scenario 3?",
+        "true answer": "a",
+        "options": [
+            "Empathetic and concerned",
+            "Frustrated and anxious",
+            "Conflicted and uncertain",
+            "Worried and responsible",
+            "Gary believes Sandra is struggling with ethical dilemmas",
+            "Offer legal advice",
+            "Provide legal suggestions"
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Empathetic and concerned",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Frustrated and anxious",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Conflicted and uncertain",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Worried and responsible",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Gary believes Sandra is struggling with ethical dilemmas",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Offer legal advice",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Provide legal suggestions",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_8": {
+        "question": "What is the emotion of Gary Ko in scenario 4?",
+        "true answer": "a",
+        "options": [
+            "Worried and responsible",
+            "Frustrated and anxious",
+            "Conflicted and uncertain",
+            "Empathetic and concerned",
+            "Gary believes Sandra might face legal risks",
+            "Follow up to ensure legal soundness",
+            "Arrange a follow-up meeting"
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Worried and responsible",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Frustrated and anxious",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Conflicted and uncertain",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Empathetic and concerned",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Gary believes Sandra might face legal risks",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Follow up to ensure legal soundness",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Arrange a follow-up meeting",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_9": {
+        "question": "What is the intention of Gary Ko in scenario 1?",
+        "true answer": "a",
+        "options": [
+            "Confront Sandra",
+            "Approach diplomatically",
+            "Offer legal advice",
+            "Follow up to ensure legal soundness",
+            "Gary believes Sandra is hiding something",
+            "Frustrated and anxious",
+            "Schedule a meeting"
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Confront Sandra",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Approach diplomatically",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Offer legal advice",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Follow up to ensure legal soundness",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Gary believes Sandra is hiding something",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Frustrated and anxious",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Schedule a meeting",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_10": {
+        "question": "What is the intention of Gary Ko in scenario 2?",
+        "true answer": "a",
+        "options": [
+            "Approach diplomatically",
+            "Confront Sandra",
+            "Offer legal advice",
+            "Follow up to ensure legal soundness",
+            "Gary doubts his earlier belief",
+            "Conflicted and uncertain",
+            "Start dialogue with open-ended questions"
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Approach diplomatically",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Confront Sandra",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Offer legal advice",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Follow up to ensure legal soundness",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Gary doubts his earlier belief",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Conflicted and uncertain",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Start dialogue with open-ended questions",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_11": {
+        "question": "What is the intention of Gary Ko in scenario 3?",
+        "true answer": "a",
+        "options": [
+            "Offer legal advice",
+            "Confront Sandra",
+            "Approach diplomatically",
+            "Follow up to ensure legal soundness",
+            "Gary believes Sandra is struggling with ethical dilemmas",
+            "Empathetic and concerned",
+            "Provide legal suggestions"
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Offer legal advice",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Confront Sandra",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Approach diplomatically",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Follow up to ensure legal soundness",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Gary believes Sandra is struggling with ethical dilemmas",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Empathetic and concerned",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Provide legal suggestions",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_12": {
+        "question": "What is the intention of Gary Ko in scenario 4?",
+        "true answer": "a",
+        "options": [
+            "Follow up to ensure legal soundness",
+            "Confront Sandra",
+            "Approach diplomatically",
+            "Offer legal advice",
+            "Gary believes Sandra might face legal risks",
+            "Worried and responsible",
+            "Arrange a follow-up meeting"
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Follow up to ensure legal soundness",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Confront Sandra",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Approach diplomatically",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Offer legal advice",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Gary believes Sandra might face legal risks",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Worried and responsible",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Arrange a follow-up meeting",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_13": {
+        "question": "What is the action of Gary Ko in scenario 1?",
+        "true answer": "a",
+        "options": [
+            "Schedule a meeting",
+            "Start dialogue with open-ended questions",
+            "Provide legal suggestions",
+            "Arrange a follow-up meeting",
+            "Gary believes Sandra is hiding something",
+            "Frustrated and anxious",
+            "Confront Sandra"
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Schedule a meeting",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Start dialogue with open-ended questions",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Provide legal suggestions",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Arrange a follow-up meeting",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Gary believes Sandra is hiding something",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Frustrated and anxious",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Confront Sandra",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_14": {
+        "question": "What is the action of Gary Ko in scenario 2?",
+        "true answer": "a",
+        "options": [
+            "Start dialogue with open-ended questions",
+            "Schedule a meeting",
+            "Provide legal suggestions",
+            "Arrange a follow-up meeting",
+            "Gary doubts his earlier belief",
+            "Conflicted and uncertain",
+            "Approach diplomatically"
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Start dialogue with open-ended questions",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Schedule a meeting",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Provide legal suggestions",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Arrange a follow-up meeting",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Gary doubts his earlier belief",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Conflicted and uncertain",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Approach diplomatically",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_15": {
+        "question": "What is the action of Gary Ko in scenario 3?",
+        "true answer": "a",
+        "options": [
+            "Provide legal suggestions",
+            "Schedule a meeting",
+            "Start dialogue with open-ended questions",
+            "Arrange a follow-up meeting",
+            "Gary believes Sandra is struggling with ethical dilemmas",
+            "Empathetic and concerned",
+            "Offer legal advice"
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Provide legal suggestions",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Schedule a meeting",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Start dialogue with open-ended questions",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Arrange a follow-up meeting",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Gary believes Sandra is struggling with ethical dilemmas",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Empathetic and concerned",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Offer legal advice",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_16": {
+        "question": "What is the action of Gary Ko in scenario 4?",
+        "true answer": "a",
+        "options": [
+            "Arrange a follow-up meeting",
+            "Schedule a meeting",
+            "Start dialogue with open-ended questions",
+            "Provide legal suggestions",
+            "Gary believes Sandra might face legal risks",
+            "Worried and responsible",
+            "Follow up to ensure legal soundness"
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Arrange a follow-up meeting",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Schedule a meeting",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Start dialogue with open-ended questions",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Provide legal suggestions",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Gary believes Sandra might face legal risks",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Worried and responsible",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Follow up to ensure legal soundness",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    }
+}

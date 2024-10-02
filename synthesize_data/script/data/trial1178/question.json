@@ -1,0 +1,3299 @@
+{
+    "type_d_how_1": {
+        "question": "How does the belief of Katherine Kang change across the 4 scenarios?",
+        "true answer": "a",
+        "options": [
+            "Katherine believes the game is not important. -> She starts to believe the game impacts team morale. -> Belief shifts to winning being crucial for her reputation. -> Final belief is that the effort has enhanced team unity.",
+            "Katherine believes the game is not important. -> Final belief is that the effort has enhanced team unity. -> She starts to believe the game impacts team morale. -> Belief shifts to winning being crucial for her reputation.",
+            "She starts to believe the game impacts team morale. -> Katherine believes the game is not important. -> Belief shifts to winning being crucial for her reputation. -> Final belief is that the effort has enhanced team unity.",
+            "Final belief is that the effort has enhanced team unity. -> Belief shifts to winning being crucial for her reputation. -> Katherine believes the game is not important. -> She starts to believe the game impacts team morale.",
+            "She starts to believe the game impacts team morale. -> Katherine believes the game is not important. -> Belief shifts to winning being crucial for her reputation.",
+            "She starts to believe the game impacts team morale. -> Katherine believes the game is not important. -> Anxious and determined -> Final belief is that the effort has enhanced team unity.",
+            "She starts to believe the game impacts team morale. -> Intends to engage more actively. -> Belief shifts to winning being crucial for her reputation. -> Final belief is that the effort has enhanced team unity.",
+            "She starts to believe the game impacts team morale. -> Katherine believes the game is not important. -> Belief shifts to winning being crucial for her reputation. -> Proactively starts team-building activities at work."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Katherine believes the game is not important. -> She starts to believe the game impacts team morale. -> Belief shifts to winning being crucial for her reputation. -> Final belief is that the effort has enhanced team unity.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Katherine believes the game is not important. -> Final belief is that the effort has enhanced team unity. -> She starts to believe the game impacts team morale. -> Belief shifts to winning being crucial for her reputation.",
+                "explain": "shuffle the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "She starts to believe the game impacts team morale. -> Katherine believes the game is not important. -> Belief shifts to winning being crucial for her reputation. -> Final belief is that the effort has enhanced team unity.",
+                "explain": "change the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Final belief is that the effort has enhanced team unity. -> Belief shifts to winning being crucial for her reputation. -> Katherine believes the game is not important. -> She starts to believe the game impacts team morale.",
+                "explain": "reverse the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "She starts to believe the game impacts team morale. -> Katherine believes the game is not important. -> Belief shifts to winning being crucial for her reputation.",
+                "explain": "remove one belief in one time stage",
+                "reason": "test ability to recognize the completeness of the mental states",
+                "short": "type_d_how_recognize_time_stage_completeness"
+            },
+            {
+                "option": "She starts to believe the game impacts team morale. -> Katherine believes the game is not important. -> Anxious and determined -> Final belief is that the effort has enhanced team unity.",
+                "reason": "test ability to recognize the relationship between belief and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "She starts to believe the game impacts team morale. -> Intends to engage more actively. -> Belief shifts to winning being crucial for her reputation. -> Final belief is that the effort has enhanced team unity.",
+                "reason": "test ability to recognize the relationship between belief and intention",
+                "explain": "intention change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "She starts to believe the game impacts team morale. -> Katherine believes the game is not important. -> Belief shifts to winning being crucial for her reputation. -> Proactively starts team-building activities at work.",
+                "reason": "test ability to recognize the relationship between belief and action",
+                "explain": "action change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_how_2": {
+        "question": "How does the emotion of Katherine Kang change across the 4 scenarios?",
+        "true answer": "a",
+        "options": [
+            "Indifferent and slightly annoyed -> Conflicted, mix of pressure and responsibility -> Anxious and determined -> Satisfaction and relief",
+            "Satisfaction and relief -> Indifferent and slightly annoyed -> Conflicted, mix of pressure and responsibility -> Anxious and determined",
+            "Anxious and determined -> Conflicted, mix of pressure and responsibility -> Indifferent and slightly annoyed -> Satisfaction and relief",
+            "Satisfaction and relief -> Indifferent and slightly annoyed -> Conflicted, mix of pressure and responsibility -> Anxious and determined",
+            "Anxious and determined -> Conflicted, mix of pressure and responsibility -> Indifferent and slightly annoyed",
+            "Anxious and determined -> Conflicted, mix of pressure and responsibility -> Belief shifts to winning being crucial for her reputation. -> Satisfaction and relief",
+            "Anxious and determined -> Intends to engage more actively. -> Indifferent and slightly annoyed -> Satisfaction and relief",
+            "Anxious and determined -> Joins the game and participates. -> Indifferent and slightly annoyed -> Satisfaction and relief"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Indifferent and slightly annoyed -> Conflicted, mix of pressure and responsibility -> Anxious and determined -> Satisfaction and relief",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Satisfaction and relief -> Indifferent and slightly annoyed -> Conflicted, mix of pressure and responsibility -> Anxious and determined",
+                "explain": "shuffle the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Anxious and determined -> Conflicted, mix of pressure and responsibility -> Indifferent and slightly annoyed -> Satisfaction and relief",
+                "explain": "change the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Satisfaction and relief -> Indifferent and slightly annoyed -> Conflicted, mix of pressure and responsibility -> Anxious and determined",
+                "explain": "reverse the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Anxious and determined -> Conflicted, mix of pressure and responsibility -> Indifferent and slightly annoyed",
+                "explain": "remove one belief in one time stage",
+                "reason": "test ability to recognize the completeness of the mental states",
+                "short": "type_d_how_recognize_time_stage_completeness"
+            },
+            {
+                "option": "Anxious and determined -> Conflicted, mix of pressure and responsibility -> Belief shifts to winning being crucial for her reputation. -> Satisfaction and relief",
+                "reason": "test ability to recognize the relationship between emotion and belief",
+                "explain": "belief change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Anxious and determined -> Intends to engage more actively. -> Indifferent and slightly annoyed -> Satisfaction and relief",
+                "reason": "test ability to recognize the relationship between emotion and intention",
+                "explain": "intention change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Anxious and determined -> Joins the game and participates. -> Indifferent and slightly annoyed -> Satisfaction and relief",
+                "reason": "test ability to recognize the relationship between emotion and action",
+                "explain": "action change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_how_3": {
+        "question": "How does the intention of Katherine Kang change across the 4 scenarios?",
+        "true answer": "a",
+        "options": [
+            "Intends to participate minimally. -> Intends to engage more actively. -> Intends to ensure a win. -> Intends to promote team spirit.",
+            "Intends to promote team spirit. -> Intends to ensure a win. -> Intends to engage more actively. -> Intends to participate minimally.",
+            "Intends to ensure a win. -> Intends to engage more actively. -> Intends to participate minimally. -> Intends to promote team spirit.",
+            "Intends to promote team spirit. -> Intends to participate minimally. -> Intends to engage more actively. -> Intends to ensure a win.",
+            "Intends to ensure a win. -> Intends to participate minimally. -> Intends to promote team spirit.",
+            "Intends to ensure a win. -> Intends to engage more actively. -> Belief shifts to winning being crucial for her reputation. -> Intends to promote team spirit.",
+            "Intends to ensure a win. -> Intends to engage more actively. -> Intends to participate minimally. -> Satisfaction and relief",
+            "Intends to ensure a win. -> Intends to engage more actively. -> Plays with heightened intensity, takes decisive actions. -> Intends to promote team spirit."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Intends to participate minimally. -> Intends to engage more actively. -> Intends to ensure a win. -> Intends to promote team spirit.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Intends to promote team spirit. -> Intends to ensure a win. -> Intends to engage more actively. -> Intends to participate minimally.",
+                "explain": "shuffle the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Intends to ensure a win. -> Intends to engage more actively. -> Intends to participate minimally. -> Intends to promote team spirit.",
+                "explain": "change the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Intends to promote team spirit. -> Intends to participate minimally. -> Intends to engage more actively. -> Intends to ensure a win.",
+                "explain": "reverse the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Intends to ensure a win. -> Intends to participate minimally. -> Intends to promote team spirit.",
+                "explain": "remove one belief in one time stage",
+                "reason": "test ability to recognize the completeness of the mental states",
+                "short": "type_d_how_recognize_time_stage_completeness"
+            },
+            {
+                "option": "Intends to ensure a win. -> Intends to engage more actively. -> Belief shifts to winning being crucial for her reputation. -> Intends to promote team spirit.",
+                "reason": "test ability to recognize the relationship between intention and belief",
+                "explain": "belief change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Intends to ensure a win. -> Intends to engage more actively. -> Intends to participate minimally. -> Satisfaction and relief",
+                "reason": "test ability to recognize the relationship between intention and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Intends to ensure a win. -> Intends to engage more actively. -> Plays with heightened intensity, takes decisive actions. -> Intends to promote team spirit.",
+                "reason": "test ability to recognize the relationship between intention and action",
+                "explain": "action change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_how_4": {
+        "question": "How does the action of Katherine Kang change across the 4 scenarios?",
+        "true answer": "a",
+        "options": [
+            "Stands on the sideline, occasionally clapping. -> Joins the game and participates. -> Plays with heightened intensity, takes decisive actions. -> Proactively starts team-building activities at work.",
+            "Joins the game and participates. -> Stands on the sideline, occasionally clapping. -> Proactively starts team-building activities at work. -> Plays with heightened intensity, takes decisive actions.",
+            "Proactively starts team-building activities at work. -> Joins the game and participates. -> Plays with heightened intensity, takes decisive actions. -> Stands on the sideline, occasionally clapping.",
+            "Stands on the sideline, occasionally clapping. -> Plays with heightened intensity, takes decisive actions. -> Joins the game and participates. -> Proactively starts team-building activities at work.",
+            "Proactively starts team-building activities at work. -> Plays with heightened intensity, takes decisive actions. -> Stands on the sideline, occasionally clapping.",
+            "Proactively starts team-building activities at work. -> Joins the game and participates. -> Plays with heightened intensity, takes decisive actions. -> Final belief is that the effort has enhanced team unity.",
+            "Proactively starts team-building activities at work. -> Joins the game and participates. -> Plays with heightened intensity, takes decisive actions. -> Satisfaction and relief",
+            "Proactively starts team-building activities at work. -> Joins the game and participates. -> Plays with heightened intensity, takes decisive actions. -> Intends to promote team spirit."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Stands on the sideline, occasionally clapping. -> Joins the game and participates. -> Plays with heightened intensity, takes decisive actions. -> Proactively starts team-building activities at work.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Joins the game and participates. -> Stands on the sideline, occasionally clapping. -> Proactively starts team-building activities at work. -> Plays with heightened intensity, takes decisive actions.",
+                "explain": "shuffle the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Proactively starts team-building activities at work. -> Joins the game and participates. -> Plays with heightened intensity, takes decisive actions. -> Stands on the sideline, occasionally clapping.",
+                "explain": "change the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Stands on the sideline, occasionally clapping. -> Plays with heightened intensity, takes decisive actions. -> Joins the game and participates. -> Proactively starts team-building activities at work.",
+                "explain": "reverse the order of belief in scenarios",
+                "reason": "test ability to recognize different time stage in correct order",
+                "short": "type_d_how_time_order"
+            },
+            {
+                "option": "Proactively starts team-building activities at work. -> Plays with heightened intensity, takes decisive actions. -> Stands on the sideline, occasionally clapping.",
+                "explain": "remove one belief in one time stage",
+                "reason": "test ability to recognize the completeness of the mental states",
+                "short": "type_d_how_recognize_time_stage_completeness"
+            },
+            {
+                "option": "Proactively starts team-building activities at work. -> Joins the game and participates. -> Plays with heightened intensity, takes decisive actions. -> Final belief is that the effort has enhanced team unity.",
+                "reason": "test ability to recognize the relationship between action and belief",
+                "explain": "belief change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Proactively starts team-building activities at work. -> Joins the game and participates. -> Plays with heightened intensity, takes decisive actions. -> Satisfaction and relief",
+                "reason": "test ability to recognize the relationship between action and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Proactively starts team-building activities at work. -> Joins the game and participates. -> Plays with heightened intensity, takes decisive actions. -> Intends to promote team spirit.",
+                "reason": "test ability to recognize the relationship between action and intention",
+                "explain": "intention change reason",
+                "short": "type_d_how_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_1": {
+        "question": "Why does the belief of Katherine Kang change from scenario 1 to scenario 2?",
+        "true answer": "a",
+        "options": [
+            "influenced by Kayla\u2019s emphasis on team reliance",
+            "observing Kayla\u2019s serious effort and discussion about winning",
+            "post-game reflection on team unity.",
+            "increased responsibility",
+            "weight of potential success or failure",
+            "realization of improved team spirits.",
+            "due to pressure from hearing they are counting on her",
+            "stronger desire to win",
+            "driven by satisfaction of team unity.",
+            "shift in engagement level",
+            "increased focus on winning",
+            "drives focus on team unity in workplace."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "influenced by Kayla\u2019s emphasis on team reliance",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "observing Kayla\u2019s serious effort and discussion about winning",
+                "reason": "test ability to recognize the reason of belief change in different time stage",
+                "explain": "belief change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "post-game reflection on team unity.",
+                "reason": "test ability to recognize the reason of belief change in different time stage",
+                "explain": "belief change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "increased responsibility",
+                "reason": "test ability to recognize the reason between belief and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "weight of potential success or failure",
+                "reason": "test ability to recognize the reason between belief and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "realization of improved team spirits.",
+                "reason": "test ability to recognize the reason between belief and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "due to pressure from hearing they are counting on her",
+                "reason": "test ability to recognize the reason between belief and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "stronger desire to win",
+                "reason": "test ability to recognize the reason between belief and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "driven by satisfaction of team unity.",
+                "reason": "test ability to recognize the reason between belief and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "shift in engagement level",
+                "reason": "test ability to recognize the reason between belief and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "increased focus on winning",
+                "reason": "test ability to recognize the reason between belief and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "drives focus on team unity in workplace.",
+                "reason": "test ability to recognize the reason between belief and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_2": {
+        "question": "Why does the belief of Katherine Kang change from scenario 2 to scenario 3?",
+        "true answer": "a",
+        "options": [
+            "observing Kayla\u2019s serious effort and discussion about winning",
+            "influenced by Kayla\u2019s emphasis on team reliance",
+            "post-game reflection on team unity.",
+            "increased responsibility",
+            "weight of potential success or failure",
+            "realization of improved team spirits.",
+            "due to pressure from hearing they are counting on her",
+            "stronger desire to win",
+            "driven by satisfaction of team unity.",
+            "shift in engagement level",
+            "increased focus on winning",
+            "drives focus on team unity in workplace."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "observing Kayla\u2019s serious effort and discussion about winning",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "influenced by Kayla\u2019s emphasis on team reliance",
+                "reason": "test ability to recognize the reason of belief change in different time stage",
+                "explain": "belief change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "post-game reflection on team unity.",
+                "reason": "test ability to recognize the reason of belief change in different time stage",
+                "explain": "belief change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "increased responsibility",
+                "reason": "test ability to recognize the reason between belief and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "weight of potential success or failure",
+                "reason": "test ability to recognize the reason between belief and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "realization of improved team spirits.",
+                "reason": "test ability to recognize the reason between belief and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "due to pressure from hearing they are counting on her",
+                "reason": "test ability to recognize the reason between belief and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "stronger desire to win",
+                "reason": "test ability to recognize the reason between belief and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "driven by satisfaction of team unity.",
+                "reason": "test ability to recognize the reason between belief and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "shift in engagement level",
+                "reason": "test ability to recognize the reason between belief and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "increased focus on winning",
+                "reason": "test ability to recognize the reason between belief and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "drives focus on team unity in workplace.",
+                "reason": "test ability to recognize the reason between belief and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_3": {
+        "question": "Why does the belief of Katherine Kang change from scenario 3 to scenario 4?",
+        "true answer": "a",
+        "options": [
+            "post-game reflection on team unity.",
+            "influenced by Kayla\u2019s emphasis on team reliance",
+            "observing Kayla\u2019s serious effort and discussion about winning",
+            "increased responsibility",
+            "weight of potential success or failure",
+            "realization of improved team spirits.",
+            "due to pressure from hearing they are counting on her",
+            "stronger desire to win",
+            "driven by satisfaction of team unity.",
+            "shift in engagement level",
+            "increased focus on winning",
+            "drives focus on team unity in workplace."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "post-game reflection on team unity.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "influenced by Kayla\u2019s emphasis on team reliance",
+                "reason": "test ability to recognize the reason of belief change in different time stage",
+                "explain": "belief change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "observing Kayla\u2019s serious effort and discussion about winning",
+                "reason": "test ability to recognize the reason of belief change in different time stage",
+                "explain": "belief change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "increased responsibility",
+                "reason": "test ability to recognize the reason between belief and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "weight of potential success or failure",
+                "reason": "test ability to recognize the reason between belief and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "realization of improved team spirits.",
+                "reason": "test ability to recognize the reason between belief and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "due to pressure from hearing they are counting on her",
+                "reason": "test ability to recognize the reason between belief and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "stronger desire to win",
+                "reason": "test ability to recognize the reason between belief and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "driven by satisfaction of team unity.",
+                "reason": "test ability to recognize the reason between belief and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "shift in engagement level",
+                "reason": "test ability to recognize the reason between belief and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "increased focus on winning",
+                "reason": "test ability to recognize the reason between belief and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "drives focus on team unity in workplace.",
+                "reason": "test ability to recognize the reason between belief and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_4": {
+        "question": "Why does the emotion of Katherine Kang change from scenario 1 to scenario 2?",
+        "true answer": "a",
+        "options": [
+            "increased responsibility",
+            "weight of potential success or failure",
+            "realization of improved team spirits.",
+            "influenced by Kayla\u2019s emphasis on team reliance",
+            "observing Kayla\u2019s serious effort and discussion about winning",
+            "post-game reflection on team unity.",
+            "due to pressure from hearing they are counting on her",
+            "stronger desire to win",
+            "driven by satisfaction of team unity.",
+            "shift in engagement level",
+            "increased focus on winning",
+            "drives focus on team unity in workplace."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "increased responsibility",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "weight of potential success or failure",
+                "reason": "test ability to recognize the reason of emotion change in different time stage",
+                "explain": "emotion change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "realization of improved team spirits.",
+                "reason": "test ability to recognize the reason of emotion change in different time stage",
+                "explain": "emotion change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "influenced by Kayla\u2019s emphasis on team reliance",
+                "reason": "test ability to recognize the reason between emotion and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "observing Kayla\u2019s serious effort and discussion about winning",
+                "reason": "test ability to recognize the reason between emotion and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "post-game reflection on team unity.",
+                "reason": "test ability to recognize the reason between emotion and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "due to pressure from hearing they are counting on her",
+                "reason": "test ability to recognize the reason between emotion and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "stronger desire to win",
+                "reason": "test ability to recognize the reason between emotion and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "driven by satisfaction of team unity.",
+                "reason": "test ability to recognize the reason between emotion and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "shift in engagement level",
+                "reason": "test ability to recognize the reason between emotion and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "increased focus on winning",
+                "reason": "test ability to recognize the reason between emotion and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "drives focus on team unity in workplace.",
+                "reason": "test ability to recognize the reason between emotion and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_5": {
+        "question": "Why does the emotion of Katherine Kang change from scenario 2 to scenario 3?",
+        "true answer": "a",
+        "options": [
+            "weight of potential success or failure",
+            "increased responsibility",
+            "realization of improved team spirits.",
+            "influenced by Kayla\u2019s emphasis on team reliance",
+            "observing Kayla\u2019s serious effort and discussion about winning",
+            "post-game reflection on team unity.",
+            "due to pressure from hearing they are counting on her",
+            "stronger desire to win",
+            "driven by satisfaction of team unity.",
+            "shift in engagement level",
+            "increased focus on winning",
+            "drives focus on team unity in workplace."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "weight of potential success or failure",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "increased responsibility",
+                "reason": "test ability to recognize the reason of emotion change in different time stage",
+                "explain": "emotion change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "realization of improved team spirits.",
+                "reason": "test ability to recognize the reason of emotion change in different time stage",
+                "explain": "emotion change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "influenced by Kayla\u2019s emphasis on team reliance",
+                "reason": "test ability to recognize the reason between emotion and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "observing Kayla\u2019s serious effort and discussion about winning",
+                "reason": "test ability to recognize the reason between emotion and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "post-game reflection on team unity.",
+                "reason": "test ability to recognize the reason between emotion and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "due to pressure from hearing they are counting on her",
+                "reason": "test ability to recognize the reason between emotion and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "stronger desire to win",
+                "reason": "test ability to recognize the reason between emotion and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "driven by satisfaction of team unity.",
+                "reason": "test ability to recognize the reason between emotion and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "shift in engagement level",
+                "reason": "test ability to recognize the reason between emotion and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "increased focus on winning",
+                "reason": "test ability to recognize the reason between emotion and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "drives focus on team unity in workplace.",
+                "reason": "test ability to recognize the reason between emotion and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_6": {
+        "question": "Why does the emotion of Katherine Kang change from scenario 3 to scenario 4?",
+        "true answer": "a",
+        "options": [
+            "realization of improved team spirits.",
+            "increased responsibility",
+            "weight of potential success or failure",
+            "influenced by Kayla\u2019s emphasis on team reliance",
+            "observing Kayla\u2019s serious effort and discussion about winning",
+            "post-game reflection on team unity.",
+            "due to pressure from hearing they are counting on her",
+            "stronger desire to win",
+            "driven by satisfaction of team unity.",
+            "shift in engagement level",
+            "increased focus on winning",
+            "drives focus on team unity in workplace."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "realization of improved team spirits.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "increased responsibility",
+                "reason": "test ability to recognize the reason of emotion change in different time stage",
+                "explain": "emotion change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "weight of potential success or failure",
+                "reason": "test ability to recognize the reason of emotion change in different time stage",
+                "explain": "emotion change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "influenced by Kayla\u2019s emphasis on team reliance",
+                "reason": "test ability to recognize the reason between emotion and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "observing Kayla\u2019s serious effort and discussion about winning",
+                "reason": "test ability to recognize the reason between emotion and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "post-game reflection on team unity.",
+                "reason": "test ability to recognize the reason between emotion and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "due to pressure from hearing they are counting on her",
+                "reason": "test ability to recognize the reason between emotion and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "stronger desire to win",
+                "reason": "test ability to recognize the reason between emotion and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "driven by satisfaction of team unity.",
+                "reason": "test ability to recognize the reason between emotion and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "shift in engagement level",
+                "reason": "test ability to recognize the reason between emotion and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "increased focus on winning",
+                "reason": "test ability to recognize the reason between emotion and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "drives focus on team unity in workplace.",
+                "reason": "test ability to recognize the reason between emotion and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_7": {
+        "question": "Why does the intention of Katherine Kang change from scenario 1 to scenario 2?",
+        "true answer": "a",
+        "options": [
+            "due to pressure from hearing they are counting on her",
+            "stronger desire to win",
+            "driven by satisfaction of team unity.",
+            "influenced by Kayla\u2019s emphasis on team reliance",
+            "observing Kayla\u2019s serious effort and discussion about winning",
+            "post-game reflection on team unity.",
+            "increased responsibility",
+            "weight of potential success or failure",
+            "realization of improved team spirits.",
+            "shift in engagement level",
+            "increased focus on winning",
+            "drives focus on team unity in workplace."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "due to pressure from hearing they are counting on her",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "stronger desire to win",
+                "reason": "test ability to recognize the reason of intention change in different time stage",
+                "explain": "intention change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "driven by satisfaction of team unity.",
+                "reason": "test ability to recognize the reason of intention change in different time stage",
+                "explain": "intention change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "influenced by Kayla\u2019s emphasis on team reliance",
+                "reason": "test ability to recognize the reason between intention and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "observing Kayla\u2019s serious effort and discussion about winning",
+                "reason": "test ability to recognize the reason between intention and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "post-game reflection on team unity.",
+                "reason": "test ability to recognize the reason between intention and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "increased responsibility",
+                "reason": "test ability to recognize the reason between intention and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "weight of potential success or failure",
+                "reason": "test ability to recognize the reason between intention and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "realization of improved team spirits.",
+                "reason": "test ability to recognize the reason between intention and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "shift in engagement level",
+                "reason": "test ability to recognize the reason between intention and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "increased focus on winning",
+                "reason": "test ability to recognize the reason between intention and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "drives focus on team unity in workplace.",
+                "reason": "test ability to recognize the reason between intention and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_8": {
+        "question": "Why does the intention of Katherine Kang change from scenario 2 to scenario 3?",
+        "true answer": "a",
+        "options": [
+            "stronger desire to win",
+            "due to pressure from hearing they are counting on her",
+            "driven by satisfaction of team unity.",
+            "influenced by Kayla\u2019s emphasis on team reliance",
+            "observing Kayla\u2019s serious effort and discussion about winning",
+            "post-game reflection on team unity.",
+            "increased responsibility",
+            "weight of potential success or failure",
+            "realization of improved team spirits.",
+            "shift in engagement level",
+            "increased focus on winning",
+            "drives focus on team unity in workplace."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "stronger desire to win",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "due to pressure from hearing they are counting on her",
+                "reason": "test ability to recognize the reason of intention change in different time stage",
+                "explain": "intention change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "driven by satisfaction of team unity.",
+                "reason": "test ability to recognize the reason of intention change in different time stage",
+                "explain": "intention change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "influenced by Kayla\u2019s emphasis on team reliance",
+                "reason": "test ability to recognize the reason between intention and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "observing Kayla\u2019s serious effort and discussion about winning",
+                "reason": "test ability to recognize the reason between intention and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "post-game reflection on team unity.",
+                "reason": "test ability to recognize the reason between intention and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "increased responsibility",
+                "reason": "test ability to recognize the reason between intention and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "weight of potential success or failure",
+                "reason": "test ability to recognize the reason between intention and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "realization of improved team spirits.",
+                "reason": "test ability to recognize the reason between intention and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "shift in engagement level",
+                "reason": "test ability to recognize the reason between intention and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "increased focus on winning",
+                "reason": "test ability to recognize the reason between intention and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "drives focus on team unity in workplace.",
+                "reason": "test ability to recognize the reason between intention and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_9": {
+        "question": "Why does the intention of Katherine Kang change from scenario 3 to scenario 4?",
+        "true answer": "a",
+        "options": [
+            "driven by satisfaction of team unity.",
+            "due to pressure from hearing they are counting on her",
+            "stronger desire to win",
+            "influenced by Kayla\u2019s emphasis on team reliance",
+            "observing Kayla\u2019s serious effort and discussion about winning",
+            "post-game reflection on team unity.",
+            "increased responsibility",
+            "weight of potential success or failure",
+            "realization of improved team spirits.",
+            "shift in engagement level",
+            "increased focus on winning",
+            "drives focus on team unity in workplace."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "driven by satisfaction of team unity.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "due to pressure from hearing they are counting on her",
+                "reason": "test ability to recognize the reason of intention change in different time stage",
+                "explain": "intention change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "stronger desire to win",
+                "reason": "test ability to recognize the reason of intention change in different time stage",
+                "explain": "intention change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "influenced by Kayla\u2019s emphasis on team reliance",
+                "reason": "test ability to recognize the reason between intention and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "observing Kayla\u2019s serious effort and discussion about winning",
+                "reason": "test ability to recognize the reason between intention and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "post-game reflection on team unity.",
+                "reason": "test ability to recognize the reason between intention and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "increased responsibility",
+                "reason": "test ability to recognize the reason between intention and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "weight of potential success or failure",
+                "reason": "test ability to recognize the reason between intention and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "realization of improved team spirits.",
+                "reason": "test ability to recognize the reason between intention and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "shift in engagement level",
+                "reason": "test ability to recognize the reason between intention and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "increased focus on winning",
+                "reason": "test ability to recognize the reason between intention and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "drives focus on team unity in workplace.",
+                "reason": "test ability to recognize the reason between intention and action",
+                "explain": "action change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_10": {
+        "question": "Why does the action of Katherine Kang change from scenario 1 to scenario 2?",
+        "true answer": "a",
+        "options": [
+            "shift in engagement level",
+            "increased focus on winning",
+            "drives focus on team unity in workplace.",
+            "influenced by Kayla\u2019s emphasis on team reliance",
+            "observing Kayla\u2019s serious effort and discussion about winning",
+            "post-game reflection on team unity.",
+            "increased responsibility",
+            "weight of potential success or failure",
+            "realization of improved team spirits.",
+            "due to pressure from hearing they are counting on her",
+            "stronger desire to win",
+            "driven by satisfaction of team unity."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "shift in engagement level",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "increased focus on winning",
+                "reason": "test ability to recognize the reason of action change in different time stage",
+                "explain": "action change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "drives focus on team unity in workplace.",
+                "reason": "test ability to recognize the reason of action change in different time stage",
+                "explain": "action change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "influenced by Kayla\u2019s emphasis on team reliance",
+                "reason": "test ability to recognize the reason between action and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "observing Kayla\u2019s serious effort and discussion about winning",
+                "reason": "test ability to recognize the reason between action and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "post-game reflection on team unity.",
+                "reason": "test ability to recognize the reason between action and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "increased responsibility",
+                "reason": "test ability to recognize the reason between action and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "weight of potential success or failure",
+                "reason": "test ability to recognize the reason between action and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "realization of improved team spirits.",
+                "reason": "test ability to recognize the reason between action and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "due to pressure from hearing they are counting on her",
+                "reason": "test ability to recognize the reason between action and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "stronger desire to win",
+                "reason": "test ability to recognize the reason between action and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "driven by satisfaction of team unity.",
+                "reason": "test ability to recognize the reason between action and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_11": {
+        "question": "Why does the action of Katherine Kang change from scenario 2 to scenario 3?",
+        "true answer": "a",
+        "options": [
+            "increased focus on winning",
+            "shift in engagement level",
+            "drives focus on team unity in workplace.",
+            "influenced by Kayla\u2019s emphasis on team reliance",
+            "observing Kayla\u2019s serious effort and discussion about winning",
+            "post-game reflection on team unity.",
+            "increased responsibility",
+            "weight of potential success or failure",
+            "realization of improved team spirits.",
+            "due to pressure from hearing they are counting on her",
+            "stronger desire to win",
+            "driven by satisfaction of team unity."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "increased focus on winning",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "shift in engagement level",
+                "reason": "test ability to recognize the reason of action change in different time stage",
+                "explain": "action change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "drives focus on team unity in workplace.",
+                "reason": "test ability to recognize the reason of action change in different time stage",
+                "explain": "action change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "influenced by Kayla\u2019s emphasis on team reliance",
+                "reason": "test ability to recognize the reason between action and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "observing Kayla\u2019s serious effort and discussion about winning",
+                "reason": "test ability to recognize the reason between action and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "post-game reflection on team unity.",
+                "reason": "test ability to recognize the reason between action and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "increased responsibility",
+                "reason": "test ability to recognize the reason between action and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "weight of potential success or failure",
+                "reason": "test ability to recognize the reason between action and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "realization of improved team spirits.",
+                "reason": "test ability to recognize the reason between action and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "due to pressure from hearing they are counting on her",
+                "reason": "test ability to recognize the reason between action and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "stronger desire to win",
+                "reason": "test ability to recognize the reason between action and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "driven by satisfaction of team unity.",
+                "reason": "test ability to recognize the reason between action and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_why_12": {
+        "question": "Why does the action of Katherine Kang change from scenario 3 to scenario 4?",
+        "true answer": "a",
+        "options": [
+            "drives focus on team unity in workplace.",
+            "shift in engagement level",
+            "increased focus on winning",
+            "influenced by Kayla\u2019s emphasis on team reliance",
+            "observing Kayla\u2019s serious effort and discussion about winning",
+            "post-game reflection on team unity.",
+            "increased responsibility",
+            "weight of potential success or failure",
+            "realization of improved team spirits.",
+            "due to pressure from hearing they are counting on her",
+            "stronger desire to win",
+            "driven by satisfaction of team unity."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "drives focus on team unity in workplace.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "shift in engagement level",
+                "reason": "test ability to recognize the reason of action change in different time stage",
+                "explain": "action change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "increased focus on winning",
+                "reason": "test ability to recognize the reason of action change in different time stage",
+                "explain": "action change reason in other time stage",
+                "short": "type_d_why_time_stage"
+            },
+            {
+                "option": "influenced by Kayla\u2019s emphasis on team reliance",
+                "reason": "test ability to recognize the reason between action and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "observing Kayla\u2019s serious effort and discussion about winning",
+                "reason": "test ability to recognize the reason between action and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "post-game reflection on team unity.",
+                "reason": "test ability to recognize the reason between action and belief",
+                "explain": "belief change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "increased responsibility",
+                "reason": "test ability to recognize the reason between action and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "weight of potential success or failure",
+                "reason": "test ability to recognize the reason between action and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "realization of improved team spirits.",
+                "reason": "test ability to recognize the reason between action and emotion",
+                "explain": "emotion change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "due to pressure from hearing they are counting on her",
+                "reason": "test ability to recognize the reason between action and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "stronger desire to win",
+                "reason": "test ability to recognize the reason between action and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "driven by satisfaction of team unity.",
+                "reason": "test ability to recognize the reason between action and intention",
+                "explain": "intention change reason",
+                "short": "type_d_why_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_d_whether_1": {
+        "question": "Whether the belief of Katherine Kang change from scenario 1 to scenario 2? if yes, from what to what?",
+        "true answer": "a",
+        "options": [
+            "Yes, from Katherine believes the game is not important. to She starts to believe the game impacts team morale.",
+            "No",
+            "Yes, from She starts to believe the game impacts team morale. to Belief shifts to winning being crucial for her reputation.",
+            "Yes, from Belief shifts to winning being crucial for her reputation. to Final belief is that the effort has enhanced team unity."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Katherine believes the game is not important. to She starts to believe the game impacts team morale.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the belief change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from She starts to believe the game impacts team morale. to Belief shifts to winning being crucial for her reputation.",
+                "reason": "test ability to recognize how the belief change in the correct time stage",
+                "explain": "how the belief change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Belief shifts to winning being crucial for her reputation. to Final belief is that the effort has enhanced team unity.",
+                "reason": "test ability to recognize how the belief change in the correct time stage",
+                "explain": "how the belief change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_2": {
+        "question": "Whether the belief of Katherine Kang change from scenario 2 to scenario 3? if yes, from what to what?",
+        "true answer": "a",
+        "options": [
+            "Yes, from She starts to believe the game impacts team morale. to Belief shifts to winning being crucial for her reputation.",
+            "No",
+            "Yes, from Katherine believes the game is not important. to She starts to believe the game impacts team morale.",
+            "Yes, from Belief shifts to winning being crucial for her reputation. to Final belief is that the effort has enhanced team unity."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from She starts to believe the game impacts team morale. to Belief shifts to winning being crucial for her reputation.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the belief change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Katherine believes the game is not important. to She starts to believe the game impacts team morale.",
+                "reason": "test ability to recognize how the belief change in the correct time stage",
+                "explain": "how the belief change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Belief shifts to winning being crucial for her reputation. to Final belief is that the effort has enhanced team unity.",
+                "reason": "test ability to recognize how the belief change in the correct time stage",
+                "explain": "how the belief change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_3": {
+        "question": "Whether the belief of Katherine Kang change from scenario 3 to scenario 4? if yes, from what to what?",
+        "true answer": "a",
+        "options": [
+            "Yes, from Belief shifts to winning being crucial for her reputation. to Final belief is that the effort has enhanced team unity.",
+            "No",
+            "Yes, from Katherine believes the game is not important. to She starts to believe the game impacts team morale.",
+            "Yes, from She starts to believe the game impacts team morale. to Belief shifts to winning being crucial for her reputation."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Belief shifts to winning being crucial for her reputation. to Final belief is that the effort has enhanced team unity.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the belief change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Katherine believes the game is not important. to She starts to believe the game impacts team morale.",
+                "reason": "test ability to recognize how the belief change in the correct time stage",
+                "explain": "how the belief change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from She starts to believe the game impacts team morale. to Belief shifts to winning being crucial for her reputation.",
+                "reason": "test ability to recognize how the belief change in the correct time stage",
+                "explain": "how the belief change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_4": {
+        "question": "Whether the emotion of Katherine Kang change from scenario 1 to scenario 2? if yes, from what to what?",
+        "true answer": "a",
+        "options": [
+            "Yes, from Indifferent and slightly annoyed to Conflicted, mix of pressure and responsibility",
+            "No",
+            "Yes, from Conflicted, mix of pressure and responsibility to Anxious and determined",
+            "Yes, from Anxious and determined to Satisfaction and relief"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Indifferent and slightly annoyed to Conflicted, mix of pressure and responsibility",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the emotion change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Conflicted, mix of pressure and responsibility to Anxious and determined",
+                "reason": "test ability to recognize how the emotion change in the correct time stage",
+                "explain": "how the emotion change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Anxious and determined to Satisfaction and relief",
+                "reason": "test ability to recognize how the emotion change in the correct time stage",
+                "explain": "how the emotion change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_5": {
+        "question": "Whether the emotion of Katherine Kang change from scenario 2 to scenario 3? if yes, from what to what?",
+        "true answer": "a",
+        "options": [
+            "Yes, from Conflicted, mix of pressure and responsibility to Anxious and determined",
+            "No",
+            "Yes, from Indifferent and slightly annoyed to Conflicted, mix of pressure and responsibility",
+            "Yes, from Anxious and determined to Satisfaction and relief"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Conflicted, mix of pressure and responsibility to Anxious and determined",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the emotion change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Indifferent and slightly annoyed to Conflicted, mix of pressure and responsibility",
+                "reason": "test ability to recognize how the emotion change in the correct time stage",
+                "explain": "how the emotion change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Anxious and determined to Satisfaction and relief",
+                "reason": "test ability to recognize how the emotion change in the correct time stage",
+                "explain": "how the emotion change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_6": {
+        "question": "Whether the emotion of Katherine Kang change from scenario 3 to scenario 4? if yes, from what to what?",
+        "true answer": "a",
+        "options": [
+            "Yes, from Anxious and determined to Satisfaction and relief",
+            "No",
+            "Yes, from Indifferent and slightly annoyed to Conflicted, mix of pressure and responsibility",
+            "Yes, from Conflicted, mix of pressure and responsibility to Anxious and determined"
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Anxious and determined to Satisfaction and relief",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the emotion change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Indifferent and slightly annoyed to Conflicted, mix of pressure and responsibility",
+                "reason": "test ability to recognize how the emotion change in the correct time stage",
+                "explain": "how the emotion change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Conflicted, mix of pressure and responsibility to Anxious and determined",
+                "reason": "test ability to recognize how the emotion change in the correct time stage",
+                "explain": "how the emotion change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_7": {
+        "question": "Whether the intention of Katherine Kang change from scenario 1 to scenario 2? if yes, from what to what?",
+        "true answer": "a",
+        "options": [
+            "Yes, from Intends to participate minimally. to Intends to engage more actively.",
+            "No",
+            "Yes, from Intends to engage more actively. to Intends to ensure a win.",
+            "Yes, from Intends to ensure a win. to Intends to promote team spirit."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Intends to participate minimally. to Intends to engage more actively.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the intention change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Intends to engage more actively. to Intends to ensure a win.",
+                "reason": "test ability to recognize how the intention change in the correct time stage",
+                "explain": "how the intention change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Intends to ensure a win. to Intends to promote team spirit.",
+                "reason": "test ability to recognize how the intention change in the correct time stage",
+                "explain": "how the intention change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_8": {
+        "question": "Whether the intention of Katherine Kang change from scenario 2 to scenario 3? if yes, from what to what?",
+        "true answer": "a",
+        "options": [
+            "Yes, from Intends to engage more actively. to Intends to ensure a win.",
+            "No",
+            "Yes, from Intends to participate minimally. to Intends to engage more actively.",
+            "Yes, from Intends to ensure a win. to Intends to promote team spirit."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Intends to engage more actively. to Intends to ensure a win.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the intention change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Intends to participate minimally. to Intends to engage more actively.",
+                "reason": "test ability to recognize how the intention change in the correct time stage",
+                "explain": "how the intention change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Intends to ensure a win. to Intends to promote team spirit.",
+                "reason": "test ability to recognize how the intention change in the correct time stage",
+                "explain": "how the intention change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_9": {
+        "question": "Whether the intention of Katherine Kang change from scenario 3 to scenario 4? if yes, from what to what?",
+        "true answer": "a",
+        "options": [
+            "Yes, from Intends to ensure a win. to Intends to promote team spirit.",
+            "No",
+            "Yes, from Intends to participate minimally. to Intends to engage more actively.",
+            "Yes, from Intends to engage more actively. to Intends to ensure a win."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Intends to ensure a win. to Intends to promote team spirit.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the intention change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Intends to participate minimally. to Intends to engage more actively.",
+                "reason": "test ability to recognize how the intention change in the correct time stage",
+                "explain": "how the intention change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Intends to engage more actively. to Intends to ensure a win.",
+                "reason": "test ability to recognize how the intention change in the correct time stage",
+                "explain": "how the intention change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_10": {
+        "question": "Whether the action of Katherine Kang change from scenario 1 to scenario 2? if yes, from what to what?",
+        "true answer": "a",
+        "options": [
+            "Yes, from Stands on the sideline, occasionally clapping. to Joins the game and participates.",
+            "No",
+            "Yes, from Joins the game and participates. to Plays with heightened intensity, takes decisive actions.",
+            "Yes, from Plays with heightened intensity, takes decisive actions. to Proactively starts team-building activities at work."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Stands on the sideline, occasionally clapping. to Joins the game and participates.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the action change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Joins the game and participates. to Plays with heightened intensity, takes decisive actions.",
+                "reason": "test ability to recognize how the action change in the correct time stage",
+                "explain": "how the action change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Plays with heightened intensity, takes decisive actions. to Proactively starts team-building activities at work.",
+                "reason": "test ability to recognize how the action change in the correct time stage",
+                "explain": "how the action change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_11": {
+        "question": "Whether the action of Katherine Kang change from scenario 2 to scenario 3? if yes, from what to what?",
+        "true answer": "a",
+        "options": [
+            "Yes, from Joins the game and participates. to Plays with heightened intensity, takes decisive actions.",
+            "No",
+            "Yes, from Stands on the sideline, occasionally clapping. to Joins the game and participates.",
+            "Yes, from Plays with heightened intensity, takes decisive actions. to Proactively starts team-building activities at work."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Joins the game and participates. to Plays with heightened intensity, takes decisive actions.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the action change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Stands on the sideline, occasionally clapping. to Joins the game and participates.",
+                "reason": "test ability to recognize how the action change in the correct time stage",
+                "explain": "how the action change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Plays with heightened intensity, takes decisive actions. to Proactively starts team-building activities at work.",
+                "reason": "test ability to recognize how the action change in the correct time stage",
+                "explain": "how the action change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_d_whether_12": {
+        "question": "Whether the action of Katherine Kang change from scenario 3 to scenario 4? if yes, from what to what?",
+        "true answer": "a",
+        "options": [
+            "Yes, from Plays with heightened intensity, takes decisive actions. to Proactively starts team-building activities at work.",
+            "No",
+            "Yes, from Stands on the sideline, occasionally clapping. to Joins the game and participates.",
+            "Yes, from Joins the game and participates. to Plays with heightened intensity, takes decisive actions."
+        ],
+        "question type": "type_d",
+        "option reasons": [
+            {
+                "option": "Yes, from Plays with heightened intensity, takes decisive actions. to Proactively starts team-building activities at work.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "No",
+                "reason": "test ability to recognize whether the action change in the time stage",
+                "explain": "no change",
+                "short": "type_d_whether_recognize_if_change"
+            },
+            {
+                "option": "Yes, from Stands on the sideline, occasionally clapping. to Joins the game and participates.",
+                "reason": "test ability to recognize how the action change in the correct time stage",
+                "explain": "how the action change in other time stage",
+                "short": "type_d_whether_time_stage"
+            },
+            {
+                "option": "Yes, from Joins the game and participates. to Plays with heightened intensity, takes decisive actions.",
+                "reason": "test ability to recognize how the action change in the correct time stage",
+                "explain": "how the action change in other time stage",
+                "short": "type_d_whether_time_stage"
+            }
+        ]
+    },
+    "type_c_how_1": {
+        "question": "In scenario 1, how does the belief of Katherine Kang influence the emotion of Katherine Kang?",
+        "true answer": "a",
+        "options": [
+            "Katherine's belief that the game is not important makes her feel indifferent and slightly annoyed.",
+            "Because of her indifference and slight annoyance, Katherine's intention is to participate as little as possible.",
+            "Her intention to participate minimally results in her standing on the sideline, only occasionally clapping.",
+            "Kayla's conversation shifts Katherine\u2019s belief about the game's importance, leading to feelings of pressure and responsibility.",
+            "The heightened seriousness of the game shifts Katherine's belief, and she subsequently feels anxious and determined."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "Katherine's belief that the game is not important makes her feel indifferent and slightly annoyed.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Because of her indifference and slight annoyance, Katherine's intention is to participate as little as possible.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Her intention to participate minimally results in her standing on the sideline, only occasionally clapping.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Kayla's conversation shifts Katherine\u2019s belief about the game's importance, leading to feelings of pressure and responsibility.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in other time stage",
+                "explain": "how the belief influence emotion in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "The heightened seriousness of the game shifts Katherine's belief, and she subsequently feels anxious and determined.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in other time stage",
+                "explain": "how the belief influence emotion in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_2": {
+        "question": "In scenario 2, how does the belief of Katherine Kang influence the emotion of Katherine Kang?",
+        "true answer": "a",
+        "options": [
+            "Kayla's conversation shifts Katherine\u2019s belief about the game's importance, leading to feelings of pressure and responsibility.",
+            "The combination of the new belief and emotions pushes Katherine to decide to be more active in the game.",
+            "Her increased intention to participate manifests in more active engagement and vocal support for her teammates.",
+            "Katherine's belief that the game is not important makes her feel indifferent and slightly annoyed.",
+            "The heightened seriousness of the game shifts Katherine's belief, and she subsequently feels anxious and determined."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "Kayla's conversation shifts Katherine\u2019s belief about the game's importance, leading to feelings of pressure and responsibility.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "The combination of the new belief and emotions pushes Katherine to decide to be more active in the game.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Her increased intention to participate manifests in more active engagement and vocal support for her teammates.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Katherine's belief that the game is not important makes her feel indifferent and slightly annoyed.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in other time stage",
+                "explain": "how the belief influence emotion in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "The heightened seriousness of the game shifts Katherine's belief, and she subsequently feels anxious and determined.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in other time stage",
+                "explain": "how the belief influence emotion in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_3": {
+        "question": "In scenario 3, how does the belief of Katherine Kang influence the emotion of Katherine Kang?",
+        "true answer": "a",
+        "options": [
+            "The heightened seriousness of the game shifts Katherine's belief, and she subsequently feels anxious and determined.",
+            "This blend of belief and anxious determination leads her to strongly intend to give her best effort.",
+            "Her intention to ensure a win results in her playing with greater intensity and taking decisive actions.",
+            "Katherine's belief that the game is not important makes her feel indifferent and slightly annoyed.",
+            "Kayla's conversation shifts Katherine\u2019s belief about the game's importance, leading to feelings of pressure and responsibility."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "The heightened seriousness of the game shifts Katherine's belief, and she subsequently feels anxious and determined.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "This blend of belief and anxious determination leads her to strongly intend to give her best effort.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Her intention to ensure a win results in her playing with greater intensity and taking decisive actions.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Katherine's belief that the game is not important makes her feel indifferent and slightly annoyed.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in other time stage",
+                "explain": "how the belief influence emotion in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Kayla's conversation shifts Katherine\u2019s belief about the game's importance, leading to feelings of pressure and responsibility.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in other time stage",
+                "explain": "how the belief influence emotion in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_4": {
+        "question": "In scenario 4, how does the belief of Katherine Kang influence the emotion of Katherine Kang?",
+        "true answer": "a",
+        "options": [
+            "The belief in enhanced team unity leads to feelings of satisfaction and relief.",
+            "The combination of satisfaction and relief drives Katherine\u2019s intention to promote team spirit in the workplace.",
+            "Her intention to boost team spirit translates into proactive team-building actions at work.",
+            "Katherine's belief that the game is not important makes her feel indifferent and slightly annoyed.",
+            "Kayla's conversation shifts Katherine\u2019s belief about the game's importance, leading to feelings of pressure and responsibility.",
+            "The heightened seriousness of the game shifts Katherine's belief, and she subsequently feels anxious and determined."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "The belief in enhanced team unity leads to feelings of satisfaction and relief.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "The combination of satisfaction and relief drives Katherine\u2019s intention to promote team spirit in the workplace.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Her intention to boost team spirit translates into proactive team-building actions at work.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Katherine's belief that the game is not important makes her feel indifferent and slightly annoyed.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in other time stage",
+                "explain": "how the belief influence emotion in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Kayla's conversation shifts Katherine\u2019s belief about the game's importance, leading to feelings of pressure and responsibility.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in other time stage",
+                "explain": "how the belief influence emotion in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "The heightened seriousness of the game shifts Katherine's belief, and she subsequently feels anxious and determined.",
+                "reason": "test ability to correctly recognize how the belief influence emotion in other time stage",
+                "explain": "how the belief influence emotion in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_5": {
+        "question": "In scenario 1, how does the belief&emotion of Katherine Kang influence the intention of Katherine Kang?",
+        "true answer": "a",
+        "options": [
+            "Because of her indifference and slight annoyance, Katherine's intention is to participate as little as possible.",
+            "Katherine's belief that the game is not important makes her feel indifferent and slightly annoyed.",
+            "Her intention to participate minimally results in her standing on the sideline, only occasionally clapping.",
+            "The combination of the new belief and emotions pushes Katherine to decide to be more active in the game.",
+            "This blend of belief and anxious determination leads her to strongly intend to give her best effort."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "Because of her indifference and slight annoyance, Katherine's intention is to participate as little as possible.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Katherine's belief that the game is not important makes her feel indifferent and slightly annoyed.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Her intention to participate minimally results in her standing on the sideline, only occasionally clapping.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "The combination of the new belief and emotions pushes Katherine to decide to be more active in the game.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in other time stage",
+                "explain": "how the belief&emotion influence intention in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "This blend of belief and anxious determination leads her to strongly intend to give her best effort.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in other time stage",
+                "explain": "how the belief&emotion influence intention in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_6": {
+        "question": "In scenario 2, how does the belief&emotion of Katherine Kang influence the intention of Katherine Kang?",
+        "true answer": "a",
+        "options": [
+            "The combination of the new belief and emotions pushes Katherine to decide to be more active in the game.",
+            "Kayla's conversation shifts Katherine\u2019s belief about the game's importance, leading to feelings of pressure and responsibility.",
+            "Her increased intention to participate manifests in more active engagement and vocal support for her teammates.",
+            "Because of her indifference and slight annoyance, Katherine's intention is to participate as little as possible.",
+            "This blend of belief and anxious determination leads her to strongly intend to give her best effort."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "The combination of the new belief and emotions pushes Katherine to decide to be more active in the game.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Kayla's conversation shifts Katherine\u2019s belief about the game's importance, leading to feelings of pressure and responsibility.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Her increased intention to participate manifests in more active engagement and vocal support for her teammates.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Because of her indifference and slight annoyance, Katherine's intention is to participate as little as possible.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in other time stage",
+                "explain": "how the belief&emotion influence intention in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "This blend of belief and anxious determination leads her to strongly intend to give her best effort.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in other time stage",
+                "explain": "how the belief&emotion influence intention in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_7": {
+        "question": "In scenario 3, how does the belief&emotion of Katherine Kang influence the intention of Katherine Kang?",
+        "true answer": "a",
+        "options": [
+            "This blend of belief and anxious determination leads her to strongly intend to give her best effort.",
+            "The heightened seriousness of the game shifts Katherine's belief, and she subsequently feels anxious and determined.",
+            "Her intention to ensure a win results in her playing with greater intensity and taking decisive actions.",
+            "Because of her indifference and slight annoyance, Katherine's intention is to participate as little as possible.",
+            "The combination of the new belief and emotions pushes Katherine to decide to be more active in the game."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "This blend of belief and anxious determination leads her to strongly intend to give her best effort.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "The heightened seriousness of the game shifts Katherine's belief, and she subsequently feels anxious and determined.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Her intention to ensure a win results in her playing with greater intensity and taking decisive actions.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Because of her indifference and slight annoyance, Katherine's intention is to participate as little as possible.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in other time stage",
+                "explain": "how the belief&emotion influence intention in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "The combination of the new belief and emotions pushes Katherine to decide to be more active in the game.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in other time stage",
+                "explain": "how the belief&emotion influence intention in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_8": {
+        "question": "In scenario 4, how does the belief&emotion of Katherine Kang influence the intention of Katherine Kang?",
+        "true answer": "a",
+        "options": [
+            "The combination of satisfaction and relief drives Katherine\u2019s intention to promote team spirit in the workplace.",
+            "The belief in enhanced team unity leads to feelings of satisfaction and relief.",
+            "Her intention to boost team spirit translates into proactive team-building actions at work.",
+            "Because of her indifference and slight annoyance, Katherine's intention is to participate as little as possible.",
+            "The combination of the new belief and emotions pushes Katherine to decide to be more active in the game.",
+            "This blend of belief and anxious determination leads her to strongly intend to give her best effort."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "The combination of satisfaction and relief drives Katherine\u2019s intention to promote team spirit in the workplace.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "The belief in enhanced team unity leads to feelings of satisfaction and relief.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Her intention to boost team spirit translates into proactive team-building actions at work.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Because of her indifference and slight annoyance, Katherine's intention is to participate as little as possible.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in other time stage",
+                "explain": "how the belief&emotion influence intention in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "The combination of the new belief and emotions pushes Katherine to decide to be more active in the game.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in other time stage",
+                "explain": "how the belief&emotion influence intention in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "This blend of belief and anxious determination leads her to strongly intend to give her best effort.",
+                "reason": "test ability to correctly recognize how the belief&emotion influence intention in other time stage",
+                "explain": "how the belief&emotion influence intention in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_9": {
+        "question": "In scenario 1, how does the intention of Katherine Kang influence the action of Katherine Kang?",
+        "true answer": "a",
+        "options": [
+            "Her intention to participate minimally results in her standing on the sideline, only occasionally clapping.",
+            "Katherine's belief that the game is not important makes her feel indifferent and slightly annoyed.",
+            "Because of her indifference and slight annoyance, Katherine's intention is to participate as little as possible.",
+            "Her increased intention to participate manifests in more active engagement and vocal support for her teammates.",
+            "Her intention to ensure a win results in her playing with greater intensity and taking decisive actions."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "Her intention to participate minimally results in her standing on the sideline, only occasionally clapping.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Katherine's belief that the game is not important makes her feel indifferent and slightly annoyed.",
+                "reason": "test ability to correctly recognize how the intention influence action in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Because of her indifference and slight annoyance, Katherine's intention is to participate as little as possible.",
+                "reason": "test ability to correctly recognize how the intention influence action in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Her increased intention to participate manifests in more active engagement and vocal support for her teammates.",
+                "reason": "test ability to correctly recognize how the intention influence action in other time stage",
+                "explain": "how the intention influence action in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Her intention to ensure a win results in her playing with greater intensity and taking decisive actions.",
+                "reason": "test ability to correctly recognize how the intention influence action in other time stage",
+                "explain": "how the intention influence action in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_10": {
+        "question": "In scenario 2, how does the intention of Katherine Kang influence the action of Katherine Kang?",
+        "true answer": "a",
+        "options": [
+            "Her increased intention to participate manifests in more active engagement and vocal support for her teammates.",
+            "Kayla's conversation shifts Katherine\u2019s belief about the game's importance, leading to feelings of pressure and responsibility.",
+            "The combination of the new belief and emotions pushes Katherine to decide to be more active in the game.",
+            "Her intention to participate minimally results in her standing on the sideline, only occasionally clapping.",
+            "Her intention to ensure a win results in her playing with greater intensity and taking decisive actions."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "Her increased intention to participate manifests in more active engagement and vocal support for her teammates.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Kayla's conversation shifts Katherine\u2019s belief about the game's importance, leading to feelings of pressure and responsibility.",
+                "reason": "test ability to correctly recognize how the intention influence action in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "The combination of the new belief and emotions pushes Katherine to decide to be more active in the game.",
+                "reason": "test ability to correctly recognize how the intention influence action in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Her intention to participate minimally results in her standing on the sideline, only occasionally clapping.",
+                "reason": "test ability to correctly recognize how the intention influence action in other time stage",
+                "explain": "how the intention influence action in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Her intention to ensure a win results in her playing with greater intensity and taking decisive actions.",
+                "reason": "test ability to correctly recognize how the intention influence action in other time stage",
+                "explain": "how the intention influence action in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_11": {
+        "question": "In scenario 3, how does the intention of Katherine Kang influence the action of Katherine Kang?",
+        "true answer": "a",
+        "options": [
+            "Her intention to ensure a win results in her playing with greater intensity and taking decisive actions.",
+            "The heightened seriousness of the game shifts Katherine's belief, and she subsequently feels anxious and determined.",
+            "This blend of belief and anxious determination leads her to strongly intend to give her best effort.",
+            "Her intention to participate minimally results in her standing on the sideline, only occasionally clapping.",
+            "Her increased intention to participate manifests in more active engagement and vocal support for her teammates."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "Her intention to ensure a win results in her playing with greater intensity and taking decisive actions.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "The heightened seriousness of the game shifts Katherine's belief, and she subsequently feels anxious and determined.",
+                "reason": "test ability to correctly recognize how the intention influence action in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "This blend of belief and anxious determination leads her to strongly intend to give her best effort.",
+                "reason": "test ability to correctly recognize how the intention influence action in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Her intention to participate minimally results in her standing on the sideline, only occasionally clapping.",
+                "reason": "test ability to correctly recognize how the intention influence action in other time stage",
+                "explain": "how the intention influence action in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Her increased intention to participate manifests in more active engagement and vocal support for her teammates.",
+                "reason": "test ability to correctly recognize how the intention influence action in other time stage",
+                "explain": "how the intention influence action in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_c_how_12": {
+        "question": "In scenario 4, how does the intention of Katherine Kang influence the action of Katherine Kang?",
+        "true answer": "a",
+        "options": [
+            "Her intention to boost team spirit translates into proactive team-building actions at work.",
+            "The belief in enhanced team unity leads to feelings of satisfaction and relief.",
+            "The combination of satisfaction and relief drives Katherine\u2019s intention to promote team spirit in the workplace.",
+            "Her intention to participate minimally results in her standing on the sideline, only occasionally clapping.",
+            "Her increased intention to participate manifests in more active engagement and vocal support for her teammates.",
+            "Her intention to ensure a win results in her playing with greater intensity and taking decisive actions."
+        ],
+        "question type": "type_c",
+        "option reasons": [
+            {
+                "option": "Her intention to boost team spirit translates into proactive team-building actions at work.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "The belief in enhanced team unity leads to feelings of satisfaction and relief.",
+                "reason": "test ability to correctly recognize how the intention influence action in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "The combination of satisfaction and relief drives Katherine\u2019s intention to promote team spirit in the workplace.",
+                "reason": "test ability to correctly recognize how the intention influence action in the current time stage",
+                "explain": "how the other mental states influence each other in current time stage",
+                "short": "type_c_how_recognizae_influence_between_not_belief_emotion"
+            },
+            {
+                "option": "Her intention to participate minimally results in her standing on the sideline, only occasionally clapping.",
+                "reason": "test ability to correctly recognize how the intention influence action in other time stage",
+                "explain": "how the intention influence action in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Her increased intention to participate manifests in more active engagement and vocal support for her teammates.",
+                "reason": "test ability to correctly recognize how the intention influence action in other time stage",
+                "explain": "how the intention influence action in other time stage",
+                "short": "type_c_how_time_stage"
+            },
+            {
+                "option": "Her intention to ensure a win results in her playing with greater intensity and taking decisive actions.",
+                "reason": "test ability to correctly recognize how the intention influence action in other time stage",
+                "explain": "how the intention influence action in other time stage",
+                "short": "type_c_how_time_stage"
+            }
+        ]
+    },
+    "type_a_what_1": {
+        "question": "What is the belief of Katherine Kang in scenario 1?",
+        "true answer": "a",
+        "options": [
+            "Katherine believes the game is not important.",
+            "She starts to believe the game impacts team morale.",
+            "Belief shifts to winning being crucial for her reputation.",
+            "Final belief is that the effort has enhanced team unity.",
+            "Indifferent and slightly annoyed",
+            "Intends to participate minimally.",
+            "Stands on the sideline, occasionally clapping."
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Katherine believes the game is not important.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "She starts to believe the game impacts team morale.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Belief shifts to winning being crucial for her reputation.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Final belief is that the effort has enhanced team unity.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Indifferent and slightly annoyed",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Intends to participate minimally.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Stands on the sideline, occasionally clapping.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_2": {
+        "question": "What is the belief of Katherine Kang in scenario 2?",
+        "true answer": "a",
+        "options": [
+            "She starts to believe the game impacts team morale.",
+            "Katherine believes the game is not important.",
+            "Belief shifts to winning being crucial for her reputation.",
+            "Final belief is that the effort has enhanced team unity.",
+            "Conflicted, mix of pressure and responsibility",
+            "Intends to engage more actively.",
+            "Joins the game and participates."
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "She starts to believe the game impacts team morale.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Katherine believes the game is not important.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Belief shifts to winning being crucial for her reputation.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Final belief is that the effort has enhanced team unity.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Conflicted, mix of pressure and responsibility",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Intends to engage more actively.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Joins the game and participates.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_3": {
+        "question": "What is the belief of Katherine Kang in scenario 3?",
+        "true answer": "a",
+        "options": [
+            "Belief shifts to winning being crucial for her reputation.",
+            "Katherine believes the game is not important.",
+            "She starts to believe the game impacts team morale.",
+            "Final belief is that the effort has enhanced team unity.",
+            "Anxious and determined",
+            "Intends to ensure a win.",
+            "Plays with heightened intensity, takes decisive actions."
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Belief shifts to winning being crucial for her reputation.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Katherine believes the game is not important.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "She starts to believe the game impacts team morale.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Final belief is that the effort has enhanced team unity.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Anxious and determined",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Intends to ensure a win.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Plays with heightened intensity, takes decisive actions.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_4": {
+        "question": "What is the belief of Katherine Kang in scenario 4?",
+        "true answer": "a",
+        "options": [
+            "Final belief is that the effort has enhanced team unity.",
+            "Katherine believes the game is not important.",
+            "She starts to believe the game impacts team morale.",
+            "Belief shifts to winning being crucial for her reputation.",
+            "Satisfaction and relief",
+            "Intends to promote team spirit.",
+            "Proactively starts team-building activities at work."
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Final belief is that the effort has enhanced team unity.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Katherine believes the game is not important.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "She starts to believe the game impacts team morale.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Belief shifts to winning being crucial for her reputation.",
+                "reason": "test ability to recognize the belief in correct time stage",
+                "explain": "belief in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Satisfaction and relief",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Intends to promote team spirit.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Proactively starts team-building activities at work.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_5": {
+        "question": "What is the emotion of Katherine Kang in scenario 1?",
+        "true answer": "a",
+        "options": [
+            "Indifferent and slightly annoyed",
+            "Conflicted, mix of pressure and responsibility",
+            "Anxious and determined",
+            "Satisfaction and relief",
+            "Katherine believes the game is not important.",
+            "Intends to participate minimally.",
+            "Stands on the sideline, occasionally clapping."
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Indifferent and slightly annoyed",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Conflicted, mix of pressure and responsibility",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Anxious and determined",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Satisfaction and relief",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Katherine believes the game is not important.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Intends to participate minimally.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Stands on the sideline, occasionally clapping.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_6": {
+        "question": "What is the emotion of Katherine Kang in scenario 2?",
+        "true answer": "a",
+        "options": [
+            "Conflicted, mix of pressure and responsibility",
+            "Indifferent and slightly annoyed",
+            "Anxious and determined",
+            "Satisfaction and relief",
+            "She starts to believe the game impacts team morale.",
+            "Intends to engage more actively.",
+            "Joins the game and participates."
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Conflicted, mix of pressure and responsibility",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Indifferent and slightly annoyed",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Anxious and determined",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Satisfaction and relief",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "She starts to believe the game impacts team morale.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Intends to engage more actively.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Joins the game and participates.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_7": {
+        "question": "What is the emotion of Katherine Kang in scenario 3?",
+        "true answer": "a",
+        "options": [
+            "Anxious and determined",
+            "Indifferent and slightly annoyed",
+            "Conflicted, mix of pressure and responsibility",
+            "Satisfaction and relief",
+            "Belief shifts to winning being crucial for her reputation.",
+            "Intends to ensure a win.",
+            "Plays with heightened intensity, takes decisive actions."
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Anxious and determined",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Indifferent and slightly annoyed",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Conflicted, mix of pressure and responsibility",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Satisfaction and relief",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Belief shifts to winning being crucial for her reputation.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Intends to ensure a win.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Plays with heightened intensity, takes decisive actions.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_8": {
+        "question": "What is the emotion of Katherine Kang in scenario 4?",
+        "true answer": "a",
+        "options": [
+            "Satisfaction and relief",
+            "Indifferent and slightly annoyed",
+            "Conflicted, mix of pressure and responsibility",
+            "Anxious and determined",
+            "Final belief is that the effort has enhanced team unity.",
+            "Intends to promote team spirit.",
+            "Proactively starts team-building activities at work."
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Satisfaction and relief",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Indifferent and slightly annoyed",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Conflicted, mix of pressure and responsibility",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Anxious and determined",
+                "reason": "test ability to recognize the emotion in correct time stage",
+                "explain": "emotion in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Final belief is that the effort has enhanced team unity.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Intends to promote team spirit.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Proactively starts team-building activities at work.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_9": {
+        "question": "What is the intention of Katherine Kang in scenario 1?",
+        "true answer": "a",
+        "options": [
+            "Intends to participate minimally.",
+            "Intends to engage more actively.",
+            "Intends to ensure a win.",
+            "Intends to promote team spirit.",
+            "Katherine believes the game is not important.",
+            "Indifferent and slightly annoyed",
+            "Stands on the sideline, occasionally clapping."
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Intends to participate minimally.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Intends to engage more actively.",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Intends to ensure a win.",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Intends to promote team spirit.",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Katherine believes the game is not important.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Indifferent and slightly annoyed",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Stands on the sideline, occasionally clapping.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_10": {
+        "question": "What is the intention of Katherine Kang in scenario 2?",
+        "true answer": "a",
+        "options": [
+            "Intends to engage more actively.",
+            "Intends to participate minimally.",
+            "Intends to ensure a win.",
+            "Intends to promote team spirit.",
+            "She starts to believe the game impacts team morale.",
+            "Conflicted, mix of pressure and responsibility",
+            "Joins the game and participates."
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Intends to engage more actively.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Intends to participate minimally.",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Intends to ensure a win.",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Intends to promote team spirit.",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "She starts to believe the game impacts team morale.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Conflicted, mix of pressure and responsibility",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Joins the game and participates.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_11": {
+        "question": "What is the intention of Katherine Kang in scenario 3?",
+        "true answer": "a",
+        "options": [
+            "Intends to ensure a win.",
+            "Intends to participate minimally.",
+            "Intends to engage more actively.",
+            "Intends to promote team spirit.",
+            "Belief shifts to winning being crucial for her reputation.",
+            "Anxious and determined",
+            "Plays with heightened intensity, takes decisive actions."
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Intends to ensure a win.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Intends to participate minimally.",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Intends to engage more actively.",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Intends to promote team spirit.",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Belief shifts to winning being crucial for her reputation.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Anxious and determined",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Plays with heightened intensity, takes decisive actions.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_12": {
+        "question": "What is the intention of Katherine Kang in scenario 4?",
+        "true answer": "a",
+        "options": [
+            "Intends to promote team spirit.",
+            "Intends to participate minimally.",
+            "Intends to engage more actively.",
+            "Intends to ensure a win.",
+            "Final belief is that the effort has enhanced team unity.",
+            "Satisfaction and relief",
+            "Proactively starts team-building activities at work."
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Intends to promote team spirit.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Intends to participate minimally.",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Intends to engage more actively.",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Intends to ensure a win.",
+                "reason": "test ability to recognize the intention in correct time stage",
+                "explain": "intention in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Final belief is that the effort has enhanced team unity.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Satisfaction and relief",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Proactively starts team-building activities at work.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "action in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_13": {
+        "question": "What is the action of Katherine Kang in scenario 1?",
+        "true answer": "a",
+        "options": [
+            "Stands on the sideline, occasionally clapping.",
+            "Joins the game and participates.",
+            "Plays with heightened intensity, takes decisive actions.",
+            "Proactively starts team-building activities at work.",
+            "Katherine believes the game is not important.",
+            "Indifferent and slightly annoyed",
+            "Intends to participate minimally."
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Stands on the sideline, occasionally clapping.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Joins the game and participates.",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Plays with heightened intensity, takes decisive actions.",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Proactively starts team-building activities at work.",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Katherine believes the game is not important.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Indifferent and slightly annoyed",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Intends to participate minimally.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_14": {
+        "question": "What is the action of Katherine Kang in scenario 2?",
+        "true answer": "a",
+        "options": [
+            "Joins the game and participates.",
+            "Stands on the sideline, occasionally clapping.",
+            "Plays with heightened intensity, takes decisive actions.",
+            "Proactively starts team-building activities at work.",
+            "She starts to believe the game impacts team morale.",
+            "Conflicted, mix of pressure and responsibility",
+            "Intends to engage more actively."
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Joins the game and participates.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Stands on the sideline, occasionally clapping.",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Plays with heightened intensity, takes decisive actions.",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Proactively starts team-building activities at work.",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "She starts to believe the game impacts team morale.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Conflicted, mix of pressure and responsibility",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Intends to engage more actively.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_15": {
+        "question": "What is the action of Katherine Kang in scenario 3?",
+        "true answer": "a",
+        "options": [
+            "Plays with heightened intensity, takes decisive actions.",
+            "Stands on the sideline, occasionally clapping.",
+            "Joins the game and participates.",
+            "Proactively starts team-building activities at work.",
+            "Belief shifts to winning being crucial for her reputation.",
+            "Anxious and determined",
+            "Intends to ensure a win."
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Plays with heightened intensity, takes decisive actions.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Stands on the sideline, occasionally clapping.",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Joins the game and participates.",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Proactively starts team-building activities at work.",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Belief shifts to winning being crucial for her reputation.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Anxious and determined",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Intends to ensure a win.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    },
+    "type_a_what_16": {
+        "question": "What is the action of Katherine Kang in scenario 4?",
+        "true answer": "a",
+        "options": [
+            "Proactively starts team-building activities at work.",
+            "Stands on the sideline, occasionally clapping.",
+            "Joins the game and participates.",
+            "Plays with heightened intensity, takes decisive actions.",
+            "Final belief is that the effort has enhanced team unity.",
+            "Satisfaction and relief",
+            "Intends to promote team spirit."
+        ],
+        "question type": "type_a",
+        "option reasons": [
+            {
+                "option": "Proactively starts team-building activities at work.",
+                "reason": "true answer",
+                "explain": "true answer",
+                "short": "true_answer"
+            },
+            {
+                "option": "Stands on the sideline, occasionally clapping.",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Joins the game and participates.",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Plays with heightened intensity, takes decisive actions.",
+                "reason": "test ability to recognize the action in correct time stage",
+                "explain": "action in other time stage",
+                "short": "type_a_what_time_stage"
+            },
+            {
+                "option": "Final belief is that the effort has enhanced team unity.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "belief in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Satisfaction and relief",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "emotion in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            },
+            {
+                "option": "Intends to promote team spirit.",
+                "reason": "test ability to recognize the difference between belief, emotion, intention, and action",
+                "explain": "intention in the same time stage",
+                "short": "type_a_what_recognize_belief_emotion_intention_action"
+            }
+        ]
+    }
+}
