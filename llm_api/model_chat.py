@@ -22,8 +22,8 @@ from util.logger import inference_logger, inference2_logger, inference3_logger
 
 
 # os.environ["CUDA_VISIBLE_DEVICES"] = gpu_id
-openai_api_key = "sk-cgdz49rvQMfSXD5f8aEd3c6d43734cFaBa95737a1403E001"
-openai_base_url = "https://api3.apifans.com/v1"
+openai_api_key = None
+openai_base_url = None
 # doubao_base_url = "https://ark.cn-beijing.volces.com/api/v3"
 # doubao_api_key = "19235e27-489a-45fb-a4fa-a7c4169f0abf"
 
@@ -558,7 +558,7 @@ class Yi34B(Chat):
     """Yi-1.5-34B-32K"""
 
     def __init__(self):
-        full_model_path = "/data/xiaoyang/models/01-ai/Yi-1.5-34B-Chat-16K"
+        full_model_path = None
         super().__init__(
             model_name="Yi-1.5-34B-Chat-16K",
             model_save_path=full_model_path,
@@ -570,7 +570,7 @@ class Yi9B(Chat):
     """Yi-1.5-9B-32K"""
 
     def __init__(self):
-        full_model_path = "/data/xiaoyang/models/01-ai/Yi-1.5-9B-Chat-16K"
+        full_model_path = None
         super().__init__(
             model_name="Yi-1.5-9B-Chat-16K",
             model_save_path=full_model_path,

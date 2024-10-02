@@ -21,8 +21,8 @@ from util.logger import inference_logger, inference2_logger, inference3_logger
 
 
 # os.environ["CUDA_VISIBLE_DEVICES"] = gpu_id
-openai_api_key = "sk-XRPxIi5PRSE7CVkg23BbDbF87f204b30A9A62f02DdF946E3"
-openai_base_url = "https://api3.apifans.com/v1"
+openai_api_key = None
+openai_base_url =None
 # doubao_base_url = "https://ark.cn-beijing.volces.com/api/v3"
 # doubao_api_key = "19235e27-489a-45fb-a4fa-a7c4169f0abf"
 

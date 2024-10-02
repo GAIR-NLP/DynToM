@@ -3,7 +3,7 @@ os.environ["CUDA_VISIBLE_DEVICES"] = "2"
 
 from vllm import LLM, SamplingParams
 
-llm = LLM(model="/data/xiaoyang/models/meta-llama/Meta-Llama-3.1-8B-Instruct")
+llm = LLM(model=None)
 sampling_params = SamplingParams(temperature=0.5)
 
 
