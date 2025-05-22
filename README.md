@@ -18,150 +18,59 @@ This repository contains the **DYNTOM** benchmark for evaluating Large Language 
 
 **Paper:** [Towards Dynamic Theory of Mind: Evaluating LLM Adaptation to Temporal Evolution of Human States](https://arxiv.org/abs/your-paper-link)
 
-## 🗂️ Repository Structure
-
-```
-DynToM/
-├── data/
-│   ├── dyntom_full.json              # Complete DYNTOM dataset
-│   ├── dyntom_sample.json            # Sample subset for quick testing
-│   └── social_contexts/
-│       ├── locations.json            # 261 social locations across 13 categories
-│       ├── character_profiles.json   # Character profile templates
-│       └── relationships.json        # Character relationship types
-├── src/
-│   ├── evaluation/
-│   │   ├── evaluate_models.py        # Model evaluation scripts
-│   │   ├── metrics.py               # Evaluation metrics calculation
-│   │   └── prompts.py               # Vanilla and CoT prompting templates
-│   ├── analysis/
-│   │   ├── error_analysis.py        # Performance analysis tools
-│   │   └── visualization.py         # Result visualization
-│   └── utils/
-│       ├── data_loader.py           # Data loading utilities
-│       └── preprocessing.py         # Data preprocessing functions
-├── results/
-│   ├── model_performance.json       # Evaluation results for all models
-│   └── human_baseline.json          # Human performance baseline
-├── requirements.txt                 # Python dependencies
-├── README.md                        # This file
-└── LICENSE                         # License information
-```
-
 ## 📊 Data Structure
 
-### Main Dataset Format
+The DYNTOM dataset consists of three main components organized in the `data/script/data/` directory:
 
-The DYNTOM dataset is structured as follows:
+### Core Data Files
 
-```json
-{
-  "social_context_id": {
-    "location": "restaurant",
-    "location_type": "Food and Beverage",
-    "characters": {
-      "main_character": {
-        "name": "Angela Hwang",
-        "gender": "Woman",
-        "occupation": "Hairdresser",
-        "race": "Asian",
-        "education": "High School",
-        "personality": "ESFP"
-      },
-      "supporting_character": {
-        "name": "Kevin Flores",
-        "gender": "Man",
-        "occupation": "Construction Worker",
-        "race": "Latino",
-        "education": "High School",
-        "personality": "ISTP"
-      }
-    },
-    "relationship": "Friends discussing career concerns",
-    "scenarios": [
-      {
-        "scenario_id": 1,
-        "background": "Description of the scenario context",
-        "dialogue": [
-          {"speaker": "Angela", "text": "Hey Kevin, thanks for meeting me..."},
-          {"speaker": "Kevin", "text": "Honestly, Angela, I'm not happy..."}
-        ],
-        "mental_states": {
-          "belief": "Kevin is unhappy with his job",
-          "emotion": "concerned for Kevin",
-          "intention": "to talk to Kevin about his job satisfaction",
-          "action": "initiating conversation about work"
-        }
-      }
-    ],
-    "questions": [
-      {
-        "question_id": "understanding_belief_1",
-        "type": "Understanding",
-        "mental_state": "belief",
-        "scenario": 1,
-        "question": "What is Angela's belief in scenario 1?",
-        "options": ["A) ...", "B) ...", "C) ...", "D) ..."],
-        "answer": "C",
-        "explanation": "Detailed explanation of the correct answer"
-      },
-      {
-        "question_id": "transformation_emotion_1_2",
-        "type": "Transformation-1",
-        "mental_state": "emotion",
-        "scenarios": [1, 2],
-        "question": "How does Angela's emotion change from scenario 1 to scenario 2?",
-        "options": ["A) No change", "B) From concern to relief", "C) From concern to growing concern"],
-        "answer": "C",
-        "explanation": "Angela's concern deepens as Kevin's situation worsens"
-      }
-    ]
-  }
-}
-```
+#### 1. `story.json` - Complete Social Stages
+Contains the complete social interaction structure with character profiles, relationships, and temporally connected scenarios:
 
-### Question Types
+#### 2. `question_new.json` - Questions with Multiple Choice Options
+Contains evaluation questions with complete answer options:
 
-1. **Understanding Questions (28.2%)**: Identify mental states in specific scenarios
-2. **Transformation-1 Questions (22.5%)**: Detect state changes between consecutive scenarios  
-3. **Transformation-2 Questions (43.7%)**: Understand causal mechanisms behind state changes
-4. **Transformation-3 Questions (5.6%)**: Track state evolution across all scenarios
 
-### Mental States Evaluated
-
-- **Beliefs**: Characters' understanding of situations and other people
-- **Emotions**: Emotional responses to situations and interactions
-- **Intentions**: Goals and plans characters intend to pursue
-- **Actions**: Observable behaviors resulting from mental states
 
 ## 🏆 Main Experimental Results
 
 ### Overall Performance
 
-| Model | Vanilla | CoT | Human Baseline |
-|-------|---------|-----|----------------|
-| GPT-4o | **64.0%** | 61.1% | **77.7%** |
-| GPT-4-Turbo | 47.6% | 47.1% | - |
-| Llama-3.1-70B | 57.1% | 57.6% | - |
-| Qwen2-72B | 48.5% | 51.3% | - |
-| Average (All LLMs) | 33.0% | 32.8% | - |
+| Subject | Belief |  | Emotion |  | Intention |  | Action |  | AVG. |
+|---------|--------|--------|---------|--------|-----------|--------|--------|--------|------|
+|         | U | T | U | T | U | T | U | T |      |
+| Human | 83.8±16.4 | 77.6±12.0 | 89.5±10.7 | 78.7±14.0 | 79.0±21.4 | 73.8±14.0 | 76.7±25.8 | 76.3±14.0 | 77.7±12.7 |
+| GPT-4o | 80.9 | 44.5 | 91.7 | 45.8 | 87.5 | 51.9 | 95.1 | 55.6 | 64.0 |
+| GPT-4-Turbo | 63.5 | 32.3 | 74.7 | 33.9 | 71.3 | 35.5 | 80.5 | 36.2 | 47.6 |
+| Llama-3.1-70B | 65.8 | 40.2 | 93.8 | 42.3 | 82.8 | 42.0 | 91.8 | 45.5 | 57.1 |
+| Llama-3.1-8B | 31.6 | 18.0 | 40.0 | 19.9 | 22.4 | 16.6 | 26.6 | 15.5 | 22.3 |
+| Mixtral-8x7B | 23.3 | 21.6 | 46.2 | 18.4 | 32.9 | 10.8 | 40.3 | 9.5 | 21.9 |
+| Mistral-7B | 21.3 | 11.7 | 23.8 | 10.2 | 16.3 | 10.1 | 20.6 | 9.2 | 13.9 |
+| Qwen2-72B | 72.0 | 37.2 | 85.5 | 38.0 | 79.5 | 33.2 | 89.8 | 20.9 | 48.5 |
+| Qwen2-7B | 22.2 | 19.8 | 43.0 | 20.5 | 25.1 | 15.7 | 24.6 | 15.0 | 22.1 |
+| DeepSeek-V2 | 6.5 | 9.2 | 4.8 | 8.1 | 3.7 | 7.3 | 2.8 | 5.7 | 7.2 |
+| GLM-4 | 29.5 | 23.9 | 43.9 | 20.8 | 28.5 | 16.5 | 40.4 | 16.8 | 25.4 |
+| **LLM AVG.** | **41.7** | **25.8** | **54.7** | **25.8** | **45.0** | **24.0** | **51.3** | **23.0** | **33.0** |
+| GPT-4o+CoT | 79.2 | 44.5 | 88.0 | 47.6 | 82.1 | 46.6 | 90.4 | 49.6 | 61.1 |
+| GPT-4-Turbo+CoT | 61.7 | 31.0 | 77.8 | 33.2 | 71.4 | 32.8 | 81.0 | 37.6 | 47.1 |
+| Llama-3.1-70B+CoT | 68.0 | 38.9 | 90.7 | 43.7 | 81.4 | 42.8 | 96.5 | 46.6 | 57.6 |
+| Llama-3.1-8B+CoT | 32.0 | 21.7 | 40.3 | 20.9 | 21.8 | 19.3 | 23.3 | 15.9 | 23.6 |
+| Mixtral-8x7B+CoT | 15.6 | 13.9 | 29.7 | 13.8 | 25.8 | 8.8 | 26.6 | 8.8 | 15.8 |
+| Mistral-7B+CoT | 21.6 | 10.1 | 22.5 | 11.0 | 19.9 | 8.1 | 18.8 | 8.8 | 13.3 |
+| Qwen2-72B+CoT | 70.1 | 39.2 | 87.6 | 41.4 | 83.8 | 34.6 | 89.0 | 27.1 | 51.3 |
+| Qwen2-7B+CoT | 28.6 | 18.1 | 43.7 | 19.3 | 29.6 | 19.7 | 20.2 | 18.4 | 23.5 |
+| DeepSeek-V2+CoT | 7.4 | 9.8 | 3.2 | 10.4 | 5.0 | 7.3 | 5.0 | 6.4 | 8.1 |
+| GLM-4+CoT | 30.0 | 26.4 | 48.0 | 22.1 | 32.4 | 17.7 | 43.2 | 14.1 | 26.6 |
+| **LLM+CoT AVG.** | **41.4** | **25.4** | **53.2** | **26.3** | **45.3** | **23.8** | **49.4** | **23.3** | **32.8** |
 
 ### Key Findings
 
 1. **Significant Human-AI Gap**: Even the best model (GPT-4o) underperforms humans by 13.7%
-2. **Transformation vs Understanding**: Models perform significantly worse on transformation questions (25.8% avg) compared to understanding questions (45.9% avg)
+2. **Transformation vs Understanding**: Models perform significantly worse on transformation questions compared to understanding questions
 3. **CoT Limitations**: Chain-of-thought prompting shows inconsistent benefits and can harm performance in advanced models
-4. **Lost in the Middle**: Performance degrades significantly for middle scenarios in longer sequences
-5. **Mental State Differences**: Emotion reasoning achieves highest accuracy (54.7%), while belief reasoning lags behind (41.7%)
+4. **Mental State Differences**: Emotion reasoning achieves highest accuracy, while belief reasoning lags behind
 
-### Performance by Question Type
 
-| Question Type | Human | GPT-4o | LLM Average |
-|---------------|-------|--------|-------------|
-| Understanding | 79.5% | 88.8% | 45.9% |
-| Transformation-1 | 76.6% | 48.5% | 25.0% |
-| Transformation-2 | 76.1% | 47.0% | 25.8% |
-| Transformation-3 | 75.7% | 51.5% | 26.8% |
 
 
 
