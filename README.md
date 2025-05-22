@@ -1,4 +1,11 @@
 # DynToM: Evaluating LLM Adaptation to Temporal Evolution of Human States
+<div align="center">
+
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/GAIR-NLP/DynToM)
+[![Paper](https://img.shields.io/badge/Paper-ArXiv-red?logo=arxiv)](https://arxiv.org/abs/xxxx.xxxxx)
+[![Dataset](https://img.shields.io/badge/Dataset-HuggingFace-yellow?logo=huggingface)](https://huggingface.co/datasets/YangXiao-nlp/DynToM)
+
+</div>
 
 This repository contains the **DYNTOM** benchmark for evaluating Large Language Models' Theory of Mind (ToM) capabilities in dynamic social contexts. Unlike existing benchmarks that focus on static mental states, DYNTOM captures the temporal evolution of mental states across interconnected scenarios.
 
@@ -96,4 +103,4 @@ We thank all annotators who helped validate the quality and realism of our datas
 
 ---
 
-**Dataset Available**: [🤗 HuggingFace](https://huggingface.co/datasets/GAIR-NLP/DynToM) | **Paper**: [📄 ArXiv](https://arxiv.org/abs/xxxx.xxxxx)
+**Dataset Available**: [🤗 HuggingFace](https://huggingface.co/datasets/YangXiao-nlp/DynToM) | **Paper**: [📄 ArXiv](https://arxiv.org/abs/xxxx.xxxxx) ｜ 
