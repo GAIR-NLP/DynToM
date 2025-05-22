@@ -1,2 +1,0 @@
-model_save_folder = None
-gpu_id="0,1,2,3,4,5,6,7"
