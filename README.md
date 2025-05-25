@@ -103,4 +103,4 @@ We thank all annotators who helped validate the quality and realism of our datas
 
 ---
 
-**Dataset Available**: [🤗 HuggingFace](https://huggingface.co/datasets/YangXiao-nlp/DynToM) | **Paper**: [📄 ArXiv](https://arxiv.org/abs/xxxx.xxxxx) ｜ 
+**Dataset Available**: [🤗 HuggingFace](https://huggingface.co/datasets/YangXiao-nlp/DynToM) | **Paper**: [📄 ArXiv](https://arxiv.org/abs/xxxx.xxxxx) 
