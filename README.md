@@ -13,6 +13,12 @@ This repository contains the **DYNTOM** benchmark for evaluating Large Language 
   <img src="asset/main_figure.png" alt="Alt Text" width="600">
 </div>
 
+## 🔥 What's New
+
+**Latest Updates:**
+- **[2024-05-16]** DynTom is accepted by ACL 2025 Main Conference
+- **[2024-05-16]** v1.0.0 - Initial release
+
 ## 📖 Paper Introduction
 
 **DYNTOM** addresses a critical gap in current ToM evaluations - the ability to track and understand how human mental states evolve over time in real-world social interactions. While existing benchmarks like SocialIQA, BigToM, and TOMBENCH focus on static snapshots, our work introduces a novel approach to evaluate LLMs' understanding of dynamic mental state changes across multiple interconnected scenarios.
