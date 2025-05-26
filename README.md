@@ -2,7 +2,7 @@
 <div align="center">
 
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/GAIR-NLP/DynToM)
-[![Paper](https://img.shields.io/badge/Paper-ArXiv-red?logo=arxiv)](https://arxiv.org/abs/xxxx.xxxxx)
+[![Paper](https://img.shields.io/badge/Paper-ArXiv-red?logo=arxiv)](https://arxiv.org/abs/2505.17663)
 [![Dataset](https://img.shields.io/badge/Dataset-HuggingFace-yellow?logo=huggingface)](https://huggingface.co/datasets/YangXiao-nlp/DynToM)
 
 </div>
@@ -103,4 +103,4 @@ We thank all annotators who helped validate the quality and realism of our datas
 
 ---
 
-**Dataset Available**: [🤗 HuggingFace](https://huggingface.co/datasets/YangXiao-nlp/DynToM) | **Paper**: [📄 ArXiv](https://arxiv.org/abs/xxxx.xxxxx) 
+**Dataset Available**: [🤗 HuggingFace](https://huggingface.co/datasets/YangXiao-nlp/DynToM) | **Paper**: [📄 ArXiv](https://arxiv.org/abs/2505.17663) 
