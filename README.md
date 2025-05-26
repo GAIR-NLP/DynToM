@@ -23,7 +23,7 @@ This repository contains the **DYNTOM** benchmark for evaluating Large Language 
 - Comprehensive evaluation revealing that LLMs underperform humans by 44.7%
 - Analysis showing significant performance degradation when tracking mental state evolution
 
-**Paper:** [Towards Dynamic Theory of Mind: Evaluating LLM Adaptation to Temporal Evolution of Human States](https://arxiv.org/abs/your-paper-link)
+**Paper:** [Towards Dynamic Theory of Mind: Evaluating LLM Adaptation to Temporal Evolution of Human States](https://arxiv.org/abs/2505.17663)
 
 ## 📊 Data Structure
 
@@ -84,11 +84,14 @@ Contains evaluation questions with complete answer options:
 ## 📝 Citation
 
 ```bibtex
-@article{xiao2024dyntom,
-  title={Towards Dynamic Theory of Mind: Evaluating LLM Adaptation to Temporal Evolution of Human States},
-  author={Yang Xiao and Jiashuo Wang and Qiancheng Xu and Changhe Song and Chunpu Xu and Yi Cheng and Wenjie Li and Pengfei Liu},
-  journal={arXiv preprint arXiv:xxxx.xxxxx},
-  year={2024}
+@misc{xiao2025dynamictheorymindevaluating,
+      title={Towards Dynamic Theory of Mind: Evaluating LLM Adaptation to Temporal Evolution of Human States}, 
+      author={Yang Xiao and Jiashuo Wang and Qiancheng Xu and Changhe Song and Chunpu Xu and Yi Cheng and Wenjie Li and Pengfei Liu},
+      year={2025},
+      eprint={2505.17663},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2505.17663}, 
 }
 ```
 
