@@ -87,6 +87,10 @@ Contains evaluation questions with complete answer options:
 
 
 
+## Evaluation Module
+
+The `eval/` directory contains a standalone module for evaluating newer LLMs on the DynToM benchmark using the same prompts and methodology as the paper. Supports GPT-5.4, GPT-5.4 Pro, Gemini 3.1 Pro, Claude Opus 4.6, and others via API. See [`eval/README.md`](eval/README.md) for setup and usage instructions.
+
 ## 📝 Citation
 
 ```bibtex
